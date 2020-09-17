@@ -1,0 +1,85 @@
+<footer class="py-5" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <nav class="mb-3">
+          <h5>akn.ipbes.net</h5>
+          <p>
+          This is a pilot project to make IPBES documents easy to find, read and share. The system seeks to implement document standards based on Akoma Ntoso<a href="https://unsceb-hlcm.github.io/part1/" target="_blank"> Find out more</a>.
+          </p>
+          <img src="/img/logo.svg" style="max-width: 150px">
+          <p class="small">
+            Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services
+          </p>
+        </nav>
+      </div>
+
+      <div class="col-md-3">
+        <nav class="mb-3">
+          <h5>Documents</h5>
+          <ul>
+            {% assign places = site.data.places | sort: "name" %}
+            {% for place in places %}
+              {% if place.special %}{% else %}
+                <li>
+                  <a href="{% if place.microsite %}https://{{ place.bucket }}/{% else %}/{{ place.code }}/eng/{% endif %}">{{ place.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h5>Contact Us</h5>
+        <ul>
+          <li>
+            <a href="https://twitter.com/IPBES">
+              <i class="fab fa-twitter"></i>
+              @ipbes on Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/ipbes">
+              <i class="fab fa-facebook-square"></i>
+              IPBES on Facebook
+            </a>
+          </li>
+        </ul>
+        <ul> 
+          <li>
+            <i class="fa-li fa fa-envelope"></i>
+          <a href="mailto:ipbes.registration@ipbes.net">ipbes.registration@ipbes.net</a>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <div class="bg-dark py-5">
+    <div class="row">
+      <div class="col-md-9 mx-auto">
+        <div class="row partner-logos">
+          <div class="col">
+            <a href="https://www.unenvironment.org/" target="_blank">
+              <img src="/img/logo-unep.svg">
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://en.unesco.org/" target="_blank">
+              <img src="/img/logo-unesco.svg">
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.fao.org/home/en" target="_blank">
+              <img src="/img/logo-fao.svg">
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://www.undp.org/" target="_blank">
+              <img src="/img/logo-undp.svg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

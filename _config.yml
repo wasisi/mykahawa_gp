@@ -1,1 +1,13 @@
-theme: jekyll-theme-cayman
+baseurl: null
+description: 'IPBES documents in Akoma Ntoso XML standard.'
+exclude:
+- bin
+- requirements.txt
+- README.md
+- Gemfile*
+markdown: kramdown
+plugins:
+- jekyll-redirect-from
+timezone: Europe/Amsterdam
+title: IPBES documents
+url: https://akn.ipbes.net

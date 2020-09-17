@@ -1,0 +1,23 @@
+// Page: Footer
+// -----------------------------------------------------------------------------
+
+.page__footer {
+
+    .nav {
+      flex-direction: column;
+    }
+  
+    .partner-logos {
+      a {
+        height: 70px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        img {
+          margin: auto;
+        }
+      }
+    }
+  
+  }
+  
