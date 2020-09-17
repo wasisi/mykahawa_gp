@@ -1,8 +1,7 @@
-# akn.ipbes.net
+# mykahawa.org
 
-[![Build Status](https://travis-ci.com/ipbes/akn.ipbes.net.svg?branch=master)](https://travis-ci.com/github/ipbes/akn.ipbes.net)
 
-This repo is the akn.ipbes.net website, based on Jekyll. There are two major steps to building this website:
+This repo is the mykahawa,org website, based on Jekyll. There are two major steps to building this website:
 
 1. `bin/update.py` is a Python script which pulls by-law information from Laws.Africa and sets up the appropriate Jekyll site structure.
 2. `jekyll build` builds the website as a regular Jekyll website.
