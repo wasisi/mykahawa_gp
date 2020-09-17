@@ -15,48 +15,44 @@ title: About
     <div class="row">
       <div class="col-md-8 mx-auto">
         <p class="lead">
-          The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is an independent intergovernmental body established by States to strengthen the science-policy interface for biodiversity and ecosystem services for the conservation and sustainable use of biodiversity, long-term human well-being and sustainable development. It was established in Panama City, on 21 April 2012 by 94 Governments.  It is not a United Nations body.  However, at the request of the IPBES Plenary and with the authorization of the UNEP Governing Council in 2013, the United Nations Environment Programme (UNEP) provides secretariat services to IPBES.
+          MyKahawa is a business analytics and market intelligence platform that provides greater transparency and visibility into the Kenya Coffee market and industry. 
         </p>
 
-        <h3>What are by-laws?</h3>
+        <h3>Where did MyKahawa get its data from?</h3>
         <p>
-        IPBES organizes a range of meetings, from sessions to the IPBES Plenary to meetings of task forces and expert groups. This website focuses on Outcomes of and documentation for sessions of the Plenary are publicly available. 
+        MyKahawa collects, cleans and stores transaction reports from the Nairobi Coffee Exchange at the end of each sale. The Nairobi Coffee Exchange (NCE) is a central coffee auction where an estimated 80% of Kenya's coffee is traded. The NCE is mandated to manage Kenya's central coffee auction. Trading at NCE usually takes place on Tuesdays at Wakulima House, Haile Sellasie Avenue in Nairobi. The data used in this website is made available by the NCE at the end of each sale 
         </p>
 
-        <h3>What does this site seek to achieve?</h3>
+        <h3>Can I buy coffee from MyKahawa?</h3>
+        <p>
+        We are not licensed or involved in the trade in coffee. We can put you in touch with authorized and reliable dealers who can ship coffee to you. 
+        </p>
+
+         <h3>Why cant I find information about my cooperative/estate/dealer?</h3>
+        <p>
+        Reference was made to the Kenya Coffee Directory report produced by the Kenya Coffee Traders Association in 2012. We are maintaining the directory by updating and adding records based on transactions taking place at the Nairobi Coffee Exchange.
+        </p>
+
+         <h3>Where can I get more information about trade in Kenyan Coffee?</h3>
         <ul>
-          <li>Improved search through better structured documents</li>
-          <li>Easy to read documents</li>
-          <li>Linking documents</li>
-          <li>Show document history and changes</li>
-          <li>Shift focus from print to other presentation formats that includes print, mobile devices and browsers</li>
-          <li>Linkage to decisions from other organisations</li>
-          <li>Tooltip definitions</li>
+          <li>
+            <a href="http://nairobicoffeeexchange.co.ke/">Nairobi Coffee Exchange</a>
+          </li>
+          <li>Coffee Research Institute</li>
+          <li>
+            <a href="http://coffee.kalro.org/">Coffee Research Institute</a>
+          </li>
+          <li>Kenya Coffee Traders Association</li>
+          <li>
+            <a href="https://kencaffee.coop/">Kenya Co-operative Coffee Exporters (KCCE):</a>
+           </li>
         </ul>
-
-
-        <h3>Powered by Laws.Africa</h3>
-        <p>
-          This project has been made possible thanks to the open source code made available by <a href="https://laws.africa">Laws.Africa</a>, a non-profit organisation that curates the African legislation commons and builds technology to enable free access to the law. Laws.Africa trains and supports a contributor community that is working together to build an African legislation commons and make African law freely available to everyone.
-        </p>
-
 
         <h3 id="disclaimer">Disclaimer</h3>
 
         <p>
-        This website is under active development. The documents that have been uploaded here have not yet been edited. Please refer to the (www. <a href="https://www.ipbes.net)">main IPBES website</a> for the latest versions of IPBES documents
+        This website is website is not currently maintained. Please refer to the <a href="http://nairobicoffeeexchange.co.ke/)">Nairobi Coffee Exchange</a> for the latest transaction reports
         </p>
-
-        <h3 id="credits">Credits</h3>
-
-        <ul>
-          <li>
-            <a href="http://github.com/laws-africa/indigo">Indigo: Document conversion code</a>
-          </li>
-          <li>
-            <a href="https://github.com/laws-africa/openbylaws.org.za">Document presentation code</a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
