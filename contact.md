@@ -21,15 +21,15 @@ title: Contact Us
         <ul class="fa-ul">
           <li>
             <i class="fa-li fa fa-envelope"></i>
-            <a href="mailto:ipbes.registration@ipbes.net">ipbes.registration@ipbes.net</a>
+            <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>
           </li>
           <li>
             <i class="fa-li fa fa-twitter"></i>
-            <a href="https://twitter.com/IPBES">@ipbes</a>
+            <a href="https://twitter.com/my_kahawa">@ipbes</a>
           </li>
           <li>
             <i class="fa-li fa fa-facebook"></i>
-            <a href="https://www.facebook.com/ipbes">FACEBOOK</a>
+            <a href="https://www.facebook.com/mykahawa">FACEBOOK</a>
           </li>
         </ul>
       </div>
