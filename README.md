@@ -1,4 +1,6 @@
-# MyKahawa
+# vue-chartjs-demo
 
-Archive of mykahawa.org
-No further updates of the data from NCE
+Github pages with demo charts for [vue-chartjs](https://github.com/apertureless/vue-chartjs)
+
+- [Docs](http://www.vue-chartjs.org/)
+- [Demo](http://demo.vue-chartjs.org/)
