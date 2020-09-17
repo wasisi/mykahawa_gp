@@ -1,85 +1,61 @@
-<footer class="py-5" id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <nav class="mb-3">
-          <h5>archive.mykahawa.org</h5>
-          <p>
-          This is a pilot project to make IPBES documents easy to find, read and share. The system seeks to implement document standards based on Akoma Ntoso<a href="https://unsceb-hlcm.github.io/part1/" target="_blank"> Find out more</a>.
-          </p>
-          <img src="/img/logo.svg" style="max-width: 150px">
-          <p class="small">
-            MyKahawa
-          </p>
-        </nav>
-      </div>
+<footer>
+  <section class="bg-gray-v1">
+     <div class="container">
+        <div class="row">
+           <div class="col-lg-4 mb-5 mb-lg-0">
+              <h2 class="logo-brand-footer">MyKahawa</h2>
+              <p class="u-my-40">
+                 MyKahawa is a Wasisi Investment Company Ltd Venture designed for coffee farmers, buyers, and researchers to access Kenya coffee market information. Founded in 2015, MyKahawa is a Kenya Coffee business analytics and market intelligence tool that allows greater transparency and visibility into the Kenya Coffee market and industry.
+              </p>
 
-      <div class="col-md-3">
-        <nav class="mb-3">
-          <h5>Documents</h5>
-          <ul>
-            {% assign places = site.data.places | sort: "name" %}
-            {% for place in places %}
-              {% if place.special %}{% else %}
-                <li>
-                  <a href="{% if place.microsite %}https://{{ place.bucket }}/{% else %}/{{ place.code }}/eng/{% endif %}">{{ place.name }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </nav>
-      </div>
-
-      <div class="col-md-3 mb-3">
-        <h5>Contact Us</h5>
-        <ul>
-          <li>
-            <a href="https://twitter.com/IPBES">
-              <i class="fab fa-twitter"></i>
-              @ipbes on Twitter
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/ipbes">
-              <i class="fab fa-facebook-square"></i>
-              IPBES on Facebook
-            </a>
-          </li>
-        </ul>
-        <ul> 
-          <li>
-            <i class="fa-li fa fa-envelope"></i>
-          <a href="mailto:ipbes.registration@ipbes.net">ipbes.registration@ipbes.net</a>
-          </li>
-        </ul>
-    </div>
-  </div>
-  <div class="bg-dark py-5">
-    <div class="row">
-      <div class="col-md-9 mx-auto">
-        <div class="row partner-logos">
-          <div class="col">
-            <a href="https://www.unenvironment.org/" target="_blank">
-              <img src="/img/logo-unep.svg">
-            </a>
-          </div>
-          <div class="col">
-            <a href="https://en.unesco.org/" target="_blank">
-              <img src="/img/logo-unesco.svg">
-            </a>
-          </div>
-          <div class="col">
-            <a href="https://www.fao.org/home/en" target="_blank">
-              <img src="/img/logo-fao.svg">
-            </a>
-          </div>
-          <div class="col">
-            <a href="https://www.undp.org/" target="_blank">
-              <img src="/img/logo-undp.svg">
-            </a>
-          </div>
+           </div>
+           <div class="col-lg-2 col-md-6 ml-auto mb-5 mb-lg-0">
+              <h4>Useful Links</h4>
+              <div class="u-h-4 u-w-50 bg-primary rounded mt-3 u-mb-40"></div>
+              <ul class="list-unstyled u-lh-2">
+                 <li><a href="https://wasisivillage.com/survey/index.php/439367?lang=en"># Questionnaire for growers</a></li>
+                 <li><a href="https://wasisivillage.com/survey/index.php/616378?lang=en"># Questionnaire for cooperatives</a></li>
+                 <li>
+                   {% if request.user.is_authenticated %}
+                   <a href="{% url "logout" %}"># Logout</a>
+                   {% else %}
+                   <a href="{% url "register" %}"># Register</a><br>
+                   <a href="{% url "login" %}"># Log-in</a>
+                   {% endif %}
+                 </li>
+                 {% if request.user.is_authenticated %}
+                 <li><a href="{% url "dashboard" %}"># Dashboard</a></li>
+                 {% endif %}
+              </ul>
+           </div>
+           <div class="col-lg-3 col-md-6 ml-auto mb-5 mb-lg-0">
+              <h4>Contact Info</h4>
+              <div class="u-h-4 u-w-50 bg-primary rounded mt-3 u-mb-40"></div>
+              <ul class="list-unstyled">
+                 <li class="mb-2">
+                    <span class="icon icon-Mail text-primary mr-2"></span> <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>
+                 </li>
+                 <li class="mb-2">
+                    <span class="icon icon-Pointer text-primary mr-2"></span> P.O. Box 59541, 00200, Nairobi, Kenya
+                 </li>
+              </ul>
+              <ul class="list-inline social social-rounded social-white mt-4">
+                 <li class="list-inline-item">
+                    <a href="https://www.facebook.com/mykahawa"><i class="fab fa-facebook"></i></a>
+                 </li>
+                 <li class="list-inline-item">
+                    <a href="https://twitter.com/my_kahawa"><i class="fab fa-twitter"></i></a>
+                 </li>
+              </ul>
+           </div>
         </div>
-      </div>
-    </div>
-  </div>
+     </div>
+  </section>
+  <section class="u-py-40 bg-gray-v1">
+     <div class="container">
+        <p class="mb-0 text-center">&copy; Wasisi Investments Company Ltd. All rights reserved.<br>
+        <a href="/node/terms">Terms of service</a> | <a href="/node/privacy">Privacy policy</a> | <a href="/node/comment">Comment policy</a>
+      </p>
+     </div>
+  </section>
 </footer>

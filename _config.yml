@@ -1,5 +1,5 @@
 baseurl: null
-description: 'We care about coffee'
+description: 'Database of Kenyan coffee trade and key actors'
 exclude:
 - bin
 - requirements.txt
@@ -9,5 +9,5 @@ markdown: kramdown
 plugins:
 - jekyll-redirect-from
 timezone: Europe/Amsterdam
-title: IPBES documents
+title: MyKahawa
 url: https://archive.mykahawa.org
