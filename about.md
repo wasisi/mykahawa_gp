@@ -5,7 +5,7 @@ title: About
 <header>
   <div class="container">
     <div class="header-content">
-      <h1>About IPBES documents</h1>
+      <h1>MyKahawa</h1>
     </div>
   </div>
 </header>

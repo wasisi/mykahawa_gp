@@ -25,7 +25,7 @@ title: Contact Us
           </li>
           <li>
             <i class="fa-li fa fa-twitter"></i>
-            <a href="https://twitter.com/my_kahawa">@ipbes</a>
+            <a href="https://twitter.com/my_kahawa">@my_kahawa</a>
           </li>
           <li>
             <i class="fa-li fa fa-facebook"></i>
