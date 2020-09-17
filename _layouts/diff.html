@@ -1,0 +1,101 @@
+---
+layout: base
+extra_css:
+- '<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/laws-africa/indigo-web@3.12.0/css/akoma-ntoso.min.css">'
+extra_js:
+- '/js/work.js'
+---
+
+{% assign place = site.data.places|where: "code", page.place_code|first %}
+{% assign work = site.data.works[page.place_code] | where: "frbr_uri", page.frbr_uri | first %}
+
+<header class="{% if page.stub %}{% else %}pb-0{% endif %}">
+  <div class="container">
+    <div class="header-content">
+      <h1>
+        {{ page.title }}
+        {% if work.repeal %}
+          <span class="badge badge-danger">repealed</span>
+        {% endif %}
+      </h1>
+      {% if work.numbered_title %}
+        <h2 class="text-muted mt-1">{{ work.numbered_title }}</h2>
+      {% endif %}
+      {% unless work.stub %}{% if work.multiple_pits %}
+        <h2 class="mt-1">
+          as from {{ page.expression_date | date:"%e %B %Y" }}
+          {% if page.latest_expression %}
+            onwards
+          {% else %}
+            to {{ page.in_force_to | date:"%e %B %Y" }}
+          {% endif %}
+        </h2>
+      {% endif %}{% endunless %}
+
+      {% unless work.stub %}
+        <nav class="bylaw-nav">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a aria-controls="main" aria-selected="true" class="nav-link active" data-toggle="tab" href="#main" id="main-tab" role="tab">{{ work.type_name }}</a>
+            </li>
+            <li class="nav-item">
+              <a aria-controls="toc" class="nav-link" data-toggle="tab" href="#toc" id="toc-tab" role="tab">
+                <span class="d-none d-sm-inline">Table of</span>
+                Contents
+              </a>
+            </li>
+            <li class="nav-item">
+              <a aria-controls="resources" class="nav-link" data-toggle="tab" href="#resources" id="resources-tab" role="tab">
+                History
+              </a>
+            </li>
+          </ul>
+        </nav>
+      {% endunless %}
+    </div>
+  </div>
+</header>
+
+<article>
+  <div class="container-fluid">
+    <div class="tab-content">
+      <div aria-labelledby="main-tab" class="tab-pane fade show active" id="main" role="tabpanel">
+        <div class="row">
+          <div class="col-md-3">
+            <nav class="left-nav">
+              <aside class="toc">
+                {% include toc.html %}
+              </aside>
+            </nav>
+
+          </div>
+          <div class="col-md-9">
+            <article class="akoma-ntoso akoma-ntoso-container country-un diffset" id="top" lang="{{ page.language2 }}">
+              {{ content }}
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div aria-labelledby="toc-tab" class="tab-pane fade" id="toc" role="tabpanel">
+        <section class="toc">
+          {% include toc.html %}
+        </section>
+      </div>
+
+      <div aria-labelledby="resources-tab" class="tab-pane fade" id="resources" role="tabpanel">
+        <section class="resources">
+          <div class="mt-3">
+            <div class="row">
+              <div class="col-sm-8 mb-3">
+                {% include work_history.html %}
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </div>
+
+  </div>
+</article>

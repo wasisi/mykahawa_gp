@@ -1,0 +1,36 @@
+.akoma-ntoso-container {
+  overflow-x: unset;
+}
+
+.akoma-ntoso.country-un {
+  .akn-p {
+    position: relative;
+  }
+
+  .akn-part > h2 {
+    position: sticky;
+    top: 0px;
+    padding: 5px 0px;
+    background-color: white;
+    z-index: 1;
+  }
+
+  &.notes-aside {
+    @media (min-width: 768px) {
+      padding-right: 10px;
+      margin-right: 200px;
+
+      .akn-authorialNote {
+        display: flex;
+        font-size: small;
+        margin-top: 0;
+        position: absolute;
+        right: -200px;
+        width: 185px;
+        top: 0px;
+        background-color: palegoldenrod;
+        padding: 2px 2px 0px 2px;
+      }
+    }
+  }
+}

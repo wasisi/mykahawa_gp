@@ -1,1 +1,13 @@
-theme: jekyll-theme-cayman
+baseurl: null
+description: 'We care about coffee'
+exclude:
+- bin
+- requirements.txt
+- README.md
+- Gemfile*
+markdown: kramdown
+plugins:
+- jekyll-redirect-from
+timezone: Europe/Amsterdam
+title: IPBES documents
+url: https://archive.mykahawa.org
