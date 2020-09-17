@@ -1,13 +1,7 @@
+theme: jekyll-theme-cayman
 baseurl: null
-description: 'IPBES documents in Akoma Ntoso XML standard.'
-exclude:
-- bin
-- requirements.txt
-- README.md
-- Gemfile*
-markdown: kramdown
-plugins:
-- jekyll-redirect-from
+description: 'coffee grades, dealers, producers and transactions at Nairobi Coffee Exchange'
+
 timezone: Europe/Amsterdam
-title: IPBES documents
+title: MyKahawa
 url: https://akn.ipbes.net
