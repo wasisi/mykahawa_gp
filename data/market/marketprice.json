@@ -1,0 +1,158 @@
+[
+    {
+        "isodate": "2019-10-01",
+        "min_price": 16,
+        "ave_price": 106,
+        "max_price": 275
+    },
+    {
+        "isodate": "2019-10-15",
+        "min_price": 13,
+        "ave_price": 124,
+        "max_price": 288
+    },
+    {
+        "isodate": "2019-10-29",
+        "min_price": 21,
+        "ave_price": 131,
+        "max_price": 298
+    },
+    {
+        "isodate": "2019-11-12",
+        "min_price": 31,
+        "ave_price": 136,
+        "max_price": 349
+    },
+    {
+        "isodate": "2019-11-26",
+        "min_price": 21,
+        "ave_price": 171,
+        "max_price": 362
+    },
+    {
+        "isodate": "2019-12-10",
+        "min_price": 32,
+        "ave_price": 187,
+        "max_price": 394
+    },
+    {
+        "isodate": "2020-01-14",
+        "min_price": 36,
+        "ave_price": 174,
+        "max_price": 401
+    },
+    {
+        "isodate": "2020-01-21",
+        "min_price": 36,
+        "ave_price": 207,
+        "max_price": 401
+    },
+    {
+        "isodate": "2020-01-28",
+        "min_price": 36,
+        "ave_price": 190,
+        "max_price": 432
+    },
+    {
+        "isodate": "2020-02-04",
+        "min_price": 32,
+        "ave_price": 182,
+        "max_price": 392
+    },
+    {
+        "isodate": "2020-02-10",
+        "min_price": 18,
+        "ave_price": 192,
+        "max_price": 512
+    },
+    {
+        "isodate": "2020-02-18",
+        "min_price": 35,
+        "ave_price": 192,
+        "max_price": 501
+    },
+    {
+        "isodate": "2020-02-25",
+        "min_price": 25,
+        "ave_price": 199,
+        "max_price": 417
+    },
+    {
+        "isodate": "2020-03-03",
+        "min_price": 18,
+        "ave_price": 198,
+        "max_price": 420
+    },
+    {
+        "isodate": "2020-03-10",
+        "min_price": 11,
+        "ave_price": 196,
+        "max_price": 500
+    },
+    {
+        "isodate": "2020-03-17",
+        "min_price": 20,
+        "ave_price": 178,
+        "max_price": 498
+    },
+    {
+        "isodate": "2020-03-24",
+        "min_price": 36,
+        "ave_price": 192,
+        "max_price": 465
+    },
+    {
+        "isodate": "2020-04-15",
+        "min_price": 0,
+        "ave_price": 161,
+        "max_price": 427
+    },
+    {
+        "isodate": "2020-04-21",
+        "min_price": 15,
+        "ave_price": 143,
+        "max_price": 438
+    },
+    {
+        "isodate": "2020-05-05",
+        "min_price": 17,
+        "ave_price": 116,
+        "max_price": 372
+    },
+    {
+        "isodate": "2020-05-19",
+        "min_price": 17,
+        "ave_price": 162,
+        "max_price": 402
+    },
+    {
+        "isodate": "2020-07-15",
+        "min_price": 15,
+        "ave_price": 128,
+        "max_price": 357
+    },
+    {
+        "isodate": "2020-07-28",
+        "min_price": 17,
+        "ave_price": 181,
+        "max_price": 346
+    },
+    {
+        "isodate": "2020-08-18",
+        "min_price": 25,
+        "ave_price": 217,
+        "max_price": 340
+    },
+    {
+        "isodate": "2020-09-01",
+        "min_price": 8,
+        "ave_price": 209,
+        "max_price": 376
+    },
+    {
+        "isodate": "2020-09-15",
+        "min_price": 24,
+        "ave_price": 208,
+        "max_price": 348
+    }
+]

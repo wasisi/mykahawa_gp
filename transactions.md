@@ -9,6 +9,7 @@ title: Dealers
     </div>
   </div>
 </header>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js" type="text/javascript"></script>
 
 <article>
   <div class="container">
@@ -20,4 +21,9 @@ title: Dealers
       </div>
     </div>
   </div>
+  <div class="row">
+  <canvas id="marketprices">
+   <script src="/js/charts/marketprice.js" type="text/javascript"></script>
+  </canvas>
+</div>
 </article>

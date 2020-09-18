@@ -1,4 +1,4 @@
-$.getJSON('/data/market/marketprice.json', function(jsonfile){
+$.getJSON('/marketprice/?format=json', function(jsonfile){
 
 
 var labels = jsonfile.map(function(e) {
