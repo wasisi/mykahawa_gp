@@ -25,9 +25,7 @@ title: Transactions
       </div>
     </div>
   </div>
-  <div class="row">
-    <div id="container" style="height: 400px; min-width: 310px">
-      <script src="/data/market/highcharts.js" type="text/javascript"></script>
-    </div>
+  <div id="container" style="height: 400px; min-width: 310px">
+    <script src="/data/market/highcharts.js" type="text/javascript"></script>
   </div>
 </article>
