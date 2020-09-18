@@ -1,4 +1,4 @@
-Highcharts.getJSON('https://demo-live-data.highcharts.com/aapl-c.json', function (data) {
+Highcharts.getJSON('/data/market/price_ave.json', function (data) {
     // Create the chart
     Highcharts.stockChart('container', {
 
