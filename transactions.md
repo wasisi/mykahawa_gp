@@ -17,7 +17,7 @@ title: Dealers
 <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
 
 <div id="container" style="height: 400px; min-width: 310px">
-<script src="/js/charts/highcharts.js" type="text/javascript"></script>
+<script src="/data/market/highcharts.js" type="text/javascript"></script>
 </div>
 
 <article>
@@ -33,7 +33,7 @@ title: Dealers
   <div class="row">
   <p>test</p>
   <canvas id="marketprices">
-   <script src="/js/charts/marketprice.js" type="text/javascript"></script>
+   <script src="/data/market/marketprice.js" type="text/javascript"></script>
   </canvas>
 </div>
 </article>
