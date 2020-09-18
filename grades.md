@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Dealers
+title: Grades
 ---
 <header>
   <div class="container">
