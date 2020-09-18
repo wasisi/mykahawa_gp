@@ -17,29 +17,7 @@ title: Dealers
 <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
 
 <div id="container" style="height: 400px; min-width: 310px">
-Highcharts.getJSON('https://demo-live-data.highcharts.com/aapl-c.json', function (data) {
-    // Create the chart
-    Highcharts.stockChart('container', {
-
-
-        rangeSelector: {
-            selected: 1
-        },
-
-        title: {
-            text: 'Nairobi Coffee Exchange'
-        },
-
-        series: [{
-            name: 'Average Price',
-            data: data,
-            tooltip: {
-                valueDecimals: 2
-            }
-        }]
-    });
-});
-
+<script src="/js/charts/highcharts.js" type="text/javascript"></script>
 </div>
 
 <article>
