@@ -24,19 +24,11 @@ title: Grades
   </div>
 </article>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="/plugins/gotopage.js"></script>
-<script src="/plugins/ajaxpaging.js"></script>
-<script src="/js/vendor/jquery.columns.min.js"></script>
+<link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
+
 <script>
-  //Coffee grades
-  $.ajax({
-      url:'/data/grades/coffeegrades.json',
-      dataType: 'json', 
-      success: function(json) { 
-          coffeegradestable = $('#coffeegradestable').columns({
-              data:json
-          }); 
-      }
-  }); 
+var table = new Tabulator("#coffeegradestablee", {
+    ajaxURL:"/data/grades/coffeegrades.json", //ajax URL
+});
 </script> 
