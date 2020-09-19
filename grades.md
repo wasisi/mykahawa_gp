@@ -18,8 +18,7 @@ title: Grades
           Guide on the classification of coffee by grade
         </p>
         <h2>Coffee grades</h2>
-        <div id="coffeegradestable"></div>
-        <div id="example-table"></div>
+		<div id="example-table-fittodata"></div>
       </div>
     </div>
   </div>
@@ -27,12 +26,6 @@ title: Grades
 
 <link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
-
-<script>
-var table = new Tabulator("#coffeegradestablee", {
-    ajaxURL:"/data/grades/coffeegrades.json", //ajax URL
-});
-</script> 
 
 
 <script type="text/javascript">
@@ -52,13 +45,8 @@ var table = new Tabulator("#coffeegradestablee", {
 	];
 
 </script>
-<section>
-	<header>Fit To Data <span> - for full documentation visit <a href="http://olifolkerd.github.io/tabulator/docs/#fittodata">http://olifolkerd.github.io/tabulator/docs/#fittodata</a></span></header>
-	<p>
-		Tables will automatically resize to fit the data
-	</p>
-	<div id="example-table-fittodata"></div>
-  <script type="text/javascript">
+
+<script type="text/javascript">
   $("#example-table-fittodata").tabulator({
 			height:"320px",
 			columns:[
@@ -76,4 +64,3 @@ var table = new Tabulator("#coffeegradestablee", {
 			$("#example-table-fittodata").tabulator("redraw");
 		});
 </script>
-</section>
