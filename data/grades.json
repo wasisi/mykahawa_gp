@@ -1,114 +1,114 @@
 [
     {
-        "name": "Aleš Matějů",
-        "position": "Defender"
+      "id": 1,
+      "grade": "AA",
+      "grade_name": "Kenya AA",
+      "size": "16 - 20",
+      "description": "Screens: 17 and 18 > 7.2 mm. These are the most popular and sought coffees because of their shape, body, acidity and flavour."
     },
     {
-        "name": "Anthony Knockaert",
-        "position": "Midfielder"
+      "id": 2,
+      "grade": "AB",
+      "grade_name": "Kenya AB",
+      "size": "16 - 20",
+      "description": "Screens: 15 and 16 = 6.6 mm. A combination of A (Screen 16/6.8mm) and B (Screen 15/6.2mm) sized beans."
     },
     {
-        "name": "Baram Kayal",
-        "position": "Midfielder"
+      "id": 3,
+      "grade": "HE",
+      "grade_name": "Kenya HE",
+      "size": "11 - 15",
+      "description": ""
     },
     {
-        "name": "Bruno",
-        "position": "Defender"
+      "id": 4,
+      "grade": "T",
+      "grade_name": "Small light beans",
+      "size": "6 - 10",
+      "description": "Screen 10 & 14. These are the thinnest and smallest beans, that are mostly composed of bits and pieces of broken beans from the main grades."
     },
     {
-        "name": "Dale Stephens",
-        "position": "Midfielder"
+      "id": 5,
+      "grade": "UG2",
+      "grade_name": "UG2",
+      "size": null,
+      "description": ""
     },
     {
-        "name": "Dan Burn",
-        "position": "Defender"
+      "id": 6,
+      "grade": "C",
+      "grade_name": "Kenya C",
+      "size": "11 - 15",
+      "description": "Screens: 14 and 15. The size of the bean is even smaller and further reduces the chemical compounds and ultimately the flavor intensity"
     },
     {
-        "name": "Davy Propper",
-        "position": "Midfielder"
+      "id": 7,
+      "grade": "SB",
+      "grade_name": "Kenya SB",
+      "size": null,
+      "description": ""
     },
     {
-        "name": "Ezequiel Schelotto",
-        "position": "Midfielder"
+      "id": 8,
+      "grade": "MH",
+      "grade_name": "Mbuni Heavy",
+      "size": null,
+      "description": "Screen 15 & 17. These are unwashed coffees that fell from the plant. The pulp is not removed by the wet process. They often have inconsistent ripeness and are sour."
     },
     {
-        "name": "Florin Andone",
-        "position": "Forward"
+      "id": 9,
+      "grade": "ML",
+      "grade_name": "Mbuni light",
+      "size": "6 - 10",
+      "description": "Screen 12 & 15. These are also unwashed coffee that fell from the plant. The pulp is also not removed. They are inconsistent in ripeness, have a earthy taste and are very sour."
     },
     {
-        "name": "Gaetan Bong",
-        "position": "Defender"
+      "id": 10,
+      "grade": "TT",
+      "grade_name": "Light beans",
+      "size": "11 - 15",
+      "description": "Screen 15 & 18. TT is smaller still, made from the smaller beans removed from lots of the more illustrious grades"
     },
     {
-        "name": "Glenn Murray",
-        "position": "Forward"
+      "id": 11,
+      "grade": "UG",
+      "grade_name": "Ungraded",
+      "size": null,
+      "description": ""
     },
     {
-        "name": "Isaiah Brown",
-        "position": "Forward"
+      "id": 12,
+      "grade": "PB",
+      "grade_name": "Peaberry",
+      "size": "11 - 15",
+      "description": "Screen 16. These are round beans which usually grow in a single cherry bean."
     },
     {
-        "name": "Jose Heriberto Izquierdo",
-        "position": "Midfielder"
+      "id": 13,
+      "grade": "UG1",
+      "grade_name": "Ungraded heavy",
+      "size": null,
+      "description": ""
     },
     {
-        "name": "Jurgen Locadia",
-        "position": "Forward"
+      "id": 14,
+      "grade": "E",
+      "grade_name": "Elephant",
+      "size": "21 - 25",
+      "description": "Screen 20. This is the largest of all grades in size and has been named Elephant grade in the grading. Usually there are two seeds joining together to form the seed in a single cherry. This is the source of ears when the seeds part during handling. They are fragile that they break into smaller pieces during sorting and roasting"
     },
     {
-        "name": "Lewis Dunk",
-        "position": "Defender"
+      "id": 15,
+      "grade": "UG3",
+      "grade_name": "Ungraded 3",
+      "size": "0 - 5",
+      "description": ""
     },
     {
-        "name": "Liam Rosenior",
-        "position": "Defender"
-    },
-    {
-        "name": "Markus Suttner",
-        "position": "Defender"
-    },
-    {
-        "name": "Martin Montoya",
-        "position": "Defender"
-    },
-    {
-        "name": "Matthew Ryan",
-        "position": "Goalkeeper"
-    },
-    {
-        "name": "Pascal Groß",
-        "position": "Midfielder"
-    },
-    {
-        "name": "Sam Baldock",
-        "position": "Forward"
-    },
-    {
-        "name": "Shane Duffy",
-        "position": "Defender"
-    },
-    {
-        "name": "Solly March",
-        "position": "Midfielder"
-    },
-    {
-        "name": "Soufyan Ahannach",
-        "position": "Winger"
-    },
-    {
-        "name": "Steven Sidwell",
-        "position": "Midfielder"
-    },
-    {
-        "name": "Tim Krul",
-        "position": "Goalkeeper"
-    },
-    {
-        "name": "Tomer Hemed",
-        "position": "Forward"
-    },
-    {
-        "name": "Uwe Hünemeier",
-        "position": "Defender"
+      "id": 16,
+      "grade": "S",
+      "grade_name": null,
+      "size": null,
+      "description": ""
     }
-]
+   ]

@@ -34,7 +34,7 @@ title: Grades
       url:'/data/grades.json',
       dataType: 'json', 
       success: function(json) { 
-          example2 = $('#coffeegrades').columns({
+          coffeegrades = $('#coffeegrades').columns({
               data:json
           }); 
       }
