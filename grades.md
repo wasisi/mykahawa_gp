@@ -18,13 +18,13 @@ title: Grades
           Guide on the classification of coffee by grade
         </p>
         <h2>Coffee grades</h2>
-        <div id="coffeegrades"></div>
+        <div id="coffeegradestable"></div>
       </div>
     </div>
   </div>
 </article>
 
-<script src="/js/vendor/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="/plugins/gotopage.js"></script>
 <script src="/plugins/ajaxpaging.js"></script>
 <script src="/js/vendor/jquery.columns.min.js"></script>
@@ -34,7 +34,7 @@ title: Grades
       url:'/data/grades/coffeegrades.json',
       dataType: 'json', 
       success: function(json) { 
-          coffeegrades = $('#coffeegrades').columns({
+          coffeegradestable = $('#coffeegradestable').columns({
               data:json
           }); 
       }
