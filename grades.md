@@ -10,10 +10,10 @@ title: Grades
   </div>
 </header>
 
-<script src="../js/jquery.min.js"></script>
-<script src="../plugins/gotopage.js"></script>
-<script src="../plugins/ajaxpaging.js"></script>
-<script src="../js/jquery.columns.min.js"></script>
+<script src="/js/vendor/jquery.min.js"></script>
+<script src="/plugins/gotopage.js"></script>
+<script src="/plugins/ajaxpaging.js"></script>
+<script src="/js/vendor/jquery.columns.min.js"></script>
 
 <article> 
   <div class="container">
