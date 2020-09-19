@@ -31,7 +31,7 @@ title: Grades
 <script>
   //Coffee grades
   $.ajax({
-      url:'/data/grades.json',
+      url:'/data/grades/coffeegrades.json',
       dataType: 'json', 
       success: function(json) { 
           coffeegrades = $('#coffeegrades').columns({

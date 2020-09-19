@@ -1,0 +1,49 @@
+"id","county_name","county_code","slug","active"
+1,"Baringo","30","baringo",True
+2,"Bomet","36","bomet",False
+3,"Bungoma","39","bungoma",True
+4,"Busia","40","busia",False
+5,"Diaspora","48","diaspora",False
+6,"Elegeyo Marakwet","28","elgeyomarakwet",False
+7,"Embu","14","embu",True
+8,"Garissa","7","garissa",False
+9,"Homa Bay","43","homabay",False
+10,"Isiolo","11","isiolo",False
+11,"Kajiado","34","kajiado",False
+12,"Kakamega","37","kakamega",True
+13,"Kericho","35","kericho",True
+14,"Kiambu","22","kiambu",True
+15,"Kilifi","3","kilifi",False
+16,"Kirinyaga","20","kirinyaga",True
+17,"Kisii","45","kisii",True
+18,"Kisumu","42","kisumu",False
+19,"Kitui","15","kitui",False
+20,"Kwale","2","kwale",False
+21,"Laikipia","31","laikipia",False
+22,"Lamu","5","lamu",False
+23,"Machakos","16","machakos",True
+24,"Makueni","17","makueni",True
+25,"Mandera","9","mandera",False
+26,"Marsabit","10","marsabit",False
+27,"Meru","12","meru",True
+28,"Migori","44","migori",True
+29,"Mombasa","1","mombasa",False
+30,"Murang'a","21","muranga",True
+31,"Nairobi","47","nairobi",False
+32,"Nakuru","32","nakuru",True
+33,"Nandi","29","nandi",True
+34,"Narok","33","narok",False
+35,"Nyamira","46","nyamira",True
+36,"Nyandarua","18","nyandarua",False
+37,"Nyeri","19","nyeri",True
+38,"Samburu","25","samburu",False
+39,"Siaya","41","siaya",False
+40,"Taita Taveta","6","taitataveta",False
+41,"Tana River","4","tanariver",False
+42,"Tharaka Nithi","13","tharakanithi",True
+43,"Trans Nzoia","26","transnzoia",True
+44,"Turkana","23","turkana",False
+45,"Uasin Gishu","27","uasingishu",True
+46,"Vihiga","38","vihiga",False
+47,"Wajir","8","wajir",False
+48,"West Pokot","24","westpokot",False
