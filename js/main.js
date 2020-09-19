@@ -23,7 +23,7 @@ $(function() {
     window.open("https://twitter.com/intent/tweet?" +
                 "text=" + encodeURIComponent($(this).data('text')) +
                 "&url=" + encodeURIComponent(url) +
-                "&via=OpenByLawsZA",
+                "&via=my_kahawa",
                 "share", "width=364, height=250, scrollbars=no");
     ga('send', 'social', 'twitter', 'share', url);
   });

@@ -52,7 +52,7 @@ title: Grades
             });
             //example 2 
             $.ajax({
-                url:'data/data.json',
+                url:'/data/data.json',
                 dataType: 'json', 
                 success: function(json) { 
                     example2 = $('#example2').columns({
