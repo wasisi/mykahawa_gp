@@ -8,7 +8,7 @@ Highcharts.getJSON('/data/market/price_ave.json', function (data) {
         },
 
         title: {
-            text: 'Nairobi Coffee Exchange'
+            text: 'Average prices: 27 January 2015 to 15 September 2020'
         },
 
         series: [{
