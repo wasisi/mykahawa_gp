@@ -10,11 +10,6 @@ title: Grades
   </div>
 </header>
 
-<script src="/js/vendor/jquery.min.js"></script>
-<script src="/plugins/gotopage.js"></script>
-<script src="/plugins/ajaxpaging.js"></script>
-<script src="/js/vendor/jquery.columns.min.js"></script>
-
 <article> 
   <div class="container">
     <div class="row">
@@ -26,13 +21,8 @@ title: Grades
     </div>
   </div>
 </article>
-<section>
-  <label>Change Theme:</label>
-    <select id="theme">
-       <option value="clean.css">Clean</option>
-       <option value="classic.css">Classic</option>
-    </select>
 
+<section>
 <h2>Example 1: Setting data inline</h2>
   <div id="example1"></div>
   <pre class="prettyprint">
