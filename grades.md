@@ -17,47 +17,26 @@ title: Grades
         <p class="lead">
           Guide on the classification of coffee by grade
         </p>
+        <h2>Coffee grades</h2>
+        <div id="coffeegrades"></div>
       </div>
     </div>
   </div>
 </article>
-
-<section>
-<h2>Example 1: Setting data inline</h2>
-  <div id="example1"></div>
-</section>
-
-<section>
-  <h2>Example 2: Setting data from external source</h2>
-    <div id="example2"></div>
-</section>
 
 <script src="/js/vendor/jquery.min.js"></script>
 <script src="/plugins/gotopage.js"></script>
 <script src="/plugins/ajaxpaging.js"></script>
 <script src="/js/vendor/jquery.columns.min.js"></script>
 <script>
-            //example 1 
-            var columns1 = $('#example1').columns({
-                data: [
-                    {'Emp. Number': 00001, 'First Name':'John', 'Last Name':'Smith' },
-                    {'Emp. Number': 00002, 'First Name':'Jane', 'Last Name':'Doe' },
-                    {'Emp. Number': 00003, 'First Name':'Ted', 'Last Name':'Johnson' },
-                    {'Emp. Number': 00004, 'First Name':'Betty', 'Last Name':'Smith' },
-                    {'Emp. Number': 00005, 'First Name':'Susan', 'Last Name':'Wilson' },
-                    {'Emp. Number': 00006, 'First Name':'John', 'Last Name':'Doe' },
-                    {'Emp. Number': 00007, 'First Name':'Bill', 'Last Name':'Watson' },
-                    {'Emp. Number': 00008, 'First Name':'Walter', 'Last Name':'Wright' }
-                ]
-            });
-            //example 2 
-            $.ajax({
-                url:'/data/data.json',
-                dataType: 'json', 
-                success: function(json) { 
-                    example2 = $('#example2').columns({
-                        data:json
-                    }); 
-                }
-            }); 
+  //Coffee grades
+  $.ajax({
+      url:'/data/grades.json',
+      dataType: 'json', 
+      success: function(json) { 
+          example2 = $('#coffeegrades').columns({
+              data:json
+          }); 
+      }
+  }); 
 </script> 
