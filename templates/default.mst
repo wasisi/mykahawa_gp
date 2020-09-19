@@ -58,25 +58,25 @@
 		<span class="ui-table-controls">
 			{{#prevPageExists}}	
 				<span class="ui-table-control-prev" data-columns-page="{{prevPage}}">
-					<img src="images/arrow-left.png">
+					<img src="img/arrow-left.png">
 				</span>
 			{{/prevPageExists}}
 			
 			{{^prevPageExists}}
 				<span class="ui-table-control-disabled">
-					<img src="images/arrow-left.png">
+					<img src="img/arrow-left.png">
 				</span>
 			{{/prevPageExists}} 			
 			
 			{{#nextPageExists}}
 				<span class="ui-table-control-next" data-columns-page="{{nextPage}}">
-					<img src="images/arrow-right.png">
+					<img src="img/arrow-right.png">
 				</span>
 			{{/nextPageExists}}
 			
 			{{^nextPageExists}}
 				<span class="ui-table-control-disabled">
-					<img src="images/arrow-right.png">
+					<img src="img/arrow-right.png">
 				</span>
 			{{/nextPageExists}}
 		</span>
