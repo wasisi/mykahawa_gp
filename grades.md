@@ -19,6 +19,7 @@ title: Grades
         </p>
         <h2>Coffee grades</h2>
         <div id="coffeegradestable"></div>
+        <div id="example-table"></div>
       </div>
     </div>
   </div>
@@ -32,3 +33,17 @@ var table = new Tabulator("#coffeegradestablee", {
     ajaxURL:"/data/grades/coffeegrades.json", //ajax URL
 });
 </script> 
+
+<script>
+var table = new Tabulator("#example-table", {
+    height:"311px",
+    columns:[
+    {title:"Name", field:"name"},
+    {title:"Progress", field:"progress", sorter:"number"},
+    {title:"Gender", field:"gender"},
+    {title:"Rating", field:"rating"},
+    {title:"Favourite Color", field:"col"},
+    {title:"Date Of Birth", field:"dob", hozAlign:"center"},
+    ],
+});
+</script>
