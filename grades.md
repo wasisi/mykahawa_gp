@@ -30,19 +30,6 @@ title: Grades
 <section>
   <h2>Example 2: Setting data from external source</h2>
     <div id="example2"></div>
-    <pre class="prettyprint">
-      <code> 
-        $.ajax({
-          url:'data.json',
-          dataType: 'json', 
-          success: function(json) { 
-              example2 = $('#example2').columns({
-                  data:json, 
-             }); 
-          }
-        }); 
-      </code>
-    </pre>
 </section>
 
 <script src="/js/vendor/jquery.min.js"></script>
@@ -65,7 +52,7 @@ title: Grades
             });
             //example 2 
             $.ajax({
-                url:'data.json',
+                url:'data/data.json',
                 dataType: 'json', 
                 success: function(json) { 
                     example2 = $('#example2').columns({
