@@ -18,7 +18,7 @@ title: Grades
           Guide on the classification of coffee by grade
         </p>
         <h2>Coffee grades</h2>
-		<div id="example-table"></div>
+		<div id="coffeegradestable"></div>
       </div>
     </div>
   </div>
@@ -26,11 +26,11 @@ title: Grades
 
 <link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
-<script type="text/javascript" src="/data/user_data.json"></script>
+<script type="text/javascript" src="/data/grades/coffeegrades.json"></script>
 
 <script type="text/javascript">					
-				var local_data = esp_data;  <!-- name inside json file -->	
-				var table = new Tabulator("#example-table", {
+				var local_data = coffeegrades_data;  <!-- name inside json file -->	
+				var table = new Tabulator("#coffeegradestable", {
 					data: local_data,
 					pagination:"local",
 					paginationSize:10,
@@ -38,11 +38,10 @@ title: Grades
 					placeholder:"No Data Available",								
 					columns:[
 					{title:"#", formatter:"rownum", align:"center", width:40},
-					{title:"Name",   field:"name"},
-					{title:"Card ID",   field:"card"},
-					{title:"Access", field:"access", sorter:"number"},
-					{title:"Del",  width:60 , formatter:"buttonCross", align:"center"},
-					{title:"Edit", width:60 , formatter:"buttonTick", align:"center" },
+					{title:"Grade",   field:"grade"},
+					{title:"Grade name",   field:"grade_name"},
+					{title:"Size", field:"size"},
+					{title:"Description", field:"description"},
 					],					
 				});					
 </script>

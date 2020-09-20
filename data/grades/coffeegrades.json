@@ -1,4 +1,4 @@
-[
+var coffeegrades_data = [
     {
       "id": 1,
       "grade": "AA",
