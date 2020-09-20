@@ -47,7 +47,7 @@ var table = new Tabulator("#example-table", {
 
 <script type="text/javascript">
 //define some sample data
-var tabledata = '/data/grades/coffeegrades.json'
+var tabledata = '/data/data.json'
 
 //load sample data into the table
 table.setData(tabledata);
