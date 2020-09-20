@@ -32,7 +32,8 @@ title: Grades
 				var local_data = coffeegrades_data;  <!-- name inside json file -->	
 				var table = new Tabulator("#coffeegradestable", {
 					data: local_data,
-					height:"311px",								
+					ajaxProgressiveLoad:"load",
+					layout:"fitColumns",								
 					columns:[
 					{title:"#", formatter:"rownum", align:"center", width:40},
 					{title:"Grade",   field:"grade"},
