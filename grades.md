@@ -32,8 +32,7 @@ title: Grades
 				var local_data = coffeegrades_data;  <!-- name inside json file -->	
 				var table = new Tabulator("#coffeegradestable", {
 					data: local_data,
-					pagination:"local",
-					paginationSize:10,
+					ajaxProgressiveLoad:"load",
 					layout:"fitColumns",
 					placeholder:"No Data Available",								
 					columns:[
