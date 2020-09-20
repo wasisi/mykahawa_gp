@@ -26,6 +26,7 @@ title: Grades
 
 <link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
 <script type="text/javascript" src="/data/grades/coffeegrades.json"></script>
 
 <script type="text/javascript">					
