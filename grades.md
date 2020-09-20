@@ -29,17 +29,17 @@ title: Grades
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
 <script type="text/javascript" src="/data/grades/coffeegrades.json"></script>
 
-<script type="text/javascript">					
-				var local_data = coffeegrades_data;  <!-- name inside json file -->	
-				var table = new Tabulator("#coffeegradestable", {
-					data: local_data,
-					ajaxProgressiveLoad:"load",
-					layout:"fitColumns",								
-					columns:[
-					{title:"#", formatter:"rownum", align:"center", width:40},
-					{title:"Grade",   field:"grade"},
-					{title:"Grade name",   field:"grade_name"},
-					{title:"Size", field:"size"},
-					],					
-				});					
+<script type="text/javascript">	
+	var local_data = coffeegrades_data;  <!-- name inside json file -->
+	var table = new Tabulator("#coffeegradestable", {
+		data: local_data,
+		ajaxProgressiveLoad:"load",
+		layout:"fitColumns",
+		columns:[
+		{title:"#", formatter:"rownum", align:"center", width:40},
+		{title:"Grade",   field:"grade"},
+		{title:"Grade name",   field:"grade_name"},
+		{title:"Size", field:"size"},
+		],
+	});
 </script>
