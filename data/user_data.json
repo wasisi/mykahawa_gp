@@ -1,0 +1,26 @@
+var esp_data = [
+    {
+    "id": 1,
+    "name": "Gustav Haas",
+    "card": "1254874",
+    "access": "801"
+},
+{
+    "id": 2,
+    "name": "John Strauss",
+    "card": "45ea87a",
+    "access": "401"
+},
+{
+    "id": 3,
+    "name": "Peter Philips",
+    "card": "188dabf",
+    "access": "301"
+},
+{
+    "id": 4,
+    "name": "Dan Svensen",
+    "card": "eddaf34",
+    "access": "101"
+},
+]
