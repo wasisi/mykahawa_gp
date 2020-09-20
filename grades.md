@@ -41,7 +41,6 @@ title: Grades
 					{title:"Grade",   field:"grade"},
 					{title:"Grade name",   field:"grade_name"},
 					{title:"Size", field:"size"},
-					{title:"Description", field:"description"},
 					],					
 				});					
 </script>
