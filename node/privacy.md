@@ -1,3 +1,16 @@
+---
+layout: base
+title: Privacy
+---
+<header>
+  <div class="container">
+    <div class="header-content">
+      <h1>Privacy</h1>
+    </div>
+  </div>
+</header>
+
+<article>
 MyKahawa we recognize the importance of privacy and are committed to maintaining the accuracy, confidentiality and security of your personal information. This Privacy Policy describes the personal information that MyKahawa collects from you, how we manage that personal information and what may happen to that personal information. MyKahawa is responsible for the personal information that we collect and store. 
 
 ## What is Personal Information?
@@ -73,3 +86,5 @@ If you have any questions about this Privacy Policy or to access your personal i
 MyKahawa may from time to time make changes to this Privacy Policy to reflect changes in its legal or regulatory obligations or enhancements to the manner in which we deal with your personal information. We will post any revised version of this Privacy Policy on our website, and we encourage you to refer back to it on a regular basis. Any changes to this Privacy Policy will be effective from the time they are posted.
 
 This Privacy Policy was last updated on 21 September 2020. 
+
+</article>
