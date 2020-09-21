@@ -36,11 +36,10 @@ title: Growers
 		ajaxProgressiveLoad:"load",
 		layout:"fitColumns",
 		columns:[
-		{title:"#", formatter:"rownum", align:"center", width:40},
+		{title:"#", formatter:"rownum", align:"center", width:80},
 		{title:"Ref",   field:"title"},
 		{title:"Grower name",   field:"producer_name"},
     {title:"Category",   field:"actor"},
-    {title:"Website",   field:"website"},
 		],
 	});
 </script>
