@@ -33,7 +33,7 @@ title: Growers
 	var local_data = coffeegrowers_data;  <!-- name inside json file -->
 	var table = new Tabulator("#coffeegrowerstable", {
 		data: local_data,
-		ajaxProgressiveLoad:"load",
+		ajaxProgressiveLoad:"scroll",
 		layout:"fitColumns",
 		columns:[
 		{title:"#", formatter:"rownum", align:"center", width:80},
