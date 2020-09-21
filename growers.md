@@ -20,7 +20,6 @@ title: Growers
         <h2>Coffee growers</h2>
           <div>
             <button id="download-csv">Download CSV</button>
-            <button id="download-xlsx">Download XLSX</button>
           </div>  
           <div id="coffeegrowerstable"></div>
       </div>
@@ -36,26 +35,30 @@ title: Growers
 <script type="text/javascript">	
 	var local_data = coffeegrowers_data;  <!-- name inside json file -->
 	var table = new Tabulator("#coffeegrowerstable", {
-    height:"311px",
+    height:"500px",
 		data: local_data,
 		ajaxProgressiveLoad:"scroll",
 		layout:"fitColumns",
+    virtualDomHoz:true,
 		columns:[
 		{title:"#", formatter:"rownum", align:"center", width:80},
 		{title:"Ref",   field:"title"},
 		{title:"Grower name",   field:"producer_name"},
     {title:"Category",   field:"actor"},
+    {title:"Latitude",   field:"lat"},
+    {title:"Longitude",   field:"lon"},
+    {title:"Location accuracy",   field:"location_accuracy"},
+    {title:"Location source",   field:"location_source"},
+    {title:"Location notes",   field:"location_notes"},
+    {title:"Location verified?",   field:"location_verified"},
+    {title:"Disambiguation",   field:"disambiguation"},
+    {title:"Notes",   field:"notes"},
 		],
 	});
 
   //trigger download of data.csv file
 document.getElementById("download-csv").addEventListener("click", function(){
     table.download("csv", "data.csv");
-});
-
-//trigger download of data.xlsx file
-document.getElementById("download-xlsx").addEventListener("click", function(){
-    table.download("xlsx", "data.xlsx", {sheetName:"My Data"});
 });
 
 </script>
