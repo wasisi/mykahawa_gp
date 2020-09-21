@@ -18,6 +18,10 @@ title: Growers
           These are the guys grow all coffee
         </p>
         <h2>Coffee growers</h2>
+          <div>
+            <button id="download-csv">Download CSV</button>
+            <button id="download-xlsx">Download XLSX</button>
+          </div>  
           <div id="coffeegrowerstable"></div>
       </div>
     </div>
@@ -32,6 +36,7 @@ title: Growers
 <script type="text/javascript">	
 	var local_data = coffeegrowers_data;  <!-- name inside json file -->
 	var table = new Tabulator("#coffeegrowerstable", {
+    height:"311px",
 		data: local_data,
 		ajaxProgressiveLoad:"scroll",
 		layout:"fitColumns",
@@ -42,4 +47,15 @@ title: Growers
     {title:"Category",   field:"actor"},
 		],
 	});
+
+  //trigger download of data.csv file
+document.getElementById("download-csv").addEventListener("click", function(){
+    table.download("csv", "data.csv");
+});
+
+//trigger download of data.xlsx file
+document.getElementById("download-xlsx").addEventListener("click", function(){
+    table.download("xlsx", "data.xlsx", {sheetName:"My Data"});
+});
+
 </script>
