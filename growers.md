@@ -1,11 +1,11 @@
 ---
 layout: base
-title: Dealers
+title: Growers
 ---
 <header>
   <div class="container">
     <div class="header-content">
-      <h1>Dealers</h1>
+      <h1>Growers</h1>
     </div>
   </div>
 </header>
@@ -15,10 +15,10 @@ title: Dealers
     <div class="row">
       <div class="col-md-8 mx-auto">
         <p class="lead">
-          These are the guys who buy all the coffee
+          These are the guys grow all coffee
         </p>
-        <h2>Coffee dealers</h2>
-          <div id="coffeedealerstable"></div>
+        <h2>Coffee growers</h2>
+          <div id="coffeegrowerstable"></div>
       </div>
     </div>
   </div>
@@ -30,15 +30,17 @@ title: Dealers
 <script type="text/javascript" src="/data/dealers/coffeedealers.json"></script>
 
 <script type="text/javascript">	
-	var local_data = coffeedealers_data;  <!-- name inside json file -->
-	var table = new Tabulator("#coffeedealerstable", {
+	var local_data = coffeegrowers_data;  <!-- name inside json file -->
+	var table = new Tabulator("#coffeegrowerstable", {
 		data: local_data,
 		ajaxProgressiveLoad:"load",
 		layout:"fitColumns",
 		columns:[
 		{title:"#", formatter:"rownum", align:"center", width:40},
-		{title:"Dealer",   field:"title"},
-		{title:"Website",   field:"website"},
+		{title:"Ref",   field:"title"},
+		{title:"Grower name",   field:"producer_name"},
+    {title:"Category",   field:"actor"},
+    {title:"Website",   field:"website"},
 		],
 	});
 </script>

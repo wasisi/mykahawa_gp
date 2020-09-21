@@ -1,4 +1,4 @@
-[
+var coffeegrowers_data = [
  {
    "id": 7439,
    "created": "2018-04-28 21:51:42.705418+00",
