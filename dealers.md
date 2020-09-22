@@ -18,6 +18,11 @@ title: Dealers
           These are the guys who buy all the coffee
         </p>
         <h2>Coffee dealers</h2>
+          <div>
+          <a href="/data/dealers/coffeedealers.csv">
+            <button>Download CSV</button>
+          </a>  
+          </div>         
           <div id="coffeedealerstable"></div>
       </div>
     </div>

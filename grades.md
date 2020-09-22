@@ -31,10 +31,14 @@ title: Grades
           <li>Mustiness or foxy beans: Fermentation</li>
           <li>Foxy beans: Bagging</li>
           <li>Mould (Ochratoxin A): Drying, diseases, and pests</li>
-
         </ul>
         <h2>Coffee grades</h2>
-		<div id="coffeegradestable"></div>
+          <div>
+          <a href="/data/grades/coffeegrades.csv">
+            <button>Download CSV</button>
+          </a>  
+          </div> 		      
+          <div id="coffeegradestable"></div>
       </div>
     </div>
   </div>
