@@ -37,8 +37,8 @@ title: Dealers
 		layout:"fitColumns",
 		columns:[
 		{title:"#", formatter:"rownum", align:"center", width:40},
-		{title:"Dealer",   field:"title"},
-		{title:"Website",   field:"website"},
+		{title:"Dealer", field:"title"},
+		{title:"Website", field:"website", formatter:"link", formatterParams:{target:"_blank"},
 		],
 	});
 </script>
