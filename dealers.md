@@ -15,7 +15,7 @@ title: Dealers
     <div class="row">
       <div class="col-md-8 mx-auto">
         <p class="lead">
-          These are the guys who buy all the coffee
+          Coffee dealers/traders are persons licensed to buy coffee at the Nairobi Coffee Exchange or to import coffee. The coffee dealer license is issued by the Agriculture and Food Authority. Find out more here: https://www.wikiprocedure.com/index.php/Kenya_-_Obtain_Coffee_Dealers_License
         </p>
         <h2>Coffee dealers</h2>
           <div>

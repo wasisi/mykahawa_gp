@@ -9,6 +9,8 @@
     <meta content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description|escape }}{% endif %}" property="og:description">
     <meta content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description|escape }}{% endif %}" property="description">
     
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,11 +18,16 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+ <!-- Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro:400,700" rel="stylesheet">
     <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet" media="screen, print">
 
+<!-- Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->   
+  
     {% for alt in page.alternates %}
       <link href="{{ site.url }}{{ alt.url }}" hreflang="{{ alt.lang }}" rel="alternate">
     {% endfor %}

@@ -4,6 +4,23 @@ layout: base
 ---
 
 <div id="main-page">
+   <section class="u-pt-md-150 pb-0 u-h-100vh bg-grey">
+      <div class="container">
+         <div class="row text-center">
+            <div class="col-lg-10 mx-auto u-pt-80">
+               <h1 class="display-4 u-fw-600 text-red">
+                  Database of Kenyan coffee trade and key actors
+               </h1>
+               <p class="u-fs-22 u-lh-1_8 py-4">
+                  MyKahawa is a business analytics and market intelligence platform that provides greater transparency and visibility into the Kenya Coffee market and industry.
+               </p>
+            </div>
+            <div class="col-lg-12 mx-auto mt-5">
+               <img class="" src=img/logo_on_coffee.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>   
   <section id="about">
     <div class="container">
        <div class="row text-center">
@@ -22,7 +39,7 @@ layout: base
                    Kenya Coffee Directory
                 </h4>
                 <p>
-                   Most up to date directory of coffee producers and authorized dealers in Kenya.
+                   Directory of coffee growers and authorized dealers in Kenya.
                 </p>
              </div>
           </div>
@@ -35,7 +52,7 @@ layout: base
                    Transactions
                 </h4>
                 <p>
-                   Transaction listing of coffee sales at the Nairobi Coffee Exchange from February 2015.
+                   Transaction listing of coffee sales at the Nairobi Coffee Exchange from January 2015 to September 2020.
                 </p>
              </div>
           </div>
@@ -65,20 +82,20 @@ layout: base
             </h2>
             <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40 mx-auto"></div>
             <p class="u-mt-60">
-               We offer detailed transaction reports from the Nairobi Coffee Exchange, analysis of these transactions, and combine it with other sources of data in order to best provide the information that Kenyan coffee stakeholders need to maximize their revenue through appropriate production management and leveraged negotiation power Moreover, we provide an analysis of transaction reports and maintain a directory of coffee dealers, producers, and marketers to foster traceability, transparency, and networking on our website. Our database is updated at the end of each auction.
+               We collected transaction reports from the Nairobi Coffee Exchange from January 2015 to September 2020. Due to resource constraints, we have stopped updating our database with transaction records. All records collected since January 2015 are available for download on this website.
             </p>
             <div class="row">
                <div class="col-md-4 mt-5">
-                  <a href="/directory/producers"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">{{ num_producers }}</h4></a>
+                  <a href="/directory/producers"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">2784</h4></a>
                   <p class="u-fs-20 u-ff-dosis">Growers <br> (Cooperatives, estates and farms)</p>
                </div>
                <div class="col-md-4 mt-5">
-                  <a href="/directory/dealers"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">{{ num_dealers }}</h4></a>
+                  <a href="/directory/dealers"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">84</h4></a>
                   <p class="u-fs-20 u-ff-dosis">Buyers <br> (List of authorized dealers)</p>
                </div>
                <div class="col-md-4 mt-5">
-                  <a href="/transactions/list"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">{{ num_transactions }}</h4></a>
-                  <p class="u-fs-20 u-ff-dosis">Transactions <br> (Since February 2015)  </p>
+                  <a href="/transactions/list"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">131,384</h4></a>
+                  <p class="u-fs-20 u-ff-dosis">Transactions <br> (Jan 2015 - Sep 2020)  </p>
                </div>
             </div>
          </div>
@@ -97,56 +114,20 @@ layout: base
          </div>
       </div>
       <div class="row">
-         <div class="col-12 mt-4">
-            <div id="accordion" role="tablist" class="bg-white box-shadow-v3">
-               <div class="accordion__faq">
-                  <a class="accordion__title p-4" data-toggle="collapse" href="#acc1">
-                  <i class="fa fa-angle-down mr-3"></i>
-                  Where does MyKahawa get coffee data from?
-                  </a>
-                  <div id="acc1" class="collapse show" role="tabpanel" data-parent="#accordion">
-                     <div class="accordion__text">
-                       MyKahawa collects, cleans and stores transaction reports from the Nairobi Coffee Exchange at the end of each sale. The Nairobi Coffee Exchange (NCE) is a central coffee auction where an estimated 80% of Kenya's coffee is traded. The NCE is mandated to manage Kenya's central coffee auction. Trading at NCE usually takes place on Tuesdays at Wakulima House, Haile Sellasie Avenue in Nairobi. The data used in this website is made available by the NCE at the end of each sale
-                     </div>
-                  </div>
-               </div>
-               <div class="accordion__faq">
-                  <a class="accordion__title p-4"data-toggle="collapse" href="#acc2">
-                  <i class="fa fa-angle-down mr-3"></i>
-                  Can I buy coffee from MyKahawa?
-                  </a>
-                  <div id="acc2" class="collapse" role="tabpanel" data-parent="#accordion">
-                     <div class="accordion__text">
-                        We are a data and information services provider. We are not licensed or involved in the trade in coffee. We can put you in touch with authorized and reliable dealers who can ship coffee to you.
-                     </div>
-                  </div>
-               </div>
-               <div class="accordion__faq">
-                  <a class="accordion__title p-4"data-toggle="collapse" href="#acc3">
-                  <i class="fa fa-angle-down mr-3"></i>
-                  Why is my cooperative/estate/dealer not listed?
-                  </a>
-                  <div id="acc3" class="collapse" role="tabpanel" data-parent="#accordion">
-                     <div class="accordion__text">
-                        Reference was made to the Kenya Coffee Directory report produced by the Kenya Coffee Traders Association in 2012. We are maintaining the directory by updating and adding records based on transactions taking place at the Nairobi Coffee Exchange.
-                     </div>
-                  </div>
-               </div>
-               <div class="accordion__faq">
-                  <a class="accordion__title p-4"data-toggle="collapse" href="#acc4">
-                  <i class="fa fa-angle-down mr-3"></i>
-                  Where can I get more details about trade in Kenyan Coffee?
-                  </a>
-                  <div id="acc4" class="collapse" role="tabpanel" data-parent="#accordion">
-                     <div class="accordion__text">
-                       <a href="http://nairobicoffeeexchange.co.ke" target="_blank">Nairobi Coffee Exchange</a><br>
-                       <a href="https://www.kari.org/" target="_blank">Kenya Agricultural Research Institute</a><br>
-                       <a href="http://www.kenyacoffee.co.ke/" target="_blank">Kenya Coffee Traders Association</a><br>
-                       <a href="https://kencaffee.coop" target="_blank">Kenya Co-operative Coffee Exporters (KCCE)</a>    
-                     </div>
-                  </div>
-               </div>
-            </div>
+         <div class="col-12 mt-4 bg-white box-shadow-v3">
+            <h3 class="accordion__title p-4">Where does MyKahawa get coffee data from?</h3>
+            <p>MyKahawa collects, cleans and stores transaction reports from the Nairobi Coffee Exchange at the end of each sale. The Nairobi Coffee Exchange (NCE) is a central coffee auction where an estimated 80% of Kenya's coffee is traded. The NCE is mandated to manage Kenya's central coffee auction. Trading at NCE usually takes place on Tuesdays at Wakulima House, Haile Sellasie Avenue in Nairobi. The data used in this website is made available by the NCE at the end of each sale </p>
+            <h3 class="accordion__title p-4">Can I buy coffee from MyKahawa?</h3>
+            <p>No. We provide data and information services. We are not licensed or involved in the trade of coffee.</p>
+            <h3 class="accordion__title p-4">Why is my cooperative/estate/dealer not listed?</h3>
+            <p>Reference was made to the Kenya Coffee Directory report produced by the Kenya Coffee Traders Association in 2012. We are maintaining the directory by updating and adding records based on transactions taking place at the Nairobi Coffee Exchange. Please contact info@mykahawa.org If you wish to add/edit/remove your cooperative/factory/estate</p>
+            <h3 class="accordion__title p-4">Where can I get more details about trade in Kenyan Coffee?</h3>
+            <ul>
+                  <li><a href="http://nairobicoffeeexchange.co.ke" target="_blank">Nairobi Coffee Exchange</li></a>
+                  <li><a href="https://www.kari.org/" target="_blank">Kenya Agricultural Research Institute</a></li>
+                  <li><a href="http://www.kenyacoffee.co.ke/" target="_blank">Kenya Coffee Traders Association</a></li>
+                  <li><a href="https://kencaffee.coop" target="_blank">Kenya Co-operative Coffee Exporters (KCCE)</a> </li>
+            </ul>     
          </div>
       </div>
    </div>

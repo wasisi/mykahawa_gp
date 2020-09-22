@@ -1,6 +1,6 @@
-Highcharts.getJSON('/data/market/price_ave.json', function (data) {
+Highcharts.getJSON('/data/market/weight.json', function (data) {
     // Create the chart
-    Highcharts.stockChart('container', {
+    Highcharts.stockChart('container_weight', {
 
 
         rangeSelector: {
@@ -8,7 +8,7 @@ Highcharts.getJSON('/data/market/price_ave.json', function (data) {
         },
 
         title: {
-            text: 'Average prices: 27 January 2015 to 15 September 2020 (USD/50Kg bag)'
+            text: 'Weight of coffee sold since 27 January 2015 in kilogrammes (Kg)'
         },
 
         credits: {
@@ -17,10 +17,10 @@ Highcharts.getJSON('/data/market/price_ave.json', function (data) {
         },
         
         series: [{
-            name: 'Average Price',
+            name: 'Weight (Kg)',
             data: data,
             tooltip: {
-                valueDecimals: 2
+                valueDecimals: 0
             }
         }]
     });

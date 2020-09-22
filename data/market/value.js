@@ -1,6 +1,6 @@
-Highcharts.getJSON('/data/market/price_ave.json', function (data) {
+Highcharts.getJSON('/data/market/value.json', function (data) {
     // Create the chart
-    Highcharts.stockChart('container', {
+    Highcharts.stockChart('container_value', {
 
 
         rangeSelector: {
@@ -8,7 +8,7 @@ Highcharts.getJSON('/data/market/price_ave.json', function (data) {
         },
 
         title: {
-            text: 'Average prices: 27 January 2015 to 15 September 2020 (USD/50Kg bag)'
+            text: 'Value of coffee sold since 27 January 2015 in USD'
         },
 
         credits: {
@@ -17,10 +17,10 @@ Highcharts.getJSON('/data/market/price_ave.json', function (data) {
         },
         
         series: [{
-            name: 'Average Price',
+            name: 'Value (USD)',
             data: data,
             tooltip: {
-                valueDecimals: 2
+                valueDecimals: 0
             }
         }]
     });

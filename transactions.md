@@ -4,7 +4,7 @@ title: Transactions
 ---
 <header>
   <div id="note">
-    MyKahawa will no longer update Nairobi Coffee Exchange transactions after 29 September 2020. Please  visit http://www.nairobicoffeeexchange.co.ke/ <a id="close">[close]</a>
+    Due to resource constraints, MyKahawa will no longer provide detailed Nairobi Coffee Exchange transactions after 29 September 2020. Please  visit http://www.nairobicoffeeexchange.co.ke/ for transaction reports <a id="close">[Click to close]</a>
   </div>
   <div class="container">
     <div class="header-content">
@@ -32,6 +32,21 @@ title: Transactions
   <div id="container" style="height: 400px; min-width: 310px">
     <script src="/data/market/price_ave.js" type="text/javascript"></script>
   </div>
+  <h2>Price comparison</h2>
+  <p>Comparison of the price variation from the previous sale</p>
+  <div id="container_price" style="height: 400px; min-width: 310px">
+    <script src="/data/market/price.js" type="text/javascript"></script>
+  </div> 
+  <h2>Value of coffee sold</h2>
+  <p>Value of coffee sales by date</p>
+  <div id="container_value" style="height: 400px; min-width: 310px">
+    <script src="/data/market/value.js" type="text/javascript"></script>
+  </div> 
+  <h2>Weight of coffee sold</h2>
+  <p>Weight of coffee sales by date</p>
+  <div id="container_weight" style="height: 400px; min-width: 310px">
+    <script src="/data/market/weight.js" type="text/javascript"></script>
+  </div>    
 </article>
 
 <script>
