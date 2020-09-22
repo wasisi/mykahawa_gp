@@ -2,7 +2,7 @@
 Building up on the Kenya Coffee Directory that was published by the Kenya Coffee Traders Association in 2012 to provide an updated list of Kenya coffee producers and buyers based on transactions reported by the Nairobi Coffee Auction weekly. The website links coffee transactions at the auction to their respective producers and buyers. This will allow farmers and coffee buyers, who depend on intermediaries at the auction, to be able to follow the auction remotely and engage in dialogue to negotiate better deals for themselves.
 
 ## What you can find in this repository
-You can view and/or download the following lists:
+You can view and/or download the following lists which are stored in the /data folder of this repository:
 1. Growers: List of cooperatives, estates and factories 
 2. Dealers: Companies that have been licensed to purchase coffee at the Nairobi Coffee Exchage
 3. Transactions: records of coffee sales at the Nairobi Coffee Exchange from 27 January 2015 to 29 September 2020.

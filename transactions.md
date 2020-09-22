@@ -4,7 +4,7 @@ title: Transactions
 ---
 <header>
   <div id="note">
-    MyKahawa will no longer provide Nairobi Coffee Exchange transactions after 29 September 2020. Please visit http://www.nairobicoffeeexchange.co.ke/ <a id="close">[close]</a>
+    MyKahawa will no longer update Nairobi Coffee Exchange transactions after 29 September 2020. Please  visit http://www.nairobicoffeeexchange.co.ke/ <a id="close">[close]</a>
   </div>
   <div class="container">
     <div class="header-content">
