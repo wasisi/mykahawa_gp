@@ -12,10 +12,10 @@ Highcharts.getJSON('/data/market/price_ave.json', function (data) {
         },
 
         credits: {
-            text: 'MyKahawa. Powered by Highcharts.com',
+            text: 'https://www.mykahawa.org. Powered by Highcharts',
             href: 'https://www.mykahawa.org'
         },
-
+        
         series: [{
             name: 'Average Price',
             data: data,
