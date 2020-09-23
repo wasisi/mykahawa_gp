@@ -4,7 +4,7 @@ title: Transactions
 ---
 <header>
   <div id="note">
-    Due to resource constraints, MyKahawa will no longer provide detailed Nairobi Coffee Exchange transactions after 29 September 2020. Please  visit http://www.nairobicoffeeexchange.co.ke/ for transaction reports <a id="close">[Click to close]</a>
+    Due to resource constraints, MyKahawa will no longer provide detailed Nairobi Coffee Exchange transactions. Please visit http://www.nairobicoffeeexchange.co.ke/ for transaction reports <a id="close">[Click here to close]</a>
   </div>
   <div class="container">
     <div class="header-content">
