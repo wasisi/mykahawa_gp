@@ -10,5 +10,5 @@ plugins:
 - jekyll-redirect-from
 timezone: Europe/Amsterdam
 title: MyKahawa
-url: https://archive.mykahawa.org
-BASE_PATH: https://archive.mykahawa.org
+url: https://www.mykahawa.org
+BASE_PATH: https://www.mykahawa.org
