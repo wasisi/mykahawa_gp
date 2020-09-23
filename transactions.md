@@ -27,6 +27,11 @@ title: Transactions
         </p>
         <p>The charts below have been developed using data provided by the Nairobi Coffee Exchange. Aggregations have been made which may cause some slight deviations from the numbers provided by the Nairobi Coffee Exchange. Whenever there are deviations, the numbers from the Nairobi Coffee Exchange will prevail.</p>
       </div>
+      <div>
+          <a href="/data/transactions/coffeetransactions.csv">
+            <button>Download transactions from 27 January 2015 to 15 September 2020</button>
+          </a>  
+          </div>
     </div>
   </div>
   <div id="container" style="height: 400px; min-width: 310px">
