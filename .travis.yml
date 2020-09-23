@@ -15,6 +15,6 @@ deploy:
   target_branch: "gh-pages"
   skip_cleanup: true
   github_token: "$GITHUB_TOKEN"
-  fqdn: archive.mykahawa.org
+  fqdn: www.mykahawa.org
   on:
     branch: master
