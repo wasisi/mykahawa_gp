@@ -10,6 +10,8 @@ title: Subscribe
   </div>
 </header>
 
+<p>Thank you for taking an interest in our work. Please complete the form below to receive our emails and for matchmaking with potential partners.</p>
+
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -47,6 +49,17 @@ title: Subscribe
 <li><input type="radio" value="Researcher" name="MMERGE6" id="mce-MMERGE6-2"><label for="mce-MMERGE6-2">Researcher</label></li>
 <li><input type="radio" value="Supporter/fan" name="MMERGE6" id="mce-MMERGE6-3"><label for="mce-MMERGE6-3">Supporter/fan</label></li>
 <li><input type="radio" value="Other" name="MMERGE6" id="mce-MMERGE6-4"><label for="mce-MMERGE6-4">Other</label></li>
+<li><input type="radio" value="Marketing Agent" name="MMERGE6" id="mce-MMERGE6-5"><label for="mce-MMERGE6-5">Marketing Agent</label></li>
+<li><input type="radio" value="Exporters/Roasters" name="MMERGE6" id="mce-MMERGE6-6"><label for="mce-MMERGE6-6">Exporters/Roasters</label></li>
+<li><input type="radio" value="Miller" name="MMERGE6" id="mce-MMERGE6-7"><label for="mce-MMERGE6-7">Miller</label></li>
+<li><input type="radio" value="Commercial Marketing agent" name="MMERGE6" id="mce-MMERGE6-8"><label for="mce-MMERGE6-8">Commercial Marketing agent</label></li>
+<li><input type="radio" value="Grower Marketer" name="MMERGE6" id="mce-MMERGE6-9"><label for="mce-MMERGE6-9">Grower Marketer</label></li>
+<li><input type="radio" value="Management agent" name="MMERGE6" id="mce-MMERGE6-10"><label for="mce-MMERGE6-10">Management agent</label></li>
+<li><input type="radio" value="Commercial Warehouseman" name="MMERGE6" id="mce-MMERGE6-11"><label for="mce-MMERGE6-11">Commercial Warehouseman</label></li>
+<li><input type="radio" value="Regulator" name="MMERGE6" id="mce-MMERGE6-12"><label for="mce-MMERGE6-12">Regulator</label></li>
+<li><input type="radio" value="Certifier" name="MMERGE6" id="mce-MMERGE6-13"><label for="mce-MMERGE6-13">Certifier</label></li>
+<li><input type="radio" value="Commercial Huller" name="MMERGE6" id="mce-MMERGE6-14"><label for="mce-MMERGE6-14">Commercial Huller</label></li>
+<li><input type="radio" value="Transporter" name="MMERGE6" id="mce-MMERGE6-15"><label for="mce-MMERGE6-15">Transporter</label></li>
 </ul>
 </div>
 <div class="mc-field-group">
