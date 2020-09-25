@@ -19,6 +19,7 @@ comments: true
         <p class="lead">
           Kenya’s coffee is grown in the highlands between 1400 and 2000 metres above sea level. The main growing areas are around Mt. Kenya, Nakuru and Machakos. Most of Kenya’s coffee is grown on small farms organized into cooperatives and plantation/large estates. According to the Coffee Act (2001), the distinction between small and large farms is determined by the size and ownership of pulping stations. In Kenya, it is estimated that 60% of coffee is produced by smallholder farmers.
         </p>
+        {% include ko-fi.html %}
         <h2>Coffee growers</h2>
           <div>
           <a href="/data/growers/coffeegrowers.csv">

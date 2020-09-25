@@ -26,13 +26,14 @@ comments: true
       <div class="col-md-8 mx-auto">
         <p class="lead">
           The coffee season which is known as the crop year runs from 1st October to 30th September of the following year. This season covers cultural practices, processing and marketing of coffee. Picking of coffee normally happens in December and April. Farmers are required by the Coffee Act to deliver their coffee to co-operative factories for primary processing. The co-operatives subsequently deliver pulped beans to millers for milling and the millers deliver coffee to registered marketing agents. However, some smallholder farmers who are far from cooperative societies use hand pulpers to process their coffee in their farms. Marketing is done through the Nairobi Coffee Exchange by registered marketing agents who are responsible for cleaning, classification and warehousing. 
-        </p>
-        <p>The charts below have been developed using data provided by the Nairobi Coffee Exchange. Aggregations have been made which may cause some slight deviations from the numbers provided by the Nairobi Coffee Exchange. Whenever there are deviations, the numbers from the Nairobi Coffee Exchange will prevail.</p>
+        </p> 
+              {% include ko-fi.html %}     
+        <a href="/data/transactions/coffeetransactions.csv">
+          <button>Download transactions from 27 January 2015 to 15 September 2020</button>
+        </a>
       </div>
       <div>
-          <a href="/data/transactions/coffeetransactions.csv">
-            <button>Download transactions from 27 January 2015 to 15 September 2020</button>
-          </a>  
+            
           </div>
     </div>
   </div>
@@ -54,7 +55,11 @@ comments: true
   <div id="container_weight" style="height: 400px; min-width: 310px">
     <script src="/data/market/weight.js" type="text/javascript"></script>
   </div>    
+
+  <p>The charts above have been developed using data provided by the Nairobi Coffee Exchange. Aggregations have been made which may cause some slight deviations from the numbers provided by the Nairobi Coffee Exchange. Whenever there are deviations, the numbers from the Nairobi Coffee Exchange will prevail.</p>
+
 </article>
+
 
 {% include disqus_comments.html %}
 

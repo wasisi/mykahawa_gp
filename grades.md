@@ -33,6 +33,7 @@ comments: true
           <li>Foxy beans: Bagging</li>
           <li>Mould (Ochratoxin A): Drying, diseases, and pests</li>
         </ul>
+        {% include ko-fi.html %}
         <h2>Coffee grades</h2>
           <div>
           <a href="/data/grades/coffeegrades.csv">
