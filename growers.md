@@ -2,6 +2,7 @@
 layout: base
 title: Growers
 redirect_from: "/directory/producers/"
+comments: true
 ---
 <header>
   <div class="container">
@@ -28,6 +29,8 @@ redirect_from: "/directory/producers/"
       </div>
     </div>
   </div>
+
+  {% include disqus_comments.html %}
 </article>
 
 <link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">

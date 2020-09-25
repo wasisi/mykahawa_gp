@@ -2,6 +2,7 @@
 layout: base
 title: Transactions
 redirect_from: "/analytics/dashboard/"
+comments: true
 ---
 <header>
   <div id="note">
@@ -54,6 +55,8 @@ redirect_from: "/analytics/dashboard/"
     <script src="/data/market/weight.js" type="text/javascript"></script>
   </div>    
 </article>
+
+{% include disqus_comments.html %}
 
 <script>
  close = document.getElementById("close");

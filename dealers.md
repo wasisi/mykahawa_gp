@@ -2,6 +2,7 @@
 layout: base
 title: Dealers
 redirect_from: "/directory/dealers/"
+comments: true
 ---
 <header>
   <div class="container">
@@ -28,6 +29,9 @@ redirect_from: "/directory/dealers/"
       </div>
     </div>
   </div>
+
+{% include disqus_comments.html %}
+  
 </article>
 
 <link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">

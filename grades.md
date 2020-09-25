@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Grades
+comments: true
 ---
 <header>
   <div class="container">
@@ -42,6 +43,7 @@ title: Grades
       </div>
     </div>
   </div>
+   {% include disqus_comments.html %}
 </article>
 
 <link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
