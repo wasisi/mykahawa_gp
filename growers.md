@@ -2,7 +2,6 @@
 layout: base
 title: Growers
 redirect_from: "/directory/producers/"
-redirect_from: "/producer/"
 ---
 <header>
   <div class="container">

@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Transactions
+redirect_from: "/analytics/dashboard/"
 ---
 <header>
   <div id="note">
