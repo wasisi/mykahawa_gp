@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Dealers
+redirect_from: "/directory/dealers/"
 ---
 <header>
   <div class="container">
