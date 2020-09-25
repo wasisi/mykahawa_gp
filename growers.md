@@ -2,7 +2,7 @@
 layout: base
 title: Growers
 redirect_from: "/directory/producers/"
-comments: false
+comments: true
 ---
 <header>
   <div class="container">

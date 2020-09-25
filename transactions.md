@@ -2,7 +2,7 @@
 layout: base
 title: Transactions
 redirect_from: "/analytics/dashboard/"
-comments: false
+comments: true
 ---
 <header>
   <div id="note">

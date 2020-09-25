@@ -31,14 +31,12 @@ Help make moderators’ lives easier by taking a moment to ensure that what you�
 ## If you see something, say something
 Moderators are at the forefront of combatting spam, mediating disputes and enforcing community guidelines and, so are you. If you see an issue, contact the moderators if possible or flag any comments for review. If you believe someone has violated the Basic Rules, report it to Disqus by flagging the user's profile.
 
-## No self-promotion
-A discussion or comment that contains only a link to your blog, a product, or your article on another site will almost always be removed.
-
 ## Don’t plagiarize
 Plagiarism is bad. Don't do it.
 
 ## English and Kiswahili only
 We currently only support English and Kiswahili discussions. Non-English or Non-Kiswahili comments and discussions will be removed.
 
+Last updated on **25 September 2020**
 
 </div>
