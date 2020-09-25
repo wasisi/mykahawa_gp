@@ -2,7 +2,7 @@
 layout: base
 title: Dealers
 redirect_from: "/directory/dealers/"
-comments: true
+comments: false
 ---
 <header>
   <div class="container">
