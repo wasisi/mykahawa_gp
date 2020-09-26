@@ -5,9 +5,6 @@ redirect_from: "/analytics/dashboard/"
 comments: true
 ---
 <header>
-  <div id="note">
-    Due to resource constraints, MyKahawa will no longer provide detailed Nairobi Coffee Exchange transactions. Please visit http://www.nairobicoffeeexchange.co.ke/ for transaction reports <a id="close">[Click here to close]</a>
-  </div>
   <div class="container">
     <div class="header-content">
       <h1>Transactions</h1>
@@ -60,13 +57,4 @@ comments: true
 
 </article>
 
-
 {% include disqus_comments.html %}
-
-<script>
- close = document.getElementById("close");
- close.addEventListener('click', function() {
-   note = document.getElementById("note");
-   note.style.display = 'none';
- }, false);
-</script>
