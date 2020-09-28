@@ -2,6 +2,7 @@
 layout: base
 title: Transactions
 redirect_from: "/analytics/dashboard/"
+redirect_from: "/transactions/list/"
 comments: true
 ---
 <header>

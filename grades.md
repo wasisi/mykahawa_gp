@@ -2,6 +2,7 @@
 layout: base
 title: Grades
 comments: true
+redirect_from: "/coffee/grades/"
 ---
 <header>
   <div class="container">
