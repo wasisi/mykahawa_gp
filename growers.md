@@ -27,6 +27,11 @@ comments: true
           </a>  
           </div>  
           <div id="coffeegrowerstable"></div>
+          <h2>Map showing some coffee growers</h2>
+          <p>The map below is mainly for illustrative purposes. Many of the points have been developed using proxy data like schools, county wards, villages, towns and sublocations. Some points in have been verified from field visit. Details about location accuracy are available from the <a href="/data/growers/coffeegrowers.csv">growers list download</a>. </p>
+          <p>If you wish to contribute to this map and our list of growers e.g. by adding or correcting information,  please send an email to  <a href="mailto:info@mahwa.org?subject=Add%2Fedit%20coffee%20grower%20location">info@mykahawa.org</a>. Remember to add the following details in your email if you have the information: A description of the farm, Grower CBK code, grower name, longitude, latitude and website. If you can't get the longitude and latitude you can send a screenshot or location from https://www.google.com/maps.</p>
+          <div id='map' style='width: 700px; height: 525px;'></div><br />
+          <button id="fit">Fit map to Kenya</button>
       </div>
     </div>
   </div>
@@ -52,8 +57,76 @@ comments: true
 		{title:"Ref",   field:"title"},
 		{title:"Grower name",   field:"producer_name"},
     {title:"Category",   field:"actor"},
-    {title:"Disambiguation",   field:"disambiguation"},
 		],
 	});
+</script>
+ 
 
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoibXlrYWhhd2EiLCJhIjoiY2tmbXV4bHJ0MDUxZTJybXBsd2JzaDZoeiJ9.8M1YZahCfMJkuGixC3XmVg';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [38,1],
+zoom: 6
+});
+ 
+map.on('load', function () {
+map.addSource('places', {
+'type': 'geojson',
+'data': 'data/growers/coffeegrowers_location.geojson'
+});
+// Add a layer showing the places.
+map.addLayer({
+'id': 'places',
+'type': 'symbol',
+'source': 'places',
+'layout': {
+'text-field': ['get', 'producer_name'],
+'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+'text-radial-offset': 0.5,
+'text-justify': 'auto',
+//if you want to make icon-image generic replace farm with {icon} and add Maki icon name in properties e.g. "icon": "farm"
+'icon-image': 'farm-15',
+'icon-allow-overlap': true
+}
+});
+ 
+// When a click event occurs on a feature in the places layer, open a popup at the
+// location of the feature, with description HTML from its properties.
+map.on('click', 'places', function (e) {
+var coordinates = e.features[0].geometry.coordinates.slice();
+var description = e.features[0].properties.cbk_growers_code;
+ 
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+}
+ 
+new mapboxgl.Popup()
+.setLngLat(coordinates)
+.setHTML(description)
+.addTo(map);
+});
+ 
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'places', function () {
+map.getCanvas().style.cursor = 'pointer';
+});
+ 
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'places', function () {
+map.getCanvas().style.cursor = '';
+});
+});
+
+// Fit to Kenya
+document.getElementById('fit').addEventListener('click', function () {
+      map.fitBounds([
+          [32.958984, -5.353521],
+          [43.50585, 5.615985]
+      ]);
+   });
 </script>

@@ -916,3 +916,29 @@ a.bg-primary:hover {
 .cssanimations.csstransforms #close {
     display: none;
   }
+
+#map {
+    top: 0; 
+    bottom: 0; 
+    width: 100%;
+ }
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#fit {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #ee8a65;
+}
