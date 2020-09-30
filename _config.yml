@@ -8,6 +8,7 @@ exclude:
 markdown: kramdown
 plugins:
 - jekyll-redirect-from
+- jekyll-sitemap
 timezone: Europe/Amsterdam
 title: MyKahawa
 url: https://www.mykahawa.org
