@@ -28,7 +28,7 @@ comments: true
           </div>  
           <div id="coffeegrowerstable"></div>
           <h2>Map showing some coffee growers</h2>
-          <p>The map below is mainly for illustrative purposes. Many of the points have been developed using proxy data like schools, county wards, villages, towns and sublocations. Some points in have been verified from field visit. Details about location accuracy are available from the <a href="/data/growers/coffeegrowers.csv">growers list download</a>. </p>
+          <p>The map below is mainly for illustrative purposes. Many of the points have been developed using proxy data like schools, county wards, villages, towns and sublocations. Some points have been verified from field visits. Details about location accuracy are available from the <a href="/data/growers/coffeegrowers.csv">growers list download</a>. </p>
           <p>If you wish to contribute to this map and our list of growers e.g. by adding or correcting information,  please send an email to  <a href="mailto:info@mahwa.org?subject=Add%2Fedit%20coffee%20grower%20location">info@mykahawa.org</a>. Remember to add the following details in your email if you have the information: A description of the farm, Grower CBK code, grower name, longitude, latitude and website. If you can't get the longitude and latitude you can send a screenshot or location from https://www.google.com/maps.</p>
           <div id='map' style='width: 700px; height: 525px;'></div><br />
           <button id="fit">Fit map to Kenya</button>
