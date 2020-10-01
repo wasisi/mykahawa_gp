@@ -19,10 +19,6 @@ redirect_from: "/grades.html"
       <div class="col-md-8 mx-auto">
         <p class="lead">Coffee was introduced in Kenya in the 1890s by French and Scotties Missionaries who were experimenting on the suitability of different sites types of coffee that came to be known as “French Mission Coffee”. This followed from the breeding of various varieties of coffee to cope with diseases, pests and drought. These varieties include Scot Laboratory (SL) 28 and 34, Blue Mountain, Kent (K) variety K7, and K20,and Ruiru 11.
         </p>
-        <h2>Coffee grades</h2>
-        <p class="lead">
-          Kenya’s coffee is marketed internationally as Kenya Arabica grade AB which is classified as E, AA, AB, PB, C, TT and T. The grade is determined by size and density and liquor quality. The main processing methods employed are wet and dry processing. Wet processing results in higher quality parchment coffee than mbuni produced from dry processing. Between 2004 and 2009 there was an average of 91% of coffee that underwent wet processing. 
-         </p>
         <h2>Coffee quality</h2> 
          <p class="lead"> 
           Quality is determined by the combination of the physical appearance of the green bean and the roasted coffee and more importantly the cup quality after tasting
@@ -39,8 +35,11 @@ redirect_from: "/grades.html"
           <li>Foxy beans: Bagging</li>
           <li>Mould (Ochratoxin A): Drying, diseases, and pests</li>
         </ul>
-        {% include ko-fi.html %}
         <h2>Coffee grades</h2>
+        <p class="lead">
+          Kenya’s coffee is marketed internationally as Kenya Arabica grade AB which is classified as E, AA, AB, PB, C, TT and T. The grade is determined by size and density and liquor quality. The main processing methods employed are wet and dry processing. Wet processing results in higher quality parchment coffee than mbuni produced from dry processing. Between 2004 and 2009 there was an average of 91% of coffee that underwent wet processing. 
+         </p>     
+        {% include ko-fi.html %}
           <div>
           <a href="/data/grades/coffeegrades.csv">
             <button>Download CSV</button>
