@@ -15,5 +15,5 @@ title: Terms
 
 <p>We would not be responsible for any misinformation, inconvenience loss or financial or other damage caused to you due to the use of this website. Information is supplied upon the condition that the persons receiving the same will make their own determination as to its suitability for their purposes prior to its use or in connection with the making of any decision.</p>
 
-<p>Any use of this website or the information available on this website is at your own risk. We shall not be liable for any loss, damage or expense arising out of any access to, use of, or reliance upon, this website or the Information on this website, or any website linked to this website.</p>
+<p>Any use of this website or the information available on this website is at your own risk. We shall not be liable for any loss, damage or expense arising out of any access to, use of, or reliance upon, this website or the information on this website, or any website linked to this website.</p>
 </article>
