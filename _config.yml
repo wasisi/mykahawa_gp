@@ -5,7 +5,11 @@ exclude:
 - requirements.txt
 - README.md
 - Gemfile*
+
+# Conversion
 markdown: kramdown
+
+# Extend functionality with plugins
 plugins:
 - jekyll-redirect-from
 - jekyll-sitemap
