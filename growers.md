@@ -129,4 +129,17 @@ document.getElementById('fit').addEventListener('click', function () {
           [43.50585, 5.615985]
       ]);
    });
+
+// Geocoder
+var geocoder = new MapboxGeocoder({ // Initialize the geocoder
+  accessToken: mapboxgl.accessToken, // Set the access token
+  mapboxgl: mapboxgl, // Set the mapbox-gl instance
+  marker: false, // Do not use the default marker style
+  placeholder: 'Search in Kenya', //Remind users of search limit
+  bbox: [32.958984, -5.353521, 43.50585, 5.615985], // Boundary for Berkeley
+});
+
+// Add the geocoder to the map
+map.addControl(geocoder);
+
 </script>
