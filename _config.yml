@@ -13,3 +13,11 @@ timezone: Europe/Amsterdam
 title: MyKahawa
 url: https://www.mykahawa.org
 BASE_PATH: https://www.mykahawa.org
+
+# Add a directory to hold misc pages, just to keep the root directory clean.
+include: ["_node"]
+
+# Wire in the SASS files in the theme directory.
+sass:
+  sass_dir: theme/_sass
+  style: compressed
