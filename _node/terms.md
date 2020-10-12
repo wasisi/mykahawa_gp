@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Terms
+permalink: node/terms.html
 ---
 <header>
   <div class="container">

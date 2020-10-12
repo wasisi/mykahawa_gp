@@ -1,0 +1,36 @@
+{% if page.show_profile %}
+    <div class="card bg-light">
+        <div class="card-body text-center">
+            {{site.author.name}}
+            {% include components/profile-avatar.html %}
+            {% include components/profile-body.html %}
+        </div>
+    </div>
+{% endif %}
+
+{% if page.show_tags %}
+    {% include components/tags-all.html %}
+{% endif %}
+{% if page.show_producer_tags %}
+    {% include components/tags-producers.html %}
+{% endif %}
+{% if page.show_skills %}
+    {% include components/all-skills.html %}
+{% endif %}
+
+{% if page.path contains '_projects' %}
+    {% include components/project-meta.html %}
+{% endif %}
+
+{% if page.path contains '_posts' %}
+    {% include components/post-meta.html %}
+{% endif %}
+
+{% if page.path contains '_traders' %}
+    {% include components/trader-meta.html %}
+{% endif %}
+
+{% if page.path contains '_producers' %}
+    {% include components/producer-meta.html %}
+{% endif %}
+

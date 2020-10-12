@@ -1,0 +1,200 @@
+---
+title: Coffee growers in Kenya
+show_producer_tags: true
+permalink: /growers.html
+redirect_from: "/directory/producers/"
+redirect_from: "/list/producers.html"
+---
+
+<div class="d-md-block d-lg-none mb-3">
+    {% include components/tags-producers.html %}
+</div>
+
+<div id="currently-showing">
+    <h2 class="d-flex align-items-center mb-3">
+        <span class="text-secondary mr-2">Showing everything matching:</span>
+        <span class="border rounded p-2 mr-2 bg-light text-secondary" id="active-tag"></span>
+        <a class="btn btn-primary btn-small" href="javascript:void(0)" onclick="clearTags()">clear</a>
+    </h4>
+</div>
+
+
+<p class="lead">
+    Kenya’s coffee is grown in the highlands between 1400 and 2000 metres above sea level. The main growing areas are around Mt. Kenya, Nakuru and Machakos. Most of Kenya’s coffee is grown on small farms organized into cooperatives and plantation/large estates. According to the Coffee Act (2001), the distinction between small and large farms is determined by the size and ownership of pulping stations. In Kenya, it is estimated that 60% of coffee is produced by smallholder farmers.
+</p>
+
+<a class="btn btn-primary" href="/data/growers/coffeegrowers.csv" role="button">Download list of coffee producers</a>
+<br><br>
+
+
+{% for producer in site.producers %}
+
+    {% include components/producer-card.html %}
+
+{% endfor %}
+
+<div class="container">
+<div id='map' style='width: 700px; height: 525px;'></div><br />
+<button id="fit">Fit map to Kenya</button>
+<p>The map above is mainly for illustrative purposes. Many of the points have been developed using proxy data like schools, county wards, villages, towns and sublocations. Some points have been verified from field visits. Details about location accuracy are available from the <a href="/data/growers/coffeegrowers.csv">growers list download</a>. </p>
+</div>
+
+<p class="d-flex align-items-center">
+    <span class="icon red mr-2">
+        {% include entypo/info.svg %}
+    </span>
+    If you would like to have your cooperative, estate or factory listed here for free please write to info@mykahawa.org.
+</p>
+
+<p>Remember provide details in your email such as description of the farm, grower CBK code, grower name, contact information and website. You can also share location of your farm using <a href="https://www.google.com/maps">Google Maps</a></p>
+
+<script type="text/javascript">
+
+    var parseHash = function() {
+        if (document.location.hash.length > 0) {
+            var tag = document.location.hash.slice(1)
+            var name = $(".tag-" + tag).first().text()
+            showPostByTag(tag, name)
+        }
+        else {
+            clearTags()
+        }
+    }
+
+    $(document).ready(parseHash);
+
+    $(window).on('hashchange', parseHash);
+
+    var showPostByTag = function(tag, name) {
+        $("#currently-showing").show()
+        $(".card-post").hide()
+        $(".tag").removeClass("bg-warning")
+            .addClass("bg-white")
+            .removeClass("text-dark")
+        $(".card-post").each(function(idx, card) {
+            var matches = $(card).find(".tag-" + tag)
+            if (matches.length > 0) $(card).show()
+        })
+        $(".tag-" + tag).removeClass("bg-white")
+            .addClass("bg-warning")
+            .addClass("text-dark")
+            .blur()
+        $("#active-tag").html(name)
+    }
+
+    var clearTags = function() {
+        $("#currently-showing").hide()
+        $(".card-post").show()
+        $(".tag").removeClass("bg-warning")
+            .addClass("bg-white")
+            .removeClass("text-dark")
+        document.location.hash = ""
+    }
+
+</script>
+
+
+<link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+<script type="text/javascript" src="/data/growers/coffeegrowers.json"></script>
+
+<script type="text/javascript">	
+	var local_data = coffeegrowers_data;  <!-- name inside json file -->
+	var table = new Tabulator("#coffeegrowerstable", {
+    height:"500px",
+		data: local_data,
+		ajaxProgressiveLoad:"scroll",
+		layout:"fitColumns",
+    virtualDomHoz:true,
+		columns:[
+		{title:"#", formatter:"rownum", align:"center", width:80},
+		{title:"Ref",   field:"title"},
+		{title:"Grower name",   field:"producer_name"},
+    {title:"Category",   field:"actor"},
+		],
+	});
+</script>
+ 
+
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoibXlrYWhhd2EiLCJhIjoiY2tmbXV4bHJ0MDUxZTJybXBsd2JzaDZoeiJ9.8M1YZahCfMJkuGixC3XmVg';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [38,1],
+zoom: 6
+});
+ 
+map.on('load', function () {
+map.addSource('places', {
+'type': 'geojson',
+'data': '/data/growers/coffeegrowers_location.geojson'
+});
+// Add a layer showing the places.
+map.addLayer({
+'id': 'places',
+'type': 'symbol',
+'source': 'places',
+'layout': {
+'text-field': ['get', 'producer_name'],
+'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+'text-radial-offset': 0.5,
+'text-justify': 'auto',
+//if you want to make icon-image generic replace farm with {icon} and add Maki icon name in properties e.g. "icon": "farm"
+'icon-image': 'farm-15',
+'icon-allow-overlap': true
+}
+});
+ 
+// When a click event occurs on a feature in the places layer, open a popup at the
+// location of the feature, with description HTML from its properties.
+map.on('click', 'places', function (e) {
+var coordinates = e.features[0].geometry.coordinates.slice();
+var description = e.features[0].properties.cbk_growers_code;
+ 
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+}
+ 
+new mapboxgl.Popup()
+.setLngLat(coordinates)
+.setHTML(description)
+.addTo(map);
+});
+ 
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'places', function () {
+map.getCanvas().style.cursor = 'pointer';
+});
+ 
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'places', function () {
+map.getCanvas().style.cursor = '';
+});
+});
+
+// Fit to Kenya
+document.getElementById('fit').addEventListener('click', function () {
+      map.fitBounds([
+          [32.958984, -5.353521],
+          [43.50585, 5.615985]
+      ]);
+   });
+
+// Geocoder
+var geocoder = new MapboxGeocoder({ // Initialize the geocoder
+  accessToken: mapboxgl.accessToken, // Set the access token
+  mapboxgl: mapboxgl, // Set the mapbox-gl instance
+  marker: false, // Do not use the default marker style
+  placeholder: 'Search in Kenya', //Remind users of search limit
+  bbox: [32.958984, -5.353521, 43.50585, 5.615985], // Boundary for Berkeley
+});
+
+// Add the geocoder to the map
+map.addControl(geocoder);
+
+</script>

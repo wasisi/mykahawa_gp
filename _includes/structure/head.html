@@ -1,0 +1,65 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
+
+    <meta content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description|escape }}{% endif %}" property="og:description">
+    <meta content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description|escape }}{% endif %}" property="description">
+  
+    <!-- Google Tag Manager -->
+    <script>
+    {(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+     })(window,document,'script','dataLayer','GTM-N945XH3');}</script>
+     <!-- End Google Tag Manager -->
+
+     <!-- Mapbox: https://docs.mapbox.com/mapbox-gl-js/api/
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->      
+     <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+     <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- Geocoder -->
+     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
+     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.css' type='text/css' />
+     <!-- End Mapbox -->
+
+     <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+ <!-- Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro:400,700" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" rel="stylesheet">
+    <link href="/theme/css/main.css" rel="stylesheet" media="screen, print">
+
+ <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->       
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="/theme/js/main.js"></script>
+
+<!-- Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->   
+    <link href="/theme/css/strokegap/style.css" rel="stylesheet" media="screen, print">
+    <link rel="stylesheet" href="/theme/css/site.css">
+    <link rel="stylesheet" href="/theme/css/syntax.css">
+  
+    {% for alt in page.alternates %}
+      <link href="{{ site.url }}{{ alt.url }}" hreflang="{{ alt.lang }}" rel="alternate">
+    {% endfor %}
+
+    {% for css in layout.extra_css %}
+      {{ css }}
+    {% endfor %}
+  </head>

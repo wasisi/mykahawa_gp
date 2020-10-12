@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Subscribe
+permalink: node/subscribe.html
 ---
 <header>
   <div class="container">

@@ -8,6 +8,18 @@ You can view and/or download the following lists which are stored in the /data f
 3. Transactions: records of coffee sales at the Nairobi Coffee Exchange from 27 January 2015 to 29 September 2020.
 4. General information about coffee in Kenya 
 
+## Writing content
+Writing Content
+- _node - static pages
+- _producers - featured producers with tags for filtering
+- _traders - list of dealers and transporters
+- _includes - reused content like side bars, profiles, icons, navigation and utilities
+- _posts - the default Jekyll collection of blog posts. Each post has a list of tags. 
+- _projects is a directory of project pages. These are not organised into a collection. Each page can hold a description or documentation about a hobby or open-source project.
+
+## Theme used
+Friday theme: https://github.com/sfreytag/friday-theme
+
 ## Local development
 
 This repo is the mykahawa.org website, based on Jekyll. There are two major steps to building this website`jekyll build` builds the website as a regular Jekyll website.

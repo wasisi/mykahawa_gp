@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Comment policy
+permalink: node/comment.html
 ---
 <header>
   <div class="container">

@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Privacy
+permalink: node/privacy.html
 ---
 <header>
   <div class="container">
