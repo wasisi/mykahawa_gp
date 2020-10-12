@@ -4,9 +4,6 @@ title: Kenya coffee value chain
 
 ## Introduction
 
-text [symbol](url).
+Coming soon
 
-## Changes
-
-1. bla bla
 

@@ -1,12 +1,24 @@
 ---
-title: Kenya Coffee Glossary
+title: Kenya coffee glossary
 ---
 
 ## Introduction
 
-text [symbol](url).
+Key terms used in the Kenyan coffee market
 
-## Changes
+### definition 1
+Definition 1
 
-1. bla bla
+### definition 2
+Definition 2
+
+### definition 3
+Definition 3
+
+### definition 4
+Definition 4
+
+## References
+
+1. Coffee Act
 

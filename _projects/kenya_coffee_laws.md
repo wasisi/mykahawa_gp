@@ -1,12 +1,8 @@
 ---
-title: Coffee legislation
+title: Kenya coffee legislation
 ---
 
 ## Introduction
 
-text [symbol](url).
-
-## Changes
-
-1. bla bla
+coming soon
 
