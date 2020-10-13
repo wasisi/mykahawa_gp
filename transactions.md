@@ -24,8 +24,7 @@ comments: true
       <div class="col-md-8 mx-auto">
         <p class="lead">
           The coffee season which is known as the crop year runs from 1st October to 30th September of the following year. This season covers cultural practices, processing and marketing of coffee. Picking of coffee normally happens in December and April. Farmers are required by the Coffee Act to deliver their coffee to co-operative factories for primary processing. The co-operatives subsequently deliver pulped beans to millers for milling and the millers deliver coffee to registered marketing agents. However, some smallholder farmers who are far from cooperative societies use hand pulpers to process their coffee in their farms. Marketing is done through the Nairobi Coffee Exchange by registered marketing agents who are responsible for cleaning, classification and warehousing. 
-        </p> 
-              {% include ko-fi.html %}     
+        </p>  
         <a href="/data/transactions/coffeetransactions.csv">
           <button>Download transactions from 27 January 2015 to 15 September 2020</button>
         </a>

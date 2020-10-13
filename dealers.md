@@ -19,7 +19,6 @@ comments: true
         <p class="lead">
           Coffee dealers/traders are persons licensed to buy coffee at the Nairobi Coffee Exchange or to import coffee. The coffee dealer license is issued by the Agriculture and Food Authority. Find out more here: <a href="https://www.wikiprocedure.com/index.php/Kenya_-_Obtain_Coffee_Dealers_License" target="_blank">WikiProcedure</a>  
         </p>
-        {% include ko-fi.html %}
         <h2>Coffee dealers</h2>
           <div>
           <a href="/data/dealers/coffeedealers.csv">
