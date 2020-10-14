@@ -17,13 +17,12 @@ comments: true
     <div class="row">
       <div class="col-md-8 mx-auto">
         <p class="lead">
-          Coffee dealers/traders are persons licensed to buy coffee at the Nairobi Coffee Exchange or to import coffee. The coffee dealer license is issued by the Agriculture and Food Authority (AFA). A list of licensed dealers is made available by AFA here <a href="https://coffee.agricultureauthority.go.ke/index.php/sectors/stakeholders" target="_blank">here</a>. Information on how to register for a license is available on <a href="https://www.wikiprocedure.com/index.php/Kenya_-_Obtain_Coffee_Dealers_License" target="_blank">WikiProcedure</a>  
+          Coffee dealers are persons registered by the county governments or the Agriculture and Food Authority to deal with coffee in Kenya. The coffee dealer license is issued by the <a href="https://coffee.agricultureauthority.go.ke/index.php/sectors/stakeholders" target="_blank">Agriculture and Food Authority (AFA)</a>. The list below includes 157 dealers as follows: 84 Coffee Dealers, 15 Coffee Millers, 11 Commercial Marketing Agents, 22 Grower Marketers, 14 Private Coffee Warehousemen, 7 Commercial Coffee Warehousemen and 4 Management Agents. Information on how to register for a license is available on <a href="https://www.wikiprocedure.com/index.php/Kenya_-_Obtain_Coffee_Dealers_License" target="_blank">WikiProcedure</a>  
         </p>
         <h2>Coffee dealers</h2>
           <div>
-          <a href="/data/dealers/coffeedealers.csv">
-            <button>Download CSV</button>
-          </a>  
+          <a class="btn btn-primary" href="/data/dealers/coffeedealers.csv" role="button">Download list of coffee dealers</a>
+          <br><br>
           </div>         
           <div id="coffeedealerstable"></div>
       </div>
@@ -47,6 +46,7 @@ comments: true
 		layout:"fitColumns",
 		columns:[
 		{title:"#", formatter:"rownum", align:"center", width:40},
+    {title:"Category", field:"category"},
 		{title:"Dealer", field:"title"},
 		{title:"Website", field:"website"},
 		],
