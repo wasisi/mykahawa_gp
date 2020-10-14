@@ -12,6 +12,7 @@ Important legislation and regulations covering Kenyan coffee.
 1. [Crops Act, 2013](http://kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/CropsAct2013No16of2013.PDF) 
 1. [Coffee Act, 2001](https://infotradekenya.go.ke/media/Coffee%20Act%20Chapter%20333.pdf)
 1. [Agriculture and Food Authority Act No. 13 of 2013](https://coffee.agricultureauthority.go.ke/index.php/resource-center/policy-regulations/category/13-acts?download=24:agriculture-and-food-authority-act-no-13-of-2013)
+1. [Kenya Agricultural and Livestock Research Act, 2013](http://faolex.fao.org/docs/pdf/ken122139.pdf) 
 1. [Co-operative Societies Act](http://kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/Co-operativeSocietiesActCap490.pdf)
 1. [Kenya Coffee Standards](https://www.kebs.org)
 
