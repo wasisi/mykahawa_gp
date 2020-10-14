@@ -1,5 +1,5 @@
 # mykahawa.org
-Building up on the Kenya Coffee Directory that was published by the Kenya Coffee Traders Association in 2012 to provide an updated list of Kenya coffee producers and buyers based on transactions reported by the Nairobi Coffee Auction weekly. The website links coffee transactions at the auction to their respective producers and buyers. This will allow farmers and coffee buyers, who depend on intermediaries at the auction, to be able to follow the auction remotely and engage in dialogue to negotiate better deals for themselves.
+MyKahawa is a coffee business analytics and market information tool aimed at improving transparency and visibility of Kenya's coffee market. 
 
 ## What you can find in this repository
 You can view and/or download the following lists which are stored in the /data folder of this repository:
