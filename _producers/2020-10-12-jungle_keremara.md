@@ -12,13 +12,13 @@ images:
 
 ---
 
-Jungle and Keremara Ltd is a coffee farm estate. The coffee farm estate comprises of one factory: Keremara. It is located in King’ong’o, Nyeri County at an altitude of 1750 m.
+Jungle and Keremara Ltd is a coffee farm estate located in King’ong’o, Nyeri County, at an altitude of 1,750 m.
 
 <!--more-->
 
-Jungle and Keremara Ltd produces its coffee with pride and care and sells it with dignity and with knowledge and understanding of the coffee market and its customer needs. Jungle and Keremara Ltd has invested in wet milling,they process both green beans and roasted coffee via Keremara factory.
-
-The farm promotes business diversification at farm as a means of diversifying its income sources.The coffee farm estate has a coffee shop and factory. Jungle and Keremara Ltd has given employment opportunities to the local community.Jungle and Keremara Ltd is seeking better prices and higher returns through promoting sustainable, production, processing and marketing technologies.
+Jungle and Keremara Ltd produces its coffee with pride and care and sells it with dignity and with knowledge and understanding of the coffee market and customers’ needs. Jungle and Keremara Ltd has invested in wet milling technology, and sells green beans as well as coffee roasted in its factory. The estate promotes business diversification among farmers to diversify their income sources. The coffee farm estate itself has a coffee shop and factory. Jungle and Keremara Ltd has provided employment opportunities for the local community.
+ 
+Jungle and Keremara Ltd aims to improve farmers’ quality of life by seeking better prices and higher returns through promoting sustainable, production, processing and marketing technologies.
 
 
 <div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
