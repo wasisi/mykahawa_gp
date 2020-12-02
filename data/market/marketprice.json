@@ -154,5 +154,36 @@
         "min_price": 24,
         "ave_price": 208,
         "max_price": 348
+    },
+    ,
+    {
+        "isodate": "2020-09-29",
+        "min_price": 35,
+        "ave_price": 205,
+        "max_price": 337
+    },
+    {
+        "isodate": "2020-10-13",
+        "min_price": 24,
+        "ave_price": 216,
+        "max_price": 438
+    },
+    {
+        "isodate": "2020-10-27",
+        "min_price": 24,
+        "ave_price": 218,
+        "max_price": 354
+    },
+    {
+        "isodate": "2020-11-10",
+        "min_price": 18,
+        "ave_price": 222,
+        "max_price": 365
+    },
+    {
+        "isodate": "2020-11-24",
+        "min_price": 24,
+        "ave_price": 235,
+        "max_price": 387
     }
 ]
