@@ -21,7 +21,7 @@ title: Contact Us
         <ul class="fa-ul">
           <li>
             <i class="fa-li fa fa-envelope"></i>
-            <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>
+            <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a>
           </li>
           <li>
             <i class="fa-li fa fa-twitter"></i>

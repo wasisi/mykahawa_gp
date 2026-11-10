@@ -58,11 +58,11 @@ Personal information is any information about an identifiable individual, other 
 
 <h2> Updating your Personal Information </h2>
 
-<p>Since we use your personal information to contact you, it is important that the information contained in our records is both accurate and current. If you wish to verify, correct or update your personal information, or if your personal information happens to change during the course of our business relationship, you are responsible for keeping us informed of such changes. Please contact info@mykahawa.org to update your information.</p> 
+<p>Since we use your personal information to contact you, it is important that the information contained in our records is both accurate and current. If you wish to verify, correct or update your personal information, or if your personal information happens to change during the course of our business relationship, you are responsible for keeping us informed of such changes. Please contact wasisi.coffee@gmail.com to update your information.</p> 
 
 <h2> Access to your Personal Information </h2>
 
-<p>You can request to see the personal information that we hold about you. If you want to review, verify or correct your personal information, please contact the office using info@mykahawa.org. If you contact us, we will need specific information from you to enable us to search for, and provide you with, the personal information that we hold about you.<p> 
+<p>You can request to see the personal information that we hold about you. If you want to review, verify or correct your personal information, please contact the office using wasisi.coffee@gmail.com. If you contact us, we will need specific information from you to enable us to search for, and provide you with, the personal information that we hold about you.<p> 
 
 <h2> MyKahawa’s website </h2>
 
@@ -78,7 +78,7 @@ Personal information is any information about an identifiable individual, other 
 
 <h2> Inquiries, concerns and requests for access </h2>
 
-<p>If you have any questions about this Privacy Policy or to access your personal information, please contact the office. Please note that all requests to access personal information must be in writing or by e-mail (info@mykahawa.org). </p>
+<p>If you have any questions about this Privacy Policy or to access your personal information, please contact the office. Please note that all requests to access personal information must be in writing or by e-mail (wasisi.coffee@gmail.com). </p>
 
 <h2> Revisions to this Privacy Policy </h2>
 
