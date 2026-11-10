@@ -10,4 +10,4 @@ breadcrumbs:
     url: /directory.html
 redirect_from: "/directory/dealers/"
 ---
-Coffee dealers and other licensed businesses must hold a licence from the Coffee Directorate of the [Agriculture and Food Authority](https://afa.go.ke/) or, for some licences, from the county government. Browse by licence type in the side panel, see who [buys the most at the auction](/directory/coffee-buyers.html), or [download the list (CSV)](/data/dealers/coffeedealers.csv).
+Coffee dealers and other licensed businesses must hold a licence from the Coffee Directorate of the [Agriculture and Food Authority](https://afa.go.ke/) or, for some licences, from the county government. Browse by licence type in the side panel, or see who [buys the most at the auction](/directory/coffee-buyers.html).

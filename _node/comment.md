@@ -2,6 +2,7 @@
 layout: base
 title: Comment policy
 permalink: node/comment.html
+sitemap: false
 hero: true
 heading: "Comment policy"
 ---

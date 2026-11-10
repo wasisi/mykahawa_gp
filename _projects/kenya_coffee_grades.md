@@ -36,4 +36,3 @@ Kenya’s coffee is marketed internationally as Kenya Arabica grade AB which is 
 
 Prices are volume-weighted averages of all lots sold at the Nairobi Coffee Exchange auction from {{ site.data.market.first_sale | date: "%B %Y" }} to {{ site.data.market.last_sale | date: "%B %Y" }}. See how [grade prices changed season by season](/transactions.html#grades).
 
-<a class="btn mk-btn-accent" href="/data/grades/coffeegrades.csv" download>Download the grades list (CSV)</a>

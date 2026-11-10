@@ -15,6 +15,23 @@ exclude:
 - package-lock.json
 - "*.code-workspace"
 - .out
+# Raw datasets are not published on the website (they feed scripts/build_data.py).
+# Only the summaries the browser needs are served: data/growers/growers.json,
+# data/growers/growers_map.geojson, data/market/sales.json, data/market/grade_prices.json
+- data/transactions
+- data/dealers
+- data/grades
+- data/counties
+- data/growers/coffeegrowers.csv
+- data/growers/coffeegrowers.json
+- data/growers/coffeegrowers_location.csv
+- data/growers/coffeegrowers_location.geojson
+- data/market/marketprice.json
+- data/market/price_ave.json
+- data/market/price_max.json
+- data/market/price_min.json
+- data/market/value.json
+- data/market/weight.json
 
 # Conversion
 markdown: kramdown
@@ -33,7 +50,7 @@ timezone: Africa/Nairobi
 # Config for profile
 title: MyKahawa
 name: MyKahawa           # Your name
-avatar: /theme/img/logo.png   # Path to an avatar image
+avatar: /theme/img/logo-152.png   # Path to an avatar image
 
 url: https://www.mykahawa.org
 BASE_PATH: https://www.mykahawa.org

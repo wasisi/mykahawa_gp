@@ -8,7 +8,6 @@ lead: "Prices, volumes and buyers at the Nairobi Coffee Exchange, from 131,000 a
 redirect_from:
   - "/analytics/dashboard/"
   - "/transactions/list/"
-json_ld: json-ld-dataset.html
 extra_js:
   - /theme/vendor/chartjs/chart.umd.min.js
   - /theme/js/market-charts.js
@@ -121,7 +120,6 @@ extra_js:
     <h2 id="about-the-data">About the data</h2>
     <p>The Kenyan coffee season (crop year) runs from 1 October to 30 September. Picking usually peaks between October and December, with a smaller fly crop around April to June. Most Kenyan coffee is sold at the weekly auction of the <a href="http://nairobicoffeeexchange.co.ke" rel="noopener">Nairobi Coffee Exchange</a> (NCE), and the rest through direct sales between growers and buyers.</p>
     <p>These figures come from the sale results the NCE published after each auction from {{ m.first_sale | date: "%-d %B %Y" }} to {{ m.last_sale | date: "%-d %B %Y" }}. Prices are in US dollars per 50 kg bag of clean coffee. Averages are weighted by volume. MyKahawa aggregated the records, so small differences from NCE figures are possible; where they differ, the NCE figures prevail. Direct sales are not included.</p>
-    <p><a class="btn mk-btn-accent" href="/data/transactions/coffeetransactions.csv" download>Download all {% include num.html n=m.lots %} transactions (CSV)</a> <a class="btn btn-outline-secondary" href="/data/market/sales.json">Per-sale summary (JSON)</a></p>
-    <p class="mk-note">The data is free to use with attribution to MyKahawa. Want newer data or a custom analysis? <a href="/contact.html">Get in touch</a>.</p>
+    <p>Need lot-level data, newer results or a custom analysis? <a href="/contact.html">Get in touch</a>.</p>
   </div>
 </section>

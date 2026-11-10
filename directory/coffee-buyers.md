@@ -18,6 +18,6 @@ permalink: /directory/coffee-buyers.html
       <p>Coffee sold through direct sales outside the auction is not included. For the full list of licensed companies, see <a href="/directory/coffee-exporters.html">coffee exporters and dealers in Kenya</a>.</p>
     </div>
     {% include top-buyers.html limit=30 %}
-    <p class="mk-note mt-3">Average price is weighted by volume, in US dollars per 50 kg bag of clean coffee. Value = tonnes × price. Source: Nairobi Coffee Exchange sale results, compiled by MyKahawa. <a href="/data/transactions/coffeetransactions.csv" download>Download all transactions (CSV)</a>.</p>
+    <p class="mk-note mt-3">Average price is weighted by volume, in US dollars per 50 kg bag of clean coffee. Value = tonnes × price. Source: Nairobi Coffee Exchange sale results, compiled by MyKahawa.</p>
   </div>
 </section>

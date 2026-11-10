@@ -40,13 +40,20 @@
       ctx.font = '600 13px ' + Chart.defaults.font.family;
       ctx.fillStyle = INK;
       ctx.textBaseline = 'middle';
+      var labels = [];
       chart.data.datasets.forEach(function (ds, i) {
         var meta = chart.getDatasetMeta(i);
         if (meta.hidden) return;
         for (var j = meta.data.length - 1; j >= 0; j--) {
-          if (ds.data[j] != null) { var p = meta.data[j]; ctx.fillText(ds.label, p.x + 8, p.y); break; }
+          if (ds.data[j] != null) { labels.push({ text: ds.label, x: meta.data[j].x + 8, y: meta.data[j].y }); break; }
         }
       });
+      // Nudge labels apart so lines ending close together stay readable.
+      labels.sort(function (a, b) { return a.y - b.y; });
+      for (var k = 1; k < labels.length; k++) {
+        if (labels[k].y - labels[k - 1].y < 15) labels[k].y = labels[k - 1].y + 15;
+      }
+      labels.forEach(function (l) { ctx.fillText(l.text, l.x, l.y); });
       ctx.restore();
     }
   };
@@ -106,7 +113,10 @@
 
   // 3. Average price by grade and season
   if (el('chart-grades')) fetch('/data/market/grade_prices.json').then(function (r) { return r.json(); }).then(function (gp) {
-    var grades = gp.grades.filter(function (g) { return GRADE_COLORS[g.grade]; });
+    // Fixed order AA, AB, PB, C so colours and legend never depend on the data order.
+    var grades = Object.keys(GRADE_COLORS).map(function (code) {
+      return gp.grades.filter(function (g) { return g.grade === code; })[0];
+    }).filter(Boolean);
     new Chart(el('chart-grades'), {
       type: 'line',
       plugins: [endLabels],

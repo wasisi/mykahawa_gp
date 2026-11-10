@@ -219,7 +219,7 @@ with open(os.path.join(DATA, "transactions/coffeetransactions.csv"), encoding="l
             b["lots"] += 1
             b["seasons"].add(season)
         mark = clean(r["producer_name"])
-        if mark:
+        if mark and mark.upper() != "BULK":  # BULK = pooled lots, not a single grower
             m = marks[mark]
             m["kg"] += kg
             m["usd"] += usd

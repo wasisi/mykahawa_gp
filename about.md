@@ -11,7 +11,7 @@ lead: "MyKahawa is an independent market intelligence platform for Kenyan coffee
   <ul>
     <li><strong>Market intelligence:</strong> <a href="/transactions.html">coffee prices, volumes and buyers</a> at the Nairobi Coffee Exchange auction, and <a href="/projects/kenya-coffee-grades.html">prices by grade</a>.</li>
     <li><strong>Industry discovery:</strong> a free <a href="/directory.html">directory</a> of cooperatives, factories, estates, exporters, dealers, millers and agents, with a <a href="/growers.html">map of growers</a>.</li>
-    <li><strong>Open data:</strong> every record behind the site can be downloaded as CSV or JSON.</li>
+    <li><strong>Data services:</strong> custom analysis of Kenyan coffee prices, buyers and growers. <a href="/contact.html">Ask us</a>.</li>
   </ul>
   <h2>Who it is for</h2>
   <p>Farmers and cooperatives comparing prices, buyers and roasters looking for sources, and researchers, development programmes and anyone who wants to understand how Kenyan coffee is traded.</p>

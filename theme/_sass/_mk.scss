@@ -181,3 +181,12 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
 // Old-style page headers inside <main> (pages not yet converted).
 #main-content > header { background: $mk-cream; border-bottom: 1px solid $mk-line; padding: 1.5rem 0; margin-bottom: 1.5rem; }
 #main-content > header h1 { font-size: #{"clamp(1.6rem, 1.2rem + 1.5vw, 2.2rem)"}; }
+
+// Undo older theme rules: uppercase nav, title-case buttons, shaded row headers.
+.mk-header .navbar-nav > .nav-item { margin-left: 0; }
+.mk-header .navbar-nav > .nav-item > .nav-link { font-family: inherit; text-transform: none; letter-spacing: 0; font-size: 1rem; white-space: nowrap; padding-left: .7rem !important; padding-right: .7rem !important; }
+.btn { text-transform: none; font-family: inherit; letter-spacing: 0; }
+.mk-table tbody th { background: transparent; color: $mk-ink; position: static; }
+.text-muted { color: $mk-muted !important; }  // Bootstrap's grey fails WCAG AA contrast
+.btn-outline-secondary { color: $mk-coffee-2; border-color: $mk-coffee-2; background: #fff; }
+.btn-outline-secondary:hover, .btn-outline-secondary:focus { color: #fff; background: $mk-coffee-2; border-color: $mk-coffee-2; }

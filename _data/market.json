@@ -7,7 +7,7 @@
  "usd": 845957799,
  "price": 189.74,
  "buyer_count": 82,
- "mark_count": 2052,
+ "mark_count": 2051,
  "seasons": [
   {
    "season": "2014/15",
@@ -550,12 +550,6 @@
  ],
  "top_marks": [
   {
-   "name": "BULK",
-   "lots": 44679,
-   "tonnes": 61253,
-   "price": 161.96
-  },
-  {
    "name": "Mchana and Kofinaf Co Ltd",
    "lots": 657,
    "tonnes": 1750,
@@ -848,6 +842,12 @@
    "lots": 198,
    "tonnes": 505,
    "price": 180.93
+  },
+  {
+   "name": "Ichamara Factory",
+   "lots": 252,
+   "tonnes": 504,
+   "price": 231.84
   }
  ]
 }
