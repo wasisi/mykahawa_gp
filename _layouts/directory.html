@@ -49,7 +49,7 @@ Page content (Markdown/HTML) is shown above the table.
         <div class="mk-table-wrap">
           <table id="dir-table" class="mk-table">
             {% if page.dealer_group or page.all_dealers %}
-            <caption>{{ page.heading | default: page.title }} – licensed by the Coffee Directorate (AFA)</caption>
+            <caption>{{ page.heading | default: page.title }}: licences on record (issued by AFA, now administered by the Coffee Board of Kenya)</caption>
             <thead><tr><th scope="col">Name</th>{% if page.show_category or page.all_dealers %}<th scope="col">Licence type</th>{% endif %}<th scope="col" class="num">Licence no.</th><th scope="col">Website</th></tr></thead>
             <tbody>
               {% for r in rows %}

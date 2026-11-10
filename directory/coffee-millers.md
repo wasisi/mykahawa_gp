@@ -9,4 +9,4 @@ breadcrumbs:
     url: /directory.html
 permalink: /directory/coffee-millers.html
 ---
-After pulping and drying at a factory or estate, coffee is delivered to a dry mill as *parchment*. The miller hulls it, sorts it by size and density into the [Kenyan grades](/projects/kenya-coffee-grades.html) (AA, AB, PB, C and others), and prepares samples for cupping and sale. Millers are licensed by the Coffee Directorate of the Agriculture and Food Authority (AFA).
+After pulping and drying at a factory or estate, coffee is delivered to a dry mill as *parchment*. The miller hulls it, sorts it by size and density into the [Kenyan grades](/projects/kenya-coffee-grades.html) (AA, AB, PB, C and others), and prepares samples for cupping and sale. Commercial millers are licensed by the Coffee Board of Kenya, and their mills by the county government.

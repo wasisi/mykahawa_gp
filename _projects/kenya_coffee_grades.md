@@ -9,7 +9,7 @@ redirect_from:
 {% assign m = site.data.market %}
 {% assign std = site.data.grade_standards %}
 
-Kenyan coffee is sold by **grade**. After milling, clean coffee is sorted by bean size, shape and density into the Kenya Standard grades set out in the Fifth Schedule of the [Crops (Coffee) (General) Regulations, 2019](/projects/kenya-coffee-laws.html). The grade is the first thing buyers look at in an auction catalogue, and it has a big effect on price: between {{ m.first_sale | date: "%Y" }} and {{ m.last_sale | date: "%Y" }}, AA sold for about {% assign aa = m.grades | where: "grade", "AA" | first %}{% assign t = m.grades | where: "grade", "T" | first %}**US${{ aa.price | round }}** per 50 kg bag at the Nairobi Coffee Exchange, while T fetched about **US${{ t.price | round }}**.
+Kenyan coffee is sold by **grade**. After milling, clean coffee is sorted by bean size, shape and density into the Kenya Standard grades set out in the Fifth Schedule of the Crops (Coffee) (General) Regulations, 2019. The [Coffee Act, 2026](/projects/kenya-coffee-laws.html) requires millers to follow the prescribed standard grades, and new grading regulations may update this list. The grade is the first thing buyers look at in an auction catalogue, and it has a big effect on price: between {{ m.first_sale | date: "%Y" }} and {{ m.last_sale | date: "%Y" }}, AA sold for about {% assign aa = m.grades | where: "grade", "AA" | first %}{% assign t = m.grades | where: "grade", "T" | first %}**US${{ aa.price | round }}** per 50 kg bag at the Nairobi Coffee Exchange, while T fetched about **US${{ t.price | round }}**.
 
 ## How Kenyan coffee is graded
 

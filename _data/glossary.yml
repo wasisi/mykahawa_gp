@@ -1,10 +1,12 @@
-# Kenya coffee glossary. Plain-language definitions based on the Crops (Coffee) (General)
-# Regulations, 2019 (as amended to 2022) and the Capital Markets (Coffee Exchange) Regulations, 2020.
+# Kenya coffee glossary. Plain-language definitions based on the Coffee Act, 2026, the Capital Markets
+# (Coffee Exchange) Regulations, 2020 and, where noted, the earlier Crops (Coffee) (General) Regulations, 2019.
 # Keep entries alphabetical. `see` links to a MyKahawa page.
 
 - term: AFA (Agriculture and Food Authority)
-  def: The national regulator for scheduled crops, set up under the Agriculture and Food Authority Act. It regulates coffee through its Coffee Directorate. The Regulations call it "the Authority".
-  see: /projects/kenya-coffee-licensing.html
+  def: The national crops regulator that oversaw coffee through its Coffee Directorate from 2013 until 27 March 2026, when the Coffee Act, 2026 transferred its coffee functions to the Coffee Board of Kenya. Licences AFA issued before then remain valid.
+  see: /projects/kenya-coffee-laws.html
+- term: Agent
+  def: A person registered by the Coffee Board whom a grower may appoint to handle logistics for overseas direct sales. Agents may not receive growers' sale proceeds.
 - term: Association
   def: A registered group of smallholder growers, cooperative societies, estates, unions, millers, traders or roasters, licensed by a licensing authority.
 - term: Auction
@@ -13,26 +15,36 @@
 - term: Auction levy
   def: A fee per bag of coffee sold at a coffee exchange, paid by millers, roasters and buyers.
 - term: Auction organiser
-  def: A company licensed by AFA to organise coffee auctions. It manages the trading floor, the central sample room, the information registry and the link to the direct settlement system.
+  def: Under the 2019 Regulations, a company licensed to organise coffee auctions. Under the Coffee Act, 2026, a CMA-licensed coffee exchange runs the auction floor, the central sample room, the information registry and the settlement system.
 - term: Broker (coffee broker)
   def: A company cleared by the coffee exchange and licensed by the Capital Markets Authority that a grower can appoint to sell its coffee at the exchange.
 - term: Buni
   def: Coffee dried in the fruit, without pulping (also called mbuni or "natural" coffee). Hulled buni is graded as MH or ML.
   see: /projects/kenya-coffee-grades.html
 - term: Buyer
-  def: An incorporated company licensed by AFA to buy clean coffee at the auction for export, local sale or value addition. A buyer cannot also be a commercial miller, broker, roaster or warehouseman, and its licence does not cover direct sales.
+  def: A person or company licensed by the Coffee Board to buy clean coffee at an exchange for export, local sale, value addition or secondary processing. A buyer cannot also be a commercial miller, broker, roaster, agent or warehouse operator, and its licence does not cover direct sales.
   see: /directory/coffee-exporters.html
 - term: Capital Markets Authority (CMA)
   def: The regulator that licenses and supervises coffee exchanges and coffee brokers under the Capital Markets (Coffee Exchange) Regulations, 2020.
 - term: Certified coffee
-  def: Coffee produced under a recognised certification scheme (such as Fairtrade, Rainforest Alliance or organic) and carrying its mark. Schemes must register with AFA, and millers must declare certified coffee in the sales catalogue.
+  def: Coffee produced under a recognised certification scheme (such as Fairtrade, Rainforest Alliance or organic) and carrying its mark. Scheme operators are registered with the Coffee Board, and millers must declare certified coffee in the sales catalogue.
   see: /projects/coffee-certification.html
 - term: Cherry
   def: The ripe fruit of the coffee tree, which farmers pick and deliver to a factory (pulping station).
 - term: Clean coffee
   def: The coffee bean after milling, separated from the fruit and parchment, with the silver skin removed as far as possible. Also called green coffee. Clean coffee is what is graded and sold at the auction.
+- term: Coffee Board of Kenya
+  def: The national coffee regulator under the Coffee Act, 2026. It licenses buyers, commercial millers, warehouse operators, labs, liquorers and traders, registers dealers, keeps the industry database, and promotes Kenyan coffee. First founded in 1933, it was dissolved in 2013 and re-established in 2026.
+  see: /projects/kenya-coffee-licensing.html
+- term: Coffee development and marketing levy
+  def: A 2.5% levy on the export or import value of coffee, remitted by buyers to the Coffee Board. It is shared between the Research Institute (30%), the counties (25%), price stabilisation (20%), and the Board's regulation (15%) and marketing (10%).
+  see: /projects/kenya-coffee-laws.html
 - term: Coffee Directorate
-  def: The directorate of AFA responsible for coffee. It licenses buyers, miller-marketers, grower marketers, warehousemen, liquorers and cupping labs.
+  def: The former coffee directorate of AFA, which licensed buyers, miller-marketers, warehousemen and cupping labs until the Coffee Board of Kenya took over in March 2026.
+- term: Coffee Research and Training Institute
+  def: The research body created by the Coffee Act, 2026, taking over KALRO's Coffee Research Institute. It does research and training and issues coffee nursery certificates.
+- term: Coffee trading licence
+  def: A licence from the Coffee Board that lets a grower or buyer trade in the international coffee market and at auction.
 - term: Coffee year (crop year)
   def: The twelve months from 1 October to 30 September. Licences, statistics and MyKahawa's season figures follow the coffee year.
 - term: Collateral manager
@@ -44,17 +56,19 @@
   def: Registers growers, cooperatives and estates and licenses nurseries, pulping stations, grower millers, warehouses and roasters. It issues grower codes and movement permits for parchment.
   see: /projects/kenya-coffee-licensing.html
 - term: Cupping centre / cupping laboratory
-  def: A coffee quality analysis laboratory where liquorers taste and assess coffee. Independent cupping labs are licensed by AFA.
+  def: A coffee quality analysis laboratory where liquorers taste and assess coffee. Independent cupping labs are licensed by the Coffee Board, which also sets up cupping centres in the counties with county governments.
 - term: Dealer
-  def: A person registered by a county government or AFA to deal in coffee.
+  def: A person registered by the Coffee Board, a county government or the Capital Markets Authority to deal in coffee. The Board keeps and publishes the register of coffee dealers.
   see: /dealers.html
 - term: Direct sale
-  def: A contract between a grower, cooperative, estate or growers' association and an overseas buyer or local roaster for its own clean coffee. Since 2022 the direct-sale price acts as a reserve price at the auction. If the auction bids higher, the direct buyer may match the auction price.
+  def: A contract between a registered grower, cooperative, union, grower miller or estate and an overseas buyer (or local roaster) for its own clean coffee. Under the Coffee Act, 2026 a sample goes to an exchange for quality and price discovery before the contract is completed, and the price must compare favourably with exchange prices.
   see: /projects/kenya-coffee-laws.html
-- term: Direct settlement system (DSS)
-  def: A bank-run system that receives all auction proceeds from buyers and pays growers, service providers and creditors directly. Payments are due within five working days.
+- term: Direct settlement system (DSS) / central settlement system
+  def: A bank-run system that receives auction proceeds from buyers and pays growers and service providers directly. Under the Coffee Act, 2026 (which calls it the central settlement system), proceeds must reach the grower's account within 14 days, and brokers and agents may not receive growers' money.
+- term: Dispute Resolution Committee
+  def: An ad hoc committee of each licensing authority that hears licensing and other coffee disputes first. It decides within 30 days of the hearing, and appeals go to the High Court.
 - term: Estate
-  def: Land under coffee of at least five acres in total, or land producing on average at least 20,000 kg of cherry a year over three years.
+  def: Land under coffee of at least five acres in total, or land under coffee that has a pulping station licence.
   see: /directory/estates.html
 - term: Factory
   def: In Kenya, a coffee wet mill or washing station where cherry is pulped, fermented, washed and dried into parchment. Most factories belong to a cooperative society. The Regulations call it a pulping station.
@@ -66,32 +80,34 @@
   def: Anyone who cultivates coffee in Kenya. For licensing, this includes cooperative societies, unions, associations and estates. The grower owns the coffee until it is sold and paid for.
   see: /growers.html
 - term: Grower code
-  def: The code issued by the county government (with AFA) that identifies a grower and its coffee, for example AA.0001 for an estate or XAC55 for a cooperative. Also called the growers (CBK) code.
+  def: The code that identifies a registered grower and its coffee on auction lots, for example AA.0001 for an estate or XAC55 for a cooperative. Also called the growers (CBK) code, from the original Coffee Board of Kenya.
 - term: Grower marketer
-  def: A grower licensed by AFA to market its own clean coffee, at the auction or by direct sale.
+  def: Under the 2019 Regulations, a grower licensed to market its own clean coffee. Under the Coffee Act, 2026, growers can trade at an exchange as grower millers or through a broker, or obtain a coffee trading licence from the Board.
   see: /directory/grower-marketers.html
 - term: Grower miller
   def: A grower (such as a cooperative, estate or association) licensed by its county to mill its own or its members' parchment or buni.
 - term: Hulling
   def: Removing the outer skin from dry parchment or buni coffee.
+- term: International exchange
+  def: An overseas commodity exchange. Under the Coffee Act, 2026 growers may sell there under a written forward contract filed with the Coffee Board within 14 days.
 - term: Liquorer (cupper)
-  def: A person certified and licensed by AFA to analyse coffee quality by tasting it (liquoring or cupping).
+  def: A person certified to analyse coffee quality by tasting it (liquoring or cupping) and licensed to practise by the Coffee Board.
 - term: Lot
   def: A quantity of clean coffee offered for sale as a single unit in the auction catalogue.
 - term: Management agent
-  def: A person licensed by AFA and appointed by a grower to manage a coffee farm or pulping station.
+  def: A person appointed by a grower to manage a coffee farm or pulping station, licensed under the 2019 Regulations.
   see: /directory/management-agents.html
 - term: Mark
   def: The registered name or distinguishing mark under which a grower's coffee is sold, shown on each auction lot.
 - term: Miller
-  def: A business licensed by its county government to mill coffee (hulling, polishing and grading).
+  def: A business that hulls and grades coffee. Commercial millers are licensed by the Coffee Board, and their mills also need a county licence. A commercial miller cannot also be a buyer, broker, roaster or agent.
   see: /directory/coffee-millers.html
 - term: Miller-marketer
-  def: A miller licensed by AFA, with county approval, that a grower appoints to mill and market its coffee. Commission is capped at 1% of the value sold, and a miller-marketer may not buy coffee.
+  def: "Under the 2019 Regulations, a miller that a grower appointed to mill and market its coffee, with commission capped at 1%. The Coffee Act, 2026 separates milling from marketing: growers sell through a broker, as grower millers, or by direct sale."
 - term: Milling statement
   def: The statement a miller gives after milling, showing the out-turn, grades and weights.
 - term: Movement permit
-  def: The permit needed to move coffee. It is issued by the county for parchment and buni, and by AFA for clean coffee bought at auction, exported or imported.
+  def: The permit needed to move coffee. It is issued by the county of origin for buni, parchment and clean coffee going to a warehouse, and by the Coffee Board for clean coffee bought at auction, exported or imported.
 - term: Out-turn number
   def: A number the miller gives to each delivery of coffee so it can be traced through milling and sale.
 - term: Parchment
@@ -107,7 +123,7 @@
 - term: Roaster
   def: A business licensed by its county to buy clean coffee and roast, grind and package it for local sale.
 - term: Sales catalogue
-  def: The list of lots for an auction, prepared by the miller-marketer, grower marketer or broker with the exchange. It shows marks, grades, weights and certification.
+  def: The list of lots for an auction, prepared by the grower or its broker with the exchange. It shows marks, grades, weights, certification and the prompt date.
 - term: Secondary processing
   def: Hulling parchment, then polishing and grading the beans, which may also include roasting, grinding and packaging.
 - term: Smallholder
@@ -115,11 +131,11 @@
 - term: Sweepings
   def: Leftover samples from the auction sample room and spillage collected at mills. They are sold at the auction, with the proceeds shared among growers.
 - term: Warehouse
-  def: A storage facility for coffee registered by AFA and licensed by the county government, meeting KEBS standards.
+  def: A storage facility for coffee registered by the Coffee Board and licensed by the county government, meeting KEBS standards.
   see: /directory/warehousemen.html
+- term: Warehouse operator (warehouseman)
+  def: A person licensed by the Coffee Board who owns, leases or runs a coffee warehouse. Operators must insure the coffee, release it only against an endorsed warrant or receipt, and account for losses.
 - term: Warehouse receipt
   def: A document (which can be electronic) issued by a licensed warehouseman for coffee in store, stating its quantity and quality. It can be transferred to a buyer or used as collateral.
-- term: Warehouseman
-  def: A person licensed by AFA to manage a licensed coffee warehouse.
 - term: Warrant (coffee warrant)
   def: The document issued by a warehouseman that makes its holder the owner of the coffee described. Ownership passes to the buyer when the warrant is endorsed after payment.

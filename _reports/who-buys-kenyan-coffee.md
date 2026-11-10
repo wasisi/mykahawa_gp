@@ -45,6 +45,6 @@ The **Herfindahl-Hirschman Index (HHI)** adds up the squared market shares of al
 
 - **For growers:** when fewer buyers compete for a lot, prices are more exposed to the strategies of a few firms. Direct sales, and selling more top grades that attract specialty buyers, widen the pool of bidders.
 - **For buyers:** smaller and newer exporters can find opportunity in grades and marks that the largest buyers do not target.
-- **For regulators:** the 2019 Regulations separate buying from milling and marketing, banning cross-ownership and shared directorships. Monitoring concentration on the buying side complements those rules. See [Kenya coffee laws](/projects/kenya-coffee-laws.html).
+- **For regulators:** the Coffee Act, 2026 (like the 2019 Regulations before it) keeps buying separate from milling, broking and warehousing, and requires exchange trading to comply with competition law. The new Coffee Board, which keeps the industry database and the register of dealers, is well placed to monitor concentration on the buying side. See [Kenya coffee laws](/projects/kenya-coffee-laws.html).
 
 See all [licensed exporters and dealers](/directory/coffee-exporters.html), and read the [auction review](/reports/kenya-coffee-auction-review-2015-2020/) and [prices by county](/reports/kenya-coffee-prices-by-county/).

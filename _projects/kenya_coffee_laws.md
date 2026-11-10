@@ -1,62 +1,90 @@
 ---
-title: "Kenya coffee laws and regulations: a guide to the current framework"
+title: "Kenya coffee laws: the Coffee Act 2026 and the Coffee Board of Kenya explained"
 heading: Kenya coffee laws and regulations
-description: "Plain-language guide to the laws that govern coffee in Kenya: the Crops Act, the Crops (Coffee) (General) Regulations 2019 as amended to 2022, the Capital Markets (Coffee Exchange) Regulations 2020, and what changed for growers, millers and buyers."
+description: "Plain-language guide to Kenya's coffee law: the Coffee Act, 2026 (in force 27 March 2026), the Coffee Board of Kenya, county roles, licensing, payment and trading rules, the 2.5% levy, penalties, and how the framework changed since 2016."
 ---
 
-Kenya's coffee rules changed substantially after 2016. The old Coffee Act and the Coffee (General) Rules, 2002 were replaced. Coffee is now governed by the Crops Act and two sets of regulations: one covers growing, processing, licensing and marketing, and the other covers the coffee exchange. This page summarises the framework in plain language. It is a guide, not legal advice. Always check the official text on [Kenya Law](https://kenyalaw.org).
+**Kenya has a new coffee law.** The **Coffee Act, 2026** (Act No. 8 of 2026) was signed on 13 March 2026 and came into force on **27 March 2026**. It takes coffee out of the Crops Act and moves regulation from the Agriculture and Food Authority (AFA) to a revived **Coffee Board of Kenya**. It also creates a **Coffee Research and Training Institute** and introduces a **2.5% coffee development and marketing levy**. This page explains the new framework in plain language. It is a guide, not legal advice. Always check the official text on [Kenya Law](https://new.kenyalaw.org/akn/ke/act/2026/8/eng@2026-03-27).
 
 ## The laws in force
 
 | Law | What it covers | Who administers it |
 |---|---|---|
-| [Crops Act (Cap. 318)](https://new.kenyalaw.org/akn/ke/act/2013/16) | The parent law for scheduled crops, including coffee. Section 40 allows the coffee regulations. | Ministry of Agriculture, AFA |
-| [Agriculture and Food Authority Act (Cap. 317)](https://new.kenyalaw.org/akn/ke/act/2013/13) | Creates the Agriculture and Food Authority (AFA) and its Coffee Directorate. | AFA |
-| [Crops (Coffee) (General) Regulations, 2019](https://new.kenyalaw.org/akn/ke/act/ln/2019/102/eng@2022-12-31) (Legal Notice 102 of 2019) | Registration and licensing, pulping, milling, trading, direct sales, warehousing, quality, standard grades. Amended in 2020, 2021 (twice) and 2022. | AFA Coffee Directorate and county governments |
-| [Capital Markets (Coffee Exchange) Regulations, 2020](https://new.kenyalaw.org/akn/ke/act/ln/2020/40/eng@2022-12-31) (Legal Notice 40 of 2020) | Licensing of coffee exchanges and coffee brokers, sampling, auction trading, and the direct settlement system. | [Capital Markets Authority](https://www.cma.or.ke/) |
-| [Co-operative Societies Act (Cap. 490)](https://new.kenyalaw.org/akn/ke/act/1997/12) | How coffee cooperative societies are registered and governed. | State Department for Cooperatives, county governments |
-| Kenya Coffee Standards | Quality standards for coffee. The Regulations refer to them as "the coffee standards". | [Kenya Bureau of Standards](https://www.kebs.org/) |
-| Kenya Agricultural and Livestock Research Act (Cap. 319) | Research, and certified seed and seedlings through KALRO's Coffee Research Institute. | [KALRO](https://www.kalro.org/) |
-
-**Repealed:** the Coffee Act, 2001 and the Coffee (General) Rules, 2002 (revoked by regulation 45 of the 2019 Regulations). Licences issued under the old rules stayed valid until they expired.
+| [Coffee Act, 2026](https://new.kenyalaw.org/akn/ke/act/2026/8/eng@2026-03-27) (Act No. 8 of 2026) | The main coffee law: the Coffee Board and Institute, national and county roles, registration and licensing, processing, trading, quality, the levy, disputes and penalties. | Coffee Board of Kenya, county governments |
+| Capital Markets Act (Cap. 485A) and [Capital Markets (Coffee Exchange) Regulations, 2020](https://new.kenyalaw.org/akn/ke/act/ln/2020/40/eng@2022-12-31) | Licensing of coffee exchanges and brokers, auction trading, sampling and settlement. | [Capital Markets Authority](https://www.cma.or.ke/) |
+| County coffee laws | Each county may pass its own law on registration and licensing criteria, procedures and fees (section 24). | County governments |
+| [Co-operative Societies Act (Cap. 490)](https://new.kenyalaw.org/akn/ke/act/1997/12) | Registration and governance of coffee cooperative societies and unions. | Commissioner for Cooperative Development, counties |
+| Kenya Coffee Standards | Quality standards for coffee, developed with the Coffee Board. | [Kenya Bureau of Standards](https://www.kebs.org/) |
+| [Crops (Coffee) (General) Regulations, 2019](https://new.kenyalaw.org/akn/ke/act/ln/2019/102/eng@2022-12-31) | Made under the Crops Act, which no longer covers coffee. Until the Cabinet Secretary makes new regulations under the Coffee Act, check with the Coffee Board which of these detailed rules still apply in practice. | Formerly AFA |
 
 ## Who does what
 
-**National government (AFA, through the Coffee Directorate)** licenses buyers, miller-marketers, grower marketers, warehousemen, auction organisers, independent cupping laboratories and liquorers, and issues import permits and movement permits for clean coffee bought at auction or exported. It also keeps the national coffee database, enforces standards and promotes Kenyan coffee, including the Kenya Coffee Mark of Origin.
+**The Coffee Board of Kenya** (headquartered in Nairobi) regulates and promotes the industry. It licenses buyers, commercial millers, warehouse operators, cupping laboratories, liquorers, importers and coffee traders, and issues export movement permits. It registers coffee dealers and publishes an up-to-date register of them, and keeps the industry database. It also runs market intelligence and promotion (including the Kenya Coffee Mark of Origin and regional appellations), develops standards with KEBS, sets up a traceability system, and markets Kenyan coffee internationally.
 
-**County governments** register growers, cooperatives, estates and nursery operators, and license nurseries, pulping stations, grower millers, warehouses and roasters. They also issue grower codes and distinguishing marks, provide extension services, inspect premises and issue movement permits for parchment and buni.
+**County governments** keep registers of growers, nursery operators, cooperatives, associations and estates, and license pulping stations, growers' mills, roasters and warehouses. They issue movement permits for buni, parchment and clean coffee leaving the county, provide extension services, and inspect nurseries, pulping stations, mills, roasters and warehouses. They may charge licence fees under county law, but **registration is free**.
 
-**The Capital Markets Authority** licenses and supervises the coffee exchange and coffee brokers.
+**The Coffee Research and Training Institute** takes over the Coffee Research Institute from KALRO. It handles coffee research and training, issues coffee nursery certificates, and checks farm inputs with the counties. Counties carry out soil mapping and analysis, and the Board registers importers of planting material.
 
-See [Coffee licences in Kenya](/projects/kenya-coffee-licensing.html) for each licence, who issues it and its fee.
+**The Capital Markets Authority** licenses coffee exchanges and brokers.
 
-## What changed: the main reforms
+See [Coffee licences in Kenya](/projects/kenya-coffee-licensing.html) for every licence and who issues it.
 
-The reforms followed the [National Task Force on Coffee Sub-Sector Reforms](#background-the-2016-task-force) (2016). For growers, millers and buyers, the most important changes are:
+## Key rules for growers, cooperatives and buyers
 
-- **Faster, direct payment.** Auction proceeds are paid into a *direct settlement system* run by commercial banks. Buyers must pay by the *prompt date*, no more than five working days after the sale. The system must pay growers and settle service providers within five working days of receiving the money. Payments go straight into individual accounts.
-- **Miller-marketers replace marketing agents.** A cooperative society must competitively procure a licensed miller-marketer to mill and market its coffee, and members must ratify the choice at a meeting within two months of the end of the crop year. Millers must disclose all their charges at that meeting. Existing marketing agent licences remained valid until the direct settlement system was set up.
-- **Caps on charges.** Marketing commission for miller-marketers is at most **1%** of the value of coffee sold. Milling and related charges (handling, sorting, grading, packaging, warehousing) are capped at **KSh 4,000 per tonne** delivered. Allowable milling losses may be capped at **19%** of parchment milled.
-- **Separation of roles.** A licensed buyer, or any entity associated with it, cannot also be licensed as a commercial miller, broker, roaster, agent or warehouseman. A miller-marketer cannot buy coffee. Shared directorships and cross-ownership between miller-marketers and buying companies are banned.
-- **Direct sales must compete with the auction.** Growers may sell directly to overseas buyers or local roasters, but the direct-sale price acts as a *reserve price* at the auction. If the auction bids higher, the direct buyer has the right of first refusal at the auction price. Direct sales contracts must be lodged with AFA, and the coffee must be inspected.
-- **Coffee brokers under the CMA.** Brokers licensed by the Capital Markets Authority can sell coffee on a grower's behalf at the exchange. The exchange must publish market information for every auction.
-- **Warehouse receipts.** Clean coffee is stored in licensed warehouses. Ownership passes through coffee warrants or (electronic) warehouse receipts, which can also be used as collateral.
-- **Cooperative governance.** Management committee members serve five-year terms, renewable once. No more than two-thirds may be of one gender, and nominees must meet the integrity requirements of Chapter Six of the Constitution. A single factory producing an average of 500,000 kg over three years may register as its own cooperative society.
-- **Cheaper society loans.** Interest on loans against growers' assets held by a cooperative is capped at **5% a year**, and loans need a members' resolution. Societies receive 5% of the value of coffee sold (net of milling, warehousing and marketing costs) for operations and maintenance.
-- **Traceability and digitisation.** Pulping stations must use calibrated digital scales and post each grower's deliveries to a database the grower can access. Millers issue an out-turn number for every delivery, and the whole value chain must digitise.
-- **Quality.** Millers must follow the [Kenya Standard grades](/projects/kenya-coffee-grades.html). Buyers must lodge a 200 g sample of each export consignment with AFA, and AFA can test for pesticide residues anywhere in the value chain.
+- **Ways to sell.** Coffee may be sold by auction at an exchange, by direct sale, on an international exchange, or by another method the Cabinet Secretary prescribes. A grower can sign a written forward contract on an international exchange, and must file it with the Board within 14 days.
+- **Payment within 14 days.** Auction proceeds go into a central settlement system run by commercial banks and must be paid into the grower's (cooperative's or estate's) account **within 14 days**. Brokers and agents may not receive sale proceeds on growers' behalf. Buyers still pay by the prompt date, no more than five working days after the sale.
+- **Direct sales are benchmarked.** Before a direct-sale contract is completed, a sample of up to 250 g goes to an exchange, which reports on quality and price within 14 days. The direct-sale price must compare favourably with exchange prices. Forward (future) contracts are exempt from this price discovery.
+- **Cooperative charges capped.** A cooperative society or union may not charge its growers more than **10% of gross earnings** from coffee sales. It may use a private brokerage firm or borrow money only with a resolution backed by **three-quarters of members**, at a meeting convened by the Commissioner for Cooperative Development.
+- **Separation of roles.** A buyer, or any entity associated with it, may not be a commercial miller, broker, roaster, agent or warehouse operator. A commercial miller may not be a buyer, broker, roaster or agent.
+- **Milling.** Cooperatives must competitively procure milling services, and milling contracts must be in writing. Millers must let growers attend milling, insure coffee in their custody, account for sweepings, digitise, file returns, and follow the standard [grades](/projects/kenya-coffee-grades.html). Millers may bulk coffee of the same quality but must disclose the proportions so each grower is paid correctly. Service charges must be lodged with the settlement provider before the sale.
+- **Traceability.** The Board will set up a coffee traceability system, which pulping stations and mills must follow.
+- **Warehousing.** Coffee must be stored in county-licensed warehouses that meet KEBS standards. Ownership passes through coffee warrants or warehouse receipts endorsed by the exchange.
+- **Exports and imports.** Exporters need a KEPHIS phytosanitary certificate plus the Board's certificates of origin and quality. Anyone blending Kenyan with foreign coffee must declare the percentage of Kenyan coffee.
 
-## Penalties
+## The coffee development and marketing levy
 
-Where no other penalty is set, breaking the Regulations can lead to a fine of up to **KSh 500,000**, imprisonment for up to one year, or both. The licensing authority may also suspend or revoke a licence. Disputes should go to alternative dispute resolution first, with court as a last resort.
+The Cabinet Secretary imposes, by Gazette notice, a levy of **2.5% of the export or import value**, remitted by coffee buyers to the Board through the settlement system. It is shared as follows:
 
-## Background: the 2016 Task Force
+| Share | Goes to |
+|---|---|
+| 30% | Coffee Research and Training Institute |
+| 25% | Coffee-growing counties, pro rata, as a conditional grant for coffee development |
+| 20% | Price stabilisation, managed by the Board |
+| 15% | The Board, for regulation |
+| 10% | The Board, for marketing |
 
-In March 2016 the President appointed the National Task Force on Coffee Sub-Sector Reforms, chaired by Prof. Joseph Kieyah. Its report (May 2016) found that production had fallen from about 130,000 tonnes to an average of 40,000 tonnes, and that farmers waited six to eight months to be paid. It made recommendations under eight pillars: legal reform, a subsidy programme, a cherry advance payment scheme, modernising the Nairobi Coffee Exchange, youth involvement and local consumption, institutional support, marketing Kenyan coffee, and a debt audit and waiver. The 2019 and 2020 Regulations put many of its legal recommendations into effect.
+## Disputes and penalties
 
-## International rules for exporters
+Disputes over licences and other sector matters go first to a **Dispute Resolution Committee** set up by each licensing authority. It must decide within 30 days of the hearing, and appeals go to the High Court.
 
-- Food safety: [EU General Food Law (Regulation 178/2002)](https://food.ec.europa.eu/horizontal-topics/general-food-law_en)
-- Deforestation-free supply chains: the EU Deforestation Regulation (EUDR) requires proof that coffee sold in the EU was not grown on recently deforested land, with geolocation of the farms.
+| Offence | Maximum penalty |
+|---|---|
+| Operating as a buyer, importer, cupping lab, liquorer, agent or warehouse operator without a Board licence, or as an exchange or broker without a CMA licence | KSh 5 million and/or 3 years |
+| Carrying out a licensed activity without a licence (general licensing offence) | KSh 1 million or twice the value of the coffee, whichever is greater, and/or 2 years |
+| Brokers or agents receiving growers' sale proceeds; settlement breaches | KSh 500,000 and/or 6 months |
+| Operating a warehouse contrary to the Act | KSh 300,000 and/or 6 months |
+| Undeclared blending of Kenyan with foreign coffee | Twice the value of the blend and/or 1 year |
+| Any other offence | KSh 2 million or twice the value of the coffee, whichever is higher, and/or 5 years |
 
-<p class="mk-note">This summary reflects the Crops (Coffee) (General) Regulations, 2019 and the Capital Markets (Coffee Exchange) Regulations, 2020 as revised by Kenya Law to 31 December 2022, and the 2016 Task Force report. Later changes may not be included. Check <a href="https://kenyalaw.org">Kenya Law</a> for the current text. See also the <a href="/projects/kenya-coffee-glossary.html">coffee glossary</a>.</p>
+Directors and officers of a company or cooperative can be personally liable unless they show they exercised due diligence.
+
+## Transition from AFA
+
+Everything AFA held for coffee (rights, contracts, assets, liabilities, staff and court cases) passes to the Coffee Board, and KALRO's coffee research passes to the Institute. **Licences, permits and registrations issued by AFA that were valid on 27 March 2026 continue** under the new Act. References to AFA in other laws and documents about coffee now mean the Coffee Board. New regulations, forms and fees will be made by the Cabinet Secretary under section 99.
+
+## How we got here
+
+| Year | Milestone |
+|---|---|
+| 1933 | Coffee Board of Kenya first established under the colonial Coffee Industry Ordinance |
+| 2001 | Coffee Act, 2001 |
+| 2013 | Crops Act and AFA Act: coffee brought under AFA's Coffee Directorate; the Coffee Board dissolved |
+| 2016 | National Task Force on Coffee Sub-Sector Reforms (chaired by Prof. Joseph Kieyah) finds production down from about 130,000 to 40,000 tonnes, and farmers waiting 6–8 months for payment |
+| 2019 | Crops (Coffee) (General) Regulations: miller-marketers, a direct settlement system, a 1% marketing commission cap, KSh 4,000/tonne milling cap, buyer and miller separation |
+| 2020 | Capital Markets (Coffee Exchange) Regulations: CMA-licensed exchange and brokers |
+| 2022 | Amendments to the 2019 Regulations, including 5% interest cap on society loans and direct sales benchmarked against the auction |
+| 2026 | **Coffee Act, 2026**: Coffee Board of Kenya revived, Coffee Research and Training Institute, 2.5% levy, 14-day payment |
+
+See also the [coffee glossary](/projects/kenya-coffee-glossary.html) and the [value chain guide](/projects/kenya-coffee-valuechain.html).
+
+<p class="mk-note">Sources: Coffee Act, 2026 (Act No. 8 of 2026), as published by Kenya Law at 27 March 2026; Capital Markets (Coffee Exchange) Regulations, 2020 and Crops (Coffee) (General) Regulations, 2019, as revised to 31 December 2022; Report of the National Task Force on Coffee Sub-Sector Reforms (May 2016). This is a summary, not legal advice. Check the official text and the Coffee Board for regulations made after March 2026.</p>

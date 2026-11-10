@@ -3,7 +3,7 @@ layout: base
 hero: true
 title: "Kenya coffee: guides to the market, grades, laws and licensing"
 heading: Kenya coffee guides
-description: "Guides to Kenyan coffee: how the value chain works, coffee grades, the current laws and regulations, Coffee Directorate and county licensing, quality, certification and a glossary of trade terms."
+description: "Guides to Kenyan coffee: how the value chain works, coffee grades, the current laws and regulations, Coffee Board and county licensing, quality, certification and a glossary of trade terms."
 lead: "Everything you need to understand how Kenyan coffee is grown, graded, regulated and sold, written in plain language and updated for the current regulations."
 permalink: kenya-coffee.html
 ---
@@ -24,12 +24,12 @@ permalink: kenya-coffee.html
       </a>
       <a class="mk-card" href="/projects/kenya-coffee-laws.html">
         <h3>Laws and regulations</h3>
-        <p>The Crops Act, the 2019 Coffee Regulations, the coffee exchange rules, and what the reforms changed.</p>
+        <p>The new Coffee Act, 2026, the Coffee Board of Kenya, payment and trading rules, the levy and penalties.</p>
         <span class="mk-card-meta">Read the guide →</span>
       </a>
       <a class="mk-card" href="/projects/kenya-coffee-licensing.html">
         <h3>Licensing</h3>
-        <p>Which licences the Coffee Directorate and county governments issue, requirements and fees.</p>
+        <p>Which licences the Coffee Board, county governments and CMA issue under the Coffee Act, 2026.</p>
         <span class="mk-card-meta">Read the guide →</span>
       </a>
       <a class="mk-card" href="/projects/kenya-coffee-glossary.html">
@@ -70,7 +70,7 @@ permalink: kenya-coffee.html
             <li>Altitude: 1,400–2,000 m</li>
             <li>Main varieties: SL28, SL34, Ruiru 11, Batian</li>
             <li>Auction: Nairobi Coffee Exchange, priced in US$ per 50 kg bag</li>
-            <li>Regulators: <a href="/projects/kenya-coffee-licensing.html">AFA Coffee Directorate, county governments, CMA</a></li>
+            <li>Regulators: <a href="/projects/kenya-coffee-licensing.html">Coffee Board of Kenya, county governments, CMA</a></li>
             <li>{% include num.html n=site.data.directory.growers_total %} growers in the <a href="/growers.html">MyKahawa directory</a></li>
           </ul>
         </div>

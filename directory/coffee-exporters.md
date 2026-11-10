@@ -9,9 +9,9 @@ breadcrumbs:
     url: /directory.html
 permalink: /directory/coffee-exporters.html
 ---
-A coffee dealer's licence lets a company buy clean (milled) coffee and sell it locally or for export. Most of Kenya's coffee is exported as green beans, so most licensed dealers are exporters. Dealers are licensed by the Coffee Directorate of the Agriculture and Food Authority (AFA) and must hold a seat to bid at the Nairobi Coffee Exchange.
+A coffee dealer's licence lets a company buy clean (milled) coffee and sell it locally or for export. Most of Kenya's coffee is exported as green beans, so most licensed dealers are exporters. Buyers are licensed by the Coffee Board of Kenya (by AFA before March 2026) and bid at the Nairobi Coffee Exchange.
 
-This list comes from the dealers registered between 2015 and 2020. Check with the [Coffee Directorate](https://afa.go.ke/) for current licence status.
+This list comes from the dealers registered between 2015 and 2020. The Coffee Board publishes the current register of dealers.
 
 **Who buys the most?** See the [top buyers at the Nairobi Coffee Exchange](/directory/coffee-buyers.html), ranked by volume bought between 2015 and 2020.
 
