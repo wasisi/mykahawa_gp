@@ -17,6 +17,6 @@ lead: "MyKahawa is an independent market intelligence platform for Kenyan coffee
   <p>Farmers and cooperatives comparing prices, buyers and roasters looking for sources, and researchers, development programmes and anyone who wants to understand how Kenyan coffee is traded.</p>
   <h2>Our data</h2>
   <p>Auction data comes from the sale results published by the Nairobi Coffee Exchange. The directory combines auction records with the 2012 Kenya Coffee Directory of the Kenya Coffee Traders Association and listings submitted by growers. MyKahawa is not affiliated with the Nairobi Coffee Exchange, the Agriculture and Food Authority or any coffee trader.</p>
-  <h2>Open source</h2>
-  <p>The website is open source on <a href="https://github.com/wasisi/mykahawa_gp">GitHub</a>. If MyKahawa is useful to you, please <a href="https://ko-fi.com/L4L629RGA" rel="noopener">support it on Ko-fi</a> or <a href="/contact.html">get in touch</a> about sponsorship or custom analysis.</p>
+  <h2>Support the project</h2>
+  <p>If MyKahawa is useful to you, please <a href="https://ko-fi.com/L4L629RGA" rel="noopener">support it on Ko-fi</a> or write to wasisi.coffee@gmail.com about sponsorship or custom analysis.</p>
 </div>
