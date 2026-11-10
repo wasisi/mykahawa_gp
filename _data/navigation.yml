@@ -1,0 +1,14 @@
+# Main menu. `match` marks the item active on sub-pages whose URL contains the text.
+- title: Directory
+  url: /directory.html
+  match: ["/directory/"]
+- title: Growers
+  url: /growers.html
+- title: Exporters & dealers
+  url: /dealers.html
+- title: Prices
+  url: /transactions.html
+- title: Coffee grades
+  url: /projects/kenya-coffee-grades.html
+- title: Kenya coffee
+  url: /kenya-coffee.html

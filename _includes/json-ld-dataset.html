@@ -1,0 +1,20 @@
+{%- assign m = site.data.market -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Nairobi Coffee Exchange auction transactions {{ m.first_sale | date: '%Y' }}–{{ m.last_sale | date: '%Y' }}",
+  "description": "Lot-level results of the Nairobi Coffee Exchange (Kenya) coffee auction from {{ m.first_sale }} to {{ m.last_sale }}: {{ m.lots }} lots sold at {{ m.sales }} auctions, with sale date, mark, grade, weight, price (US$ per 50 kg bag) and buyer.",
+  "url": "{{ site.url }}{{ page.url }}",
+  "keywords": ["coffee", "Kenya", "coffee prices", "Nairobi Coffee Exchange", "auction", "coffee grades"],
+  "isAccessibleForFree": true,
+  "license": "{{ site.url }}/node/terms.html",
+  "creator": { "@type": "Organization", "name": "MyKahawa", "url": "{{ site.url }}" },
+  "spatialCoverage": { "@type": "Place", "name": "Kenya" },
+  "temporalCoverage": "{{ m.first_sale }}/{{ m.last_sale }}",
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "{{ site.url }}/data/transactions/coffeetransactions.csv" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "{{ site.url }}/data/market/sales.json" }
+  ]
+}
+</script>

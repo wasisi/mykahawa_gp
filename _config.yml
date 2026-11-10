@@ -1,10 +1,20 @@
 baseurl: null
-description: 'Database of Kenyan coffee trade and key actors'
+description: 'Kenya coffee market intelligence: Nairobi Coffee Exchange prices, coffee exporters, dealers, millers, cooperatives and estates.'
+lang: en
+locale: en_KE
 exclude:
 - bin
+- scripts
+- source
+- security
+- vendor
+- templates
 - requirements.txt
 - README.md
 - Gemfile*
+- package-lock.json
+- "*.code-workspace"
+- .out
 
 # Conversion
 markdown: kramdown
@@ -17,7 +27,8 @@ permalink: /:categories/:title.html
 plugins:
 - jekyll-redirect-from
 - jekyll-sitemap
-timezone: Europe/Amsterdam
+- jekyll-seo-tag
+timezone: Africa/Nairobi
 
 # Config for profile
 title: MyKahawa
@@ -26,6 +37,18 @@ avatar: /theme/img/logo.png   # Path to an avatar image
 
 url: https://www.mykahawa.org
 BASE_PATH: https://www.mykahawa.org
+
+# jekyll-seo-tag
+logo: /theme/img/logo.png
+social:
+  name: MyKahawa
+  links:
+    - https://twitter.com/my_kahawa
+    - https://www.facebook.com/mykahawa
+    - https://github.com/wasisi/mykahawa_gp
+twitter:
+  username: my_kahawa
+
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_node"]
@@ -61,6 +84,7 @@ defaults:
       path: ""
     values:
       show_profile: true
+      image: /theme/img/og-image.jpg
   -
     scope:
       path: "_posts"

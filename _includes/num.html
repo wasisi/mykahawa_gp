@@ -1,0 +1,5 @@
+{%- comment -%} Integer with thousands separators: {% include num.html n=12345 %} -> 12,345 {%- endcomment -%}
+{%- assign _s = include.n | round | append: '' -%}
+{%- assign _chars = _s | split: '' | reverse -%}
+{%- capture _r -%}{%- for c in _chars -%}{%- assign _m = forloop.index0 | modulo: 3 -%}{%- if forloop.index0 > 0 and _m == 0 -%},{%- endif -%}{{ c }}{%- endfor -%}{%- endcapture -%}
+{{- _r | split: '' | reverse | join: '' -}}

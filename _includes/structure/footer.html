@@ -1,42 +1,42 @@
-<footer>
-  <section class="bg-gray-v1">
-     <div class="container">
-        <div class="row">
-           <div class="col-lg-4 mb-5 mb-lg-0">
-              <p class="u-my-40">
-                 MyKahawa is a coffee business analytics and market information tool aimed at improving transparency and visibility of Kenya's coffee market.
-              </p>
-              {% include ko-fi.html %}
-
-           </div>
-           <div class="col-lg-3 col-md-6 ml-auto mb-5 mb-lg-0">
-              <h4>Contact Info</h4>
-              <div class="u-h-4 u-w-50 bg-primary rounded mt-3 u-mb-40"></div>
-              <ul class="list-unstyled">
-                 <li class="mb-2">
-                    <span class="icon icon-Mail text-primary mr-2"></span> <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a>
-                 </li>
-              </ul>
-              <ul class="list-inline social social-rounded social-white mt-4">
-                 <p>Show us some support by liking, following or starring us</p>
-                 <li class="list-inline-item">
-                    <a href="https://www.facebook.com/mykahawa" target="_blank"><i class="fab fa-facebook"></i></a>
-                 </li>
-                 <li class="list-inline-item">
-                    <a href="https://twitter.com/my_kahawa" target="_blank"><i class="fab fa-twitter"></i></a>
-                 </li>
-                 <li class="list-inline-item">
-                  <a href="https://github.com/wasisi/mykahawa_gp" target="_blank"><i class="fab fa-github"></i></a>
-               </li>
-              </ul>
-           </div>
-        </div>
-     </div>
-  </section>
-  <section class="u-py-40 bg-gray-v1">
-     <div class="container">
-        <a href="/node/terms.html">Terms of service</a> | <a href="/node/privacy.html">Privacy policy</a> 
-      </p>
-     </div>
-  </section>
+<footer class="mk-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 mb-4">
+        <p class="mk-footer-brand">MyKahawa</p>
+        <p>Market intelligence for Kenyan coffee: auction prices from the Nairobi Coffee Exchange and a directory of growers, exporters, dealers and millers.</p>
+        <p class="small">MyKahawa is independent, with open source code and open data. If you find it useful, please consider supporting it.</p>
+        <a class="btn btn-sm mk-btn-accent" href="https://ko-fi.com/L4L629RGA" rel="noopener">Support MyKahawa on Ko-fi</a>
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-1 mb-4">
+        <h2 class="mk-footer-heading">Explore</h2>
+        <ul class="list-unstyled">
+          <li><a href="/directory.html">Directory</a></li>
+          <li><a href="/growers.html">Growers</a></li>
+          <li><a href="/dealers.html">Exporters &amp; dealers</a></li>
+          <li><a href="/transactions.html">Coffee prices</a></li>
+          <li><a href="/projects/kenya-coffee-grades.html">Coffee grades</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-4">
+        <h2 class="mk-footer-heading">About</h2>
+        <ul class="list-unstyled">
+          <li><a href="/about.html">About MyKahawa</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/node/subscribe.html">Subscribe</a></li>
+          <li><a href="/node/terms.html">Terms of service</a></li>
+          <li><a href="/node/privacy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 mb-4">
+        <h2 class="mk-footer-heading">Follow</h2>
+        <ul class="list-unstyled">
+          <li><a href="https://twitter.com/my_kahawa" rel="noopener">X (Twitter)</a></li>
+          <li><a href="https://www.facebook.com/mykahawa" rel="noopener">Facebook</a></li>
+          <li><a href="https://github.com/wasisi/mykahawa_gp" rel="noopener">GitHub</a></li>
+          <li><a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="mk-footer-legal small">&copy; {{ site.time | date: '%Y' }} MyKahawa. Auction data originally published by the Nairobi Coffee Exchange. MyKahawa is not affiliated with the NCE.</p>
+  </div>
 </footer>

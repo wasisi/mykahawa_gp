@@ -1,0 +1,290 @@
+{
+ "growers_total": 2784,
+ "growers_mapped": 897,
+ "grower_types": [
+  {
+   "type": "Small estate",
+   "plural": "Small estates",
+   "count": 984
+  },
+  {
+   "type": "Factory",
+   "plural": "Factories",
+   "count": 983
+  },
+  {
+   "type": "Cooperative society",
+   "plural": "Cooperative societies",
+   "count": 494
+  },
+  {
+   "type": "Estate",
+   "plural": "Estates",
+   "count": 320
+  },
+  {
+   "type": "Other",
+   "plural": "Other",
+   "count": 3
+  }
+ ],
+ "grower_counties": [
+  {
+   "county": "Kiambu",
+   "slug": "kiambu",
+   "count": 692
+  },
+  {
+   "county": "Murang'a",
+   "slug": "murang-a",
+   "count": 217
+  },
+  {
+   "county": "Nyeri",
+   "slug": "nyeri",
+   "count": 205
+  },
+  {
+   "county": "Meru",
+   "slug": "meru",
+   "count": 203
+  },
+  {
+   "county": "Kericho",
+   "slug": "kericho",
+   "count": 190
+  },
+  {
+   "county": "Kirinyaga",
+   "slug": "kirinyaga",
+   "count": 176
+  },
+  {
+   "county": "Kisii",
+   "slug": "kisii",
+   "count": 140
+  },
+  {
+   "county": "Machakos",
+   "slug": "machakos",
+   "count": 130
+  },
+  {
+   "county": "Embu",
+   "slug": "embu",
+   "count": 121
+  },
+  {
+   "county": "Tharaka Nithi",
+   "slug": "tharaka-nithi",
+   "count": 97
+  },
+  {
+   "county": "Trans Nzoia",
+   "slug": "trans-nzoia",
+   "count": 70
+  },
+  {
+   "county": "Bungoma",
+   "slug": "bungoma",
+   "count": 68
+  },
+  {
+   "county": "Nakuru",
+   "slug": "nakuru",
+   "count": 52
+  },
+  {
+   "county": "Makueni",
+   "slug": "makueni",
+   "count": 39
+  },
+  {
+   "county": "Kakamega",
+   "slug": "kakamega",
+   "count": 35
+  },
+  {
+   "county": "Baringo",
+   "slug": "baringo",
+   "count": 33
+  },
+  {
+   "county": "Migori",
+   "slug": "migori",
+   "count": 17
+  },
+  {
+   "county": "Nyamira",
+   "slug": "nyamira",
+   "count": 12
+  },
+  {
+   "county": "Nandi",
+   "slug": "nandi",
+   "count": 8
+  },
+  {
+   "county": "Uasin Gishu",
+   "slug": "uasin-gishu",
+   "count": 7
+  },
+  {
+   "county": "Taita Taveta",
+   "slug": "taita-taveta",
+   "count": 6
+  },
+  {
+   "county": "Siaya",
+   "slug": "siaya",
+   "count": 1
+  },
+  {
+   "county": "Vihiga",
+   "slug": "vihiga",
+   "count": 1
+  },
+  {
+   "county": "Busia",
+   "slug": "busia",
+   "count": 1
+  }
+ ],
+ "dealers_total": 157,
+ "dealer_groups": [
+  {
+   "slug": "coffee-exporters",
+   "title": "Coffee exporters and dealers in Kenya",
+   "label": "Exporters and dealers",
+   "count": 84
+  },
+  {
+   "slug": "coffee-millers",
+   "title": "Coffee millers in Kenya",
+   "label": "Millers",
+   "count": 15
+  },
+  {
+   "slug": "marketing-agents",
+   "title": "Commercial coffee marketing agents in Kenya",
+   "label": "Commercial marketing agents",
+   "count": 11
+  },
+  {
+   "slug": "grower-marketers",
+   "title": "Coffee grower marketers in Kenya",
+   "label": "Grower marketers",
+   "count": 22
+  },
+  {
+   "slug": "warehousemen",
+   "title": "Coffee warehousemen in Kenya",
+   "label": "Warehousemen",
+   "count": 21
+  },
+  {
+   "slug": "management-agents",
+   "title": "Coffee management agents in Kenya",
+   "label": "Management agents",
+   "count": 4
+  }
+ ],
+ "grades": [
+  {
+   "grade": "AA",
+   "grade_name": "Kenya AA",
+   "size": "16 - 20",
+   "description": "Screens: 17 and 18 > 7.2 mm. These are the most popular and sought coffees because of their shape, body, acidity and flavour."
+  },
+  {
+   "grade": "AB",
+   "grade_name": "Kenya AB",
+   "size": "16 - 20",
+   "description": "Screens: 15 and 16 = 6.6 mm. A combination of A (Screen 16/6.8mm) and B (Screen 15/6.2mm) sized beans."
+  },
+  {
+   "grade": "HE",
+   "grade_name": "Kenya HE",
+   "size": "11 - 15",
+   "description": ""
+  },
+  {
+   "grade": "T",
+   "grade_name": "Small light beans",
+   "size": "6 - 10",
+   "description": "Screen 10 & 14. These are the thinnest and smallest beans, that are mostly composed of bits and pieces of broken beans from the main grades."
+  },
+  {
+   "grade": "UG2",
+   "grade_name": "UG2",
+   "size": "",
+   "description": ""
+  },
+  {
+   "grade": "C",
+   "grade_name": "Kenya C",
+   "size": "11 - 15",
+   "description": "Screens: 14 and 15. The size of the bean is even smaller and further reduces the chemical compounds and ultimately the flavor intensity"
+  },
+  {
+   "grade": "SB",
+   "grade_name": "Kenya SB",
+   "size": "",
+   "description": ""
+  },
+  {
+   "grade": "MH",
+   "grade_name": "Mbuni Heavy",
+   "size": "",
+   "description": "Screen 15 & 17. These are unwashed coffees that fell from the plant. The pulp is not removed by the wet process. They often have inconsistent ripeness and are sour."
+  },
+  {
+   "grade": "ML",
+   "grade_name": "Mbuni light",
+   "size": "6 - 10",
+   "description": "Screen 12 & 15. These are also unwashed coffee that fell from the plant. The pulp is also not removed. They are inconsistent in ripeness, have a earthy taste and are very sour."
+  },
+  {
+   "grade": "TT",
+   "grade_name": "Light beans",
+   "size": "11 - 15",
+   "description": "Screen 15 & 18. TT is smaller still, made from the smaller beans removed from lots of the more illustrious grades"
+  },
+  {
+   "grade": "UG",
+   "grade_name": "Ungraded",
+   "size": "",
+   "description": ""
+  },
+  {
+   "grade": "PB",
+   "grade_name": "Peaberry",
+   "size": "11 - 15",
+   "description": "Screen 16. These are round beans which usually grow in a single cherry bean."
+  },
+  {
+   "grade": "UG1",
+   "grade_name": "Ungraded heavy",
+   "size": "",
+   "description": ""
+  },
+  {
+   "grade": "E",
+   "grade_name": "Elephant",
+   "size": "21 - 25",
+   "description": "Screen 20. This is the largest of all grades in size and has been named Elephant grade in the grading. Usually there are two seeds joining together to form the seed in a single cherry. This is the source of ears when the seeds part during handling. They are fragile that they break into smaller pieces during sorting and roasting"
+  },
+  {
+   "grade": "UG3",
+   "grade_name": "Ungraded 3",
+   "size": "0 - 5",
+   "description": ""
+  },
+  {
+   "grade": "S",
+   "grade_name": "",
+   "size": "",
+   "description": ""
+  }
+ ]
+}

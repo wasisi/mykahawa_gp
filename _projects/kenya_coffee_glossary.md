@@ -164,5 +164,5 @@ A certificate issued by a licensed coffee warehouseman in respect of coffee stor
  
 ## References
 
-1. [Crops (Coffee) (General) Regulations, 2019](https://coffee.agricultureauthority.go.ke/index.php/resource-center/policy-regulations/category/5-policy-regulations?download=23:the-crops-coffee-general-regulations-2019) which replaces terms in [Coffee (General) Regulations, 2016](https://infotradekenya.go.ke/media/Coffee%20act%202016.pdf)
+1. [Crops (Coffee) (General) Regulations, 2019](https://afa.go.ke/) which replaces terms in [Coffee (General) Regulations, 2016](https://infotradekenya.go.ke/media/Coffee%20act%202016.pdf)
 

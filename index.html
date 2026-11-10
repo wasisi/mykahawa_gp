@@ -1,146 +1,154 @@
 ---
-title: MyKahawa
 layout: base
+title: "Kenya coffee market intelligence: prices, exporters and growers directory"
+description: "Kenyan coffee auction prices, grades and buyers from the Nairobi Coffee Exchange, plus a free directory of coffee exporters, dealers, millers, cooperatives and estates in Kenya."
 redirect_from: "/events/"
 ---
+{% assign m = site.data.market %}
+{% assign d = site.data.directory %}
 
-<div id="main-page">
-   <section class="u-pt-md-150 pb-0 u-h-100vh bg-grey">
-      <div class="container">
-         <div class="row text-center">
-            <div class="col-lg-10 mx-auto u-pt-80">
-               <h1 class="display-4 u-fw-600 text-red">
-                  Raising the profile and visibility of Kenyan coffee
-               </h1>
-               <p class="u-fs-22 u-lh-1_8 py-4">
-                  MyKahawa is a business analytics and market intelligence platform that provides greater transparency and visibility into the Kenya Coffee market and industry.
-               </p>
-            </div>
-            <div class="col-lg-12 mx-auto mt-5">
-               <img class="" src="theme/img/logo_on_coffee.png" alt="MyKahawa logo on roasted coffee">
-            </div>
-         </div>
+<section class="mk-home-hero">
+  <div class="container">
+    <h1>Market intelligence for Kenyan coffee</h1>
+    <p class="lead">Auction prices, grades and buyers from the Nairobi Coffee Exchange, and a free directory of Kenya’s coffee growers, exporters, dealers and millers.</p>
+    <form class="mk-search" action="/growers.html" method="get" role="search">
+      <label for="home-q">Find a cooperative, factory or estate</label>
+      <div class="input-group">
+        <input type="search" id="home-q" name="q" class="form-control" placeholder="Name, growers code or county" autocomplete="off">
+        <div class="input-group-append"><button class="btn mk-btn-accent" type="submit">Search</button></div>
       </div>
-   </section>   
-  <section id="about">
-    <div class="container">
-       <div class="row text-center">
-          <div class="col-12">
-             <h2 class="h1">
-                What we do
-             </h2>
-             <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40 mx-auto"></div>
-          </div>
-          <div class="col-md-4 u-mt-30">
-             <div class="bg-white px-4 px-md-5 py-5 u-h-100p rounded box-shadow-v2">
-                <div class="u-w-90 u-h-90 u-flex-center bg-green text-white rounded-circle m-auto">
-                   <span class="icon icon-Book u-fs-42"></span>
-                </div>
-                <h4 class="u-fs-26 my-4">
-                   Kenya Coffee Directory
-                </h4>
-                <p>
-                   Directory of coffee growers and authorized dealers in Kenya.
-                </p>
-             </div>
-          </div>
-          <div class="col-md-4 u-mt-30">
-             <div class="bg-white px-4 px-md-5 py-5 u-h-100p rounded box-shadow-v2">
-                <div class="u-w-90 u-h-90 u-flex-center bg-black text-white rounded-circle m-auto">
-                   <span class="icon icon-Briefcase u-fs-42"></span>
-                </div>
-                <h4 class="u-fs-26 my-4">
-                   Transactions
-                </h4>
-                <p>
-                   Transaction listing of coffee sales at the Nairobi Coffee Exchange from January 2015 to September 2020.
-                </p>
-             </div>
-          </div>
-          <div class="col-md-4 u-mt-30">
-             <div class="bg-white px-4 px-md-5 py-5 u-h-100p rounded box-shadow-v2">
-                <div class="u-w-90 u-h-90 u-flex-center bg-red text-white rounded-circle m-auto">
-                   <span class="icon icon-Chart u-fs-42"></span>
-                </div>
-                <h4 class="u-fs-26 my-4">
-                   Analytics
-                </h4>
-                <p>
-                   Overview of the performance of the Nairobi Coffee Exchange over time.
-                </p>
-             </div>
-          </div>
-       </div>
+    </form>
+    <p class="mt-4 mb-0">
+      <a class="btn mk-btn-outline" href="/transactions.html">Coffee prices</a>
+      <a class="btn mk-btn-outline" href="/directory/coffee-exporters.html">Coffee exporters</a>
+      <a class="btn mk-btn-outline" href="/growers.html#map">Growers map</a>
+    </p>
+  </div>
+</section>
+
+<section class="mk-section mk-section-alt">
+  <div class="container">
+    <h2 class="sr-only">MyKahawa in numbers</h2>
+    <div class="mk-stats">
+      <div class="mk-stat"><a href="/growers.html"><span class="mk-stat-value">{% include num.html n=d.growers_total %}</span></a><span class="mk-stat-label">coffee growers: cooperatives, factories and estates</span></div>
+      <div class="mk-stat"><a href="/dealers.html"><span class="mk-stat-value">{{ d.dealers_total }}</span></a><span class="mk-stat-label">licensed dealers, millers and agents</span></div>
+      <div class="mk-stat"><a href="/transactions.html"><span class="mk-stat-value">{% include num.html n=m.lots %}</span></a><span class="mk-stat-label">auction lots, {{ m.first_sale | date: "%Y" }}–{{ m.last_sale | date: "%Y" }}</span></div>
+      <div class="mk-stat"><a href="/transactions.html"><span class="mk-stat-value">US${{ m.usd | divided_by: 1000000 }}m</span></a><span class="mk-stat-label">of coffee sold at auction</span></div>
     </div>
- </section>
-
- <section class="pb-0" class="bg-gray-v1">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-8 m-auto text-center">
-            <h2 class="h1">
-               What we have
-            </h2>
-            <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40 mx-auto"></div>
-            <p class="u-mt-60">
-               We collected transaction reports from the Nairobi Coffee Exchange from January 2015 to September 2020. Due to resource constraints, we have stopped updating our database with transaction records. All records collected since January 2015 are available for download on this website.
-            </p>
-            <div class="row">
-               <div class="col-md-4 mt-5">
-                  <a href="/growers.html"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">2784</h4></a>
-                  <p class="u-fs-20 u-ff-dosis">Growers <br> (Cooperatives, estates and farms)</p>
-               </div>
-               <div class="col-md-4 mt-5">
-                  <a href="/dealers.html"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">157</h4></a>
-                  <p class="u-fs-20 u-ff-dosis">Dealers <br> (List of authorized dealers)</p>
-               </div>
-               <div class="col-md-4 mt-5">
-                  <a href="/transactions.html"><h4 class="u-fs-48 u-fw-400 text-primary mb-0">131,384</h4></a>
-                  <p class="u-fs-20 u-ff-dosis">Transactions <br> (Jan 2015 - Sep 2020)  </p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
+  </div>
 </section>
 
- <section id="faq" class="bg-gray-v1">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-6 m-auto text-center">
-            <h2 class="h1">
-               Frequently Asked Questions
-            </h2>
-            <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-40 mx-auto"></div>
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-12 mt-4 bg-white box-shadow-v3">
-            <h3 class="accordion__title p-4">Where does MyKahawa get coffee data from?</h3>
-            <p>The Nairobi Coffee Exchange (NCE) is mandated to manage Kenya's central coffee auction. Trading at NCE usually takes place on Tuesdays at Wakulima House, Haile Sellasie Avenue in Nairobi. The data used in this website is made available by the NCE at the end of each sale </p>
-            <h3 class="accordion__title p-4">Are you affiliated with the Nairobi Coffee Exchange?</h3>
-            <p>No.</p>
-            <h3 class="accordion__title p-4">Can I buy coffee from MyKahawa?</h3>
-            <p>No. We provide data and information services. We are not licensed or involved in the trade of coffee.</p>
-            <h3 class="accordion__title p-4">Why is my cooperative/estate/dealer not listed?</h3>
-            <p>We developed our directory based on transactions that took place at the Nairobi Coffee Exchange from Jan 2015 to Sep 2020 and the Kenya Coffee Directory report produced by the Kenya Coffee Traders Association in 2012. Please contact wasisi.coffee@gmail.com If you wish to add/edit/remove your cooperative/factory/estate</p>
-            <h3 class="accordion__title p-4">Where can I get more details about trade in Kenyan coffee?</h3>
-            <ul>
-                  <li><a href="http://nairobicoffeeexchange.co.ke" target="_blank">Nairobi Coffee Exchange</a>: Manages the coffee central auction in Kenya</li>
-                  <li><a href="https://coffee.agricultureauthority.go.ke/" target="_blank">Agriculture and Food Authority - Coffee directorate</a>: Regulation, market research, technical and advisory services. Applications for coffee dealer license</li>
-                  <li><a href="https://www.kari.org/" target="_blank">Kenya Agricultural Research Institute</a></li>
-                  <li><a href="https://kcpa.co.ke" target="_blank">Kenya Coffee Producers Association</a></li>
-                  <li><a href="http://www.kenyacoffee.co.ke/" target="_blank">Kenya Coffee Traders Association</a></li>
-                  <li><a href="https://afca.coffee/" target="_blank">African Fine Coffees Association</a>: International specialty coffee related news and events</li>
-                  <li><a href="https://kencaffee.coop" target="_blank">Kenya Co-operative Coffee Exporters (KCCE)</a> </li>
-                  <li><a href="https://farmdrive.co.ke" target="_blank">Farm Drive</a>: Smallholder farmer credit</li>
-                  <li><a href="https://www.technoserve.org/region/kenya" target="_blank">Technoserve</a>: In 2008, TechnoServe and the Bill and Melinda Gates Foundation launched the Coffee Initiative, a project to improve the livelihoods of smallholder coffee farmers in Ethiopia, Kenya, Rwanda and Tanzania.</li>
-                  <li><a href="https://www.kedovo.org/english/our-projects/sustainable-coffee-farming/" target="_blank">Kedovo coffee project</a>: KEDOVO e.V. is a registered non-profit organization founded in Germany in 2013. It's Kenyan chapter is Kedovo CBO. It's mission is to encourage an economic and agricultural rural development through education and trainings in order to promote the social welfare of the communities in Central Kenya.</li>
-                  <li><a href="https://www.intracen.org/projects/Market-Access-Upgrade-Programme/" target="_blank">Market Access Upgrade Programme (MARKUP)</a>: regional development initiative that aims to contribute to the economic growth of the East African Community. MARKUP assists small and medium-sized enterprises (SMEs) targeting specific agricultural commodities such as avocado, cocoa, coffee, spices, tea and horticulture.</li>
-            </ul>     
-         </div>
-      </div>
-   </div>
+<section class="mk-section">
+  <div class="container">
+    <h2>Explore Kenyan coffee</h2>
+    <div class="mk-cards mt-3">
+      <a class="mk-card" href="/transactions.html">
+        <h3>Coffee prices</h3>
+        <p>Average auction prices per sale and per grade, volumes and values by season.</p>
+        <span class="mk-card-meta">See prices →</span>
+      </a>
+      <a class="mk-card" href="/directory/coffee-exporters.html">
+        <h3>Exporters and dealers</h3>
+        <p>Licensed coffee dealers and exporters in Kenya, with licence numbers and websites.</p>
+        <span class="mk-card-meta">{{ d.dealer_groups[0].count }} exporters →</span>
+      </a>
+      <a class="mk-card" href="/directory/coffee-buyers.html">
+        <h3>Top coffee buyers</h3>
+        <p>Who buys the most Kenyan coffee at the auction, and what they pay.</p>
+        <span class="mk-card-meta">See the ranking →</span>
+      </a>
+      <a class="mk-card" href="/directory/coffee-millers.html">
+        <h3>Coffee millers</h3>
+        <p>The dry mills that hull and grade Kenyan coffee before sale.</p>
+        <span class="mk-card-meta">See millers →</span>
+      </a>
+      <a class="mk-card" href="/growers.html">
+        <h3>Growers map</h3>
+        <p>Cooperatives, factories and estates on a map, searchable by name, code and county.</p>
+        <span class="mk-card-meta">Open the map →</span>
+      </a>
+      <a class="mk-card" href="/projects/kenya-coffee-grades.html">
+        <h3>Coffee grades</h3>
+        <p>What AA, AB, PB, C and the other Kenyan grades mean, and what each one sells for.</p>
+        <span class="mk-card-meta">Learn the grades →</span>
+      </a>
+    </div>
+  </div>
 </section>
 
-</div>
+<section class="mk-section mk-section-alt">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-lg-5 mb-4">
+        <h2>What Kenyan coffee sells for</h2>
+        <p>Average auction price by grade at the Nairobi Coffee Exchange, {{ m.first_sale | date: "%Y" }}–{{ m.last_sale | date: "%Y" }}, in US dollars per 50 kg bag. Over that period the market average was <strong>US${{ m.price | round }}</strong> per bag.</p>
+        <a class="btn mk-btn-accent" href="/transactions.html#grades">Prices by season</a>
+      </div>
+      <div class="col-lg-7">
+        <div class="mk-table-wrap bg-white">
+          <table class="mk-table">
+            <caption>Average price by grade, US$ per 50 kg bag</caption>
+            <thead><tr><th scope="col">Grade</th><th scope="col" class="num">Avg price</th><th scope="col" class="num">Tonnes sold</th></tr></thead>
+            <tbody>
+              {% assign show = "E,AA,AB,PB,C,TT,T" | split: "," %}
+              {% for code in show %}{% assign g = m.grades | where: "grade", code | first %}{% if g %}
+              <tr><th scope="row">{{ g.grade }}</th><td class="num">US${{ g.price | round }}</td><td class="num">{% include num.html n=g.tonnes %}</td></tr>
+              {% endif %}{% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mk-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 mb-4 mk-faq">
+        <h2>Frequently asked questions</h2>
+        <details>
+          <summary>Where does MyKahawa get its coffee data?</summary>
+          <p>The Nairobi Coffee Exchange (NCE) runs Kenya’s central coffee auction, usually on Tuesdays at Wakulima House, Haile Selassie Avenue, Nairobi. The NCE publishes results after each sale. MyKahawa compiled the results from {{ m.first_sale | date: "%B %Y" }} to {{ m.last_sale | date: "%B %Y" }}; all records are free to <a href="/transactions.html#about-the-data">download</a>.</p>
+        </details>
+        <details>
+          <summary>Are you affiliated with the Nairobi Coffee Exchange?</summary>
+          <p>No. MyKahawa is independent.</p>
+        </details>
+        <details>
+          <summary>Can I buy coffee from MyKahawa?</summary>
+          <p>No. We provide data and information. We are not licensed to trade coffee. To buy Kenyan coffee, contact a <a href="/directory/coffee-exporters.html">licensed exporter</a> or a <a href="/directory/marketing-agents.html">marketing agent</a>.</p>
+        </details>
+        <details>
+          <summary>Why is my cooperative, estate or company not listed?</summary>
+          <p>The directory is based on Nairobi Coffee Exchange transactions from 2015 to 2020 and the 2012 Kenya Coffee Directory of the Kenya Coffee Traders Association. To add, correct or remove a listing, email <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a>. Listings are free.</p>
+        </details>
+        <details>
+          <summary>Where can I learn more about the Kenyan coffee trade?</summary>
+          <ul>
+            <li><a href="http://nairobicoffeeexchange.co.ke" rel="noopener">Nairobi Coffee Exchange</a>: runs the central coffee auction</li>
+            <li><a href="https://afa.go.ke/" rel="noopener">Agriculture and Food Authority (AFA)</a>: regulation and coffee dealer licences, through its Coffee Directorate</li>
+            <li><a href="https://www.kalro.org/" rel="noopener">Kenya Agricultural and Livestock Research Organization (KALRO)</a>: home of the Coffee Research Institute</li>
+            <li><a href="https://kcpa.co.ke" rel="noopener">Kenya Coffee Producers Association</a></li>
+            <li><a href="http://www.kenyacoffee.co.ke/" rel="noopener">Kenya Coffee Traders Association</a></li>
+            <li><a href="https://afca.coffee/" rel="noopener">African Fine Coffees Association</a>: specialty coffee news and events in Africa</li>
+            <li><a href="https://kencaffee.coop" rel="noopener">Kenya Co-operative Coffee Exporters (KCCE)</a></li>
+            <li><a href="https://www.technoserve.org/region/kenya" rel="noopener">TechnoServe Kenya</a>: smallholder coffee programmes</li>
+            <li><a href="https://farmdrive.co.ke" rel="noopener">FarmDrive</a>: credit for smallholder farmers</li>
+          </ul>
+        </details>
+      </div>
+      <div class="col-lg-5">
+        <div class="mk-chart-card">
+          <h2 class="h3">Stay informed</h2>
+          <p>Get updates on Kenyan coffee prices, new reports and directory changes.</p>
+          <a class="btn mk-btn-accent" href="/node/subscribe.html">Subscribe</a>
+        </div>
+        <div class="mk-chart-card">
+          <h2 class="h3">Work with MyKahawa</h2>
+          <p>Need a custom analysis of the Kenyan coffee market, or want to sponsor MyKahawa? <a href="/contact.html">Get in touch</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

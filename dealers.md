@@ -1,54 +1,13 @@
 ---
-layout: base
-title: Dealers
+layout: directory
+title: Coffee exporters, dealers and millers in Kenya
+heading: Coffee exporters, dealers and millers in Kenya
+description: "All licensed coffee businesses in Kenya: exporters and dealers, millers, marketing agents, grower marketers, warehousemen and management agents, with licence numbers and websites."
+lead: "All coffee businesses licensed by the Coffee Directorate of the Agriculture and Food Authority (AFA): exporters and dealers, millers, marketing agents, warehousemen and more."
+all_dealers: true
+breadcrumbs:
+  - title: Directory
+    url: /directory.html
 redirect_from: "/directory/dealers/"
-comments: true
 ---
-<header>
-  <div class="container">
-    <div class="header-content">
-      <h1>Dealers</h1>
-    </div>
-  </div>
-</header>
-
-<article>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <p class="lead">
-          Coffee dealers are persons registered by the county governments or the Agriculture and Food Authority to deal with coffee in Kenya. The coffee dealer license is issued by the <a href="https://coffee.agricultureauthority.go.ke/index.php/sectors/stakeholders" target="_blank">Agriculture and Food Authority (AFA)</a>. The list below includes 157 dealers as follows: 84 Coffee Dealers, 15 Coffee Millers, 11 Commercial Marketing Agents, 22 Grower Marketers, 14 Private Coffee Warehousemen, 7 Commercial Coffee Warehousemen and 4 Management Agents. Information on how to register for a license is available on <a href="https://www.wikiprocedure.com/index.php/Kenya_-_Obtain_Coffee_Dealers_License" target="_blank">WikiProcedure</a>  
-        </p>
-        <h2>Coffee dealers</h2>
-          <div>
-          <a class="btn btn-primary" href="/data/dealers/coffeedealers.csv" role="button">Download list of coffee dealers</a>
-          <br><br>
-          </div>         
-          <div id="coffeedealerstable"></div>
-      </div>
-    </div>
-  </div>
-
-{% include disqus_comments.html %}
-  
-</article>
-
-<link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
-<script type="text/javascript" src="/data/dealers/coffeedealers.json"></script>
-
-<script type="text/javascript">	
-	var local_data = coffeedealers_data;  <!-- name inside json file -->
-	var table = new Tabulator("#coffeedealerstable", {
-		data: local_data,
-		ajaxProgressiveLoad:"load",
-		layout:"fitColumns",
-		columns:[
-		{title:"#", formatter:"rownum", align:"center", width:40},
-    {title:"Category", field:"category"},
-		{title:"Dealer", field:"title"},
-		{title:"Website", field:"website"},
-		],
-	});
-</script>
+Coffee dealers and other licensed businesses must hold a licence from the Coffee Directorate of the [Agriculture and Food Authority](https://afa.go.ke/) or, for some licences, from the county government. Browse by licence type in the side panel, see who [buys the most at the auction](/directory/coffee-buyers.html), or [download the list (CSV)](/data/dealers/coffeedealers.csv).

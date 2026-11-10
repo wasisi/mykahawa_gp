@@ -1,116 +1,130 @@
 ---
+layout: base
 title: Coffee growers in Kenya
-show_producer_tags: true
+heading: Coffee growers in Kenya
+description: Map and searchable directory of 2,784 Kenyan coffee growers – cooperative societies, factories, estates and small estates – with county and growers (CBK) code.
+lead: Find Kenyan coffee cooperatives, factories and estates. Search by name, growers code or county, or explore the map.
+hero: true
+breadcrumbs:
+  - title: Directory
+    url: /directory.html
 permalink: /growers.html
-redirect_from: "/directory/producers/"
-redirect_from: "/list/producers.html"
+redirect_from:
+  - "/directory/producers/"
+  - "/list/producers.html"
+extra_css:
+  - /theme/vendor/leaflet/leaflet.css
+  - /theme/vendor/leaflet/MarkerCluster.css
+  - /theme/vendor/leaflet/MarkerCluster.Default.css
+extra_js:
+  - /theme/vendor/leaflet/leaflet.js
+  - /theme/vendor/leaflet/leaflet.markercluster.js
+  - /theme/js/growers-map.js
+  - /theme/js/growers-table.js
 ---
+{% assign d = site.data.directory %}
 
-<div class="d-md-block d-lg-none mb-3">
-    {% include components/tags-producers.html %}
-</div>
+<section class="mk-section">
+  <div class="container">
+    <div class="mk-stats mb-4">
+      <div class="mk-stat"><span class="mk-stat-value">{% include num.html n=d.growers_total %}</span><span class="mk-stat-label">growers listed</span></div>
+      {% for t in d.grower_types %}{% unless t.type == 'Other' %}
+      <div class="mk-stat"><span class="mk-stat-value">{{ t.count }}</span><span class="mk-stat-label">{{ t.plural | downcase }}</span></div>
+      {% endunless %}{% endfor %}
+    </div>
 
-<div id="currently-showing">
-    <h2 class="d-flex align-items-center mb-3">
-        <span class="text-secondary mr-2">Showing everything matching:</span>
-        <span class="border rounded p-2 mr-2 bg-light text-secondary" id="active-tag"></span>
-        <a class="btn btn-primary btn-small" href="javascript:void(0)" onclick="clearTags()">clear</a>
-    </h4>
-</div>
+    <h2 id="map">Map of coffee growers</h2>
+    <p class="mk-note">{{ d.growers_mapped }} of {% include num.html n=d.growers_total %} growers have a location. Most locations are approximate: they are based on a nearby school, ward, sub-location or town. Locations marked "verified" were confirmed on site.</p>
 
+    <div class="mk-map-controls">
+      <div class="form-group mb-0">
+        <label for="map-search" class="sr-only">Search the map</label>
+        <input type="search" id="map-search" class="form-control" placeholder="Search the map by name or code" autocomplete="off">
+      </div>
+      <fieldset>
+        <legend>Show:</legend>
+        <label><input type="checkbox" name="map-type" value="Cooperative society" checked> <span class="mk-dot" style="background:#b5302e"></span> Cooperative societies</label>
+        <label><input type="checkbox" name="map-type" value="Factory" checked> <span class="mk-dot" style="background:#4b8030"></span> Factories</label>
+        <label><input type="checkbox" name="map-type" value="Estate" checked> <span class="mk-dot" style="background:#6b3f22"></span> Estates</label>
+        <label><input type="checkbox" name="map-type" value="Small estate" checked> <span class="mk-dot" style="background:#c27c00"></span> Small estates</label>
+      </fieldset>
+      <button type="button" id="map-reset" class="btn btn-sm btn-outline-secondary">Reset map</button>
+    </div>
+    <div id="growers-map" class="mk-map" data-src="/data/growers/growers_map.geojson" role="region" aria-label="Map of coffee growers in Kenya"></div>
+    <p id="map-status" class="mk-count" aria-live="polite"></p>
+  </div>
+</section>
 
-<p class="lead">
-    Kenya’s coffee is grown in the highlands between 1400 and 2000 metres above sea level. The main growing areas are around Mt. Kenya, Nakuru and Machakos. Most of Kenya’s coffee is grown on small farms organized into cooperatives and plantation/large estates. According to the Coffee Act (2001), the distinction between small and large farms is determined by the size and ownership of pulping stations. In Kenya, it is estimated that 60% of coffee is produced by smallholder farmers.
-</p>
+<section class="mk-section mk-section-alt">
+  <div class="container">
+    <h2 id="search">Search all growers</h2>
+    <form class="mk-table-tools" role="search" onsubmit="return false">
+      <div class="form-group">
+        <label for="growers-q">Name, code or county</label>
+        <input type="search" id="growers-q" class="form-control" placeholder="e.g. Othaya, XAC55, Nyeri" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="growers-type">Type</label>
+        <select id="growers-type" class="form-control">
+          <option value="">All types</option>
+          {% for t in d.grower_types %}<option>{{ t.type }}</option>{% endfor %}
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="growers-county">County</label>
+        <select id="growers-county" class="form-control">
+          <option value="">All counties</option>
+          {% assign counties = d.grower_counties | sort: 'county' %}
+          {% for c in counties %}<option>{{ c.county }}</option>{% endfor %}
+        </select>
+      </div>
+    </form>
+    <p id="growers-count" class="mk-count" aria-live="polite">Loading growers…</p>
+    <div class="mk-table-wrap bg-white">
+      <table id="growers-table" class="mk-table" data-src="/data/growers/growers.json">
+        <thead><tr><th scope="col">Name</th><th scope="col">Type</th><th scope="col">County</th><th scope="col">Growers code</th><th scope="col"><span class="sr-only">Map</span></th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="mt-3"><button type="button" id="growers-more" class="btn btn-outline-secondary" hidden>Show more growers</button></p>
+    <noscript><p>Browse growers by type: <a href="/directory/cooperatives.html">cooperatives</a>, <a href="/directory/factories.html">factories</a>, <a href="/directory/estates.html">estates</a>.</p></noscript>
+    <p><a class="btn mk-btn-accent" href="/data/growers/coffeegrowers.csv" download>Download the growers list (CSV)</a></p>
+  </div>
+</section>
 
-<a class="btn btn-primary" href="/data/growers/coffeegrowers.csv" role="button">Download list of coffee producers</a>
-<br><br>
-
-
-{% for producer in site.producers %}
-
-    {% include components/producer-card.html %}
-
-{% endfor %}
-
-<div class="container">
-<!-- Growers map removed (was Mapbox). TODO: replace with an alternative, e.g. Leaflet + OpenStreetMap,
-     using /data/growers/coffeegrowers_location.geojson -->
-</div>
-
-<p class="d-flex align-items-center">
-    <span class="icon red mr-2">
-        {% include entypo/info.svg %}
-    </span>
-    If you would like to have your cooperative, estate or factory listed here for free please write to wasisi.coffee@gmail.com.
-</p>
-
-<p>Remember provide details in your email such as description of the farm, grower CBK code, grower name, contact information and website. You can also share location of your farm using <a href="https://www.google.com/maps">Google Maps</a></p>
-
-<script type="text/javascript">
-
-    var parseHash = function() {
-        if (document.location.hash.length > 0) {
-            var tag = document.location.hash.slice(1)
-            var name = $(".tag-" + tag).first().text()
-            showPostByTag(tag, name)
-        }
-        else {
-            clearTags()
-        }
-    }
-
-    $(document).ready(parseHash);
-
-    $(window).on('hashchange', parseHash);
-
-    var showPostByTag = function(tag, name) {
-        $("#currently-showing").show()
-        $(".card-post").hide()
-        $(".tag").removeClass("bg-warning")
-            .addClass("bg-white")
-            .removeClass("text-dark")
-        $(".card-post").each(function(idx, card) {
-            var matches = $(card).find(".tag-" + tag)
-            if (matches.length > 0) $(card).show()
-        })
-        $(".tag-" + tag).removeClass("bg-white")
-            .addClass("bg-warning")
-            .addClass("text-dark")
-            .blur()
-        $("#active-tag").html(name)
-    }
-
-    var clearTags = function() {
-        $("#currently-showing").hide()
-        $(".card-post").show()
-        $(".tag").removeClass("bg-warning")
-            .addClass("bg-white")
-            .removeClass("text-dark")
-        document.location.hash = ""
-    }
-
-</script>
-
-
-<link href="https://unpkg.com/tabulator-tables@4.8.1/dist/css/tabulator.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.1/dist/js/tabulator.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
-<script type="text/javascript" src="/data/growers/coffeegrowers.json"></script>
-
-<script type="text/javascript">	
-	var local_data = coffeegrowers_data;  <!-- name inside json file -->
-	var table = new Tabulator("#coffeegrowerstable", {
-    height:"500px",
-		data: local_data,
-		ajaxProgressiveLoad:"scroll",
-		layout:"fitColumns",
-    virtualDomHoz:true,
-		columns:[
-		{title:"#", formatter:"rownum", align:"center", width:80},
-		{title:"Ref",   field:"title"},
-		{title:"Grower name",   field:"producer_name"},
-    {title:"Category",   field:"actor"},
-		],
-	});
-</script>
+<section class="mk-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 mk-prose">
+        <h2>About coffee growing in Kenya</h2>
+        <p>Kenya’s coffee is grown in the highlands between 1,400 and 2,000 metres above sea level. The main growing areas are around Mount Kenya, the Aberdares, Nakuru, Machakos, Kisii and Mount Elgon. Most coffee is grown on small farms organised into cooperative societies, each running one or more factories (wet mills), and on plantations or estates. Under the Coffee Act, the line between small and large farms depends on the size and ownership of pulping stations. Around 60% of Kenya’s coffee comes from smallholder farmers.</p>
+        <h3>Browse by type</h3>
+        <ul>
+          <li><a href="/directory/cooperatives.html">Coffee cooperative societies</a></li>
+          <li><a href="/directory/factories.html">Coffee factories (wet mills)</a></li>
+          <li><a href="/directory/estates.html">Coffee estates and farms</a></li>
+        </ul>
+        <h3>Browse by county</h3>
+        <p>{% for c in d.grower_counties limit: 12 %}<a href="/directory/county/{{ c.slug }}.html">{{ c.county }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %} · <a href="/directory.html#counties">all counties</a></p>
+      </div>
+      <div class="col-lg-5">
+        {% if site.producers.size > 0 %}
+        <h2>Grower profiles</h2>
+        <div class="mk-cards" style="grid-template-columns:1fr">
+          {% for producer in site.producers %}
+          <a class="mk-card" href="{{ producer.url }}">
+            <h3>{{ producer.title }}</h3>
+            <p>{{ producer.excerpt | strip_html | truncatewords: 28 }}</p>
+            <span class="mk-card-meta">Read profile →</span>
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <div class="mk-chart-card mt-4">
+          <h2 class="h3">Get your farm listed</h2>
+          <p>Cooperatives, factories and estates can be listed for free. Email <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a> with your grower name, growers (CBK) code, a short description, contact details, website, and your location as a <a href="https://www.google.com/maps">Google Maps</a> link.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

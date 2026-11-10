@@ -1,0 +1,29 @@
+{%- assign m = site.data.market -%}
+{%- assign limit = include.limit | default: 30 -%}
+<div class="mk-table-wrap">
+  <table class="mk-table">
+    <caption>Top {{ limit }} buyers at the Nairobi Coffee Exchange by volume, {{ m.first_sale | date: "%b %Y" }} – {{ m.last_sale | date: "%b %Y" }}</caption>
+    <thead>
+      <tr>
+        <th scope="col" class="num">#</th>
+        <th scope="col">Buyer</th>
+        <th scope="col" class="num">Tonnes bought</th>
+        <th scope="col" class="num">Market share</th>
+        <th scope="col" class="num">Avg price<br><span class="font-weight-normal">US$/50 kg</span></th>
+        {% unless include.short %}<th scope="col" class="num">Value (US$ m)</th><th scope="col" class="num">Lots</th>{% endunless %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for b in m.top_buyers limit: limit %}
+      <tr>
+        <td class="num">{{ forloop.index }}</td>
+        <td>{{ b.name }}</td>
+        <td class="num">{% include num.html n=b.tonnes %}</td>
+        <td class="num">{{ b.share }}%</td>
+        <td class="num">{{ b.price | round }}</td>
+        {% unless include.short %}<td class="num">{{ b.usd | divided_by: 100000.0 | round | divided_by: 10.0 }}</td><td class="num">{% include num.html n=b.lots %}</td>{% endunless %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

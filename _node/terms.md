@@ -2,15 +2,10 @@
 layout: base
 title: Terms
 permalink: node/terms.html
+hero: true
+heading: "Terms"
 ---
-<header>
-  <div class="container">
-    <div class="header-content">
-      <h1>Terms</h1>
-    </div>
-  </div>
-</header>
-
+<div class="container mk-section mk-prose">
 <article>
 <p>While we make all reasonable efforts to update or correct any information that appears on this website, we do not make any representation or warranty in relation to or in any way guarantee the accuracy of information on the website at any given time.</p> 
 
@@ -18,3 +13,4 @@ permalink: node/terms.html
 
 <p>Any use of this website or the information available on this website is at your own risk. We shall not be liable for any loss, damage or expense arising out of any access to, use of, or reliance upon, this website or the information on this website, or any website linked to this website.</p>
 </article>
+</div>

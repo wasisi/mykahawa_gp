@@ -2,15 +2,9 @@
 layout: base
 title: Comment policy
 permalink: node/comment.html
+hero: true
+heading: "Comment policy"
 ---
-<header>
-  <div class="container">
-    <div class="header-content">
-      <h1>Comment policy</h1>
-    </div>
-  </div>
-</header>
-
 <div class="container" markdown="1">
 
 ## Stay On-topic

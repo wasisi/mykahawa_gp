@@ -12,18 +12,21 @@ layout: default
 
 {{ content }}
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        var tpl = 
-            "<li class='nav-item'>\
-                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
-            </li>"
-        $("h2").each(function(idx, h2) {
-            $(h2).attr("id", "header" + idx)
-            var name = $(h2).text().trim()
-            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
-            var header = $(dom_string)
-            $(".header-list").append(header)
-        })
-    })
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var list = document.querySelectorAll('.header-list');
+    document.querySelectorAll('#main-content h2').forEach(function (h2, idx) {
+      if (!h2.id) h2.id = 'section-' + (idx + 1);
+      list.forEach(function (ul) {
+        var li = document.createElement('li');
+        li.className = 'nav-item';
+        var a = document.createElement('a');
+        a.className = 'nav-link bg-white mb-1';
+        a.href = '#' + h2.id;
+        a.textContent = h2.textContent.trim();
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+    });
+  });
 </script>

@@ -1,28 +1,33 @@
 <!doctype html>
-<html>
-  
+<html lang="{{ site.lang | default: 'en' }}">
   {% include structure/head.html %}
-
   <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N945XH3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N945XH3" title="Google Tag Manager" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     {% include structure/nav.html %}
 
-    <div id="main-content">
+    <main id="main-content" tabindex="-1">
+      {% if page.hero or layout.hero %}
+      <section class="mk-page-hero">
+        <div class="container">
+          {% if page.breadcrumbs %}
+          <nav aria-label="Breadcrumb">
+            <ol class="mk-breadcrumb">
+              <li><a href="/">Home</a></li>
+              {% for b in page.breadcrumbs %}<li><a href="{{ b.url }}">{{ b.title }}</a></li>{% endfor %}
+            </ol>
+          </nav>
+          {% endif %}
+          <h1>{{ page.heading | default: page.title }}</h1>
+          {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+        </div>
+      </section>
+      {% endif %}
       {{ content }}
-    </div>
+    </main>
 
     {% include structure/footer.html %}
-
-    {% for js in layout.extra_js %}
-      <script src="{{ js }}"></script>
-    {% endfor %}
-
-    {% for js in page.extra_js %}
-      <script src="{{ js }}"></script>
-    {% endfor %}
+    {% include structure/scripts.html %}
   </body>
 </html>

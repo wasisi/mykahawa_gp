@@ -1,0 +1,108 @@
+---
+layout: base
+hero: true
+extra_js:
+  - /theme/js/table-filter.js
+---
+{%- comment -%}
+Directory listing page. Set ONE of these in the page front matter:
+  dealer_group: <slug from _data/directory.json dealer_groups>   licensed dealers in that category
+  grower_types: [list of grower types]                           growers of those types
+  county: <county name>                                          growers in that county
+Page content (Markdown/HTML) is shown above the table.
+{%- endcomment -%}
+
+<section class="mk-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+
+        {% if content != "" %}<div class="mk-prose mb-4">{{ content }}</div>{% endif %}
+
+        {% if page.all_dealers %}
+          {% assign rows = site.data.dealers %}
+          {% assign noun = "businesses" %}
+        {% elsif page.dealer_group %}
+          {% assign rows = site.data.dealers | where: "group", page.dealer_group %}
+          {% assign noun = "businesses" %}
+        {% elsif page.county %}
+          {% assign rows = site.data.growers | where: "county", page.county %}
+          {% assign noun = "growers" %}
+        {% else %}
+          {% assign rows = "" | split: "" %}
+          {% for t in page.grower_types %}
+            {% assign part = site.data.growers | where: "type", t %}
+            {% assign rows = rows | concat: part %}
+          {% endfor %}
+          {% assign rows = rows | sort_natural: "name" %}
+          {% assign noun = "growers" %}
+        {% endif %}
+
+        <div class="mk-table-tools">
+          <div class="form-group">
+            <label for="dir-filter">Filter this list</label>
+            <input type="search" id="dir-filter" class="form-control" data-filter-table="dir-table" data-filter-count="dir-count" data-filter-noun="{{ noun }}" placeholder="Type a name…" autocomplete="off">
+          </div>
+        </div>
+        <p id="dir-count" class="mk-count" aria-live="polite">{{ rows.size }} {{ noun }}</p>
+
+        <div class="mk-table-wrap">
+          <table id="dir-table" class="mk-table">
+            {% if page.dealer_group or page.all_dealers %}
+            <caption>{{ page.heading | default: page.title }} – licensed by the Coffee Directorate (AFA)</caption>
+            <thead><tr><th scope="col">Name</th>{% if page.show_category or page.all_dealers %}<th scope="col">Licence type</th>{% endif %}<th scope="col" class="num">Licence no.</th><th scope="col">Website</th></tr></thead>
+            <tbody>
+              {% for r in rows %}
+              <tr>
+                <td>{{ r.name }}</td>
+                {% if page.show_category or page.all_dealers %}<td>{% if page.all_dealers %}<a href="/directory/{{ r.group }}.html">{{ r.label }}</a>{% else %}{{ r.category }}{% endif %}</td>{% endif %}
+                <td class="num">{{ r.license }}</td>
+                <td>{% if r.website != "" %}<a href="{{ r.website }}" rel="nofollow noopener">{{ r.website | remove: "http://" | remove: "https://" | remove: "www." | split: "/" | first }}</a>{% endif %}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+            {% else %}
+            <caption>{{ page.heading | default: page.title }}</caption>
+            <thead><tr><th scope="col">Name</th><th scope="col">Type</th>{% unless page.county %}<th scope="col">County</th>{% endunless %}<th scope="col">Growers code</th></tr></thead>
+            <tbody>
+              {% for r in rows %}
+              <tr>
+                <td>{{ r.name }}{% if r.affiliation != "" %}<div class="small text-muted">{{ r.affiliation }}</div>{% endif %}</td>
+                <td>{{ r.type }}</td>
+                {% unless page.county %}<td>{% if r.county != "" %}{% assign cs = r.county | slugify %}<a href="/directory/county/{{ cs }}.html">{{ r.county }}</a>{% endif %}</td>{% endunless %}
+                <td>{{ r.code }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+            {% endif %}
+          </table>
+        </div>
+      </div>
+
+      <aside class="col-lg-4 mt-4 mt-lg-0" aria-label="More in the directory">
+        <div class="mk-chart-card">
+          <h2 class="h3">Licensed businesses</h2>
+          <ul class="list-unstyled mb-0">
+            {% for g in site.data.directory.dealer_groups %}
+            <li><a href="/directory/{{ g.slug }}.html"{% if page.dealer_group == g.slug %} aria-current="page"{% endif %}>{{ g.label }}</a> <span class="text-muted">({{ g.count }})</span></li>
+            {% endfor %}
+            <li><a href="/directory/coffee-buyers.html">Top buyers at the auction</a></li>
+          </ul>
+        </div>
+        <div class="mk-chart-card">
+          <h2 class="h3">Growers</h2>
+          <ul class="list-unstyled mb-0">
+            <li><a href="/directory/cooperatives.html">Cooperative societies</a></li>
+            <li><a href="/directory/factories.html">Factories (wet mills)</a></li>
+            <li><a href="/directory/estates.html">Estates and small estates</a></li>
+            <li><a href="/growers.html">Map and search</a></li>
+          </ul>
+        </div>
+        <div class="mk-chart-card">
+          <h2 class="h3">Is a listing wrong or missing?</h2>
+          <p class="mb-0">Email <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a> to add, correct or remove a listing. Listings are free.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>

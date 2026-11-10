@@ -2,15 +2,10 @@
 layout: base
 title: Subscribe
 permalink: node/subscribe.html
+hero: true
+heading: "Subscribe"
 ---
-<header>
-  <div class="container">
-    <div class="header-content">
-      <h1>Subscribe</h1>
-    </div>
-  </div>
-</header>
-
+<div class="container mk-section mk-prose">
 <p>Thank you for taking an interest in our work. Please complete the form below to receive our emails and for matchmaking with potential partners.</p>
 
 <!-- Begin Mailchimp Signup Form -->
@@ -78,3 +73,4 @@ permalink: node/subscribe.html
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='MMERGE5';ftypes[5]='url';fnames[6]='MMERGE6';ftypes[6]='radio';fnames[7]='MMERGE7';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+</div>

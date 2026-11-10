@@ -1,0 +1,5 @@
+<script src="/theme/vendor/jquery/jquery.min.js"></script>
+<script src="/theme/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+{% for js in layout.extra_js %}<script src="{{ js }}"></script>
+{% endfor %}{% for js in page.extra_js %}<script src="{{ js }}"></script>
+{% endfor %}

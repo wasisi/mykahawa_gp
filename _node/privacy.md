@@ -2,15 +2,10 @@
 layout: base
 title: Privacy
 permalink: node/privacy.html
+hero: true
+heading: "Privacy"
 ---
-<header>
-  <div class="container">
-    <div class="header-content">
-      <h1>Privacy</h1>
-    </div>
-  </div>
-</header>
-
+<div class="container mk-section mk-prose">
 <article>
 MyKahawa recognizes the importance of privacy and we are committed to maintaining the accuracy, confidentiality and security of your personal information. This Privacy Policy describes the personal information that MyKahawa collects from you, how we manage that personal information and what may happen to that personal information. MyKahawa is responsible for the personal information that we collect and store. 
 
@@ -87,3 +82,4 @@ Personal information is any information about an identifiable individual, other 
 <p>This Privacy Policy was last updated on 21 September 2020. </p>
 
 </article>
+</div>
