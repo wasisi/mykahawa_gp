@@ -20,3 +20,6 @@ security/
 .bundle/
 /vendor/
 source/
+# Proprietary research (never commit to the public repo)
+data/review/
+__pycache__/

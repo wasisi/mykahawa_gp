@@ -1,6 +1,6 @@
 {
  "growers_total": 2783,
- "growers_mapped": 897,
+ "growers_mapped": 947,
  "grower_types": [
   {
    "type": "Small estate",
@@ -150,13 +150,13 @@
    "count": 1
   }
  ],
- "dealers_total": 157,
+ "dealers_total": 182,
  "dealer_groups": [
   {
    "slug": "coffee-exporters",
    "title": "Coffee exporters and dealers in Kenya",
    "label": "Exporters and dealers",
-   "count": 84
+   "count": 109
   },
   {
    "slug": "coffee-millers",

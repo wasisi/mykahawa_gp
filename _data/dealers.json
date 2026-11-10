@@ -72,6 +72,14 @@
   "website": ""
  },
  {
+  "name": "Alcaffe Ltd.",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Aristocrats Coffee and Tea Exporters Ltd",
   "category": "Commercial Marketing Agents",
   "group": "marketing-agents",
@@ -120,11 +128,35 @@
   "website": ""
  },
  {
+  "name": "BTG Pactual",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Buteco Limited",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1570",
+  "website": ""
+ },
+ {
+  "name": "Buteko Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
+  "name": "Caffe Del Duca Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
   "website": ""
  },
  {
@@ -272,6 +304,14 @@
   "website": ""
  },
  {
+  "name": "E - Logistics",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Eagle Crown coffee Ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
@@ -352,6 +392,30 @@
   "website": ""
  },
  {
+  "name": "Engelhart Co",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
+  "name": "Exotic Coffee",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
+  "name": "Export Trading",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Faina Enterprises Ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
@@ -408,11 +472,27 @@
   "website": ""
  },
  {
+  "name": "Gilmart Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Global Afrea Ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1558",
+  "website": ""
+ },
+ {
+  "name": "Global Fruits",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
   "website": ""
  },
  {
@@ -470,6 +550,14 @@
   "label": "Exporters and dealers",
   "license": "1684",
   "website": "http://www.iberokenya.com/aboutus"
+ },
+ {
+  "name": "IIDCO Investment",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
  },
  {
   "name": "Ikawa coffee ltd",
@@ -568,6 +656,14 @@
   "website": ""
  },
  {
+  "name": "Kahve Coffee Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Kaizen Export Ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
@@ -580,6 +676,14 @@
   "category": "Grower Marketers",
   "group": "grower-marketers",
   "label": "Grower marketers",
+  "license": "",
+  "website": ""
+ },
+ {
+  "name": "KCCD",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
   "license": "",
   "website": ""
  },
@@ -672,6 +776,14 @@
   "website": ""
  },
  {
+  "name": "Kuttum Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Kyandu trading Ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
@@ -712,7 +824,15 @@
   "website": ""
  },
  {
-  "name": "Louis Drefus Company Ltd",
+  "name": "Lisela Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
+  "name": "Louis Dreyfus Company Kenya Ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
@@ -720,7 +840,7 @@
   "website": "http://www.ldcommodities.com/global/en/"
  },
  {
-  "name": "Louis Drefus Company Ltd",
+  "name": "Louis Dreyfus Company Kenya Ltd",
   "category": "Private Coffee Warehousemen",
   "group": "warehousemen",
   "label": "Warehousemen",
@@ -765,6 +885,14 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1595",
+  "website": ""
+ },
+ {
+  "name": "Merali Dewji and Sons (K) Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
   "website": ""
  },
  {
@@ -904,6 +1032,22 @@
   "website": ""
  },
  {
+  "name": "Orion East Africa",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
+  "name": "Panju",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Patrick Kirui",
   "category": "Grower Marketers",
   "group": "grower-marketers",
@@ -917,6 +1061,14 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1578",
+  "website": ""
+ },
+ {
+  "name": "Peclex Enterprises",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
   "website": ""
  },
  {
@@ -949,6 +1101,14 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1565",
+  "website": ""
+ },
+ {
+  "name": "Prospects Int",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
   "website": ""
  },
  {
@@ -992,6 +1152,14 @@
   "website": ""
  },
  {
+  "name": "Rockaffe' Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Rockbern Coffee Ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
@@ -1024,11 +1192,27 @@
   "website": ""
  },
  {
+  "name": "Saken",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Sanaark investment ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1561",
+  "website": ""
+ },
+ {
+  "name": "Sangana Commodities Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
   "website": ""
  },
  {
@@ -1080,6 +1264,14 @@
   "website": "https://www.facebook.com/servicoff/"
  },
  {
+  "name": "Shah Meghji Hirji Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": ""
+ },
+ {
   "name": "Skidmore International ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
@@ -1088,7 +1280,7 @@
   "website": ""
  },
  {
-  "name": "Sodhi Trading Limited",
+  "name": "Sondhi Trading Limited",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
@@ -1096,7 +1288,7 @@
   "website": "http://www.mbaraki.com/"
  },
  {
-  "name": "Sodhi Trading Limited",
+  "name": "Sondhi Trading Limited",
   "category": "Private Coffee Warehousemen",
   "group": "warehousemen",
   "label": "Warehousemen",
@@ -1117,6 +1309,14 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "345",
+  "website": ""
+ },
+ {
+  "name": "Super Gibs Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
   "website": ""
  },
  {

@@ -34,36 +34,26 @@ The site is a static Jekyll site hosted free on **GitHub Pages** (branch `gh-pag
 | `theme/_sass/_mk.scss` | Site styles (loaded last; overrides the older theme) |
 | `theme/js/` | Map (`growers-map.js`), grower search, charts, table filter |
 | `theme/vendor/` | Self-hosted libraries: Leaflet 1.9.4, Chart.js 4.6.1, jQuery 3.7.1, Bootstrap 4.6.2 JS |
-| `scripts/` | `build_data.py` (data pipeline) and `docker_build.sh` (local build) |
+| `scripts/docker_build.sh` | Local build with Docker (the data scripts are in the private repo) |
 
 ## Data
 
-Raw data lives in `data/` and is **not published** on the website (see `exclude` in `_config.yml`). Only these derived files are served, because the browser needs them:
+The raw data (auction transactions, growers, dealers), research files and data scripts are kept in a **private** repository, `wasisi/mykahawa_private`, and are not part of this public repo. That repo's `scripts/build_data.py` generates everything the website needs and writes it here:
 
-- `data/growers/growers.json`: grower search
-- `data/growers/growers_map.geojson`: map points
-- `data/market/sales.json`, `data/market/grade_prices.json`: charts
+- `_data/*.json`: directory, market, insights, growers and dealers lists used by the templates
+- `_growers/*.md`: one page per grower (**generated**, do not edit)
+- `directory/county/*.md`: county pages (**generated**)
+- `data/growers/growers.json`, `data/growers/growers_map.geojson`, `data/market/sales.json`, `data/market/grade_prices.json`: loaded by the browser for search, the map and the charts
 
-> The raw files are still in this repository's history on GitHub. To keep them private, move them to a private repository or keep them off GitHub. The site only needs the generated files.
+To update the data: edit it in the private repo, run `python3 scripts/build_data.py` there (it finds this repo at `../mykahawa_gp`, or set `MYKAHAWA_SITE`), then build, check and commit this repo.
 
-### Updating the data
-
-1. Update the raw files in `data/`. For example, append new auction results to `data/transactions/coffeetransactions.csv` using the same columns, or add growers to `data/growers/coffeegrowers.csv`.
-2. Regenerate everything derived from them:
-
-   ```
-   python3 scripts/build_data.py
-   ```
-
-   This rewrites `_data/*.json`, the browser data files, `directory/county/*.md` and `_growers/*.md`. Prices, charts, grower pages and report figures all update automatically.
-3. Build and check the site (below), then commit and push.
-
-Notes on the data:
+Notes on the generated figures:
 
 - Prices are US$ per 50 kg bag. Averages are weighted by volume.
 - Seasons run 1 October to 30 September.
 - Lots marked `BULK` mix several growers. They count in market totals but are excluded from grower and county figures.
-- Text in the transactions file is Windows-1252, and some names were double-encoded. The script repairs this.
+
+The 2015–2020 raw files were public in this repo's history before November 2026.
 
 ## Building locally
 
