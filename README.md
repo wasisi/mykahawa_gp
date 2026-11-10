@@ -75,7 +75,7 @@ Or with Ruby installed: `bundle install && bundle exec jekyll serve`.
 
 ## Accounts and services
 
-- **Analytics**: Google Tag Manager `GTM-N945XH3` (in `_includes/structure/head.html`).
+- **Analytics**: Google Tag Manager (in `_includes/structure/head.html`).
 - **Maps**: OpenStreetMap tiles (free, attribution required, light use only).
 - **Email**: `wasisi.coffee@gmail.com`. The subscribe page and listing forms open the visitor's email app; the old Mailchimp list no longer exists.
 - **Donations**: Ko-fi `L4L629RGA`.
