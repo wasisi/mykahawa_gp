@@ -104,6 +104,37 @@ redirect_from: "/events/"
 
 <section class="mk-section">
   <div class="container">
+    <h2>Market reports</h2>
+    <p>Free analysis of Kenya's coffee auction: prices, grades, counties and buyers.</p>
+    <div class="mk-cards mt-3">
+      {% assign reports = site.reports | sort: "date" | reverse %}
+      {% for r in reports limit: 3 %}
+      <a class="mk-card" href="{{ r.url }}">
+        <h3>{{ r.heading | default: r.title }}</h3>
+        <p>{{ r.lead | truncatewords: 26 }}</p>
+        <span class="mk-card-meta">Read the report →</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="mk-section mk-section-alt">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <h2>Are you a coffee cooperative, factory or estate?</h2>
+        <p class="mb-lg-0">Get a free profile with your story, photos, varieties and a verified location, alongside your auction track record. Buyers and roasters use MyKahawa to find Kenyan coffee.</p>
+      </div>
+      <div class="col-lg-4 text-lg-right">
+        <a class="btn mk-btn-accent btn-lg" href="/get-listed.html">Get your farm listed</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mk-section">
+  <div class="container">
     <div class="row">
       <div class="col-lg-7 mb-4 mk-faq">
         <h2>Frequently asked questions</h2>

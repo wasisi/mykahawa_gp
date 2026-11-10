@@ -190,3 +190,28 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
 .text-muted { color: $mk-muted !important; }  // Bootstrap's grey fails WCAG AA contrast
 .btn-outline-secondary { color: $mk-coffee-2; border-color: $mk-coffee-2; background: #fff; }
 .btn-outline-secondary:hover, .btn-outline-secondary:focus { color: #fff; background: $mk-coffee-2; border-color: $mk-coffee-2; }
+
+// Glossary
+.mk-glossary-index { font-size: 1.1rem; a { display: inline-block; padding: .1rem .45rem; } }
+.mk-glossary { margin-bottom: 0; dt { margin-top: .9rem; color: $mk-coffee; } dd { margin-left: 0; } }
+
+// Reports
+.mk-report-kicker { text-transform: uppercase; letter-spacing: .06em; font-weight: 700; color: $mk-green-dark; margin-bottom: .25rem; font-size: .9rem; }
+.mk-report { h2 { margin-top: 2rem; } .mk-table-wrap { margin: 1rem 0 1.25rem; } }
+.mk-findings { background: $mk-cream; border-left: 4px solid $mk-green; padding: 1rem 1.25rem 1rem 2.25rem; border-radius: .25rem; li { margin-bottom: .4rem; } }
+.mk-bar { display: flex; align-items: center; gap: .5rem; min-width: 9rem; }
+.mk-bar span.mk-bar-fill { display: inline-block; height: .7rem; background: $mk-green; border-radius: 0 3px 3px 0; }
+
+@media print {
+  .mk-header, .mk-footer, .mk-no-print, .mk-skip-link { display: none !important; }
+  .mk-page-hero { background: none; border: 0; padding: 0 0 1rem; }
+  .mk-section { padding: 0; }
+  .col-lg-9 { flex: 0 0 100%; max-width: 100%; }
+  .mk-table-wrap { overflow: visible; border: 0; }
+  .mk-table th { position: static; }
+  a { color: inherit; text-decoration: none; }
+  .mk-bar span.mk-bar-fill { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+// Sticky sidebars must never be taller than the screen, or their bottom can't be reached.
+.side .sticky-top { max-height: calc(100vh - 1rem); overflow-y: auto; top: .5rem; }

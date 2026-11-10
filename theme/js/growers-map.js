@@ -55,11 +55,12 @@
   }
 
   function popup(p) {
-    return '<strong>' + esc(p.name) + '</strong><br>' +
+    var title = p.url ? '<a href="' + esc(p.url) + '"><strong>' + esc(p.name) + '</strong></a>' : '<strong>' + esc(p.name) + '</strong>';
+    return title + '<br>' +
       esc(p.type) + (p.code ? ' &middot; Growers code ' + esc(p.code) : '') + '<br>' +
       '<span style="color:#5f5750">' +
       (p.verified ? 'Location verified' : 'Approximate location (nearby school, ward or town)') +
-      '</span>';
+      '</span>' + (p.url ? '<br><a href="' + esc(p.url) + '">Prices and details →</a>' : '');
   }
 
   function say(msg) { if (status) status.textContent = msg; }

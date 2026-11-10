@@ -18,7 +18,12 @@
   var rows = [], matches = [], shown = 0;
 
   var params = new URLSearchParams(location.search);
-  if (params.get('q')) q.value = params.get('q');
+  if (params.get('q')) {
+    // A search for a county name (e.g. ?q=nyeri) shows the growers in that county.
+    var wanted = params.get('q').trim().toLowerCase();
+    var match = Array.prototype.filter.call(county.options, function (o) { return o.value && o.value.toLowerCase() === wanted; })[0];
+    if (match) county.value = match.value; else q.value = params.get('q');
+  }
   if (params.get('type')) type.value = params.get('type');
   if (params.get('county')) county.value = params.get('county');
 
@@ -35,7 +40,11 @@
     var frag = document.createDocumentFragment();
     matches.slice(shown, shown + PAGE).forEach(function (g) {
       var tr = document.createElement('tr');
-      var name = cell(tr, g.n);
+      var name = cell(tr, '');
+      var link = document.createElement('a');
+      link.href = g.u;
+      link.textContent = g.n;
+      name.appendChild(link);
       if (g.a) {
         var aff = document.createElement('div');
         aff.className = 'small text-muted';

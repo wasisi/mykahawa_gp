@@ -67,7 +67,7 @@ Page content (Markdown/HTML) is shown above the table.
             <tbody>
               {% for r in rows %}
               <tr>
-                <td>{{ r.name }}{% if r.affiliation != "" %}<div class="small text-muted">{{ r.affiliation }}</div>{% endif %}</td>
+                <td><a href="{{ r.url }}">{{ r.name }}</a>{% if r.affiliation != "" %}<div class="small text-muted">{{ r.affiliation }}</div>{% endif %}</td>
                 <td>{{ r.type }}</td>
                 {% unless page.county %}<td>{% if r.county != "" %}{% assign cs = r.county | slugify %}<a href="/directory/county/{{ cs }}.html">{{ r.county }}</a>{% endif %}</td>{% endunless %}
                 <td>{{ r.code }}</td>

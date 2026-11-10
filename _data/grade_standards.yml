@@ -1,0 +1,65 @@
+# Kenya Standard coffee grades.
+# Source: Crops (Coffee) (General) Regulations, 2019 (Legal Notice 102 of 2019), Fifth Schedule
+# (revised to 31 December 2022), with plain-language notes informed by the Nairobi Coffee Exchange
+# guide "Understanding Kenya Coffee Grades".
+# Screen numbers are in 64ths of an inch; mm values are as printed in the Regulations.
+
+main:
+  - grade: E
+    name: Elephant
+    screen: "Retained on screen 21 (8.3 mm)"
+    standard: "Two beans joined together (a genetic defect); also includes very large, bold AA beans."
+    notes: "The largest beans. Rare, and fragile: the joined beans can split (‘ears’) during handling and roasting. Can earn a premium when quality is high."
+  - grade: AA
+    name: Kenya AA
+    screen: "Through 21, retained on 18 (7.2 mm)"
+    standard: "Flat beans."
+    notes: "Kenya's best-known grade: large, dense beans prized for bright acidity. Usually the highest-priced grade at the auction."
+  - grade: AB
+    name: Kenya AB
+    screen: "Through 18, retained on 16 (6.35 mm)"
+    standard: "Flat beans."
+    notes: "The largest grade by volume. Good quality, widely traded for specialty and blends."
+  - grade: PB
+    name: Peaberry
+    screen: "Through 17, retained on 12 (4.76 mm)"
+    standard: "Only one ovule develops in the cherry instead of the usual two, giving a single round bean."
+    notes: "Small and round; many buyers value it for a concentrated cup. Sold as a specialty and single-origin grade."
+  - grade: C
+    name: Kenya C
+    screen: "Through 16, retained on 10 (3.96 mm)"
+    standard: "Small flat beans."
+    notes: "Smaller beans, mostly used in blends and for local and regional markets."
+  - grade: TT
+    name: Light beans
+    screen: "Separated by density (air extraction)"
+    standard: "Light-density beans removed from the AA, AB and E grades by blowing."
+    notes: "Lighter, less dense beans. Used in blends and lower-priced lines."
+  - grade: T
+    name: Smalls
+    screen: "Through the smallest screen (2.9 mm)"
+    standard: "The smallest beans, made up of broken beans and small C."
+    notes: "Mostly used for blending and domestic coffee."
+
+miscellaneous:
+  - grade: MH
+    name: Mbuni heavy
+    standard: "Heavy buni (dry-processed, unwashed coffee), separated by density."
+  - grade: ML
+    name: Mbuni light
+    standard: "Light buni (dry-processed, unwashed coffee)."
+  - grade: SB
+    name: Sorted beans
+    standard: "Sorted beans."
+  - grade: HE
+    name: Hulled ears
+    standard: "Ears: the pieces that split off elephant beans."
+  - grade: UG
+    name: Ungraded
+    standard: "Clean coffee that has not been graded, sometimes called estate-cured coffee or sweepings. Auction catalogues also use UG1, UG2 and UG3 for ungraded lots of different quality."
+  - grade: RH
+    name: Robusta heavy
+    standard: "Heavy robusta beans."
+  - grade: RL
+    name: Robusta light
+    standard: "Light robusta beans."

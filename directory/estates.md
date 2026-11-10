@@ -11,4 +11,4 @@ breadcrumbs:
     url: /directory.html
 permalink: /directory/estates.html
 ---
-Estates usually run their own pulping station and sell through a marketing agent or as a [grower marketer](/directory/grower-marketers.html). Some have detailed profiles, for example [Nyeri Hill Farm](/producers/2020-10-05-nyeri-hill.html).
+Estates usually run their own pulping station and sell through a marketing agent or as a [grower marketer](/directory/grower-marketers.html). Some have detailed profiles, for example [Nyeri Hill Farm](/producer/8017/nyeri_hill_farm_and_archdiocese_of_nyeri/).

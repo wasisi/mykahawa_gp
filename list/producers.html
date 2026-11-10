@@ -110,8 +110,8 @@ extra_js:
         {% if site.producers.size > 0 %}
         <h2>Grower profiles</h2>
         <div class="mk-cards" style="grid-template-columns:1fr">
-          {% for producer in site.producers %}
-          <a class="mk-card" href="{{ producer.url }}">
+          {% for producer in site.producers %}{% assign gp = site.growers | where: "grower_id", producer.grower_id | first %}
+          <a class="mk-card" href="{{ gp.url }}">
             <h3>{{ producer.title }}</h3>
             <p>{{ producer.excerpt | strip_html | truncatewords: 28 }}</p>
             <span class="mk-card-meta">Read profile →</span>
@@ -121,7 +121,8 @@ extra_js:
         {% endif %}
         <div class="mk-chart-card mt-4">
           <h2 class="h3">Get your farm listed</h2>
-          <p>Cooperatives, factories and estates can be listed for free. Email <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a> with your grower name, growers (CBK) code, a short description, contact details, website, and your location as a <a href="https://www.google.com/maps">Google Maps</a> link.</p>
+          <p>Cooperatives, factories and estates can be listed for free, with photos, a verified location and contacts that buyers can see.</p>
+          <a class="btn mk-btn-accent" href="/get-listed.html">Get your farm listed</a>
         </div>
       </div>
     </div>

@@ -16,6 +16,7 @@ layout: default
   document.addEventListener('DOMContentLoaded', function () {
     var list = document.querySelectorAll('.header-list');
     document.querySelectorAll('#main-content h2').forEach(function (h2, idx) {
+      if (h2.closest('.card') || /^letter-/.test(h2.id)) return;
       if (!h2.id) h2.id = 'section-' + (idx + 1);
       list.forEach(function (ul) {
         var li = document.createElement('li');
@@ -27,6 +28,13 @@ layout: default
         li.appendChild(a);
         ul.appendChild(li);
       });
+    });
+    // No sections to list (e.g. the glossary): hide the empty "On this page" box title and list.
+    list.forEach(function (ul) {
+      if (ul.children.length) return;
+      ul.hidden = true;
+      var title = ul.parentNode.querySelector('.card-title');
+      if (title) title.hidden = true;
     });
   });
 </script>

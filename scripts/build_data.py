@@ -55,10 +55,23 @@ DEALER_CATEGORIES = {
 }
 
 
+def fix_mojibake(s):
+    """Undo text that was UTF-8 encoded and then read as Windows-1252 (e.g. 'Ã‚Â' for a non-breaking space)."""
+    for _ in range(3):
+        if "Ã" not in s and "Â" not in s:
+            break
+        try:
+            s = s.encode("cp1252").decode("utf-8")
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            break
+    return s
+
+
 def clean(s):
     if s is None:
         return ""
-    s = s.replace("\xa0", " ").strip()
+    s = fix_mojibake(s)
+    s = re.sub(r"[\x00-\x1f\x7f-\x9f]", "", s.replace("\xa0", " ")).strip()
     return "" if s.upper() == "NULL" else re.sub(r"\s+", " ", s)
 
 
@@ -104,11 +117,17 @@ with open(os.path.join(DATA, "growers/coffeegrowers.csv"), encoding="utf-8") as 
         if code.endswith("_temp"):
             code = ""
         name = clean(r["producer_name"]) or code
-        if not name:
+        if not name or name.upper() == "BULK":  # BULK = lots pooled from several growers, not a grower
             continue
         lat, lon = num(r["lat"]), num(r["lon"])
+        slug = clean(r["slug"]) or slugify(name).replace("-", "_")
         growers.append({
             "id": int(r["id"]),
+            "slug": slug,
+            "url": f"/producer/{r['id']}/{slug}/",
+            "lat": lat,
+            "lon": lon,
+            "verified": clean(r["location_accuracy"]).lower() in ("verified", "good"),
             "code": code,
             "name": name,
             "type": GROWER_TYPES.get(clean(r["actor"]), "Other"),
@@ -120,10 +139,12 @@ growers.sort(key=lambda g: g["name"].lower())
 
 # Slim JSON for the in-browser search (short keys keep it small).
 write_json(os.path.join(DATA, "growers/growers.json"), [
-    {"i": g["id"], "c": g["code"], "n": g["name"], "t": g["type"], "k": g["county"], "a": g["affiliation"], "m": int(g["mapped"])}
+    {"i": g["id"], "u": g["url"], "c": g["code"], "n": g["name"], "t": g["type"], "k": g["county"], "a": g["affiliation"], "m": int(g["mapped"])}
     for g in growers
 ], compact=True)
-write_json(os.path.join(JDATA, "growers.json"), growers, compact=True)
+write_json(os.path.join(JDATA, "growers.json"),
+           [{k: g[k] for k in ("id", "url", "code", "name", "type", "county", "affiliation", "mapped")} for g in growers],
+           compact=True)
 
 type_counts = Counter(g["type"] for g in growers)
 county_counts = Counter(g["county"] for g in growers if g["county"])
@@ -141,6 +162,7 @@ for ft in gj["features"]:
         "geometry": {"type": "Point", "coordinates": [round(lon, 5), round(lat, 5)]},
         "properties": {
             "id": p.get("id"),
+            "url": next((g["url"] for g in growers if g["id"] == p.get("id")), ""),
             "name": clean(p.get("producer_name")),
             "code": clean(p.get("cbk_growers_code")),
             "type": GROWER_TYPES.get(clean(p.get("Actor")), "Other"),
@@ -152,7 +174,7 @@ write_json(os.path.join(DATA, "growers/growers_map.geojson"),
 
 # ---------------------------------------------------------------- dealers
 dealers = []
-with open(os.path.join(DATA, "dealers/coffeedealers.csv"), encoding="latin-1") as f:
+with open(os.path.join(DATA, "dealers/coffeedealers.csv"), encoding="cp1252", errors="replace") as f:
     for r in csv.DictReader(f):
         cat = clean(r["category"])
         slug, _, label = DEALER_CATEGORIES.get(cat, ("other", "", cat))
@@ -192,8 +214,12 @@ grade_season = defaultdict(lambda: {"kg": 0.0, "usd": 0.0, "lots": 0})
 grade_total = defaultdict(lambda: {"kg": 0.0, "usd": 0.0, "lots": 0})
 buyers = defaultdict(lambda: {"kg": 0.0, "usd": 0.0, "lots": 0, "seasons": set()})
 marks = defaultdict(lambda: {"kg": 0.0, "usd": 0.0, "lots": 0})
+new_bucket = lambda: {"kg": 0.0, "usd": 0.0, "lots": 0}
+gstats = defaultdict(lambda: {"tot": new_bucket(), "first": None, "last": None, "sales": set(),
+                              "seasons": defaultdict(new_bucket), "grades": defaultdict(new_bucket),
+                              "buyers": defaultdict(new_bucket), "marks": Counter()})
 
-with open(os.path.join(DATA, "transactions/coffeetransactions.csv"), encoding="latin-1") as f:
+with open(os.path.join(DATA, "transactions/coffeetransactions.csv"), encoding="cp1252", errors="replace") as f:
     for r in csv.DictReader(f):
         kg, price, date = num(r["weightbought_kgr"]), num(r["price"]), clean(r["isodate"])
         if not kg or not price or not date:
@@ -218,6 +244,22 @@ with open(os.path.join(DATA, "transactions/coffeetransactions.csv"), encoding="l
             b["usd"] += usd
             b["lots"] += 1
             b["seasons"].add(season)
+        gid = num(r["producercode_id"])
+        if gid:
+            gs = gstats[int(gid)]
+            buckets = [gs["tot"], gs["seasons"][season]]
+            if grade and grade != "#N/A":
+                buckets.append(gs["grades"][grade])
+            if buyer:
+                buckets.append(gs["buyers"][buyer])
+            for bucket in buckets:
+                bucket["kg"] += kg
+                bucket["usd"] += usd
+                bucket["lots"] += 1
+            gs["sales"].add(date)
+            gs["first"] = min(gs["first"] or date, date)
+            gs["last"] = max(gs["last"] or date, date)
+            gs["marks"][clean(r["marks2"]) or clean(r["marks"])] += 1
         mark = clean(r["producer_name"])
         if mark and mark.upper() != "BULK":  # BULK = pooled lots, not a single grower
             m = marks[mark]
@@ -265,6 +307,7 @@ mark_rows = sorted(({"name": n, "lots": m["lots"], "tonnes": round(m["kg"] / 100
 
 all_kg = sum(s["kg"] for s in sales.values())
 all_usd = sum(s["usd"] for s in sales.values())
+all_price = all_usd / (all_kg / BAG_KG)
 write_json(os.path.join(JDATA, "market.json"), {
     "first_sale": sale_rows[0]["date"],
     "last_sale": sale_rows[-1]["date"],
@@ -289,6 +332,105 @@ write_json(os.path.join(JDATA, "directory.json"), {
     "dealers_total": len(dealers),
     "dealer_groups": dealer_groups,
     "grades": grades,
+})
+
+# ---------------------------------------------------------------- report insights
+# Figures for the market reports in /reports, derived from the per-grower stats.
+grower_by_id = {g["id"]: g for g in growers}
+
+
+def summarise(stats_list):
+    tot = new_bucket()
+    grades_ = defaultdict(new_bucket)
+    for st in stats_list:
+        for k in ("kg", "usd", "lots"):
+            tot[k] += st["tot"][k]
+        for gr, b in st["grades"].items():
+            for k in ("kg", "usd", "lots"):
+                grades_[gr][k] += b[k]
+    top = sum(grades_[x]["kg"] for x in ("E", "AA", "AB", "PB"))
+    return {
+        "tonnes": round(tot["kg"] / 1000), "usd": round(tot["usd"]), "lots": tot["lots"],
+        "price": avg_price(tot),
+        "aa": avg_price(grades_["AA"]), "ab": avg_price(grades_["AB"]), "c": avg_price(grades_["C"]),
+        "top_share": round(100 * top / tot["kg"]) if tot["kg"] else None,
+    }
+
+
+county_groups = defaultdict(list)
+type_groups = defaultdict(list)
+for gid, st in gstats.items():
+    g = grower_by_id.get(gid)
+    if not g:
+        continue
+    type_groups[g["type"]].append(st)
+    if g["county"]:
+        county_groups[g["county"]].append(st)
+
+county_rows = []
+for c, sts in county_groups.items():
+    row = summarise(sts)
+    row.update({"county": c, "slug": slugify(c), "growers": len(sts)})
+    county_rows.append(row)
+county_rows.sort(key=lambda r: -r["tonnes"])
+type_rows = []
+for t, sts in type_groups.items():
+    if t == "Other":
+        continue
+    row = summarise(sts)
+    row.update({"type": t, "plural": PLURALS.get(t, t), "growers": len(sts)})
+    type_rows.append(row)
+type_rows.sort(key=lambda r: -r["tonnes"])
+
+# Buyer concentration by season (share of the top 4 buyers and Herfindahl-Hirschman index).
+season_buyers = defaultdict(lambda: defaultdict(float))
+with open(os.path.join(DATA, "transactions/coffeetransactions.csv"), encoding="cp1252", errors="replace") as f:
+    for r in csv.DictReader(f):
+        kg, date, buyer = num(r["weightbought_kgr"]), clean(r["isodate"]), clean(r["buyer"])
+        if kg and date and buyer and num(r["price"]):
+            season_buyers[season_of(date)][buyer] += kg
+concentration = []
+for s in seasons:
+    shares = sorted((v / sum(season_buyers[s].values()) for v in season_buyers[s].values()), reverse=True)
+    concentration.append({"season": s, "buyers": len(shares), "top4": round(100 * sum(shares[:4]), 1),
+                          "hhi": round(sum((100 * x) ** 2 for x in shares))})
+
+# Grade premiums by season.
+premiums = []
+for s in seasons:
+    aa, ab, c = (avg_price(grade_season[(g, s)]) for g in ("AA", "AB", "C"))
+    premiums.append({"season": s, "aa": aa, "ab": ab, "c": c,
+                     "aa_over_ab": round(100 * (aa / ab - 1)) if aa and ab else None,
+                     "ab_over_c": round(100 * (ab / c - 1)) if ab and c else None})
+
+# Price swings: lowest and highest sale average in each season.
+swings = []
+for s in seasons:
+    rows = [r for r in sale_rows if r["season"] == s]
+    lo, hi = min(rows, key=lambda r: r["price"]), max(rows, key=lambda r: r["price"])
+    swings.append({"season": s, "low": lo["price"], "low_date": lo["date"], "high": hi["price"], "high_date": hi["date"]})
+
+top_growers = [{"name": g["name"], "url": g["url"], "type": g["type"], "county": g["county"],
+                "tonnes": round(gstats[g["id"]]["tot"]["kg"] / 1000), "price": avg_price(gstats[g["id"]]["tot"])}
+               for g in sorted((g for g in growers if g["id"] in gstats),
+                               key=lambda g: -gstats[g["id"]]["tot"]["kg"])[:15]]
+# Best-paid AA producers with meaningful volume (at least 20 tonnes of AA).
+aa_leaders = sorted(
+    ({"name": grower_by_id[gid]["name"], "url": grower_by_id[gid]["url"], "county": grower_by_id[gid]["county"],
+      "tonnes": round(st["grades"]["AA"]["kg"] / 1000), "price": avg_price(st["grades"]["AA"])}
+     for gid, st in gstats.items() if gid in grower_by_id and st["grades"]["AA"]["kg"] >= 20000),
+    key=lambda r: -r["price"])[:15]
+
+bulk_kg = sum(st["tot"]["kg"] for gid, st in gstats.items() if gid not in grower_by_id)
+write_json(os.path.join(JDATA, "insights.json"), {
+    "bulk_share": round(100 * bulk_kg / all_kg),
+    "counties": county_rows,
+    "types": type_rows,
+    "concentration": concentration,
+    "premiums": premiums,
+    "swings": swings,
+    "top_growers": top_growers,
+    "aa_leaders": aa_leaders,
 })
 
 # ---------------------------------------------------------------- county pages
@@ -316,6 +458,100 @@ permalink: /directory/county/{slugify(c)}.html
 ---
 """)
 
+# ---------------------------------------------------------------- grower pages
+# One page per grower at the URL the old site used: /producer/<id>/<slug>/
+grower_dir = os.path.join(ROOT, "_growers")
+os.makedirs(grower_dir, exist_ok=True)
+for old in os.listdir(grower_dir):
+    if old.endswith(".md"):
+        os.remove(os.path.join(grower_dir, old))
+
+ranked = sorted((g for g in growers if g["id"] in gstats), key=lambda g: -gstats[g["id"]]["tot"]["kg"])
+rank = {g["id"]: i + 1 for i, g in enumerate(ranked)}
+grade_market = {g["grade"]: g["price"] for g in grade_rows}
+by_county = defaultdict(list)
+for g in ranked:
+    if g["county"]:
+        by_county[g["county"]].append(g)
+
+
+# Old profile pages (_producers) now redirect to the grower page.
+profile_redirects = defaultdict(list)
+for fn in os.listdir(os.path.join(ROOT, "_producers")):
+    with open(os.path.join(ROOT, "_producers", fn), encoding="utf-8") as f:
+        m = re.search(r"^grower_id:\s*(\d+)", f.read(), re.M)
+    if m:
+        profile_redirects[int(m.group(1))].append("/producers/" + slugify(fn[:-3]) + ".html")
+
+
+def yaml_val(v):
+    return json.dumps(v, ensure_ascii=False)
+
+
+for g in growers:
+    st = gstats.get(g["id"])
+    fm = {
+        "layout": "grower",
+        "title": f"{g['name']}" + (f" ({g['code']})" if g["code"] else ""),
+        "grower_id": g["id"],
+        "name": g["name"],
+        "code": g["code"],
+        "type": g["type"],
+        "county": g["county"],
+        "county_slug": slugify(g["county"]) if g["county"] else "",
+        "affiliation": g["affiliation"],
+        "mapped": g["mapped"],
+        "verified": g["verified"],
+        "permalink": g["url"],
+    }
+    if g["mapped"]:
+        fm["lat"], fm["lon"] = round(g["lat"], 5), round(g["lon"], 5)
+    where = f" in {g['county']} County" if g["county"] else ""
+    if st:
+        t = st["tot"]
+        price = avg_price(t)
+        fm.update({
+            "has_sales": True,
+            "rank": rank[g["id"]],
+            "ranked_of": len(ranked),
+            "lots": t["lots"],
+            "tonnes": round(t["kg"] / 1000, 1),
+            "usd": round(t["usd"]),
+            "price": price,
+            "premium": round(100 * (price / all_price - 1)),
+            "first_sale": st["first"],
+            "last_sale": st["last"],
+            "sale_count": len(st["sales"]),
+            "marks": [m for m, _ in st["marks"].most_common(5) if m],
+            "seasons": [{"season": s, "lots": b["lots"], "tonnes": round(b["kg"] / 1000, 1), "price": avg_price(b)}
+                        for s, b in sorted(st["seasons"].items())],
+            "grades": [{"grade": k, "lots": b["lots"], "tonnes": round(b["kg"] / 1000, 1), "price": avg_price(b),
+                        "market": grade_market.get(k)}
+                       for k, b in sorted(st["grades"].items(), key=lambda kv: -kv[1]["kg"])],
+            "buyers": [{"name": k, "lots": b["lots"], "tonnes": round(b["kg"] / 1000, 1),
+                        "share": round(100 * b["kg"] / t["kg"]), "price": avg_price(b)}
+                       for k, b in sorted(st["buyers"].items(), key=lambda kv: -kv[1]["kg"])[:8]],
+        })
+        fm["description"] = (f"{g['name']}, a coffee {g['type'].lower()}{where}, Kenya: {t['lots']:,} lots and "
+                             f"{t['kg']/1000:,.0f} tonnes sold at the Nairobi Coffee Exchange, average price "
+                             f"US${price:,.0f} per 50 kg bag, prices by grade and top buyers.")
+    else:
+        fm["has_sales"] = False
+        fm["description"] = (f"{g['name']}" + (f" (growers code {g['code']})" if g["code"] else "") +
+                             f", a coffee {g['type'].lower()}{where}, Kenya. Listed in the MyKahawa coffee directory.")
+        fm["sitemap"] = False  # thin page: keep it reachable but out of the sitemap
+    if profile_redirects.get(g["id"]):
+        fm["redirect_from"] = profile_redirects[g["id"]]
+        fm.pop("sitemap", None)
+    neighbours = [n for n in by_county.get(g["county"], []) if n["id"] != g["id"]][:8]
+    fm["nearby"] = [{"name": n["name"], "url": n["url"], "type": n["type"]} for n in neighbours]
+    with open(os.path.join(grower_dir, f"{g['id']}.md"), "w", encoding="utf-8") as f:
+        f.write("---\n# Generated by scripts/build_data.py - do not edit.\n")
+        for k, v in fm.items():
+            f.write(f"{k}: {yaml_val(v)}\n")
+        f.write("---\n")
+
+print(f"grower pages: {len(growers)} ({len(ranked)} with auction sales)")
 print(f"growers: {len(growers)} ({sum(g['mapped'] for g in growers)} mapped), map points: {len(features)}")
 print(f"dealers: {len(dealers)} in {len(dealer_groups)} groups")
 print(f"sales: {len(sale_rows)} ({sale_rows[0]['date']} to {sale_rows[-1]['date']}), seasons: {len(seasons)}, buyers: {len(buyers)}")

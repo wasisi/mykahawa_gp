@@ -1,4 +1,5 @@
 ---
+grower_id: 8019
 title:  Jungle and Keremara Ltd (AG.0008)
 tags:
   - Nyeri
@@ -19,22 +20,3 @@ Jungle and Keremara Ltd is a coffee farm estate located in King’ong’o, Nyeri
 Jungle and Keremara Ltd produces its coffee with pride and care and sells it with dignity and with knowledge and understanding of the coffee market and customers’ needs. Jungle and Keremara Ltd has invested in wet milling technology, and sells green beans as well as coffee roasted in its factory. The estate promotes business diversification among farmers to diversify their income sources. The coffee farm estate itself has a coffee shop and factory. Jungle and Keremara Ltd has provided employment opportunities for the local community.
  
 Jungle and Keremara Ltd aims to improve farmers’ quality of life by seeking better prices and higher returns through promoting sustainable, production, processing and marketing technologies.
-
-
-<div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
-    <div class="carousel-inner">
-        {% for img in page.images %}
-            <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <img src="{{ img }}" class="d-block w-100" alt="">
-            </div>
-        {% endfor %}
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>

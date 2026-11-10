@@ -4,11 +4,14 @@
   match: ["/directory/"]
 - title: Growers
   url: /growers.html
+  match: ["/producer/"]
 - title: Exporters & dealers
   url: /dealers.html
 - title: Prices
   url: /transactions.html
-- title: Coffee grades
-  url: /projects/kenya-coffee-grades.html
+- title: Reports
+  url: /reports/
+  match: ["/reports/"]
 - title: Kenya coffee
   url: /kenya-coffee.html
+  match: ["/projects/"]

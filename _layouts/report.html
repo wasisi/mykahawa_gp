@@ -1,0 +1,43 @@
+---
+layout: base
+---
+<section class="mk-page-hero">
+  <div class="container">
+    <nav aria-label="Breadcrumb" class="mk-no-print">
+      <ol class="mk-breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/reports/">Market reports</a></li>
+      </ol>
+    </nav>
+    <p class="mk-report-kicker">MyKahawa market report</p>
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+    <p class="mk-note mb-0">Published {{ page.date | date: "%-d %B %Y" }} · Data: Nairobi Coffee Exchange auction results, {{ site.data.market.first_sale | date: "%B %Y" }} – {{ site.data.market.last_sale | date: "%B %Y" }}</p>
+    <p class="mt-3 mb-0 mk-no-print"><button type="button" class="btn btn-sm mk-btn-accent" onclick="window.print()">Download as PDF</button> <span class="mk-note">Opens your browser's print dialog; choose "Save as PDF".</span></p>
+  </div>
+</section>
+
+<section class="mk-section">
+  <div class="container">
+    <div class="row">
+      <article class="col-lg-9 mk-report">
+        {{ content }}
+        <hr>
+        <p class="mk-note">Method: figures are computed from {% include num.html n=site.data.market.lots %} lots sold at {{ site.data.market.sales }} Nairobi Coffee Exchange auctions. Prices are volume-weighted averages in US dollars per 50 kg bag of clean coffee. Seasons run from October to September; 2014/15 starts in January 2015. Direct sales outside the auction are not included. Grower, county and type are matched through the growers code on each lot. © MyKahawa. You may quote this report with attribution and a link to mykahawa.org.</p>
+        <div class="mk-chart-card mk-no-print mt-4">
+          <h2 class="h3">Need deeper analysis?</h2>
+          <p class="mb-0">MyKahawa can prepare custom analysis of Kenyan coffee prices, buyers and growers, for a cooperative, a county, a grade or a buyer. <a href="/contact.html">Get in touch</a>.</p>
+        </div>
+      </article>
+      <aside class="col-lg-3 mk-no-print" aria-label="More reports">
+        <div class="mk-chart-card">
+          <h2 class="h3">More reports</h2>
+          <ul class="list-unstyled mb-0">
+            {% assign reports = site.reports | sort: "date" | reverse %}
+            {% for r in reports %}{% unless r.url == page.url %}<li class="mb-2"><a href="{{ r.url }}">{{ r.heading | default: r.title }}</a></li>{% endunless %}{% endfor %}
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
