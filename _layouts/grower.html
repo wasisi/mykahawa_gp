@@ -5,21 +5,6 @@ layout: base
 {% assign p = page %}
 {% assign m = site.data.market %}
 {% assign profile = site.producers | where: "grower_id", p.grower_id | first %}
-{% capture subject %}Grower details: {{ p.name }}{% if p.code != "" %} ({{ p.code }}){% endif %}{% endcapture %}
-{% capture body %}Hello MyKahawa,
-
-I would like to add or update the details for {{ p.name }}{% if p.code != "" %} (growers code {{ p.code }}){% endif %}.
-
-Description of the farm or cooperative:
-Number of farmers / size of the farm (acres or hectares):
-Altitude:
-Coffee varieties:
-Factories / wet mills:
-Contact person, phone and email:
-Website:
-Location (Google Maps link):
-Photos (attach):
-{% endcapture %}
 
 <section class="mk-page-hero">
   <div class="container">
@@ -135,8 +120,8 @@ Photos (attach):
         <div class="mk-chart-card">
           <h2 class="h3">Is this your {{ p.type | downcase }}?</h2>
           <p>Get a free, richer profile on MyKahawa: description, photos, varieties, altitude, contacts and a verified location. Buyers and roasters use these pages to find coffee.</p>
-          <a class="btn mk-btn-accent" href="mailto:wasisi.coffee@gmail.com?subject={{ subject | url_encode }}&amp;body={{ body | url_encode }}">Send us your details</a>
-          <p class="mk-note mt-2 mb-0">Opens your email with a short form to fill in. Corrections are welcome too.</p>
+          <a class="btn mk-btn-accent" href="{{ site.forms.listing }}" target="_blank" rel="noopener">Send us your details<span class="sr-only"> (opens in a new tab)</span></a>
+          <p class="mk-note mt-2 mb-0">Opens a short Google Form. Mention {{ p.name }}{% if p.code != "" %} (growers code {{ p.code }}){% endif %} so we update the right page. Corrections are welcome too.</p>
         </div>
 
         {% if p.nearby.size > 0 %}

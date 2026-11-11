@@ -7,28 +7,6 @@ description: "Free listing for Kenyan coffee cooperatives, factories, estates an
 lead: "Buyers, roasters and researchers use MyKahawa to find Kenyan coffee. A free profile helps them find you, learn your story and see your results."
 permalink: /get-listed.html
 ---
-{% capture body %}Hello MyKahawa,
-
-Please add or update our listing.
-
-Grower name:
-Growers (CBK) code:
-Type (cooperative society / factory / estate / small estate):
-County and sub-county:
-Location (Google Maps link):
-Altitude (metres):
-Number of farmers / farm size:
-Coffee varieties (e.g. SL28, SL34, Ruiru 11, Batian):
-Factories / wet mills:
-Processing (washed, natural, honey...):
-Certifications (Fairtrade, Rainforest Alliance, organic...):
-Marketing agent / miller-marketer:
-Short description (history, what makes your coffee special):
-Contact person, phone and email:
-Website / social media:
-
-We are attaching some photos of the farm, factory and drying beds.
-{% endcapture %}
 <section class="mk-section">
   <div class="container">
     <div class="row">
@@ -44,12 +22,12 @@ We are attaching some photos of the farm, factory and drying beds.
 
         <h2>How to get listed</h2>
         <ol>
-          <li>Press <strong>Email us your details</strong>. Your email app opens with a short form already filled in.</li>
+          <li>Press <strong>Send us your details</strong> to open a short Google Form.</li>
           <li>Fill in what you can. Even your name, growers code and location are a good start.</li>
-          <li>Attach a few photos (farm, factory, drying beds, people) and send.</li>
+          <li>Press submit. We will check your details and update your page.</li>
         </ol>
-        <p><a class="btn mk-btn-accent btn-lg" href="mailto:wasisi.coffee@gmail.com?subject={{ 'Listing for my farm or cooperative' | url_encode }}&amp;body={{ body | url_encode }}">Email us your details</a></p>
-        <p class="mk-note">Or write to <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a> directly. We use your details only for your MyKahawa listing, and you can ask us to change or remove them at any time. See our <a href="/node/privacy.html">privacy policy</a>.</p>
+        <p><a class="btn mk-btn-accent btn-lg" href="{{ site.forms.listing }}" target="_blank" rel="noopener">Send us your details<span class="sr-only"> (opens in a new tab)</span></a></p>
+        <p class="mk-note">We use your details only for your MyKahawa listing, and you can ask us to change or remove them at any time. See our <a href="/node/privacy.html">privacy policy</a>.</p>
       </div>
       <div class="col-lg-5">
         <div class="mk-chart-card">

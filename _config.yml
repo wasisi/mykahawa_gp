@@ -57,6 +57,11 @@ social:
 twitter:
   username: my_kahawa
 
+# Google Forms (replace the old Mailchimp list and the email forms)
+forms:
+  listing: https://forms.gle/AjmNjSYwVLWe86ss5     # growers send or update their details
+  subscribe: https://forms.gle/Ek63tU9FRaifgbWL6   # newsletter sign-up
+
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_node"]

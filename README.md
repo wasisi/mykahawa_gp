@@ -77,6 +77,7 @@ Or with Ruby installed: `bundle install && bundle exec jekyll serve`.
 
 - **Analytics**: Google Tag Manager (in `_includes/structure/head.html`).
 - **Maps**: OpenStreetMap tiles (free, attribution required, light use only).
-- **Email**: `wasisi.coffee@gmail.com`. The subscribe page and listing forms open the visitor's email app; the old Mailchimp list no longer exists.
+- **Email**: `wasisi.coffee@gmail.com` (contact page, footer and directory corrections).
+- **Google Forms**: newsletter sign-up (`/node/subscribe.html`) and grower listings (`/get-listed.html` and each grower page). The URLs are `forms.subscribe` and `forms.listing` in `_config.yml`. These replaced the old Mailchimp list and the pre-filled email forms.
 - **Donations**: Ko-fi `L4L629RGA`.
 - **Domain**: DNS at Gandi. The `www` CNAME points to `wasisi.github.io`; the apex A/AAAA records point to the GitHub Pages IPs.
