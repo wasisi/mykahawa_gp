@@ -49,14 +49,14 @@ Page content (Markdown/HTML) is shown above the table.
         <div class="mk-table-wrap">
           <table id="dir-table" class="mk-table">
             {% if page.dealer_group or page.all_dealers %}
-            <caption>{{ page.heading | default: page.title }}: licences on record (issued by AFA, now administered by the Coffee Board of Kenya)</caption>
+            <caption>{{ page.heading | default: page.title }}: licences on record (issued by AFA, now administered by the Coffee Board of Kenya), and proposed licences published in the Kenya Gazette</caption>
             <thead><tr><th scope="col">Name</th>{% if page.show_category or page.all_dealers %}<th scope="col">Licence type</th>{% endif %}<th scope="col" class="num">Licence no.</th><th scope="col">Website</th></tr></thead>
             <tbody>
               {% for r in rows %}
               <tr>
                 <td>{{ r.name }}</td>
                 {% if page.show_category or page.all_dealers %}<td>{% if page.all_dealers %}<a href="/directory/{{ r.group }}.html">{{ r.label }}</a>{% else %}{{ r.category }}{% endif %}</td>{% endif %}
-                <td class="num">{{ r.license }}</td>
+                <td class="num">{% if r.status == "proposed" %}Proposed<div class="small text-muted">Gazette Notice {{ r.notice }}, {{ r.notice_date | date: "%b %Y" }}</div>{% else %}{{ r.license }}{% endif %}</td>
                 <td>{% if r.website != "" %}<a href="{{ r.website }}" rel="nofollow noopener">{{ r.website | remove: "http://" | remove: "https://" | remove: "www." | split: "/" | first }}</a>{% endif %}</td>
               </tr>
               {% endfor %}

@@ -5,7 +5,32 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "6",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Abshash Investments Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Adia Afrika Classics",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
  },
  {
   "name": "African coffee roasters (EPZ)",
@@ -13,7 +38,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "450",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "African Coffee roasters EPZ",
@@ -21,7 +49,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1669",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "African Gold coffee Ltd",
@@ -29,7 +60,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1567",
-  "website": "http://www.africangoldcoffee.co.ke"
+  "website": "http://www.africangoldcoffee.co.ke",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "African Tea and coffee Ltd",
@@ -37,7 +71,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1590",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Africoff trading Company Ltd",
@@ -45,7 +82,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1664",
-  "website": "http://africoff.co.ke"
+  "website": "http://africoff.co.ke",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Africoff Trading Company Ltd",
@@ -53,7 +93,21 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "448",
-  "website": "http://africoff.co.ke"
+  "website": "http://africoff.co.ke",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Agmond Coffee Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
  },
  {
   "name": "Alanwood Limited",
@@ -61,7 +115,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1665",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Alanwood Limited",
@@ -69,7 +126,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "352",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Alcaffe Ltd.",
@@ -77,7 +137,65 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Altamoda Agency Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Ambrosial Harvest Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
+ },
+ {
+  "name": "Amira Kahawa Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
+ },
+ {
+  "name": "Anfac Coffee House Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
+ },
+ {
+  "name": "Antocy Avo Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
  },
  {
   "name": "Aristocrats Coffee and Tea Exporters Ltd",
@@ -85,7 +203,54 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "21",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Atlas Meridian Coffee Trading Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Auricare International Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
+ },
+ {
+  "name": "Avencrest Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Avomac Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
  },
  {
   "name": "Baobab coffee limited",
@@ -93,7 +258,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1594",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Baragwi fcs Limited",
@@ -101,7 +269,32 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "27",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Beams Agri Exporters Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
+ },
+ {
+  "name": "Bean Verified Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Bekas Systems Ltd",
@@ -109,7 +302,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1690",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Berries Union Company Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Betco Coffee Co. Ltd",
@@ -117,7 +324,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1585",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Bollore Transport & Logistics",
@@ -125,7 +335,32 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "359",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Bosana (Kenya) Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Brook Commodities Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "BTG Pactual",
@@ -133,7 +368,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Buteco Limited",
@@ -141,7 +379,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1570",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Buteko Ltd",
@@ -149,7 +390,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "BY Industries Company SEZ Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Caffe Del Duca Ltd",
@@ -157,7 +412,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Caffe Delduca Ltd",
@@ -165,7 +423,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1691",
-  "website": "http://www.caffedelduca.com"
+  "website": "http://www.caffedelduca.com",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Canaf Agents Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Central Kenya Coffee Mills- Nyeri",
@@ -173,7 +445,32 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "183",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Chania Chic Company Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
+ },
+ {
+  "name": "Char Mocha Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "Classic Coffee Ltd",
@@ -181,7 +478,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "344",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "CMS Mills Ltd-Eldoret",
@@ -189,7 +489,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "182",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Coffee Exporters Kenya Ltd",
@@ -197,7 +500,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1695",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Coffee Management Services Ltd",
@@ -205,7 +511,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "346",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Coffee Management Services ltd",
@@ -213,7 +522,10 @@
   "group": "management-agents",
   "label": "Management agents",
   "license": "90",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Coffee Management Services Ltd",
@@ -221,7 +533,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "351",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Connect Coffee company ltd",
@@ -229,7 +544,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1658",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Cortado Investments Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Cross Medicare Ltd",
@@ -237,7 +566,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "10",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Crown farm Africa Ltd",
@@ -245,7 +577,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1568",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Crystal Lux Consumer Products Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
  },
  {
   "name": "DeKUT enterprises Company ltd",
@@ -253,7 +599,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "25",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Delafarm Trading company Ltd",
@@ -261,7 +610,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1555",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Dhow Coffee Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "Diamond Coffee Ltd",
@@ -269,7 +632,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1666",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Diamond Coffee Ltd",
@@ -277,7 +643,43 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "355",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Dillenseger Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Dongwritch Importers and Exporters Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
+ },
+ {
+  "name": "Dorfia Trading Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Dorman Coffee Limited",
@@ -285,7 +687,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1662",
-  "website": "http://dormanscoffee.com/"
+  "website": "http://dormanscoffee.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Dorman Limited",
@@ -293,7 +698,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1661",
-  "website": "http://dormanscoffee.com/"
+  "website": "http://dormanscoffee.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Dorman Ltd",
@@ -301,7 +709,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "447",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "E - Logistics",
@@ -309,7 +720,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Eagle Crown coffee Ltd",
@@ -317,7 +731,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1670",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "East African Gourmet Ltd",
@@ -325,7 +742,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1697",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "EastMount Native Coffee Ltd",
@@ -333,7 +753,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1686",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Ecodream International Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "Edmax Tea & Coffee ltd",
@@ -341,7 +775,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "19",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Edwin Maega Kiyaka",
@@ -349,7 +786,21 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "8",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Eliali Coffee Estates Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
  },
  {
   "name": "Elite Exim Ltd",
@@ -357,7 +808,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1563",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Elsway Investments Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Embu County coffee Coop. SoLtd",
@@ -365,7 +830,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "189",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Emcoff marketers Ltd",
@@ -373,7 +841,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1552",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Emcoff Marketers Ltd",
@@ -381,7 +852,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1689",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Emcoff Marketers Ltd",
@@ -389,7 +863,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "4",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Engelhart Co",
@@ -397,7 +874,43 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Essenix Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
+ },
+ {
+  "name": "Excellence in Motion Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
+ },
+ {
+  "name": "Eximp Networks",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Exotic Coffee",
@@ -405,7 +918,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Export Trading",
@@ -413,7 +929,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Exportiva Global Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Faina Enterprises Ltd",
@@ -421,7 +951,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1671",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Fenkil Expire Ltd",
@@ -429,7 +962,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1700",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Fieldcrisp Fresh Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "First Cup Coffee Ltd",
@@ -437,7 +984,32 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1679",
-  "website": "http://www.firstcupcoffeeltd.com/"
+  "website": "http://www.firstcupcoffeeltd.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Flomo Enterprises Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Fresh Marvels Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
  },
  {
   "name": "Freshday limited",
@@ -445,7 +1017,43 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1580",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Friendliness Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
+ },
+ {
+  "name": "Frostline Logistics Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Full Circles Equities Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
  },
  {
   "name": "Gateway and Partners Ltd",
@@ -453,7 +1061,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1551",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Geo-Linked Kenyan Coffee Company Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
  },
  {
   "name": "GGCJ Arabica coffee exporters ltd",
@@ -461,7 +1083,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1588",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Gicheha Estate",
@@ -469,7 +1094,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "342",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Gilmart Limited",
@@ -477,7 +1105,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Global Afrea Ltd",
@@ -485,7 +1116,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1558",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Global Fruits",
@@ -493,7 +1127,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Goldrock International Ent Co(K) Ltd",
@@ -501,7 +1138,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1575",
-  "website": "http://www.goldrockkenya.com/goldrockkenya.com/Coffee/Coffee.html"
+  "website": "http://www.goldrockkenya.com/goldrockkenya.com/Coffee/Coffee.html",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Grainergy K. Ltd",
@@ -509,7 +1149,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1597",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Guramit General Trading Company Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
  },
  {
   "name": "Gusii Coffee farmers ltd",
@@ -517,7 +1171,76 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "188",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Haki Origins Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Haky Coffee Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
+ },
+ {
+  "name": "Hangol Trading Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
+ },
+ {
+  "name": "Hannis Global Merchants Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
+ },
+ {
+  "name": "Haviv Africa Company Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
+ },
+ {
+  "name": "Hearth Coffee Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
  },
  {
   "name": "Hema Coffee Mills",
@@ -525,7 +1248,32 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "195",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Hikuri Coffee Roasters Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Hiview International Co Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
  },
  {
   "name": "Homeciti Africa Ltd",
@@ -533,7 +1281,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1573",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "HS Logistics Hub Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Hydergy (P) Ltd",
@@ -541,7 +1303,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1596",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Ibero Kenya Ltd",
@@ -549,7 +1314,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1684",
-  "website": "http://www.iberokenya.com/aboutus"
+  "website": "http://www.iberokenya.com/aboutus",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Icon Coffee Company Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
  },
  {
   "name": "IIDCO Investment",
@@ -557,7 +1336,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Ikawa coffee ltd",
@@ -565,7 +1347,32 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1559",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Imani Coffee Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Imperion Global Holdings Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
  },
  {
   "name": "Iriaini fcs ltd",
@@ -573,7 +1380,21 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "24",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Itura Coffee Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Jaksco import export co. ltd",
@@ -581,7 +1402,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1680",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Japem Estate",
@@ -589,7 +1413,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "11",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Jemman coffee & mining co. Ltd",
@@ -597,7 +1424,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1576",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Jemman coffee & Mining co. Ltd",
@@ -605,7 +1435,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "364",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Josra Coffee traders Ltd",
@@ -613,7 +1446,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1693",
-  "website": "http://josracoffee.com/"
+  "website": "http://josracoffee.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Jowam Coffee Traders Ltd",
@@ -621,7 +1457,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1694",
-  "website": "http://jowamcoffee.com"
+  "website": "http://jowamcoffee.com",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Jua Roast Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Jungle Macs (EPZ) ltd",
@@ -629,7 +1479,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1681",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Jungle Macs (EPZ) Ltd",
@@ -637,7 +1490,21 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "356",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Juniorcorn Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
  },
  {
   "name": "Kafe Koko Limited",
@@ -645,7 +1512,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1668",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kahawa Bora Millers",
@@ -653,7 +1523,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "184",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kahve Coffee Limited",
@@ -661,7 +1534,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kaizen Export Ltd",
@@ -669,7 +1545,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1699",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kamchungwa fcs ltd",
@@ -677,7 +1556,21 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Kanches International Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "KCCD",
@@ -685,7 +1578,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "KCCM ltd",
@@ -693,7 +1589,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "190",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kencoff Quality Products Ltd",
@@ -701,7 +1600,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1564",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kenya Cooperative Coffee Exporters ltd",
@@ -709,7 +1611,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1692",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kenya Cooperative Coffee Exporters ltd",
@@ -717,7 +1622,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "360",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kenya Cooperative coffee exporters ltd",
@@ -725,7 +1633,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "5",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kenya Nut Co. Ltd",
@@ -733,7 +1644,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1659",
-  "website": "http://kenyanut.com/kenya_nut.swf"
+  "website": "http://kenyanut.com/kenya_nut.swf",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kenyacof Ltd",
@@ -741,7 +1655,32 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1688",
-  "website": "https://www.sucafina.com/"
+  "website": "https://www.sucafina.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "KG Mills Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Kianda International Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
  },
  {
   "name": "Kichawir fcs Ltd",
@@ -749,7 +1688,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kimani Coffee Experts Ltd",
@@ -757,7 +1699,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1672",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Kirathe Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "Kirinyaga county Cooperative Union Ltd",
@@ -765,7 +1721,21 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "191",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Klar Company",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
  },
  {
   "name": "Kofinaf Company Ltd",
@@ -773,7 +1743,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "185",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kuttum Ltd",
@@ -781,7 +1754,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kyandu trading Ltd",
@@ -789,7 +1765,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1554",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Kyandu trading Ltd",
@@ -797,7 +1776,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "361",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Lakeside Carriers ltd",
@@ -805,7 +1787,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1593",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Le- Alvin enterprises ltd",
@@ -813,7 +1798,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1579",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Le- Alvin Enterprises Ltd",
@@ -821,7 +1809,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "365",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Lisela Ltd",
@@ -829,7 +1820,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Logipi Waters Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
  },
  {
   "name": "Louis Dreyfus Company Kenya Ltd",
@@ -837,7 +1842,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1566",
-  "website": "http://www.ldcommodities.com/global/en/"
+  "website": "http://www.ldcommodities.com/global/en/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Louis Dreyfus Company Kenya Ltd",
@@ -845,7 +1853,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "363",
-  "website": "http://www.ldcommodities.com/global/en/"
+  "website": "http://www.ldcommodities.com/global/en/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Maguta Estate",
@@ -853,7 +1864,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "341",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Makamu Holdings",
@@ -861,7 +1875,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "7",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Makenga Coffee Estate",
@@ -869,7 +1886,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "1",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Mandela Estate",
@@ -877,7 +1897,21 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "2",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Manyanja Investment Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
  },
  {
   "name": "Marakqana limited",
@@ -885,7 +1919,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1595",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Maytac Internationals Partners Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Merali Dewji and Sons (K) Ltd",
@@ -893,7 +1941,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Meru County Coffee Marketing ltd",
@@ -901,7 +1952,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "30",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Meru County Coffee Mills ltd",
@@ -909,7 +1963,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "196",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Mitchel Cotts Freight (K) ltd",
@@ -917,7 +1974,21 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "362",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Miyon Holdings Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
  },
  {
   "name": "Mombasa coffee Limited",
@@ -925,7 +1996,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "353",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Mombasa Coffee Ltd",
@@ -933,7 +2007,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1675",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Mt. Kenya specialty Tea & Coffee",
@@ -941,7 +2018,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1557",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Mumbi coffee Merchants ltd",
@@ -949,7 +2029,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1556",
-  "website": "http://mumbicoffee.com/"
+  "website": "http://mumbicoffee.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Murue fcs Limited",
@@ -957,7 +2040,21 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "26",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Nairobi Golf Hotels Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Nairobi Java House",
@@ -965,7 +2062,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1553",
-  "website": "http://javahouseafrica.com/"
+  "website": "http://javahouseafrica.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "New KPCU Ltd",
@@ -973,7 +2073,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1598",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "New KPCU Ltd",
@@ -981,7 +2084,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "197",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "New KPCU Ltd",
@@ -989,7 +2095,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "New KPCU ltd",
@@ -997,7 +2106,21 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "31",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Nimmo Global Development Services (N-GDS) Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "NKG coffee mills Ltd",
@@ -1005,7 +2128,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "187",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "NKG coffee mills Ltd",
@@ -1013,7 +2139,43 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "358",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Nouvelle Blooms Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
+ },
+ {
+  "name": "Numavuno Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Nyakach Horticulture Company Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
  },
  {
   "name": "Nyangweta coffee estate",
@@ -1021,7 +2183,21 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "9",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Nyeri International Coffee Expo Limited",
+  "category": "Direct Sales Facilitators",
+  "group": "direct-sales",
+  "label": "Direct sales facilitators",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
  },
  {
   "name": "Oakland Coffee Ltd",
@@ -1029,7 +2205,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "343",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Orion East Africa",
@@ -1037,7 +2216,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Over A Drink Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Panju",
@@ -1045,7 +2238,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Patrick Kirui",
@@ -1053,7 +2249,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "23",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Paulbath Investments ltd",
@@ -1061,7 +2260,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1578",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Peclex Enterprises",
@@ -1069,7 +2271,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Pentland Holdings",
@@ -1077,7 +2282,32 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "3",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Phone Home Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Pinevale Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "Premier Fortunes Co. Ltd",
@@ -1085,7 +2315,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1687",
-  "website": "http://premierfortunes.com/"
+  "website": "http://premierfortunes.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Premium Ethical Foods Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Primacafe Agency Ltd",
@@ -1093,7 +2337,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1591",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Prime Coffee Merchants Ltd",
@@ -1101,7 +2348,32 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1565",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Primepath Commercial Services Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Priolvic Enterprises Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
  },
  {
   "name": "Prospects Int",
@@ -1109,7 +2381,32 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Prumfield Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Radarmoshel Exporters Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "Rambi Investment ltd",
@@ -1117,7 +2414,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1589",
-  "website": "https://rambi.co.ke"
+  "website": "https://rambi.co.ke",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Rashid Moledina ltd",
@@ -1125,7 +2425,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1682",
-  "website": "http://rashidmoledina.com/"
+  "website": "http://rashidmoledina.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Rashid Moledina Ltd",
@@ -1133,7 +2436,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "354",
-  "website": "http://rashidmoledina.com/"
+  "website": "http://rashidmoledina.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Red Berry coffee Company Ltd",
@@ -1141,7 +2447,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1667",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Rejitek Coffee co. Ltd",
@@ -1149,7 +2458,43 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1584",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Reliefline Kenya Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
+ },
+ {
+  "name": "Rembo Export (Kenya) Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15382",
+  "notice_date": "2025-10-24"
+ },
+ {
+  "name": "Rift Valley Pride Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Rockaffe' Limited",
@@ -1157,7 +2502,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Rockbern Coffee Ltd",
@@ -1165,7 +2513,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1677",
-  "website": "http://www.rockbern-coffee.com/"
+  "website": "http://www.rockbern-coffee.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Rosie Van Dyke Co. Ltd",
@@ -1173,7 +2524,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1678",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Rumani agencies ltd",
@@ -1181,7 +2535,32 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1577",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Sabeti Natural Essentials Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
+ },
+ {
+  "name": "Sahara Beverage Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Sakami Ranches",
@@ -1189,7 +2568,10 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "12",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Saken",
@@ -1197,7 +2579,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sanaark investment ltd",
@@ -1205,7 +2590,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1561",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sangana Commodities Ltd",
@@ -1213,7 +2601,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sansato ltd",
@@ -1221,7 +2612,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1562",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sasini (K) Limited",
@@ -1229,7 +2623,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1582",
-  "website": "http://sasini.co.ke/"
+  "website": "http://sasini.co.ke/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sasini PLC",
@@ -1237,7 +2634,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "193",
-  "website": "http://sasini.co.ke/"
+  "website": "http://sasini.co.ke/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sasini PLC",
@@ -1245,7 +2645,21 @@
   "group": "grower-marketers",
   "label": "Grower marketers",
   "license": "22",
-  "website": "http://sasini.co.ke/"
+  "website": "http://sasini.co.ke/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Senzile Farm Fresh Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
  },
  {
   "name": "Servicoff Limited",
@@ -1253,7 +2667,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1698",
-  "website": "https://www.facebook.com/servicoff/"
+  "website": "https://www.facebook.com/servicoff/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Servicoff Limited",
@@ -1261,7 +2678,21 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "449",
-  "website": "https://www.facebook.com/servicoff/"
+  "website": "https://www.facebook.com/servicoff/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Seven Stars Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Shah Meghji Hirji Ltd",
@@ -1269,7 +2700,43 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Shashi Merchants Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "16978",
+  "notice_date": "2025-11-21"
+ },
+ {
+  "name": "Shirowell Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
+ },
+ {
+  "name": "Sixty Five Degrees Coffee Roastery Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Skidmore International ltd",
@@ -1277,7 +2744,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1512",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sondhi Trading Limited",
@@ -1285,7 +2755,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1660",
-  "website": "http://www.mbaraki.com/"
+  "website": "http://www.mbaraki.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sondhi Trading Limited",
@@ -1293,7 +2766,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "446",
-  "website": "http://www.mbaraki.com/"
+  "website": "http://www.mbaraki.com/",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Star coffee (K) Ltd",
@@ -1301,7 +2777,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1586",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Steans Beans Ltd",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "Sucastainability Kenya Ltd",
@@ -1309,7 +2799,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "345",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Super Gibs Ltd",
@@ -1317,7 +2810,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sustainable management services",
@@ -1325,7 +2821,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "347",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Sustainable management services",
@@ -1333,7 +2832,10 @@
   "group": "management-agents",
   "label": "Management agents",
   "license": "86",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Taste of Kenya Coffee Limited",
@@ -1341,7 +2843,21 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1572",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Tasweeq Commodities Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "2718",
+  "notice_date": "2026-02-27"
  },
  {
   "name": "Taylor Winch(Coffee) Ltd",
@@ -1349,7 +2865,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "673",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Tea & Coffee Connections Ltd",
@@ -1357,7 +2876,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1674",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "The Great rift Coffee ltd",
@@ -1365,7 +2887,21 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "194",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "The Majors Family Enterprice Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
  },
  {
   "name": "Thika coffee marketing ltd",
@@ -1373,7 +2909,10 @@
   "group": "warehousemen",
   "label": "Warehousemen",
   "license": "357",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Thika coffee marketing ltd",
@@ -1381,7 +2920,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "349",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Thika Coffee Mills Ltd",
@@ -1389,7 +2931,10 @@
   "group": "coffee-millers",
   "label": "Millers",
   "license": "186",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Thika coffee mills ltd",
@@ -1397,7 +2942,21 @@
   "group": "management-agents",
   "label": "Management agents",
   "license": "88",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Top Pot Trading Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  },
  {
   "name": "Trade Wind Merchants International",
@@ -1405,7 +2964,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1663",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Triple M. Enterprises",
@@ -1413,7 +2975,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1581",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Tropical Farm Management Kenya PLC.",
@@ -1421,7 +2986,10 @@
   "group": "marketing-agents",
   "label": "Commercial marketing agents",
   "license": "348",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Tropical farm management plc",
@@ -1429,7 +2997,10 @@
   "group": "management-agents",
   "label": "Management agents",
   "license": "87",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Utake coffee ltd",
@@ -1437,7 +3008,10 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1560",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
  },
  {
   "name": "Vava coffee Ltd",
@@ -1445,7 +3019,76 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1696",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Vicmar Merchants Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Vivid Commodities East Africa Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "12000",
+  "notice_date": "2025-08-22"
+ },
+ {
+  "name": "VJ Pure Beans Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Volq Coffee Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
+ },
+ {
+  "name": "Vortex Hive Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
+ },
+ {
+  "name": "Wadia Agri Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "15912",
+  "notice_date": "2026-10-02"
  },
  {
   "name": "Waylite Enterprises Ltd",
@@ -1453,6 +3096,42 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1683",
-  "website": ""
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": ""
+ },
+ {
+  "name": "Wilstel Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
+ },
+ {
+  "name": "Winwood Trading Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "7605",
+  "notice_date": "2026-05-22"
+ },
+ {
+  "name": "Zonken Food and Agriculture Limited",
+  "category": "Coffee Dealers",
+  "group": "coffee-exporters",
+  "label": "Exporters and dealers",
+  "license": "",
+  "website": "",
+  "status": "proposed",
+  "notice": "11431",
+  "notice_date": "2026-07-24"
  }
 ]

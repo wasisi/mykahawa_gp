@@ -150,43 +150,57 @@
    "count": 1
   }
  ],
- "dealers_total": 182,
+ "dealers_total": 285,
+ "dealers_proposed": 103,
  "dealer_groups": [
   {
    "slug": "coffee-exporters",
    "title": "Coffee exporters and dealers in Kenya",
    "label": "Exporters and dealers",
-   "count": 109
+   "count": 201,
+   "proposed": 92
   },
   {
    "slug": "coffee-millers",
    "title": "Coffee millers in Kenya",
    "label": "Millers",
-   "count": 15
+   "count": 15,
+   "proposed": 0
   },
   {
    "slug": "marketing-agents",
    "title": "Commercial coffee marketing agents in Kenya",
    "label": "Commercial marketing agents",
-   "count": 11
+   "count": 11,
+   "proposed": 0
   },
   {
    "slug": "grower-marketers",
    "title": "Coffee grower marketers in Kenya",
    "label": "Grower marketers",
-   "count": 22
+   "count": 22,
+   "proposed": 0
   },
   {
    "slug": "warehousemen",
    "title": "Coffee warehousemen in Kenya",
    "label": "Warehousemen",
-   "count": 21
+   "count": 21,
+   "proposed": 0
   },
   {
    "slug": "management-agents",
    "title": "Coffee management agents in Kenya",
    "label": "Management agents",
-   "count": 4
+   "count": 4,
+   "proposed": 0
+  },
+  {
+   "slug": "direct-sales",
+   "title": "Coffee direct sales facilitators in Kenya",
+   "label": "Direct sales facilitators",
+   "count": 11,
+   "proposed": 11
   }
  ],
  "grades": [

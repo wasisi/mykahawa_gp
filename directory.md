@@ -13,7 +13,7 @@ redirect_from:
 <section class="mk-section">
   <div class="container">
     <h2>Licensed coffee businesses</h2>
-    <p class="mk-note">{{ d.dealers_total }} licensed coffee businesses (licensed by AFA; licensing has passed to the Coffee Board of Kenya under the Coffee Act, 2026).</p>
+    <p class="mk-note">{{ d.dealers_total }} coffee businesses: {{ d.dealers_total | minus: d.dealers_proposed }} licensed by AFA (licensing has passed to the Coffee Board of Kenya under the Coffee Act, 2026), and {{ d.dealers_proposed }} proposed for a licence in the Kenya Gazette since August 2025.</p>
     <div class="mk-cards mb-5">
       {% for g in d.dealer_groups %}
       <a class="mk-card" href="/directory/{{ g.slug }}.html">

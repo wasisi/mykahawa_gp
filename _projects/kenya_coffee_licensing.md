@@ -81,6 +81,6 @@ Typical documents under the 2019 rules included: ID or passport details of the a
 - **Your county government**: registration, pulping stations, growers' mills, roasters, warehouses and movement permits. Contact the county department for agriculture or cooperatives.
 - **Capital Markets Authority**: exchange and brokers, at [cma.or.ke](https://www.cma.or.ke/).
 
-Find licensed businesses in the [MyKahawa directory](/directory.html): [exporters and dealers](/directory/coffee-exporters.html), [millers](/directory/coffee-millers.html), [marketing agents](/directory/marketing-agents.html) and [warehousemen](/directory/warehousemen.html).
+Find licensed businesses in the [MyKahawa directory](/directory.html): [exporters and dealers](/directory/coffee-exporters.html), [millers](/directory/coffee-millers.html), [marketing agents](/directory/marketing-agents.html), [warehousemen](/directory/warehousemen.html) and [direct sales facilitators](/directory/direct-sales.html). Proposed licences are published in the Kenya Gazette with 14 days for objections, and the directory lists them as **Proposed**.
 
 <p class="mk-note">Source: Coffee Act, 2026 (Act No. 8 of 2026), sections 23–38, 92 and Second Schedule, as published by Kenya Law at 27 March 2026. Reference fees: Crops (Coffee) (General) Regulations, 2019, Second Schedule. This is a summary, not legal advice.</p>
