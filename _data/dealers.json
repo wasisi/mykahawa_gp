@@ -411,17 +411,6 @@
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
-  "license": "",
-  "website": "",
-  "status": "",
-  "notice": "",
-  "notice_date": ""
- },
- {
-  "name": "Caffe Delduca Ltd",
-  "category": "Coffee Dealers",
-  "group": "coffee-exporters",
-  "label": "Exporters and dealers",
   "license": "1691",
   "website": "http://www.caffedelduca.com",
   "status": "",
@@ -682,22 +671,11 @@
   "notice_date": "2026-10-02"
  },
  {
-  "name": "Dorman Coffee Limited",
-  "category": "Coffee Dealers",
-  "group": "coffee-exporters",
-  "label": "Exporters and dealers",
-  "license": "1662",
-  "website": "http://dormanscoffee.com/",
-  "status": "",
-  "notice": "",
-  "notice_date": ""
- },
- {
   "name": "Dorman Limited",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
-  "license": "1661",
+  "license": "1661, 1662",
   "website": "http://dormanscoffee.com/",
   "status": "",
   "notice": "",
@@ -836,22 +814,11 @@
   "notice_date": ""
  },
  {
-  "name": "Emcoff marketers Ltd",
-  "category": "Coffee Dealers",
-  "group": "coffee-exporters",
-  "label": "Exporters and dealers",
-  "license": "1552",
-  "website": "",
-  "status": "",
-  "notice": "",
-  "notice_date": ""
- },
- {
   "name": "Emcoff Marketers Ltd",
   "category": "Coffee Dealers",
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
-  "license": "1689",
+  "license": "1552, 1689",
   "website": "",
   "status": "",
   "notice": "",

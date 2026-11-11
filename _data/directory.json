@@ -150,14 +150,14 @@
    "count": 1
   }
  ],
- "dealers_total": 285,
+ "dealers_total": 282,
  "dealers_proposed": 103,
  "dealer_groups": [
   {
    "slug": "coffee-exporters",
    "title": "Coffee exporters and dealers in Kenya",
    "label": "Exporters and dealers",
-   "count": 201,
+   "count": 198,
    "proposed": 92
   },
   {
