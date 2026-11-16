@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "mykahawa": {
+      "source": {
+        "source": "git",
+        "url": "git@github.com:wasisi/mykahawa_brand.git"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "mykahawa-brand@mykahawa": true
+  }
+}
