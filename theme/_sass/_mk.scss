@@ -1,34 +1,58 @@
 // MyKahawa 2026 refresh: shared styles for the new layout, homepage,
 // directory, map and charts. Loaded last so it overrides the older theme.
 
-$mk-coffee: #3b2a20;
+// Colours from the MyKahawa identity (mykahawa-brand plugin): green #4B8030 and
+// brown #4D3F35; the rest are the brand's supporting web tints.
+$mk-brown: #4d3f35;    // brand brown: headings
+$mk-coffee: #3b2a20;   // brand brown-dark: header, footer, dark sections
 $mk-coffee-2: #5a4031;
 $mk-cream: #f7f3ee;
 $mk-green: #4b8030;
-$mk-green-dark: #3a6425;
+$mk-green-dark: #355b22;
 $mk-red: #b5302e;      // darker than the logo red so white text passes WCAG AA
-$mk-ink: #2a2522;
+$mk-ink: #3b2a20;      // body text = brand brown-dark
 $mk-muted: #5f5750;
-$mk-line: #e4ddd5;
+$mk-line: #e6e0d8;
+
+// Brand type: Helvetica Neue (system font, never self-hosted) + Bebas Neue display accent.
+$mk-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mk-display: "Bebas Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/theme/fonts/bebas-neue-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 // ---------------------------------------------------------------- base
 body {
-  font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: $mk-font;
   font-size: 1.0625rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: $mk-ink;
   background: #fff;
 }
 
-h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
-  font-family: 'Merriweather', Georgia, serif;
-  color: $mk-coffee;
-  line-height: 1.3;
-  font-weight: 700;
+// Signature heading rhythm: uppercase, alternating Bold (h1/h3/h5) and Light (h2/h4).
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  font-family: $mk-font;
+  color: $mk-brown;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: .02em;
 }
+h1, .h1, h3, .h3, h5, .h5 { font-weight: 700; }
+h2, .h2, h4, .h4 { font-weight: 300; }
 h1, .h1 { font-size: #{"clamp(1.75rem, 1.2rem + 2vw, 2.5rem)"}; }
-h2, .h2 { font-size: #{"clamp(1.35rem, 1.1rem + 1vw, 1.75rem)"}; }
-h3, .h3 { font-size: 1.2rem; }
+h2, .h2 { font-size: #{"clamp(1.4rem, 1.1rem + 1.1vw, 1.9rem)"}; }
+h3, .h3 { font-size: 1.15rem; }
+h4, .h4 { font-size: 1.1rem; }
+h5, .h5 { font-size: 1rem; }
+
+// Display accent for big numbers, prices and eyebrow labels.
+.mk-display { font-family: $mk-display; font-weight: 400; letter-spacing: .03em; text-transform: none; }
 
 a { color: $mk-green-dark; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:hover, a:focus { color: $mk-red; }
@@ -61,17 +85,21 @@ input[type="checkbox"], input[type="radio"] { width: auto; padding: 0; }
   .nav-link:hover, .nav-link:focus, .nav-link.active { color: #fff !important; }
   .nav-link.active { box-shadow: inset 0 -3px 0 $mk-green; }
 }
+// Logo files only (never retype the wordmark). blanco-verde on the brown header/footer;
+// 1001×362 source, shown at ≥120px wide.
 .mk-brand {
-  display: flex; align-items: center; gap: .5rem;
-  font-family: 'Merriweather', Georgia, serif; font-weight: 700; font-size: 1.3rem; color: #fff !important;
-  .mk-brand-mark { color: #8cc56b; fill: #fff; }
+  display: flex; align-items: center; padding: .25rem 0;
+  .mk-logo { display: block; height: 48px; width: auto; }
 }
+// Brand buttons: bold uppercase, .04em tracking, radius 4px, green → green-dark.
 .mk-btn-accent {
-  background: $mk-green; color: #fff !important; border: 0; font-weight: 600;
+  background: $mk-green; color: #fff !important; border: 0; font-weight: 700;
+  text-transform: uppercase !important; letter-spacing: .04em !important; border-radius: 4px;
   &:hover, &:focus { background: $mk-green-dark; color: #fff; }
 }
 .mk-btn-outline {
-  border: 2px solid currentColor; color: inherit; font-weight: 600; background: transparent;
+  border: 2px solid currentColor; color: inherit; font-weight: 700; background: transparent;
+  text-transform: uppercase !important; letter-spacing: .04em !important; border-radius: 4px;
   &:hover, &:focus { background: rgba(255,255,255,.12); color: inherit; }
 }
 
@@ -116,7 +144,7 @@ input[type="checkbox"], input[type="radio"] { width: auto; padding: 0; }
 }
 .mk-stat {
   background: #fff; border: 1px solid $mk-line; border-radius: .5rem; padding: 1.1rem 1.25rem;
-  .mk-stat-value { display: block; font-family: 'Merriweather', Georgia, serif; font-size: 1.75rem; font-weight: 700; color: $mk-coffee; }
+  .mk-stat-value { display: block; font-family: $mk-display; font-size: 2.4rem; font-weight: 400; line-height: 1.1; letter-spacing: .02em; color: $mk-coffee; }
   .mk-stat-label { color: $mk-muted; font-size: .95rem; }
 }
 .mk-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 1.25rem; }
@@ -149,7 +177,7 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
   .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
   caption { caption-side: top; color: $mk-muted; padding: .5rem .8rem; }
 }
-.mk-badge { display: inline-block; font-size: .8rem; font-weight: 600; padding: .1rem .5rem; border-radius: 1rem; background: #edf4e8; color: $mk-green-dark; white-space: nowrap; }
+.mk-badge { display: inline-block; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; padding: .15rem .55rem; border-radius: 1rem; background: $mk-cream; color: $mk-brown; white-space: nowrap; }
 .mk-count { color: $mk-muted; font-size: .95rem; margin: .5rem 0; }
 
 // ---------------------------------------------------------------- map
@@ -173,8 +201,8 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
   a { color: #fff; }
   a:hover, a:focus { color: #cfe8bf; }
   li { margin-bottom: .35rem; }
-  .mk-footer-brand { font-family: 'Merriweather', Georgia, serif; font-size: 1.35rem; color: #fff; font-weight: 700; }
-  .mk-footer-heading { color: #fff; font-family: inherit; font-size: 1rem; text-transform: uppercase; letter-spacing: .05em; }
+  .mk-footer-brand .mk-logo { display: block; width: 180px; height: auto; }
+  .mk-footer-heading { color: #fff; font-family: inherit; font-size: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
   .mk-footer-legal { border-top: 1px solid rgba(255,255,255,.15); padding-top: 1.25rem; margin: 1rem 0 0; color: rgba(255,255,255,.7); }
 }
 
@@ -185,7 +213,7 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
 // Undo older theme rules: uppercase nav, title-case buttons, shaded row headers.
 .mk-header .navbar-nav > .nav-item { margin-left: 0; }
 .mk-header .navbar-nav > .nav-item > .nav-link { font-family: inherit; text-transform: none; letter-spacing: 0; font-size: 1rem; white-space: nowrap; padding-left: .7rem !important; padding-right: .7rem !important; }
-.btn { text-transform: none; font-family: inherit; letter-spacing: 0; }
+.btn { font-family: $mk-font; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; border-radius: 4px; }
 .mk-table tbody th { background: transparent; color: $mk-ink; position: static; }
 .text-muted { color: $mk-muted !important; }  // Bootstrap's grey fails WCAG AA contrast
 .btn-outline-secondary { color: $mk-coffee-2; border-color: $mk-coffee-2; background: #fff; }
@@ -196,7 +224,7 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
 .mk-glossary { margin-bottom: 0; dt { margin-top: .9rem; color: $mk-coffee; } dd { margin-left: 0; } }
 
 // Reports
-.mk-report-kicker { text-transform: uppercase; letter-spacing: .06em; font-weight: 700; color: $mk-green-dark; margin-bottom: .25rem; font-size: .9rem; }
+.mk-report-kicker { font-family: $mk-display; letter-spacing: .06em; font-weight: 400; color: $mk-green-dark; margin-bottom: .25rem; font-size: 1.25rem; }
 .mk-report { h2 { margin-top: 2rem; } .mk-table-wrap { margin: 1rem 0 1.25rem; } }
 .mk-findings { background: $mk-cream; border-left: 4px solid $mk-green; padding: 1rem 1.25rem 1rem 2.25rem; border-radius: .25rem; li { margin-bottom: .4rem; } }
 .mk-bar { display: flex; align-items: center; gap: .5rem; min-width: 9rem; }
