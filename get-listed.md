@@ -43,7 +43,7 @@ permalink: /get-listed.html
         </div>
         <div class="mk-chart-card">
           <h2 class="h3">Exporters, millers and agents</h2>
-          <p class="mb-0">Licensed businesses can also be listed or updated in the <a href="/directory.html">directory</a>. Send your company name, licence type and number, website and contacts to <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a>.</p>
+          <p class="mb-0">Licensed businesses can also be listed or updated in the <a href="/directory.html">directory</a>. Send your company name, licence type and number, website and contacts to <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>.</p>
         </div>
       </div>
     </div>

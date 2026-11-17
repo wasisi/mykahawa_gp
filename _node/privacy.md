@@ -15,7 +15,7 @@ Keep it in step with the Google Forms (site.forms in _config.yml) and anything e
 
 <p>This policy explains what personal data MyKahawa collects, why, who else receives it, how long we keep it, and your rights under Kenya's <strong>Data Protection Act, 2019</strong>. "Personal data" means any information about an identified or identifiable person, such as a name, phone number, email address or the location of a privately owned farm.</p>
 
-<p><strong>Who we are.</strong> MyKahawa publishes information about Kenya's coffee industry. For any question or request about your personal data, email <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a>.</p>
+<p><strong>Who we are.</strong> MyKahawa publishes information about Kenya's coffee industry. For any question or request about your personal data, email <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>.</p>
 
 <h2>What we collect, and why</h2>
 
@@ -63,7 +63,7 @@ Keep it in step with the Google Forms (site.forms in _config.yml) and anything e
 
 <p>We do not sell personal data. These services process data for us. Some of them store it outside Kenya, mainly in the United States and the European Union, under their own security and data protection terms:</p>
 <ul>
-  <li><strong>Google</strong> (Google Forms and Google Sheets) stores what you submit on our forms, and our email is hosted on Gmail.</li>
+  <li><strong>Google</strong> (Google Forms and Google Sheets) stores what you submit on our forms</li>
   <li><strong>Google Tag Manager and Google Analytics</strong> measure visits to the website.</li>
   <li><strong>GitHub Pages</strong> hosts the website and keeps server logs, including IP addresses.</li>
   <li><strong>Google Fonts</strong> and <strong>OpenStreetMap</strong> map tiles are loaded from their servers, so they see your IP address.</li>
@@ -93,7 +93,7 @@ Keep it in step with the Google Forms (site.forms in _config.yml) and anything e
   <li>withdraw your consent at any time, for example by unsubscribing or asking us to remove a profile or contact details;</li>
   <li>receive the data you gave us in a common electronic format.</li>
 </ul>
-<p>To use any of these rights, email <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a>. We will reply within 30 days. If you are not satisfied with our response, you can complain to the <a href="https://www.odpc.go.ke/" rel="noopener">Office of the Data Protection Commissioner</a>.</p>
+<p>To use any of these rights, email <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>. We will reply within 30 days. If you are not satisfied with our response, you can complain to the <a href="https://www.odpc.go.ke/" rel="noopener">Office of the Data Protection Commissioner</a>.</p>
 
 <h2>Cookies</h2>
 <p>Our analytics (Google Tag Manager and Google Analytics) use cookies to count visits. They are not used for advertising. You can block cookies in your browser settings, or install the <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics opt-out add-on</a>. The rest of the site works without cookies.</p>

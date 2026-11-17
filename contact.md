@@ -8,7 +8,7 @@ lead: "Questions about the data, a listing to add or correct, or interested in c
 ---
 <div class="container mk-section mk-prose">
   <ul class="list-unstyled">
-    <li class="mb-2"><strong>Email:</strong> <a href="mailto:wasisi.coffee@gmail.com">wasisi.coffee@gmail.com</a></li>
+    <li class="mb-2"><strong>Email:</strong> <a href="mailto:info@mykahawa.org">info@mykahawa.org</a></li>
 
   </ul>
   <h2>Adding or correcting a listing</h2>
