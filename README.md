@@ -40,14 +40,14 @@ The site is a static Jekyll site hosted free on **GitHub Pages** (branch `gh-pag
 
 The raw data (auction transactions, growers, dealers), research files and data scripts are kept in a **private** repository, `wasisi/mykahawa_private`, and are not part of this public repo. That repo's `scripts/build_data.py` generates everything the website needs and writes it here:
 
-- `_data/*.json`: directory, market, insights, latest sale (`latest.json`), growers and dealers lists used by the templates
+- `_data/*.json`: directory, market, insights, latest sale (`latest.json`), brokers (`brokers.json`), missing sales (`gaps.json`), growers and dealers lists used by the templates
 - `_growers/*.md`: one page per grower (**generated**, do not edit)
 - `directory/county/*.md`: county pages (**generated**)
 - `data/growers/growers.json`, `data/growers/growers_map.geojson`, `data/market/sales.json`, `data/market/grade_prices.json`: loaded by the browser for search, the map and the charts
 
-**Weekly auction results:** download the NCE transaction listing into `source/NCE/` (gitignored) and run `scripts/weekly_update.sh` in the private repo. See "Weekly update" in that repo's README.
+**Workflow:** all data work happens in the private repo. NCE files go in its `source/NCE/`, and `scripts/weekly_update.sh` there imports and matches them without touching this repo. Once the records are clean, `python3 scripts/build_data.py` (private repo) writes the generated files here (it finds this repo at `../mykahawa_gp`, or set `MYKAHAWA_SITE`). Then build, check and commit this repo. See "Weekly update" in the private repo's README.
 
-To update the data: edit it in the private repo, run `python3 scripts/build_data.py` there (it finds this repo at `../mykahawa_gp`, or set `MYKAHAWA_SITE`), then build, check and commit this repo.
+Nothing in this repo processes raw data. `source/` here is gitignored and holds only reference documents used when writing the guides (gazettes, regulations).
 
 Notes on the generated figures:
 
