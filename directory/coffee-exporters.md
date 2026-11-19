@@ -13,7 +13,7 @@ A coffee dealer's licence lets a company buy clean (milled) coffee and sell it l
 
 This list comes from the dealers registered between 2015 and 2020, plus companies proposed for a licence to export, import, roast and package coffee in Kenya Gazette notices since August 2025. A proposed licence is issued only once the applicant meets the requirements, so those listings are marked **Proposed** with the gazette notice. The Coffee Board publishes the current register of dealers.
 
-**Who buys the most?** See the [top buyers at the Nairobi Coffee Exchange](/directory/coffee-buyers.html), ranked by volume bought between 2015 and 2020.
+**Who buys the most?** See the [top buyers at the Nairobi Coffee Exchange](/directory/coffee-buyers.html), ranked by volume bought in 2015–2020 and since July 2025.
 
 ## Biggest buyers at the auction
 

@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Tharaka Nithi County"
 heading: "Coffee cooperatives, factories and estates in Tharaka Nithi County"
-description: "97 coffee growers in Tharaka Nithi County, Kenya: 55 factories, 29 cooperative societies, 9 small estates, 4 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 97 coffee growers in Tharaka Nithi County: 55 factories, 29 cooperative societies, 9 small estates, 4 estates."
+description: "116 coffee growers in Tharaka Nithi County, Kenya: 56 factories, 31 cooperative societies, 17 small estates, 11 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 116 coffee growers in Tharaka Nithi County: 56 factories, 31 cooperative societies, 17 small estates, 11 estates."
 county: "Tharaka Nithi"
 breadcrumbs:
   - title: Directory

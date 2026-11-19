@@ -1,319 +1,319 @@
 {
- "bulk_share": 27,
+ "bulk_share": 26,
  "counties": [
   {
-   "tonnes": 38783,
-   "usd": 147966051,
-   "lots": 19658,
-   "price": 190.76,
-   "aa": 285.94,
-   "ab": 226.47,
-   "c": 167.88,
+   "tonnes": 44914,
+   "usd": 189145995,
+   "lots": 24924,
+   "price": 210.57,
+   "aa": 303.81,
+   "ab": 245.66,
+   "c": 185.31,
    "top_share": 53,
    "county": "Kiambu",
    "slug": "kiambu",
-   "growers": 386
+   "growers": 540
   },
   {
-   "tonnes": 20353,
-   "usd": 97915972,
-   "lots": 9001,
-   "price": 240.55,
-   "aa": 322.7,
-   "ab": 270.22,
-   "c": 192.47,
+   "tonnes": 25868,
+   "usd": 138237620,
+   "lots": 12436,
+   "price": 267.2,
+   "aa": 340.04,
+   "ab": 295.33,
+   "c": 235.95,
    "top_share": 70,
    "county": "Kirinyaga",
    "slug": "kirinyaga",
-   "growers": 136
+   "growers": 171
   },
   {
-   "tonnes": 20243,
-   "usd": 83764152,
-   "lots": 10484,
-   "price": 206.9,
-   "aa": 301.15,
-   "ab": 248.9,
-   "c": 186.77,
-   "top_share": 60,
+   "tonnes": 25313,
+   "usd": 119021809,
+   "lots": 13641,
+   "price": 235.1,
+   "aa": 324.59,
+   "ab": 275.18,
+   "c": 213.31,
+   "top_share": 62,
    "county": "Nyeri",
    "slug": "nyeri",
-   "growers": 189
+   "growers": 205
   },
   {
-   "tonnes": 15205,
-   "usd": 58108491,
-   "lots": 7450,
-   "price": 191.08,
-   "aa": 248.55,
-   "ab": 192.82,
-   "c": 163.3,
-   "top_share": 78,
+   "tonnes": 22187,
+   "usd": 105903178,
+   "lots": 11963,
+   "price": 238.66,
+   "aa": 290.78,
+   "ab": 238.76,
+   "c": 226.01,
+   "top_share": 77,
    "county": "Kericho",
    "slug": "kericho",
-   "growers": 153
+   "growers": 265
   },
   {
-   "tonnes": 14711,
-   "usd": 62490480,
-   "lots": 7352,
-   "price": 212.39,
-   "aa": 296.19,
-   "ab": 241.19,
-   "c": 175.7,
+   "tonnes": 17779,
+   "usd": 83693711,
+   "lots": 9835,
+   "price": 235.37,
+   "aa": 313.24,
+   "ab": 262.78,
+   "c": 204.74,
    "top_share": 66,
    "county": "Murang'a",
    "slug": "murang-a",
-   "growers": 145
+   "growers": 156
   },
   {
-   "tonnes": 9541,
-   "usd": 29037472,
-   "lots": 5592,
-   "price": 152.18,
-   "aa": 231.27,
-   "ab": 167.49,
-   "c": 131.45,
-   "top_share": 66,
+   "tonnes": 11703,
+   "usd": 42960956,
+   "lots": 7279,
+   "price": 183.55,
+   "aa": 259.09,
+   "ab": 197.97,
+   "c": 158.88,
+   "top_share": 65,
    "county": "Kisii",
    "slug": "kisii",
-   "growers": 131
+   "growers": 166
   },
   {
-   "tonnes": 8563,
-   "usd": 37218442,
-   "lots": 4598,
-   "price": 217.31,
-   "aa": 291.43,
-   "ab": 215.44,
-   "c": 169.62,
+   "tonnes": 10258,
+   "usd": 49357053,
+   "lots": 6059,
+   "price": 240.57,
+   "aa": 307.61,
+   "ab": 239.07,
+   "c": 198.23,
    "top_share": 79,
    "county": "Bungoma",
    "slug": "bungoma",
-   "growers": 60
+   "growers": 76
   },
   {
-   "tonnes": 7761,
-   "usd": 29403447,
-   "lots": 5087,
-   "price": 189.43,
-   "aa": 272.91,
-   "ab": 214.09,
-   "c": 169.15,
-   "top_share": 59,
-   "county": "Machakos",
-   "slug": "machakos",
-   "growers": 105
-  },
-  {
-   "tonnes": 6907,
-   "usd": 30231236,
-   "lots": 3889,
-   "price": 218.83,
-   "aa": 307.04,
-   "ab": 251.04,
-   "c": 192.09,
-   "top_share": 64,
-   "county": "Embu",
-   "slug": "embu",
-   "growers": 97
-  },
-  {
-   "tonnes": 6520,
-   "usd": 23983020,
-   "lots": 4574,
-   "price": 183.91,
-   "aa": 275.16,
-   "ab": 214.09,
-   "c": 171.56,
-   "top_share": 54,
+   "tonnes": 9468,
+   "usd": 44689794,
+   "lots": 6970,
+   "price": 236.0,
+   "aa": 310.47,
+   "ab": 268.86,
+   "c": 224.88,
+   "top_share": 56,
    "county": "Meru",
    "slug": "meru",
-   "growers": 154
+   "growers": 179
   },
   {
-   "tonnes": 3781,
-   "usd": 13383495,
-   "lots": 2951,
-   "price": 176.97,
-   "aa": 238.34,
-   "ab": 197.95,
-   "c": 158.84,
+   "tonnes": 9002,
+   "usd": 38391301,
+   "lots": 6423,
+   "price": 213.23,
+   "aa": 287.29,
+   "ab": 237.39,
+   "c": 204.18,
+   "top_share": 58,
+   "county": "Machakos",
+   "slug": "machakos",
+   "growers": 151
+  },
+  {
+   "tonnes": 8818,
+   "usd": 43718156,
+   "lots": 5402,
+   "price": 247.89,
+   "aa": 327.79,
+   "ab": 277.05,
+   "c": 223.43,
+   "top_share": 66,
+   "county": "Embu",
+   "slug": "embu",
+   "growers": 116
+  },
+  {
+   "tonnes": 4683,
+   "usd": 19618672,
+   "lots": 3867,
+   "price": 209.45,
+   "aa": 259.01,
+   "ab": 233.82,
+   "c": 197.63,
    "top_share": 58,
    "county": "Tharaka Nithi",
    "slug": "tharaka-nithi",
-   "growers": 77
+   "growers": 101
   },
   {
-   "tonnes": 2642,
-   "usd": 9831691,
-   "lots": 1307,
-   "price": 186.09,
-   "aa": 268.6,
-   "ab": 219.26,
-   "c": 170.57,
+   "tonnes": 2906,
+   "usd": 11578053,
+   "lots": 1519,
+   "price": 199.22,
+   "aa": 283.36,
+   "ab": 231.03,
+   "c": 182.33,
    "top_share": 56,
    "county": "Nakuru",
    "slug": "nakuru",
-   "growers": 38
+   "growers": 53
   },
   {
-   "tonnes": 1692,
-   "usd": 6921014,
-   "lots": 999,
-   "price": 204.49,
-   "aa": 254.48,
-   "ab": 214.53,
-   "c": 183.82,
+   "tonnes": 2121,
+   "usd": 9654137,
+   "lots": 1441,
+   "price": 227.54,
+   "aa": 275.28,
+   "ab": 238.63,
+   "c": 203.45,
    "top_share": 71,
    "county": "Trans Nzoia",
    "slug": "trans-nzoia",
-   "growers": 44
+   "growers": 95
   },
   {
-   "tonnes": 937,
-   "usd": 3224821,
-   "lots": 627,
-   "price": 172.04,
-   "aa": 273.29,
-   "ab": 205.91,
-   "c": 168.07,
-   "top_share": 52,
+   "tonnes": 1078,
+   "usd": 4203282,
+   "lots": 773,
+   "price": 194.91,
+   "aa": 292.99,
+   "ab": 229.05,
+   "c": 190.91,
+   "top_share": 53,
    "county": "Makueni",
    "slug": "makueni",
-   "growers": 34
+   "growers": 38
   },
   {
-   "tonnes": 641,
-   "usd": 2473063,
-   "lots": 417,
-   "price": 193.03,
-   "aa": 254.76,
-   "ab": 191.31,
-   "c": 169.58,
-   "top_share": 78,
+   "tonnes": 696,
+   "usd": 2835640,
+   "lots": 464,
+   "price": 203.83,
+   "aa": 265.52,
+   "ab": 200.92,
+   "c": 179.99,
+   "top_share": 79,
    "county": "Kakamega",
    "slug": "kakamega",
    "growers": 24
   },
   {
-   "tonnes": 325,
-   "usd": 1044642,
-   "lots": 242,
-   "price": 160.73,
-   "aa": 191.47,
-   "ab": 171.83,
-   "c": 157.42,
-   "top_share": 67,
+   "tonnes": 476,
+   "usd": 2005054,
+   "lots": 339,
+   "price": 210.59,
+   "aa": 249.21,
+   "ab": 221.37,
+   "c": 197.33,
+   "top_share": 69,
    "county": "Baringo",
    "slug": "baringo",
-   "growers": 23
+   "growers": 35
   },
   {
-   "tonnes": 224,
-   "usd": 609180,
-   "lots": 137,
-   "price": 136.11,
-   "aa": 203.14,
-   "ab": 149.71,
-   "c": 112.93,
-   "top_share": 63,
-   "county": "Nyamira",
-   "slug": "nyamira",
-   "growers": 8
-  },
-  {
-   "tonnes": 203,
-   "usd": 792778,
-   "lots": 165,
-   "price": 195.47,
-   "aa": 252.34,
-   "ab": 199.15,
-   "c": 165.72,
+   "tonnes": 296,
+   "usd": 1423578,
+   "lots": 249,
+   "price": 240.81,
+   "aa": 292.61,
+   "ab": 242.83,
+   "c": 223.47,
    "top_share": 75,
    "county": "Migori",
    "slug": "migori",
    "growers": 12
   },
   {
-   "tonnes": 156,
-   "usd": 502054,
-   "lots": 83,
-   "price": 160.83,
-   "aa": 181.82,
-   "ab": 180.34,
-   "c": 164.93,
-   "top_share": 63,
+   "tonnes": 231,
+   "usd": 665577,
+   "lots": 142,
+   "price": 144.16,
+   "aa": 222.9,
+   "ab": 156.92,
+   "c": 121.24,
+   "top_share": 64,
+   "county": "Nyamira",
+   "slug": "nyamira",
+   "growers": 8
+  },
+  {
+   "tonnes": 188,
+   "usd": 715268,
+   "lots": 114,
+   "price": 189.98,
+   "aa": 225.85,
+   "ab": 210.0,
+   "c": 189.42,
+   "top_share": 64,
    "county": "Uasin Gishu",
    "slug": "uasin-gishu",
    "growers": 4
   },
   {
-   "tonnes": 56,
-   "usd": 179420,
-   "lots": 37,
-   "price": 160.42,
-   "aa": 190.3,
-   "ab": 157.52,
-   "c": 132.37,
-   "top_share": 84,
+   "tonnes": 90,
+   "usd": 391958,
+   "lots": 64,
+   "price": 218.86,
+   "aa": 242.6,
+   "ab": 218.1,
+   "c": 177.5,
+   "top_share": 82,
    "county": "Nandi",
    "slug": "nandi",
-   "growers": 4
+   "growers": 6
   }
  ],
  "types": [
   {
-   "tonnes": 95835,
-   "usd": 401330131,
-   "lots": 51025,
-   "price": 209.39,
-   "aa": 294.8,
-   "ab": 230.06,
-   "c": 175.45,
-   "top_share": 67,
+   "tonnes": 124721,
+   "usd": 604382125,
+   "lots": 70963,
+   "price": 242.29,
+   "aa": 318.18,
+   "ab": 262.64,
+   "c": 217.33,
+   "top_share": 68,
    "type": "Factory",
    "plural": "Factories",
-   "growers": 863
+   "growers": 1017
   },
   {
-   "tonnes": 35862,
-   "usd": 132448922,
-   "lots": 17575,
-   "price": 184.67,
-   "aa": 276.69,
-   "ab": 217.94,
-   "c": 166.11,
+   "tonnes": 40037,
+   "usd": 159880657,
+   "lots": 21138,
+   "price": 199.66,
+   "aa": 287.83,
+   "ab": 232.28,
+   "c": 181.32,
    "top_share": 52,
    "type": "Estate",
    "plural": "Estates",
-   "growers": 188
+   "growers": 394
   },
   {
-   "tonnes": 20297,
-   "usd": 77316128,
-   "lots": 10680,
-   "price": 190.46,
-   "aa": 278.09,
-   "ab": 213.4,
-   "c": 169.49,
-   "top_share": 62,
+   "tonnes": 25321,
+   "usd": 111388024,
+   "lots": 14936,
+   "price": 219.95,
+   "aa": 302.57,
+   "ab": 242.16,
+   "c": 199.72,
+   "top_share": 63,
    "type": "Cooperative society",
    "plural": "Cooperative societies",
-   "growers": 348
+   "growers": 502
   },
   {
-   "tonnes": 9301,
-   "usd": 35055583,
-   "lots": 7180,
-   "price": 188.46,
-   "aa": 266.96,
-   "ab": 204.3,
-   "c": 166.22,
-   "top_share": 65,
+   "tonnes": 13742,
+   "usd": 63966105,
+   "lots": 12012,
+   "price": 232.74,
+   "aa": 302.53,
+   "ab": 247.76,
+   "c": 213.98,
+   "top_share": 63,
    "type": "Small estate",
    "plural": "Small estates",
-   "growers": 677
+   "growers": 1089
   }
  ],
  "concentration": [
@@ -352,6 +352,24 @@
    "buyers": 50,
    "top4": 63.6,
    "hhi": 1192
+  },
+  {
+   "season": "2024/25",
+   "buyers": 34,
+   "top4": 71.9,
+   "hhi": 1512
+  },
+  {
+   "season": "2025/26",
+   "buyers": 53,
+   "top4": 68.7,
+   "hhi": 1616
+  },
+  {
+   "season": "2026/27",
+   "buyers": 35,
+   "top4": 64.5,
+   "hhi": 1263
   }
  ],
  "premiums": [
@@ -402,6 +420,30 @@
    "c": 152.16,
    "aa_over_ab": 43,
    "ab_over_c": 40
+  },
+  {
+   "season": "2024/25",
+   "aa": 411.85,
+   "ab": 389.85,
+   "c": 372.95,
+   "aa_over_ab": 6,
+   "ab_over_c": 5
+  },
+  {
+   "season": "2025/26",
+   "aa": 384.05,
+   "ab": 362.4,
+   "c": 330.77,
+   "aa_over_ab": 6,
+   "ab_over_c": 10
+  },
+  {
+   "season": "2026/27",
+   "aa": 342.08,
+   "ab": 327.42,
+   "c": 298.53,
+   "aa_over_ab": 4,
+   "ab_over_c": 10
   }
  ],
  "swings": [
@@ -446,6 +488,27 @@
    "low_date": "2020-05-05",
    "high": 234.61,
    "high_date": "2020-08-18"
+  },
+  {
+   "season": "2024/25",
+   "low": 297.74,
+   "low_date": "2025-07-08",
+   "high": 426.91,
+   "high_date": "2025-09-16"
+  },
+  {
+   "season": "2025/26",
+   "low": 258.2,
+   "low_date": "2026-05-12",
+   "high": 404.39,
+   "high_date": "2025-10-22"
+  },
+  {
+   "season": "2026/27",
+   "low": 290.66,
+   "low_date": "2026-10-13",
+   "high": 316.21,
+   "high_date": "2026-10-21"
   }
  ],
  "top_growers": [
@@ -462,8 +525,40 @@
    "url": "/producer/7953/oaklands_and_kofinaf_co_ltd/",
    "type": "Estate",
    "county": "Kiambu",
-   "tonnes": 1372,
-   "price": 173.43
+   "tonnes": 1482,
+   "price": 182.59
+  },
+  {
+   "name": "Mutati and Muthaite Ltd",
+   "url": "/producer/7932/mutati_and_muthaite_ltd/",
+   "type": "Estate",
+   "county": "Kiambu",
+   "tonnes": 1305,
+   "price": 206.84
+  },
+  {
+   "name": "Kapsaos Factory",
+   "url": "/producer/9617/kapsaos_factory/",
+   "type": "Factory",
+   "county": "Kericho",
+   "tonnes": 1291,
+   "price": 289.74
+  },
+  {
+   "name": "Yara and Gatatha Farmers Company Ltd",
+   "url": "/producer/8093/yara_and_gatatha_farmers_company_ltd/",
+   "type": "Estate",
+   "county": "Kiambu",
+   "tonnes": 1285,
+   "price": 238.93
+  },
+  {
+   "name": "Gakuyu-Ini Factory",
+   "url": "/producer/9009/gakuyuini_factory/",
+   "type": "Factory",
+   "county": "Kirinyaga",
+   "tonnes": 1204,
+   "price": 268.34
   },
   {
    "name": "Ruera and Kofinaf Company Ltd",
@@ -482,92 +577,60 @@
    "price": 154.09
   },
   {
-   "name": "Yara and Gatatha Farmers Company Ltd",
-   "url": "/producer/8093/yara_and_gatatha_farmers_company_ltd/",
-   "type": "Estate",
-   "county": "Kiambu",
-   "tonnes": 1092,
-   "price": 224.93
-  },
-  {
-   "name": "Mutati and Muthaite Ltd",
-   "url": "/producer/7932/mutati_and_muthaite_ltd/",
-   "type": "Estate",
-   "county": "Kiambu",
-   "tonnes": 1002,
-   "price": 165.78
-  },
-  {
-   "name": "Gakuyu-Ini Factory",
-   "url": "/producer/9009/gakuyuini_factory/",
-   "type": "Factory",
-   "county": "Kirinyaga",
-   "tonnes": 985,
-   "price": 242.63
-  },
-  {
    "name": "Eaagads and Kofinaf Co Ltd",
    "url": "/producer/7738/eaagads_and_kofinaf_co_ltd/",
    "type": "Estate",
    "county": "Kiambu",
-   "tonnes": 940,
-   "price": 181.13
+   "tonnes": 1030,
+   "price": 191.12
+  },
+  {
+   "name": "Songonyet Factory",
+   "url": "/producer/9580/songonyetfactory/",
+   "type": "Cooperative society",
+   "county": "Kericho",
+   "tonnes": 1001,
+   "price": 228.95
+  },
+  {
+   "name": "Ndundu Factory",
+   "url": "/producer/8570/ndundu_factory/",
+   "type": "Factory",
+   "county": "Kiambu",
+   "tonnes": 980,
+   "price": 275.0
   },
   {
    "name": "Mtaro and Socfinaf Company Ltd",
    "url": "/producer/7956/mtaro_and_socfinaf_company_ltd/",
    "type": "Estate",
    "county": "Kiambu",
-   "tonnes": 896,
-   "price": 167.3
-  },
-  {
-   "name": "Tinganga",
-   "url": "/producer/8085/tinganga/",
-   "type": "Estate",
-   "county": "Kiambu",
-   "tonnes": 890,
-   "price": 201.26
+   "tonnes": 971,
+   "price": 176.5
   },
   {
    "name": "Windrush and Gatatha Farmers Company Ltd",
    "url": "/producer/8090/windrush_and_gatatha_farmers_company_ltd/",
    "type": "Estate",
    "county": "Kiambu",
-   "tonnes": 884,
-   "price": 232.07
+   "tonnes": 970,
+   "price": 241.97
   },
   {
    "name": "Kaganda Factory",
    "url": "/producer/8724/kaganda_factory/",
    "type": "Factory",
    "county": "Murang'a",
-   "tonnes": 858,
-   "price": 205.77
+   "tonnes": 957,
+   "price": 223.1
   },
   {
-   "name": "Tatu and Kofinaf Company Ltd",
-   "url": "/producer/7949/tatu_and_kofinaf_company_ltd/",
-   "type": "Cooperative society",
-   "county": "Kiambu",
-   "tonnes": 834,
-   "price": 169.02
-  },
-  {
-   "name": "Kiri Factory",
-   "url": "/producer/9017/kiri_factory/",
+   "name": "Kangocho Factory",
+   "url": "/producer/8818/kangocho_factory/",
    "type": "Factory",
-   "county": "Kirinyaga",
-   "tonnes": 769,
-   "price": 238.46
-  },
-  {
-   "name": "Karimikui Factory",
-   "url": "/producer/9003/karimikui_factory/",
-   "type": "Factory",
-   "county": "Kirinyaga",
-   "tonnes": 762,
-   "price": 284.89
+   "county": "Nyeri",
+   "tonnes": 922,
+   "price": 293.14
   }
  ],
  "aa_leaders": [
@@ -579,102 +642,102 @@
    "price": 497.44
   },
   {
-   "name": "Ndaro-Ini Factory",
-   "url": "/producer/8817/ndaroini_factory/",
-   "county": "Kirinyaga",
-   "tonnes": 95,
-   "price": 421.82
-  },
-  {
-   "name": "Karimikui Factory",
-   "url": "/producer/9003/karimikui_factory/",
-   "county": "Kirinyaga",
-   "tonnes": 209,
-   "price": 399.35
-  },
-  {
-   "name": "Kiriani Factory (Thikagiki F.C.S. Ltd)",
-   "url": "/producer/8704/kiriani_factory_thikagiki_fcs_ltd/",
-   "county": "Kiambu",
-   "tonnes": 28,
-   "price": 395.47
-  },
-  {
-   "name": "Tegu Factory",
-   "url": "/producer/8893/tegu_factory/",
+   "name": "Gathacha",
+   "url": "/producer/12342/gathacha/",
    "county": "Nyeri",
-   "tonnes": 44,
-   "price": 393.87
-  },
-  {
-   "name": "Kangocho Factory",
-   "url": "/producer/8818/kangocho_factory/",
-   "county": "Nyeri",
-   "tonnes": 165,
-   "price": 370.61
-  },
-  {
-   "name": "Kiangothe Factory",
-   "url": "/producer/8948/kiangothe_factory/",
-   "county": "Kirinyaga",
-   "tonnes": 50,
-   "price": 369.46
-  },
-  {
-   "name": "Gititu F.C.S. Ltd",
-   "url": "/producer/8505/gititu_fcs_ltd/",
-   "county": "Kiambu",
-   "tonnes": 62,
-   "price": 369.46
+   "tonnes": 40,
+   "price": 442.96
   },
   {
    "name": "Gicherori Factory",
    "url": "/producer/9292/gicherori_factory/",
    "county": "Embu",
-   "tonnes": 27,
-   "price": 368.33
+   "tonnes": 60,
+   "price": 406.95
   },
   {
-   "name": "Ngunguru Factory",
-   "url": "/producer/8895/ngunguru_factory/",
-   "county": "Nyeri",
-   "tonnes": 42,
-   "price": 364.91
-  },
-  {
-   "name": "Gatomboya Factory",
-   "url": "/producer/8823/gatomboya_factory/",
-   "county": "Nyeri",
-   "tonnes": 142,
-   "price": 364.75
-  },
-  {
-   "name": "Gaturiri Factory",
-   "url": "/producer/8822/gaturiri_factory/",
-   "county": "Nyeri",
-   "tonnes": 93,
-   "price": 363.88
-  },
-  {
-   "name": "Karani Factory",
-   "url": "/producer/8941/karani_factory/",
+   "name": "Ndaro-Ini Factory",
+   "url": "/producer/8817/ndaroini_factory/",
    "county": "Kirinyaga",
-   "tonnes": 103,
-   "price": 361.42
+   "tonnes": 159,
+   "price": 403.81
+  },
+  {
+   "name": "Kiriani Factory (Thikagiki F.C.S. Ltd)",
+   "url": "/producer/8704/kiriani_factory_thikagiki_fcs_ltd/",
+   "county": "Kiambu",
+   "tonnes": 37,
+   "price": 402.69
+  },
+  {
+   "name": "Kapchepoi FCS",
+   "url": "/producer/12170/kapchepoi_fcs/",
+   "county": "Kericho",
+   "tonnes": 28,
+   "price": 398.89
+  },
+  {
+   "name": "Karimikui Factory",
+   "url": "/producer/9003/karimikui_factory/",
+   "county": "Kirinyaga",
+   "tonnes": 219,
+   "price": 398.75
+  },
+  {
+   "name": "Tegu Factory",
+   "url": "/producer/8893/tegu_factory/",
+   "county": "Nyeri",
+   "tonnes": 80,
+   "price": 397.63
+  },
+  {
+   "name": "Gachuiro Factory",
+   "url": "/producer/8909/gachuiro_factory/",
+   "county": "Nyeri",
+   "tonnes": 21,
+   "price": 396.62
+  },
+  {
+   "name": "Kibochis",
+   "url": "/producer/11050/kibochis/",
+   "county": "",
+   "tonnes": 59,
+   "price": 396.25
+  },
+  {
+   "name": "Muratit",
+   "url": "/producer/12169/muratit/",
+   "county": "Kericho",
+   "tonnes": 25,
+   "price": 395.99
+  },
+  {
+   "name": "Kagumo Factory (Mutira F.C.S. Ltd)",
+   "url": "/producer/8964/kagumo_factory_mutira_fcs_ltd/",
+   "county": "Kirinyaga",
+   "tonnes": 76,
+   "price": 395.79
+  },
+  {
+   "name": "Kiangothe Factory",
+   "url": "/producer/8948/kiangothe_factory/",
+   "county": "Kirinyaga",
+   "tonnes": 88,
+   "price": 393.87
+  },
+  {
+   "name": "Kibisi F.C.S. Ltd",
+   "url": "/producer/9688/kibisi_fcs_ltd/",
+   "county": "Bungoma",
+   "tonnes": 22,
+   "price": 390.18
   },
   {
    "name": "Kiaragana Factory",
    "url": "/producer/8976/kiaragana_factory/",
    "county": "Kirinyaga",
-   "tonnes": 26,
-   "price": 361.37
-  },
-  {
-   "name": "Gichatha-Ini Factory",
-   "url": "/producer/8816/gichathaini_factory/",
-   "county": "Nyeri",
-   "tonnes": 65,
-   "price": 360.61
+   "tonnes": 50,
+   "price": 387.67
   }
  ]
 }

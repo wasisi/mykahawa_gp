@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Nyeri County"
 heading: "Coffee cooperatives, factories and estates in Nyeri County"
-description: "205 coffee growers in Nyeri County, Kenya: 109 factories, 41 small estates, 30 cooperative societies, 25 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 205 coffee growers in Nyeri County: 109 factories, 41 small estates, 30 cooperative societies, 25 estates."
+description: "221 coffee growers in Nyeri County, Kenya: 111 factories, 52 small estates, 30 cooperative societies, 28 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 221 coffee growers in Nyeri County: 111 factories, 52 small estates, 30 cooperative societies, 28 estates."
 county: "Nyeri"
 breadcrumbs:
   - title: Directory

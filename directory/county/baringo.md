@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Baringo County"
 heading: "Coffee cooperatives, factories and estates in Baringo County"
-description: "33 coffee growers in Baringo County, Kenya: 18 cooperative societies, 8 factories, 5 small estates, 2 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 33 coffee growers in Baringo County: 18 cooperative societies, 8 factories, 5 small estates, 2 estates."
+description: "43 coffee growers in Baringo County, Kenya: 19 cooperative societies, 17 factories, 5 small estates, 2 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 43 coffee growers in Baringo County: 19 cooperative societies, 17 factories, 5 small estates, 2 estates."
 county: "Baringo"
 breadcrumbs:
   - title: Directory

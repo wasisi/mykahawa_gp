@@ -2,7 +2,7 @@
 
 MyKahawa is a market intelligence and discovery platform for Kenyan coffee:
 
-- **Market intelligence**: Nairobi Coffee Exchange auction prices, grades, volumes and buyers (2015–2020), charts and market reports.
+- **Market intelligence**: Nairobi Coffee Exchange auction prices, grades, volumes and buyers (2015–2020 and from July 2025, updated after every sale), the latest auction in context, charts and market reports.
 - **Industry discovery**: a directory of 2,783 growers (cooperative societies, factories, estates) with a map and a page for each grower, plus licensed exporters, dealers, millers, agents and warehousemen.
 - **Guides**: Kenya coffee grades, laws and regulations, licensing, the value chain and a glossary.
 
@@ -40,10 +40,12 @@ The site is a static Jekyll site hosted free on **GitHub Pages** (branch `gh-pag
 
 The raw data (auction transactions, growers, dealers), research files and data scripts are kept in a **private** repository, `wasisi/mykahawa_private`, and are not part of this public repo. That repo's `scripts/build_data.py` generates everything the website needs and writes it here:
 
-- `_data/*.json`: directory, market, insights, growers and dealers lists used by the templates
+- `_data/*.json`: directory, market, insights, latest sale (`latest.json`), growers and dealers lists used by the templates
 - `_growers/*.md`: one page per grower (**generated**, do not edit)
 - `directory/county/*.md`: county pages (**generated**)
 - `data/growers/growers.json`, `data/growers/growers_map.geojson`, `data/market/sales.json`, `data/market/grade_prices.json`: loaded by the browser for search, the map and the charts
+
+**Weekly auction results:** download the NCE transaction listing into `source/NCE/` (gitignored) and run `scripts/weekly_update.sh` in the private repo. See "Weekly update" in that repo's README.
 
 To update the data: edit it in the private repo, run `python3 scripts/build_data.py` there (it finds this repo at `../mykahawa_gp`, or set `MYKAHAWA_SITE`), then build, check and commit this repo.
 

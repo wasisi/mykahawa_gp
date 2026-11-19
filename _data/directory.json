@@ -1,113 +1,113 @@
 {
- "growers_total": 2783,
+ "growers_total": 3858,
  "growers_mapped": 947,
  "grower_types": [
   {
    "type": "Small estate",
    "plural": "Small estates",
-   "count": 984
+   "count": 1381
   },
   {
    "type": "Factory",
    "plural": "Factories",
-   "count": 983
+   "count": 1121
   },
   {
    "type": "Cooperative society",
    "plural": "Cooperative societies",
-   "count": 494
+   "count": 628
   },
   {
    "type": "Estate",
    "plural": "Estates",
-   "count": 320
+   "count": 516
   },
   {
    "type": "Other",
    "plural": "Other",
-   "count": 2
+   "count": 212
   }
  ],
  "grower_counties": [
   {
    "county": "Kiambu",
    "slug": "kiambu",
-   "count": 692
-  },
-  {
-   "county": "Murang'a",
-   "slug": "murang-a",
-   "count": 217
-  },
-  {
-   "county": "Nyeri",
-   "slug": "nyeri",
-   "count": 205
-  },
-  {
-   "county": "Meru",
-   "slug": "meru",
-   "count": 203
+   "count": 832
   },
   {
    "county": "Kericho",
    "slug": "kericho",
-   "count": 190
+   "count": 297
+  },
+  {
+   "county": "Murang'a",
+   "slug": "murang-a",
+   "count": 222
+  },
+  {
+   "county": "Nyeri",
+   "slug": "nyeri",
+   "count": 221
+  },
+  {
+   "county": "Meru",
+   "slug": "meru",
+   "count": 220
   },
   {
    "county": "Kirinyaga",
    "slug": "kirinyaga",
-   "count": 176
+   "count": 208
   },
   {
    "county": "Kisii",
    "slug": "kisii",
-   "count": 140
+   "count": 174
   },
   {
    "county": "Machakos",
    "slug": "machakos",
-   "count": 130
+   "count": 171
   },
   {
    "county": "Embu",
    "slug": "embu",
-   "count": 121
-  },
-  {
-   "county": "Tharaka Nithi",
-   "slug": "tharaka-nithi",
-   "count": 97
+   "count": 135
   },
   {
    "county": "Trans Nzoia",
    "slug": "trans-nzoia",
-   "count": 70
+   "count": 118
+  },
+  {
+   "county": "Tharaka Nithi",
+   "slug": "tharaka-nithi",
+   "count": 116
   },
   {
    "county": "Bungoma",
    "slug": "bungoma",
-   "count": 68
+   "count": 81
   },
   {
    "county": "Nakuru",
    "slug": "nakuru",
-   "count": 52
+   "count": 67
+  },
+  {
+   "county": "Baringo",
+   "slug": "baringo",
+   "count": 43
   },
   {
    "county": "Makueni",
    "slug": "makueni",
-   "count": 39
+   "count": 42
   },
   {
    "county": "Kakamega",
    "slug": "kakamega",
    "count": 35
-  },
-  {
-   "county": "Baringo",
-   "slug": "baringo",
-   "count": 33
   },
   {
    "county": "Migori",
@@ -122,7 +122,7 @@
   {
    "county": "Nandi",
    "slug": "nandi",
-   "count": 8
+   "count": 10
   },
   {
    "county": "Uasin Gishu",
@@ -150,14 +150,14 @@
    "count": 1
   }
  ],
- "dealers_total": 282,
+ "dealers_total": 306,
  "dealers_proposed": 103,
  "dealer_groups": [
   {
    "slug": "coffee-exporters",
    "title": "Coffee exporters and dealers in Kenya",
    "label": "Exporters and dealers",
-   "count": 198,
+   "count": 222,
    "proposed": 92
   },
   {

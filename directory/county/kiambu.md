@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Kiambu County"
 heading: "Coffee cooperatives, factories and estates in Kiambu County"
-description: "692 coffee growers in Kiambu County, Kenya: 383 small estates, 169 estates, 109 factories, 31 cooperative societies. Names and growers (CBK) codes."
-lead: "MyKahawa lists 692 coffee growers in Kiambu County: 383 small estates, 169 estates, 109 factories, 31 cooperative societies."
+description: "832 coffee growers in Kiambu County, Kenya: 504 small estates, 175 estates, 112 factories, 34 cooperative societies. Names and growers (CBK) codes."
+lead: "MyKahawa lists 832 coffee growers in Kiambu County: 504 small estates, 175 estates, 112 factories, 34 cooperative societies."
 county: "Kiambu"
 breadcrumbs:
   - title: Directory

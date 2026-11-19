@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Kericho County"
 heading: "Coffee cooperatives, factories and estates in Kericho County"
-description: "190 coffee growers in Kericho County, Kenya: 76 factories, 66 cooperative societies, 35 small estates, 13 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 190 coffee growers in Kericho County: 76 factories, 66 cooperative societies, 35 small estates, 13 estates."
+description: "297 coffee growers in Kericho County, Kenya: 140 factories, 104 cooperative societies, 37 small estates, 13 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 297 coffee growers in Kericho County: 140 factories, 104 cooperative societies, 37 small estates, 13 estates."
 county: "Kericho"
 breadcrumbs:
   - title: Directory

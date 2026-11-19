@@ -1,0 +1,5 @@
+{%- comment -%} Periods covered by the auction data, e.g. "January 2015 to September 2020 and July 2025 to November 2026". From _data/market.json (periods). {%- endcomment -%}
+{%- for pr in site.data.market.periods -%}
+{%- unless forloop.first -%}{%- if forloop.last %} and {% else %}, {% endif -%}{%- endunless -%}
+{{ pr.first | date: "%B %Y" }} to {{ pr.last | date: "%B %Y" }}
+{%- endfor -%}

@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Kirinyaga County"
 heading: "Coffee cooperatives, factories and estates in Kirinyaga County"
-description: "176 coffee growers in Kirinyaga County, Kenya: 85 factories, 45 small estates, 29 estates, 17 cooperative societies. Names and growers (CBK) codes."
-lead: "MyKahawa lists 176 coffee growers in Kirinyaga County: 85 factories, 45 small estates, 29 estates, 17 cooperative societies."
+description: "208 coffee growers in Kirinyaga County, Kenya: 86 factories, 65 small estates, 40 estates, 17 cooperative societies. Names and growers (CBK) codes."
+lead: "MyKahawa lists 208 coffee growers in Kirinyaga County: 86 factories, 65 small estates, 40 estates, 17 cooperative societies."
 county: "Kirinyaga"
 breadcrumbs:
   - title: Directory

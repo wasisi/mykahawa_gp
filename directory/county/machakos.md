@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Machakos County"
 heading: "Coffee cooperatives, factories and estates in Machakos County"
-description: "130 coffee growers in Machakos County, Kenya: 60 factories, 30 cooperative societies, 27 small estates, 13 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 130 coffee growers in Machakos County: 60 factories, 30 cooperative societies, 27 small estates, 13 estates."
+description: "171 coffee growers in Machakos County, Kenya: 62 small estates, 62 factories, 30 cooperative societies, 17 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 171 coffee growers in Machakos County: 62 small estates, 62 factories, 30 cooperative societies, 17 estates."
 county: "Machakos"
 breadcrumbs:
   - title: Directory

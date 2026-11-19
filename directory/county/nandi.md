@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Nandi County"
 heading: "Coffee cooperatives, factories and estates in Nandi County"
-description: "8 coffee growers in Nandi County, Kenya: 7 cooperative societies, 1 small estate. Names and growers (CBK) codes."
-lead: "MyKahawa lists 8 coffee growers in Nandi County: 7 cooperative societies, 1 small estate."
+description: "10 coffee growers in Nandi County, Kenya: 7 cooperative societies, 2 factories, 1 small estate. Names and growers (CBK) codes."
+lead: "MyKahawa lists 10 coffee growers in Nandi County: 7 cooperative societies, 2 factories, 1 small estate."
 county: "Nandi"
 breadcrumbs:
   - title: Directory

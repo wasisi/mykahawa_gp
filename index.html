@@ -32,9 +32,15 @@ redirect_from: "/events/"
     <div class="mk-stats">
       <div class="mk-stat"><a href="/growers.html"><span class="mk-stat-value">{% include num.html n=d.growers_total %}</span></a><span class="mk-stat-label">coffee growers: cooperatives, factories and estates</span></div>
       <div class="mk-stat"><a href="/dealers.html"><span class="mk-stat-value">{{ d.dealers_total }}</span></a><span class="mk-stat-label">licensed dealers, millers and agents</span></div>
-      <div class="mk-stat"><a href="/transactions.html"><span class="mk-stat-value">{% include num.html n=m.lots %}</span></a><span class="mk-stat-label">auction lots, {{ m.first_sale | date: "%Y" }}–{{ m.last_sale | date: "%Y" }}</span></div>
+      <div class="mk-stat"><a href="/transactions.html"><span class="mk-stat-value">{% include num.html n=m.lots %}</span></a><span class="mk-stat-label">auction lots, {% for pr in m.periods %}{{ pr.first | date: "%Y" }}–{{ pr.last | date: "%Y" }}{% unless forloop.last %} and {% endunless %}{% endfor %}</span></div>
       <div class="mk-stat"><a href="/transactions.html"><span class="mk-stat-value">US${{ m.usd | divided_by: 1000000 }}m</span></a><span class="mk-stat-label">of coffee sold at auction</span></div>
     </div>
+  </div>
+</section>
+
+<section class="mk-section">
+  <div class="container">
+    {% include latest-auction.html %}
   </div>
 </section>
 
@@ -152,7 +158,7 @@ redirect_from: "/events/"
         </details>
         <details>
           <summary>Why is my cooperative, estate or company not listed?</summary>
-          <p>The directory is based on Nairobi Coffee Exchange transactions from 2015 to 2020 and the 2012 Kenya Coffee Directory of the Kenya Coffee Traders Association. To add, correct or remove a listing, email <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>. Listings are free.</p>
+          <p>The directory is based on Nairobi Coffee Exchange transactions ({% include data-period.html %}) and the 2012 Kenya Coffee Directory of the Kenya Coffee Traders Association. To add, correct or remove a listing, email <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>. Listings are free.</p>
         </details>
         <details>
           <summary>Where can I learn more about the Kenyan coffee trade?</summary>

@@ -70,6 +70,6 @@ redirect_from:
         </tbody>
       </table>
     </div>
-    <p class="mk-note mt-3">The directory is based on Nairobi Coffee Exchange transactions from 2015 to 2020 and the 2012 Kenya Coffee Directory of the Kenya Coffee Traders Association. To add, correct or remove a listing, email <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>. Listings are free.</p>
+    <p class="mk-note mt-3">The directory is based on Nairobi Coffee Exchange transactions ({% include data-period.html %}) and the 2012 Kenya Coffee Directory of the Kenya Coffee Traders Association. To add, correct or remove a listing, email <a href="mailto:info@mykahawa.org">info@mykahawa.org</a>. Listings are free.</p>
   </div>
 </section>

@@ -32,17 +32,41 @@ layout: base
         <p>Between {{ p.first_sale | date: "%B %Y" }} and {{ p.last_sale | date: "%B %Y" }}, coffee from {{ p.name }} was sold in {{ p.lots }} lot{% if p.lots != 1 %}s{% endif %} at {{ p.sale_count }} auction{% if p.sale_count != 1 %}s{% endif %} of the Nairobi Coffee Exchange. By volume it ranks <strong>{{ p.rank }}</strong> of {% include num.html n=p.ranked_of %} growers.</p>
         <div class="mk-stats mb-4">
           <div class="mk-stat"><span class="mk-stat-value">US${{ p.price | round }}</span><span class="mk-stat-label">average price per 50 kg bag</span></div>
-          <div class="mk-stat"><span class="mk-stat-value">{% if p.premium > 0 %}+{% endif %}{{ p.premium }}%</span><span class="mk-stat-label">vs market average (US${{ m.price | round }})</span></div>
+          <div class="mk-stat"><span class="mk-stat-value">{% if p.premium > 0 %}+{% endif %}{{ p.premium }}%</span><span class="mk-stat-label">vs the market for the same grades and seasons (US${{ p.market_price | round }})</span></div>
           <div class="mk-stat"><span class="mk-stat-value">{{ p.tonnes | round }} t</span><span class="mk-stat-label">coffee sold</span></div>
           <div class="mk-stat"><span class="mk-stat-value">US${% if p.usd >= 1000000 %}{{ p.usd | divided_by: 100000.0 | round | divided_by: 10.0 }}m{% else %}{% include num.html n=p.usd %}{% endif %}</span><span class="mk-stat-label">total value</span></div>
         </div>
-        <p class="mk-note">The average price depends heavily on the grade mix: lots of lower grades (MH, ML, UG, T) pull it down. Compare like with like in the grade table below.</p>
+        <p class="mk-note">The comparison uses the market's own price for each grade in each season this grower sold, so a different grade mix or a different year does not distort it.</p>
+
+        {% if p.recent_lots.size > 0 %}
+        <h3 class="mt-4" id="recent-lots">Recent auction lots</h3>
+        <p>Each lot against the average price for the same grade at the same sale.</p>
+        <div class="mk-table-wrap mb-4">
+          <table class="mk-table">
+            <caption>Latest lots of {{ p.name }} sold at the Nairobi Coffee Exchange, US$ per 50 kg bag</caption>
+            <thead><tr><th scope="col">Sale</th><th scope="col">Grade</th><th scope="col" class="num">Bags</th><th scope="col" class="num">Price</th><th scope="col" class="num">Grade avg at sale</th><th scope="col" class="num">Difference</th><th scope="col">Buyer</th></tr></thead>
+            <tbody>
+              {% for l in p.recent_lots %}
+              <tr>
+                <td>{{ l.date | date: "%-d %b %Y" }} <span class="text-muted small">Sale {{ l.sale }}, lot {{ l.lot }}</span></td>
+                <th scope="row">{{ l.grade }}</th>
+                <td class="num">{{ l.bags }}</td>
+                <td class="num">{{ l.price | round }}</td>
+                <td class="num">{% if l.sale_avg %}{{ l.sale_avg | round }}{% else %}–{% endif %}</td>
+                <td class="num">{% if l.vs_sale %}{% if l.vs_sale > 0 %}+{% endif %}{{ l.vs_sale | round }}%{% else %}–{% endif %}</td>
+                <td>{{ l.buyer }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% endif %}
 
         <h3 class="mt-4">Prices by grade</h3>
         <div class="mk-table-wrap mb-4">
           <table class="mk-table">
             <caption>Average price by grade for {{ p.name }} compared with the market, US$ per 50 kg bag</caption>
-            <thead><tr><th scope="col">Grade</th><th scope="col" class="num">Lots</th><th scope="col" class="num">Tonnes</th><th scope="col" class="num">Avg price</th><th scope="col" class="num">Market avg</th><th scope="col" class="num">Difference</th></tr></thead>
+            <thead><tr><th scope="col">Grade</th><th scope="col" class="num">Lots</th><th scope="col" class="num">Tonnes</th><th scope="col" class="num">Avg price</th><th scope="col" class="num">Market, same seasons</th><th scope="col" class="num">Difference</th></tr></thead>
             <tbody>
               {% for g in p.grades %}
               <tr>
@@ -89,10 +113,10 @@ layout: base
         {% if p.marks.size > 0 %}
         <p class="mk-note">Marks used on auction lots: {{ p.marks | join: ", " }}.</p>
         {% endif %}
-        <p class="mk-note">Source: Nairobi Coffee Exchange sale results, {{ m.first_sale | date: "%B %Y" }} to {{ m.last_sale | date: "%B %Y" }}, compiled by MyKahawa. Direct sales are not included. Prices are volume-weighted.</p>
+        <p class="mk-note">Source: Nairobi Coffee Exchange sale results, {% include data-period.html %}, compiled by MyKahawa. Direct sales are not included. Prices are volume-weighted.</p>
         {% else %}
         <h2>Auction records</h2>
-        <p>MyKahawa has no Nairobi Coffee Exchange sales recorded under this grower between {{ m.first_sale | date: "%B %Y" }} and {{ m.last_sale | date: "%B %Y" }}. Its coffee may be sold through direct sales, under another grower's mark, or through a cooperative union.</p>
+        <p>MyKahawa has no Nairobi Coffee Exchange sales recorded under this grower ({% include data-period.html %}). Its coffee may be sold through direct sales, under another grower's mark, or through a cooperative union.</p>
         {% endif %}
 
         {% if profile %}

@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Bungoma County"
 heading: "Coffee cooperatives, factories and estates in Bungoma County"
-description: "68 coffee growers in Bungoma County, Kenya: 35 factories, 33 cooperative societies. Names and growers (CBK) codes."
-lead: "MyKahawa lists 68 coffee growers in Bungoma County: 35 factories, 33 cooperative societies."
+description: "81 coffee growers in Bungoma County, Kenya: 42 factories, 39 cooperative societies. Names and growers (CBK) codes."
+lead: "MyKahawa lists 81 coffee growers in Bungoma County: 42 factories, 39 cooperative societies."
 county: "Bungoma"
 breadcrumbs:
   - title: Directory

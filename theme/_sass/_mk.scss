@@ -230,6 +230,19 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
 .mk-bar { display: flex; align-items: center; gap: .5rem; min-width: 9rem; }
 .mk-bar span.mk-bar-fill { display: inline-block; height: .7rem; background: $mk-green; border-radius: 0 3px 3px 0; }
 
+// Latest auction (homepage and prices page)
+.mk-eyebrow { font-family: $mk-display; font-size: 1.25rem; letter-spacing: .06em; color: $mk-green-dark; }
+.mk-ranked {
+  list-style: none; counter-reset: rank; padding: 0;
+  li {
+    counter-increment: rank; display: flex; align-items: baseline; gap: .4rem;
+    padding: .35rem 0; border-bottom: 1px solid $mk-line;
+    &::before { content: counter(rank); min-width: 1.4rem; color: $mk-muted; font-size: .9rem; }
+  }
+  .mk-ranked-value { margin-left: auto; font-family: $mk-display; font-size: 1.35rem; letter-spacing: .02em; color: $mk-coffee; }
+}
+.mk-latest .mk-btn-outline { color: $mk-green-dark; &:hover, &:focus { background: $mk-cream; } }
+
 @media print {
   .mk-header, .mk-footer, .mk-no-print, .mk-skip-link { display: none !important; }
   .mk-page-hero { background: none; border: 0; padding: 0 0 1rem; }

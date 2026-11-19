@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Makueni County"
 heading: "Coffee cooperatives, factories and estates in Makueni County"
-description: "39 coffee growers in Makueni County, Kenya: 37 cooperative societies, 2 factories. Names and growers (CBK) codes."
-lead: "MyKahawa lists 39 coffee growers in Makueni County: 37 cooperative societies, 2 factories."
+description: "42 coffee growers in Makueni County, Kenya: 37 cooperative societies, 5 factories. Names and growers (CBK) codes."
+lead: "MyKahawa lists 42 coffee growers in Makueni County: 37 cooperative societies, 5 factories."
 county: "Makueni"
 breadcrumbs:
   - title: Directory

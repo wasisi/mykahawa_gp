@@ -60,13 +60,22 @@
 
   function el(id) { return document.getElementById(id); }
 
-  fetch('/data/market/sales.json').then(function (r) { return r.json(); }).then(function (sales) {
+  fetch('/data/market/sales.json').then(function (r) { return r.json(); }).then(function (allSales) {
+    // Where no sale is recorded for more than six months (2020-2025), add an empty point so
+    // the line breaks instead of joining the two periods.
+    var sales = [];
+    allSales.forEach(function (s, i) {
+      if (i && (new Date(s.date) - new Date(allSales[i - 1].date)) / 864e5 > 183) {
+        sales.push({ date: allSales[i - 1].date.slice(0, 4) + '–' + s.date.slice(0, 4) + ' no data', price: null, gap: true });
+      }
+      sales.push(s);
+    });
     // 1. Average price at each auction
     if (el('chart-price')) new Chart(el('chart-price'), {
       type: 'line',
       data: {
         labels: sales.map(function (s) { return s.date; }),
-        datasets: [{ label: 'Average price', data: sales.map(function (s) { return s.price; }),
+        datasets: [{ label: 'Average price', data: sales.map(function (s) { return s.price; }), spanGaps: false,
                      borderColor: GREEN, backgroundColor: GREEN, borderWidth: 2,
                      pointRadius: 0, pointHoverRadius: 5, tension: 0.2 }]
       },
@@ -74,7 +83,7 @@
         interaction: { mode: 'index', intersect: false },
         plugins: {
           legend: { display: false },
-          tooltip: { callbacks: {
+          tooltip: { filter: function (it) { return !sales[it.dataIndex].gap; }, callbacks: {
             title: function (it) { var s = sales[it[0].dataIndex]; return 'Sale of ' + new Date(s.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }); },
             label: function (it) { var s = sales[it.dataIndex]; return [usd(s.price) + ' per 50 kg bag', s.lots.toLocaleString('en') + ' lots, ' + Math.round(s.tonnes).toLocaleString('en') + ' tonnes']; }
           } }
@@ -87,11 +96,18 @@
     });
 
     // 2. Volume and value by season (two charts - never two y-axes on one)
+    // Every season from first to last, so seasons without data show as an empty slot.
     var seasons = {}, order = [];
-    sales.forEach(function (s) {
-      if (!seasons[s.season]) { seasons[s.season] = { t: 0, v: 0 }; order.push(s.season); }
+    allSales.forEach(function (s) {
+      if (!seasons[s.season]) seasons[s.season] = { t: 0, v: 0 };
       seasons[s.season].t += s.tonnes; seasons[s.season].v += s.usd;
     });
+    var years = Object.keys(seasons).map(function (k) { return +k.slice(0, 4); });
+    for (var y = Math.min.apply(null, years); y <= Math.max.apply(null, years); y++) {
+      var k = y + '/' + String(y + 1).slice(2);
+      order.push(k);
+      if (!seasons[k]) seasons[k] = { t: null, v: null };
+    }
     var bar = function (id, values, label, fmt) {
       if (!el(id)) return;
       new Chart(el(id), {
@@ -105,9 +121,9 @@
         }
       });
     };
-    bar('chart-volume', order.map(function (k) { return Math.round(seasons[k].t); }), 'Tonnes sold',
+    bar('chart-volume', order.map(function (k) { return seasons[k].t === null ? null : Math.round(seasons[k].t); }), 'Tonnes sold',
         function (v) { return v.toLocaleString('en') + ' tonnes'; });
-    bar('chart-value', order.map(function (k) { return Math.round(seasons[k].v / 1e5) / 10; }), 'Value (US$ million)',
+    bar('chart-value', order.map(function (k) { return seasons[k].v === null ? null : Math.round(seasons[k].v / 1e5) / 10; }), 'Value (US$ million)',
         function (v) { return 'US$' + v + ' million'; });
   });
 

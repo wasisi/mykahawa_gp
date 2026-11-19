@@ -1,10 +1,10 @@
 ---
 layout: base
 hero: true
-title: "Kenya coffee prices: Nairobi Coffee Exchange auction results 2015–2020"
+title: "Kenya coffee prices: Nairobi Coffee Exchange auction results, latest sale and history"
 heading: Kenya coffee auction prices
-description: "Kenyan coffee prices at the Nairobi Coffee Exchange, 2015–2020: average price per sale, prices by grade (AA, AB, PB, C), volumes, values and top buyers. Free data download."
-lead: "Prices, volumes and buyers at the Nairobi Coffee Exchange, from 131,000 auction lots sold between January 2015 and September 2020."
+description: "Kenyan coffee prices at the Nairobi Coffee Exchange: the latest weekly sale compared with last week and last year, best-paid growers, prices by grade (AA, AB, PB, C) and county, volumes and top buyers, 2015–2020 and 2025–2026."
+lead: "Prices, volumes and buyers at the Nairobi Coffee Exchange, from 182,000 auction lots sold between January 2015 and September 2020 and since July 2025, updated after every sale."
 redirect_from:
   - "/analytics/dashboard/"
   - "/transactions/list/"
@@ -15,6 +15,14 @@ extra_js:
 {% assign m = site.data.market %}
 <section class="mk-section">
   <div class="container">
+    {% include latest-auction.html full=true %}
+  </div>
+</section>
+
+<section class="mk-section mk-section-alt">
+  <div class="container">
+    <h2 id="history">Prices over time</h2>
+    <p>All sales in MyKahawa's records: {% include data-period.html %}. Results for October 2020 to June 2025 are not yet included, so charts show a gap there.</p>
     <div class="mk-stats mb-4">
       <div class="mk-stat"><span class="mk-stat-value">US${{ m.price | round }}</span><span class="mk-stat-label">average price per 50 kg bag</span></div>
       <div class="mk-stat"><span class="mk-stat-value">{% include num.html n=m.tonnes %} t</span><span class="mk-stat-label">coffee sold</span></div>
@@ -73,7 +81,7 @@ extra_js:
         <tbody>
           {% for s in m.seasons %}
           <tr>
-            <th scope="row">{{ s.season }}{% if forloop.first %}*{% endif %}</th>
+            <th scope="row">{{ s.season }}{% if forloop.first or s.season == "2024/25" or forloop.last %}*{% endif %}</th>
             <td class="num">{{ s.sales }}</td>
             <td class="num">{% include num.html n=s.lots %}</td>
             <td class="num">{% include num.html n=s.tonnes %}</td>
@@ -84,7 +92,7 @@ extra_js:
         </tbody>
       </table>
     </div>
-    <p class="mk-note">* The 2014/15 season is partial: records start on {{ m.first_sale | date: "%-d %B %Y" }}.</p>
+    <p class="mk-note">* Partial seasons: 2014/15 starts on {{ m.first_sale | date: "%-d %B %Y" }}, 2024/25 covers July to September 2025 only, and {{ m.seasons.last.season }} is in progress (to {{ m.last_sale | date: "%-d %B %Y" }}). Seasons 2020/21 to 2023/24 are not yet included.</p>
   </div>
 </section>
 
@@ -119,7 +127,7 @@ extra_js:
   <div class="container mk-prose">
     <h2 id="about-the-data">About the data</h2>
     <p>The Kenyan coffee season (crop year) runs from 1 October to 30 September. Picking usually peaks between October and December, with a smaller fly crop around April to June. Most Kenyan coffee is sold at the weekly auction of the <a href="http://nairobicoffeeexchange.co.ke" rel="noopener">Nairobi Coffee Exchange</a> (NCE), and the rest through direct sales between growers and buyers.</p>
-    <p>These figures come from the sale results the NCE published after each auction from {{ m.first_sale | date: "%-d %B %Y" }} to {{ m.last_sale | date: "%-d %B %Y" }}. Prices are in US dollars per 50 kg bag of clean coffee. Averages are weighted by volume. MyKahawa aggregated the records, so small differences from NCE figures are possible; where they differ, the NCE figures prevail. Direct sales are not included.</p>
+    <p>These figures come from the sale results (transaction listings) the NCE published after each auction, {% include data-period.html %}. MyKahawa links each lot to its grower and buyer, so you can follow a factory or estate across sales and compare it with the market for the same grade. Prices are in US dollars per 50 kg bag of clean coffee. Averages are weighted by volume. MyKahawa aggregated the records, so small differences from NCE figures are possible; where they differ, the NCE figures prevail. Direct sales are not included.</p>
     <p>Need lot-level data, newer results or a custom analysis? <a href="/contact.html">Get in touch</a>.</p>
   </div>
 </section>
