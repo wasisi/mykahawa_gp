@@ -39,7 +39,14 @@ permalink: /directory/coffee-brokers.html
         </tbody>
       </table>
     </div>
-    <p class="mk-note">Prices are volume-weighted, in US dollars per 50 kg bag of clean coffee. Growers = named cooperatives, factories and estates; bulk lots pooled from several growers are counted in the totals only. Source: Nairobi Coffee Exchange transaction listings, compiled by MyKahawa.</p>
+    <p class="mk-note">Prices are volume-weighted, in US dollars per 50 kg bag of clean coffee. Growers = named cooperatives, factories and estates; bulk lots pooled from several growers are counted in the totals only. Sources: Nairobi Coffee Exchange transaction listings, compiled by MyKahawa; licence numbers from the <a href="https://licensees.cma.or.ke/licenses/12/" rel="noopener">CMA list of licensed coffee brokers</a>.</p>
+
+    {% if B.no_sales.size > 0 %}
+    <h2 class="h4 mt-4">Licensed brokers with no auction sales in our records</h2>
+    <ul>
+      {% for b in B.no_sales %}<li>{{ b.name }}{% if b.cma_licence != "" %} (CMA licence {{ b.cma_licence }}){% endif %}{% if b.address != "" %} <span class="text-muted small">{{ b.address }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </section>
 

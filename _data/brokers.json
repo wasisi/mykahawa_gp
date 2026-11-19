@@ -7,7 +7,7 @@
    "name": "Alliance Berries Limited",
    "slug": "alliance-berries-limited",
    "nce_name": "Alliance Berries Limited",
-   "cma_licence": "",
+   "cma_licence": "182",
    "website": "",
    "lots": 11868,
    "tonnes": 16835,
@@ -99,8 +99,8 @@
    ]
   },
   {
-   "name": "New KPCU ltd",
-   "slug": "new-kpcu-ltd",
+   "name": "New Kenya Planters Co-operative Union PLC",
+   "slug": "new-kenya-planters-co-operative-union-plc",
    "nce_name": "New Kenya Planters Co-operative Union PLC.",
    "cma_licence": "",
    "website": "",
@@ -194,10 +194,10 @@
    ]
   },
   {
-   "name": "Kirinyaga Slopes Coffee Brokerage Company Ltd",
-   "slug": "kirinyaga-slopes-coffee-brokerage-company-ltd",
+   "name": "Kirinyaga Slopes Coffee Brokerage Company Limited",
+   "slug": "kirinyaga-slopes-coffee-brokerage-company-limited",
    "nce_name": "Kirinyaga Slopes Coffee Brokerage Company Ltd",
-   "cma_licence": "",
+   "cma_licence": "202",
    "website": "",
    "lots": 5265,
    "tonnes": 7382,
@@ -292,7 +292,7 @@
    "name": "KCCE Marketing Agency Limited",
    "slug": "kcce-marketing-agency-limited",
    "nce_name": "KCCE Marketing Agency Limited",
-   "cma_licence": "",
+   "cma_licence": "189",
    "website": "",
    "lots": 4680,
    "tonnes": 4717,
@@ -384,10 +384,10 @@
    ]
   },
   {
-   "name": "Kipkelion Broker Company Ltd",
-   "slug": "kipkelion-broker-company-ltd",
+   "name": "Kipkelion Brokerage Company Limited",
+   "slug": "kipkelion-brokerage-company-limited",
    "nce_name": "Kipkelion Broker Company Ltd",
-   "cma_licence": "",
+   "cma_licence": "152",
    "website": "",
    "lots": 4365,
    "tonnes": 4639,
@@ -479,10 +479,10 @@
    ]
   },
   {
-   "name": "Coffee Estates Bourgeoisie Brokers Limited",
-   "slug": "coffee-estates-bourgeoisie-brokers-limited",
+   "name": "Coffee Estates Bourgeoisie Brokers Agency Limited",
+   "slug": "coffee-estates-bourgeoisie-brokers-agency-limited",
    "nce_name": "Coffee Estates Bourgeoisie Brokers Limited",
-   "cma_licence": "",
+   "cma_licence": "210",
    "website": "",
    "lots": 3803,
    "tonnes": 3540,
@@ -577,7 +577,7 @@
    "name": "Minnesota Coffee Marketers Limited",
    "slug": "minnesota-coffee-marketers-limited",
    "nce_name": "Minnesota Coffee Marketers Limited",
-   "cma_licence": "",
+   "cma_licence": "209",
    "website": "",
    "lots": 3208,
    "tonnes": 2520,
@@ -669,10 +669,10 @@
    ]
   },
   {
-   "name": "Kinya Coffee Marketing Agency Ltd",
-   "slug": "kinya-coffee-marketing-agency-ltd",
+   "name": "Kinya Coffee Marketing Agency Limited",
+   "slug": "kinya-coffee-marketing-agency-limited",
    "nce_name": "Kinya Coffee Marketing Agency Ltd",
-   "cma_licence": "",
+   "cma_licence": "181",
    "website": "",
    "lots": 1482,
    "tonnes": 2403,
@@ -764,10 +764,10 @@
    ]
   },
   {
-   "name": "Meru County Coffee Marketing ltd",
-   "slug": "meru-county-coffee-marketing-ltd",
+   "name": "Meru County Coffee Marketing Agency Limited",
+   "slug": "meru-county-coffee-marketing-agency-limited",
    "nce_name": "Meru County Coffee Marketing Agency Limited",
-   "cma_licence": "",
+   "cma_licence": "151",
    "website": "",
    "lots": 1598,
    "tonnes": 2184,
@@ -858,10 +858,10 @@
    ]
   },
   {
-   "name": "United Eastern Kenya Coffee Marketing Co. Ltd",
-   "slug": "united-eastern-kenya-coffee-marketing-co-ltd",
+   "name": "United Eastern Kenya Coffee Marketing Agency",
+   "slug": "united-eastern-kenya-coffee-marketing-agency",
    "nce_name": "United Eastern Kenya Coffee Marketing Co. Ltd",
-   "cma_licence": "",
+   "cma_licence": "158",
    "website": "",
    "lots": 1980,
    "tonnes": 1968,
@@ -956,7 +956,7 @@
    "name": "Mt. Elgon Coffee Marketing Agency",
    "slug": "mt-elgon-coffee-marketing-agency",
    "nce_name": "Mt. Elgon Coffee Marketing Agency",
-   "cma_licence": "",
+   "cma_licence": "157",
    "website": "",
    "lots": 1024,
    "tonnes": 1281,
@@ -1045,10 +1045,10 @@
    ]
   },
   {
-   "name": "Murang’a County Coffee Dealers Co. Ltd.",
-   "slug": "murang-a-county-coffee-dealers-co-ltd",
+   "name": "Murang'a County Coffee Dealers Company Limited",
+   "slug": "murang-a-county-coffee-dealers-company-limited",
    "nce_name": "Murang’a County Coffee Dealers Co. Ltd.",
-   "cma_licence": "",
+   "cma_licence": "153",
    "website": "",
    "lots": 904,
    "tonnes": 801,
@@ -1139,11 +1139,11 @@
    ]
   },
   {
-   "name": "Caffora Coffee Company Ltd",
-   "slug": "caffora-coffee-company-ltd",
+   "name": "Caffora Coffee Company Limited",
+   "slug": "caffora-coffee-company-limited",
    "nce_name": "Caffora Coffee Company Ltd",
-   "cma_licence": "",
-   "website": "",
+   "cma_licence": "267",
+   "website": "https://caffora.co.ke/",
    "lots": 264,
    "tonnes": 344,
    "usd": 2289603,
@@ -1232,10 +1232,10 @@
    ]
   },
   {
-   "name": "Nandi Coffee Co-operative Union Coffee Brokers Ltd",
-   "slug": "nandi-coffee-co-operative-union-coffee-brokers-ltd",
+   "name": "Nandi Coffee Co-operative Union Coffee Brokers Limited",
+   "slug": "nandi-coffee-co-operative-union-coffee-brokers-limited",
    "nce_name": "Nandi Coffee Co-operative Union Coffee Brokers Ltd",
-   "cma_licence": "",
+   "cma_licence": "205",
    "website": "",
    "lots": 349,
    "tonnes": 264,
@@ -1324,10 +1324,10 @@
    ]
   },
   {
-   "name": "Kiambu Coffee Marketing Limited",
-   "slug": "kiambu-coffee-marketing-limited",
+   "name": "Kiambu Coffee Marketing Company",
+   "slug": "kiambu-coffee-marketing-company",
    "nce_name": "Kiambu Coffee Marketing Limited",
-   "cma_licence": "",
+   "cma_licence": "183",
    "website": "",
    "lots": 246,
    "tonnes": 205,
@@ -1416,8 +1416,8 @@
    ]
   },
   {
-   "name": "Ahadi Coffee Ltd",
-   "slug": "ahadi-coffee-ltd",
+   "name": "Ahadi Coffee Limited",
+   "slug": "ahadi-coffee-limited",
    "nce_name": "Ahadi Coffee Ltd",
    "cma_licence": "266",
    "website": "https://ahadicoffee.com",
@@ -1511,10 +1511,10 @@
    ]
   },
   {
-   "name": "Bungoma Union Marketing Agency",
-   "slug": "bungoma-union-marketing-agency",
+   "name": "Bungoma Union Marketing Agency Limited",
+   "slug": "bungoma-union-marketing-agency-limited",
    "nce_name": "Bungoma Union Marketing Agency",
-   "cma_licence": "",
+   "cma_licence": "184",
    "website": "",
    "lots": 153,
    "tonnes": 101,
@@ -1604,8 +1604,8 @@
    ]
   },
   {
-   "name": "Baringo Kawa Brokerage Company Ltd",
-   "slug": "baringo-kawa-brokerage-company-ltd",
+   "name": "Baringo Kawa Brokerage Company Limited",
+   "slug": "baringo-kawa-brokerage-company-limited",
    "nce_name": "Baringo Kawa Brokerage Company Ltd",
    "cma_licence": "",
    "website": "",
@@ -1640,10 +1640,10 @@
    ]
   },
   {
-   "name": "Saffron Coffee Marketers Ltd",
-   "slug": "saffron-coffee-marketers-ltd",
+   "name": "Saffron Coffee Marketers Limited",
+   "slug": "saffron-coffee-marketers-limited",
    "nce_name": "Saffron Coffee Marketers Ltd",
-   "cma_licence": "",
+   "cma_licence": "274",
    "website": "",
    "lots": 28,
    "tonnes": 10,
@@ -1690,6 +1690,26 @@
      "price": 240.0
     }
    ]
+  }
+ ],
+ "no_sales": [
+  {
+   "name": "Embu Coffee Farmers Marketing Agency Limited",
+   "cma_licence": "159",
+   "address": "P.O. Box 21-60100, Nairobi",
+   "website": ""
+  },
+  {
+   "name": "Meru South Coffee Marketing Company Limited",
+   "cma_licence": "208",
+   "address": "P.O. Box 40-60400, Chuka",
+   "website": ""
+  },
+  {
+   "name": "Wareng Coffee Marketing Agency Limited",
+   "cma_licence": "243",
+   "address": "P.O. Box 44-30100, Eldoret",
+   "website": ""
   }
  ]
 }

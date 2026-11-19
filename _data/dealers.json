@@ -130,7 +130,7 @@
   "slug": ""
  },
  {
-  "name": "Ahadi Coffee Ltd",
+  "name": "Ahadi Coffee Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -140,7 +140,7 @@
   "notice": "",
   "notice_date": "",
   "cma_licence": "266",
-  "slug": "ahadi-coffee-ltd"
+  "slug": "ahadi-coffee-limited"
  },
  {
   "name": "Alanwood Limited",
@@ -191,7 +191,7 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
+  "cma_licence": "182",
   "slug": "alliance-berries-limited"
  },
  {
@@ -390,7 +390,7 @@
   "slug": ""
  },
  {
-  "name": "Baringo Kawa Brokerage Company Ltd",
+  "name": "Baringo Kawa Brokerage Company Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -400,7 +400,7 @@
   "notice": "",
   "notice_date": "",
   "cma_licence": "",
-  "slug": "baringo-kawa-brokerage-company-ltd"
+  "slug": "baringo-kawa-brokerage-company-limited"
  },
  {
   "name": "Beams Agri Exporters Limited",
@@ -546,7 +546,7 @@
   "slug": ""
  },
  {
-  "name": "Bungoma Union Marketing Agency",
+  "name": "Bungoma Union Marketing Agency Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -555,8 +555,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "bungoma-union-marketing-agency"
+  "cma_licence": "184",
+  "slug": "bungoma-union-marketing-agency-limited"
  },
  {
   "name": "Buteco Limited",
@@ -624,17 +624,17 @@
   "slug": ""
  },
  {
-  "name": "Caffora Coffee Company Ltd",
+  "name": "Caffora Coffee Company Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
   "license": "",
-  "website": "",
+  "website": "https://caffora.co.ke/",
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "caffora-coffee-company-ltd"
+  "cma_licence": "267",
+  "slug": "caffora-coffee-company-limited"
  },
  {
   "name": "Canaf Agents Limited",
@@ -728,7 +728,7 @@
   "slug": ""
  },
  {
-  "name": "Coffee Estates Bourgeoisie Brokers Limited",
+  "name": "Coffee Estates Bourgeoisie Brokers Agency Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -737,8 +737,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "coffee-estates-bourgeoisie-brokers-limited"
+  "cma_licence": "210",
+  "slug": "coffee-estates-bourgeoisie-brokers-agency-limited"
  },
  {
   "name": "Coffee Exporters Kenya Ltd",
@@ -1129,6 +1129,19 @@
   "notice_date": "2026-10-02",
   "cma_licence": "",
   "slug": ""
+ },
+ {
+  "name": "Embu Coffee Farmers Marketing Agency Limited",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "159",
+  "slug": "embu-coffee-farmers-marketing-agency-limited"
  },
  {
   "name": "Embu County coffee Coop. SoLtd",
@@ -2102,7 +2115,7 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
+  "cma_licence": "189",
   "slug": "kcce-marketing-agency-limited"
  },
  {
@@ -2210,7 +2223,7 @@
   "slug": ""
  },
  {
-  "name": "Kiambu Coffee Marketing Limited",
+  "name": "Kiambu Coffee Marketing Company",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -2219,8 +2232,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "kiambu-coffee-marketing-limited"
+  "cma_licence": "183",
+  "slug": "kiambu-coffee-marketing-company"
  },
  {
   "name": "Kianda International Limited",
@@ -2262,7 +2275,7 @@
   "slug": ""
  },
  {
-  "name": "Kinya Coffee Marketing Agency Ltd",
+  "name": "Kinya Coffee Marketing Agency Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -2271,11 +2284,11 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "kinya-coffee-marketing-agency-ltd"
+  "cma_licence": "181",
+  "slug": "kinya-coffee-marketing-agency-limited"
  },
  {
-  "name": "Kipkelion Broker Company Ltd",
+  "name": "Kipkelion Brokerage Company Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -2284,8 +2297,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "kipkelion-broker-company-ltd"
+  "cma_licence": "152",
+  "slug": "kipkelion-brokerage-company-limited"
  },
  {
   "name": "Kirathe Limited",
@@ -2314,7 +2327,7 @@
   "slug": ""
  },
  {
-  "name": "Kirinyaga Slopes Coffee Brokerage Company Ltd",
+  "name": "Kirinyaga Slopes Coffee Brokerage Company Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -2323,8 +2336,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "kirinyaga-slopes-coffee-brokerage-company-ltd"
+  "cma_licence": "202",
+  "slug": "kirinyaga-slopes-coffee-brokerage-company-limited"
  },
  {
   "name": "Klar Company",
@@ -2613,7 +2626,7 @@
   "slug": ""
  },
  {
-  "name": "Meru County Coffee Marketing ltd",
+  "name": "Meru County Coffee Marketing Agency Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -2622,8 +2635,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "meru-county-coffee-marketing-ltd"
+  "cma_licence": "151",
+  "slug": "meru-county-coffee-marketing-agency-limited"
  },
  {
   "name": "Meru County Coffee Mills ltd",
@@ -2639,6 +2652,19 @@
   "slug": ""
  },
  {
+  "name": "Meru South Coffee Marketing Company Limited",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "208",
+  "slug": "meru-south-coffee-marketing-company-limited"
+ },
+ {
   "name": "Minnesota Coffee Marketers Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
@@ -2648,7 +2674,7 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
+  "cma_licence": "209",
   "slug": "minnesota-coffee-marketers-limited"
  },
  {
@@ -2739,7 +2765,7 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
+  "cma_licence": "157",
   "slug": "mt-elgon-coffee-marketing-agency"
  },
  {
@@ -2769,7 +2795,7 @@
   "slug": ""
  },
  {
-  "name": "Murang’a County Coffee Dealers Co. Ltd.",
+  "name": "Murang'a County Coffee Dealers Company Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -2778,8 +2804,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "murang-a-county-coffee-dealers-co-ltd"
+  "cma_licence": "153",
+  "slug": "murang-a-county-coffee-dealers-company-limited"
  },
  {
   "name": "Murue fcs Limited",
@@ -2821,7 +2847,7 @@
   "slug": ""
  },
  {
-  "name": "Nandi Coffee Co-operative Union Coffee Brokers Ltd",
+  "name": "Nandi Coffee Co-operative Union Coffee Brokers Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -2830,8 +2856,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "nandi-coffee-co-operative-union-coffee-brokers-ltd"
+  "cma_licence": "205",
+  "slug": "nandi-coffee-co-operative-union-coffee-brokers-limited"
  },
  {
   "name": "Nature's Bounty Export Co. Ltd",
@@ -2845,6 +2871,19 @@
   "notice_date": "",
   "cma_licence": "",
   "slug": ""
+ },
+ {
+  "name": "New Kenya Planters Co-operative Union PLC",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "31",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "new-kenya-planters-co-operative-union-plc"
  },
  {
   "name": "New KPCU Ltd",
@@ -2884,19 +2923,6 @@
   "notice_date": "",
   "cma_licence": "",
   "slug": ""
- },
- {
-  "name": "New KPCU ltd",
-  "category": "Coffee Brokers",
-  "group": "coffee-brokers",
-  "label": "Coffee brokers",
-  "license": "31",
-  "website": "",
-  "status": "",
-  "notice": "",
-  "notice_date": "",
-  "cma_licence": "",
-  "slug": "new-kpcu-ltd"
  },
  {
   "name": "Nimmo Global Development Services (N-GDS) Limited",
@@ -3419,7 +3445,7 @@
   "slug": ""
  },
  {
-  "name": "Saffron Coffee Marketers Ltd",
+  "name": "Saffron Coffee Marketers Limited",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -3428,8 +3454,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "saffron-coffee-marketers-ltd"
+  "cma_licence": "274",
+  "slug": "saffron-coffee-marketers-limited"
  },
  {
   "name": "Sahara Beverage Limited",
@@ -4030,7 +4056,7 @@
   "slug": ""
  },
  {
-  "name": "United Eastern Kenya Coffee Marketing Co. Ltd",
+  "name": "United Eastern Kenya Coffee Marketing Agency",
   "category": "Coffee Brokers",
   "group": "coffee-brokers",
   "label": "Coffee brokers",
@@ -4039,8 +4065,8 @@
   "status": "",
   "notice": "",
   "notice_date": "",
-  "cma_licence": "",
-  "slug": "united-eastern-kenya-coffee-marketing-co-ltd"
+  "cma_licence": "158",
+  "slug": "united-eastern-kenya-coffee-marketing-agency"
  },
  {
   "name": "Utake coffee ltd",
@@ -4061,7 +4087,7 @@
   "group": "coffee-exporters",
   "label": "Exporters and dealers",
   "license": "1696",
-  "website": "",
+  "website": "https://www.vavacoffeeinc.com/",
   "status": "",
   "notice": "",
   "notice_date": "",
@@ -4145,6 +4171,19 @@
   "notice_date": "2026-10-02",
   "cma_licence": "",
   "slug": ""
+ },
+ {
+  "name": "Wareng Coffee Marketing Agency Limited",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "243",
+  "slug": "wareng-coffee-marketing-agency-limited"
  },
  {
   "name": "Waylite Enterprises Ltd",
