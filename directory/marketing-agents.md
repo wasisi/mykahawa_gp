@@ -9,4 +9,4 @@ breadcrumbs:
     url: /directory.html
 permalink: /directory/marketing-agents.html
 ---
-Growers appoint a marketing agent to catalogue their coffee, offer it at the weekly auction or negotiate direct sales, and pass on the proceeds. These licences were issued by AFA under the 2019 Regulations. Under the Coffee Act, 2026, growers sell through CMA-licensed brokers, as grower millers, or by direct sale.
+Growers appoint a marketing agent to catalogue their coffee, offer it at the weekly auction or negotiate direct sales, and pass on the proceeds. These licences were issued by AFA under the 2019 Regulations. Under the Coffee Act, 2026, growers sell through CMA-licensed brokers, as grower millers, or by direct sale. See the [coffee brokers active at the auction](/directory/coffee-brokers.html), with the growers they serve and the prices they achieve.

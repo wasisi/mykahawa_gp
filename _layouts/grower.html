@@ -110,6 +110,16 @@ layout: base
         </div>
         {% endif %}
 
+        {% if p.agents.size > 0 %}
+        <h3>Marketed by</h3>
+        <p>The coffee broker{% if p.agents.size > 1 %}s{% endif %} that took {{ p.name }}'s coffee to the auction since {{ site.data.brokers.first_sale | date: "%B %Y" }}.</p>
+        <ul class="mb-4">
+          {% for a in p.agents %}
+          <li>{% if a.slug != "" %}<a href="/directory/coffee-brokers.html#{{ a.slug }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}: {{ a.lots }} lot{% if a.lots != 1 %}s{% endif %}, {{ a.tonnes }} t, last on {{ a.last | date: "%-d %b %Y" }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
         {% if p.marks.size > 0 %}
         <p class="mk-note">Marks used on auction lots: {{ p.marks | join: ", " }}.</p>
         {% endif %}

@@ -8,7 +8,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Abshash Investments Limited",
@@ -19,7 +21,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Adia Afrika Classics",
@@ -30,7 +34,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "African coffee roasters (EPZ)",
@@ -41,7 +47,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "African Coffee roasters EPZ",
@@ -52,7 +60,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "African Gold coffee Ltd",
@@ -63,7 +73,9 @@
   "website": "http://www.africangoldcoffee.co.ke",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "African Tea and coffee Ltd",
@@ -74,7 +86,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Africoff trading Company Ltd",
@@ -85,7 +99,9 @@
   "website": "http://africoff.co.ke",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Africoff Trading Company Ltd",
@@ -96,7 +112,9 @@
   "website": "http://africoff.co.ke",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Agmond Coffee Limited",
@@ -107,7 +125,22 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Ahadi Coffee Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "https://ahadicoffee.com",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "266",
+  "slug": "ahadi-coffee-ltd"
  },
  {
   "name": "Alanwood Limited",
@@ -118,7 +151,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Alanwood Limited",
@@ -129,7 +164,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Alcaffe Ltd.",
@@ -140,7 +177,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Alliance Berries Limited",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "alliance-berries-limited"
  },
  {
   "name": "Altamoda Agency Limited",
@@ -151,7 +203,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Ambrosial Harvest Limited",
@@ -162,7 +216,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Amira Kahawa Limited",
@@ -173,7 +229,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "AMISAM GENERAL TRADING LIMITED",
@@ -184,7 +242,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Anfac Coffee House Limited",
@@ -195,7 +255,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Antocy Avo Limited",
@@ -206,7 +268,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Apexe Square Global Limited",
@@ -217,7 +281,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Arcadium Limited",
@@ -228,7 +294,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Aristocrats Coffee and Tea Exporters Ltd",
@@ -239,7 +307,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Atlas Meridian Coffee Trading Limited",
@@ -250,7 +320,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Auricare International Limited",
@@ -261,7 +333,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Avencrest Limited",
@@ -272,7 +346,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Avomac Limited",
@@ -283,7 +359,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Baobab coffee limited",
@@ -294,7 +372,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Baragwi fcs Limited",
@@ -305,7 +385,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Baringo Kawa Brokerage Company Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "baringo-kawa-brokerage-company-ltd"
  },
  {
   "name": "Beams Agri Exporters Limited",
@@ -316,7 +411,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Bean Bliss",
@@ -327,7 +424,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Bean Verified Limited",
@@ -338,7 +437,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Bekas Systems Ltd",
@@ -349,7 +450,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Berries Union Company Limited",
@@ -360,7 +463,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Betco Coffee Co. Ltd",
@@ -371,7 +476,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Bollore Transport & Logistics",
@@ -382,7 +489,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Bosana (Kenya) Limited",
@@ -393,7 +502,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "BRIDGE EXPO & TRANS LTD",
@@ -404,7 +515,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Brook Commodities Limited",
@@ -415,7 +528,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "BTG Pactual",
@@ -426,7 +541,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Bungoma Union Marketing Agency",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "bungoma-union-marketing-agency"
  },
  {
   "name": "Buteco Limited",
@@ -437,7 +567,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Buteko Ltd",
@@ -448,7 +580,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "BY Industries Company SEZ Limited",
@@ -459,7 +593,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Cafeco Trading Limited",
@@ -470,7 +606,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Caffe Del Duca Ltd",
@@ -481,7 +619,22 @@
   "website": "http://www.caffedelduca.com",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Caffora Coffee Company Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "caffora-coffee-company-ltd"
  },
  {
   "name": "Canaf Agents Limited",
@@ -492,7 +645,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Central Kenya Coffee Mills- Nyeri",
@@ -503,7 +658,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Chania Chic Company Limited",
@@ -514,7 +671,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Char Mocha Limited",
@@ -525,7 +684,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Classic Coffee Ltd",
@@ -536,7 +697,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "CMS Mills Ltd-Eldoret",
@@ -547,7 +710,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Coffee Bee Processors Ltd",
@@ -558,7 +723,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Coffee Estates Bourgeoisie Brokers Limited",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "coffee-estates-bourgeoisie-brokers-limited"
  },
  {
   "name": "Coffee Exporters Kenya Ltd",
@@ -569,7 +749,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Coffee Management Services Ltd",
@@ -580,7 +762,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Coffee Management Services ltd",
@@ -591,7 +775,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Coffee Management Services Ltd",
@@ -602,7 +788,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Connect Coffee company ltd",
@@ -613,7 +801,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Coronet Treasure Limited",
@@ -624,7 +814,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Cortado Investments Limited",
@@ -635,7 +827,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Cross Medicare Ltd",
@@ -646,7 +840,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Crown farm Africa Ltd",
@@ -657,7 +853,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Crystal Lux Consumer Products Limited",
@@ -668,7 +866,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "DeKUT enterprises Company ltd",
@@ -679,7 +879,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Delafarm Trading company Ltd",
@@ -690,7 +892,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Dhow Coffee Limited",
@@ -701,7 +905,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Diamond Coffee Ltd",
@@ -712,7 +918,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Diamond Coffee Ltd",
@@ -723,7 +931,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Dillenseger Limited",
@@ -734,7 +944,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Dongwritch Importers and Exporters Limited",
@@ -745,7 +957,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Dorfia Trading Limited",
@@ -756,7 +970,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Dorman Limited",
@@ -767,7 +983,9 @@
   "website": "http://dormanscoffee.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Dorman Ltd",
@@ -778,7 +996,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "E - Logistics",
@@ -789,7 +1009,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Eagle Crown coffee Ltd",
@@ -800,7 +1022,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "East African Gourmet Ltd",
@@ -811,7 +1035,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "EastMount Native Coffee Ltd",
@@ -822,7 +1048,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Ecodream International Limited",
@@ -833,7 +1061,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Edmax Tea & Coffee ltd",
@@ -844,7 +1074,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Edwin Maega Kiyaka",
@@ -855,7 +1087,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Eliali Coffee Estates Limited",
@@ -866,7 +1100,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Elite Exim Ltd",
@@ -877,7 +1113,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Elsway Investments Limited",
@@ -888,7 +1126,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Embu County coffee Coop. SoLtd",
@@ -899,7 +1139,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Emcoff Marketers Ltd",
@@ -910,7 +1152,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Emcoff Marketers Ltd",
@@ -921,7 +1165,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Engelhart Co",
@@ -932,7 +1178,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Essenix Limited",
@@ -943,7 +1191,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Excellence in Motion Limited",
@@ -954,7 +1204,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Eximp Networks",
@@ -965,7 +1217,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Exotic Coffee",
@@ -976,7 +1230,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Export Trading",
@@ -987,7 +1243,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Exportiva Global Limited",
@@ -998,7 +1256,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Faina Enterprises Ltd",
@@ -1009,7 +1269,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Fenkil Expire Ltd",
@@ -1020,7 +1282,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Fieldcrisp Fresh Limited",
@@ -1031,7 +1295,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "First Cup Coffee Ltd",
@@ -1042,7 +1308,9 @@
   "website": "http://www.firstcupcoffeeltd.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Flomo Enterprises Limited",
@@ -1053,7 +1321,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Fresh Marvels Limited",
@@ -1064,7 +1334,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Freshday limited",
@@ -1075,7 +1347,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Friendliness Limited",
@@ -1086,7 +1360,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Frostline Logistics Limited",
@@ -1097,7 +1373,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Full Circles Equities Limited",
@@ -1108,7 +1386,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Gateway and Partners Ltd",
@@ -1119,7 +1399,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Geo-Linked Kenyan Coffee Company Limited",
@@ -1130,7 +1412,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "GGCJ Arabica coffee exporters ltd",
@@ -1141,7 +1425,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Gicheha Estate",
@@ -1152,7 +1438,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Gilmart Limited",
@@ -1163,7 +1451,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Global Afrea Ltd",
@@ -1174,7 +1464,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Global Fruits",
@@ -1185,7 +1477,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Global Mark Foods Ltd",
@@ -1196,7 +1490,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Golden Star Caffe Limited",
@@ -1207,7 +1503,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Goldrock International Ent Co(K) Ltd",
@@ -1218,7 +1516,9 @@
   "website": "http://www.goldrockkenya.com/goldrockkenya.com/Coffee/Coffee.html",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Gracy Solutions Limited",
@@ -1229,7 +1529,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Grainergy K. Ltd",
@@ -1240,7 +1542,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Guramit General Trading Company Limited",
@@ -1251,7 +1555,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Gusii Coffee farmers ltd",
@@ -1262,7 +1568,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Haki Origins Limited",
@@ -1273,7 +1581,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Haky Coffee Limited",
@@ -1284,7 +1594,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Hangol Trading Limited",
@@ -1295,7 +1607,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Hannis Global Merchants Limited",
@@ -1306,7 +1620,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Haviv Africa Company Limited",
@@ -1317,7 +1633,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Hearth Coffee Limited",
@@ -1328,7 +1646,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Hema Coffee Mills",
@@ -1339,7 +1659,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Hikuri Coffee Roasters Limited",
@@ -1350,7 +1672,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Hiview International Co Limited",
@@ -1361,7 +1685,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Homeciti Africa Ltd",
@@ -1372,7 +1698,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "HS Logistics Hub Limited",
@@ -1383,7 +1711,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Hydergy (P) Ltd",
@@ -1394,7 +1724,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Ibero Kenya Ltd",
@@ -1405,7 +1737,9 @@
   "website": "http://www.iberokenya.com/aboutus",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Icon Coffee Company Limited",
@@ -1416,7 +1750,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "IIDCO Investment",
@@ -1427,7 +1763,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Ikawa coffee ltd",
@@ -1438,7 +1776,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Imani Coffee Limited",
@@ -1449,7 +1789,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Imperion Global Holdings Limited",
@@ -1460,7 +1802,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Iriaini fcs ltd",
@@ -1471,7 +1815,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Itura Coffee Limited",
@@ -1482,7 +1828,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jabali The Coffee Company",
@@ -1493,7 +1841,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jaksco import export co. ltd",
@@ -1504,7 +1854,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Japem Estate",
@@ -1515,7 +1867,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Javans Coffee Limited",
@@ -1526,7 +1880,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jemman coffee & mining co. Ltd",
@@ -1537,7 +1893,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jemman coffee & Mining co. Ltd",
@@ -1548,7 +1906,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Josra Coffee traders Ltd",
@@ -1559,7 +1919,9 @@
   "website": "http://josracoffee.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jotim Coffee",
@@ -1570,7 +1932,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jowam Coffee Traders Ltd",
@@ -1581,7 +1945,9 @@
   "website": "http://jowamcoffee.com",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jua Roast Limited",
@@ -1592,7 +1958,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jungle Macs (EPZ) ltd",
@@ -1603,7 +1971,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Jungle Macs (EPZ) Ltd",
@@ -1614,7 +1984,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Juniorcorn Limited",
@@ -1625,7 +1997,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kafe Koko Limited",
@@ -1636,7 +2010,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kahawa Bora Millers",
@@ -1647,7 +2023,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kahve Coffee Limited",
@@ -1658,7 +2036,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kaizen Export Ltd",
@@ -1669,7 +2049,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kamchungwa fcs ltd",
@@ -1680,7 +2062,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kanches International Limited",
@@ -1691,7 +2075,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "KCCD",
@@ -1702,7 +2088,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "KCCE Marketing Agency Limited",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "kcce-marketing-agency-limited"
  },
  {
   "name": "KCCM ltd",
@@ -1713,7 +2114,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kencoff Quality Products Ltd",
@@ -1724,7 +2127,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kenya Cooperative Coffee Exporters ltd",
@@ -1735,7 +2140,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kenya Cooperative Coffee Exporters ltd",
@@ -1746,7 +2153,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kenya Cooperative coffee exporters ltd",
@@ -1757,7 +2166,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kenya Nut Co. Ltd",
@@ -1768,7 +2179,9 @@
   "website": "http://kenyanut.com/kenya_nut.swf",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kenyacof Ltd",
@@ -1779,7 +2192,9 @@
   "website": "https://www.sucafina.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "KG Mills Limited",
@@ -1790,7 +2205,22 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Kiambu Coffee Marketing Limited",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "kiambu-coffee-marketing-limited"
  },
  {
   "name": "Kianda International Limited",
@@ -1801,7 +2231,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kichawir fcs Ltd",
@@ -1812,7 +2244,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kimani Coffee Experts Ltd",
@@ -1823,7 +2257,35 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Kinya Coffee Marketing Agency Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "kinya-coffee-marketing-agency-ltd"
+ },
+ {
+  "name": "Kipkelion Broker Company Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "kipkelion-broker-company-ltd"
  },
  {
   "name": "Kirathe Limited",
@@ -1834,7 +2296,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kirinyaga county Cooperative Union Ltd",
@@ -1845,7 +2309,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Kirinyaga Slopes Coffee Brokerage Company Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "kirinyaga-slopes-coffee-brokerage-company-ltd"
  },
  {
   "name": "Klar Company",
@@ -1856,7 +2335,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kofinaf Company Ltd",
@@ -1867,7 +2348,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kuttum Ltd",
@@ -1878,7 +2361,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kyandu trading Ltd",
@@ -1889,7 +2374,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Kyandu trading Ltd",
@@ -1900,7 +2387,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Lakeside Carriers ltd",
@@ -1911,7 +2400,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Le- Alvin enterprises ltd",
@@ -1922,7 +2413,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Le- Alvin Enterprises Ltd",
@@ -1933,7 +2426,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Lisela Ltd",
@@ -1944,7 +2439,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Logipi Waters Limited",
@@ -1955,7 +2452,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Louis Dreyfus Company Kenya Ltd",
@@ -1966,7 +2465,9 @@
   "website": "http://www.ldcommodities.com/global/en/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Louis Dreyfus Company Kenya Ltd",
@@ -1977,7 +2478,9 @@
   "website": "http://www.ldcommodities.com/global/en/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Maguta Estate",
@@ -1988,7 +2491,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Makamu Holdings",
@@ -1999,7 +2504,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Makenga Coffee Estate",
@@ -2010,7 +2517,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Mandela Estate",
@@ -2021,7 +2530,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Manyanja Investment Limited",
@@ -2032,7 +2543,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Marakqana limited",
@@ -2043,7 +2556,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Maribe Exporters Ltd",
@@ -2054,7 +2569,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Maytac Internationals Partners Limited",
@@ -2065,7 +2582,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Mbature Traders Limited",
@@ -2076,7 +2595,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Merali Dewji and Sons (K) Ltd",
@@ -2087,18 +2608,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Meru County Coffee Marketing ltd",
-  "category": "Commercial Marketing Agents",
-  "group": "marketing-agents",
-  "label": "Commercial marketing agents",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
   "license": "30",
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "meru-county-coffee-marketing-ltd"
  },
  {
   "name": "Meru County Coffee Mills ltd",
@@ -2109,7 +2634,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Minnesota Coffee Marketers Limited",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "minnesota-coffee-marketers-limited"
  },
  {
   "name": "Mitchel Cotts Freight (K) ltd",
@@ -2120,7 +2660,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Miyon Holdings Limited",
@@ -2131,7 +2673,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Mo Solutions Limited",
@@ -2142,7 +2686,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Mokal Coffee Ltd",
@@ -2153,7 +2699,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Mombasa coffee Limited",
@@ -2164,7 +2712,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Mombasa Coffee Ltd",
@@ -2175,7 +2725,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Mt. Elgon Coffee Marketing Agency",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "mt-elgon-coffee-marketing-agency"
  },
  {
   "name": "Mt. Kenya specialty Tea & Coffee",
@@ -2186,7 +2751,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Mumbi coffee Merchants ltd",
@@ -2197,7 +2764,22 @@
   "website": "http://mumbicoffee.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Murang’a County Coffee Dealers Co. Ltd.",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "murang-a-county-coffee-dealers-co-ltd"
  },
  {
   "name": "Murue fcs Limited",
@@ -2208,7 +2790,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Nairobi Golf Hotels Limited",
@@ -2219,7 +2803,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Nairobi Java House",
@@ -2230,7 +2816,22 @@
   "website": "http://javahouseafrica.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Nandi Coffee Co-operative Union Coffee Brokers Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "nandi-coffee-co-operative-union-coffee-brokers-ltd"
  },
  {
   "name": "Nature's Bounty Export Co. Ltd",
@@ -2241,7 +2842,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "New KPCU Ltd",
@@ -2252,7 +2855,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "New KPCU Ltd",
@@ -2263,7 +2868,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "New KPCU Ltd",
@@ -2274,18 +2881,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "New KPCU ltd",
-  "category": "Commercial Marketing Agents",
-  "group": "marketing-agents",
-  "label": "Commercial marketing agents",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
   "license": "31",
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "new-kpcu-ltd"
  },
  {
   "name": "Nimmo Global Development Services (N-GDS) Limited",
@@ -2296,7 +2907,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "NKG coffee mills Ltd",
@@ -2307,7 +2920,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "NKG coffee mills Ltd",
@@ -2318,7 +2933,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Nouvelle Blooms Limited",
@@ -2329,7 +2946,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Numavuno Limited",
@@ -2340,7 +2959,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Nyakach Horticulture Company Limited",
@@ -2351,7 +2972,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Nyangweta coffee estate",
@@ -2362,7 +2985,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Nyeri International Coffee Expo Limited",
@@ -2373,7 +2998,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Oakland Coffee Ltd",
@@ -2384,7 +3011,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Orion East Africa",
@@ -2395,7 +3024,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Over A Drink Limited",
@@ -2406,7 +3037,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Panju",
@@ -2417,7 +3050,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Patrick Kirui",
@@ -2428,7 +3063,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Paulbath Investments ltd",
@@ -2439,7 +3076,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Peclex Enterprises",
@@ -2450,7 +3089,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Pentland Holdings",
@@ -2461,7 +3102,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Phone Home Limited",
@@ -2472,7 +3115,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Pinevale Limited",
@@ -2483,7 +3128,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Premier Fortunes Co. Ltd",
@@ -2494,7 +3141,9 @@
   "website": "http://premierfortunes.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Premium Ethical Foods Limited",
@@ -2505,7 +3154,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Primacafe Agency Ltd",
@@ -2516,7 +3167,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Prime Coffee Merchants Ltd",
@@ -2527,7 +3180,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Primepath Commercial Services Limited",
@@ -2538,7 +3193,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Priolvic Enterprises Limited",
@@ -2549,7 +3206,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Prospects Int",
@@ -2560,7 +3219,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Prumfield Limited",
@@ -2571,7 +3232,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Radarmoshel Exporters Limited",
@@ -2582,7 +3245,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rambi Investment ltd",
@@ -2593,7 +3258,9 @@
   "website": "https://rambi.co.ke",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rashid Moledina ltd",
@@ -2604,7 +3271,9 @@
   "website": "http://rashidmoledina.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rashid Moledina Ltd",
@@ -2615,7 +3284,9 @@
   "website": "http://rashidmoledina.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Red Berry coffee Company Ltd",
@@ -2626,7 +3297,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rejitek Coffee co. Ltd",
@@ -2637,7 +3310,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Reliefline Kenya Limited",
@@ -2648,7 +3323,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rembo Export (Kenya) Limited",
@@ -2659,7 +3336,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15382",
-  "notice_date": "2025-10-24"
+  "notice_date": "2025-10-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rift Valley Pride Limited",
@@ -2670,7 +3349,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rockaffe' Limited",
@@ -2681,7 +3362,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rockbern Coffee Ltd",
@@ -2692,7 +3375,9 @@
   "website": "http://www.rockbern-coffee.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rosie Van Dyke Co. Ltd",
@@ -2703,7 +3388,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Rumani agencies ltd",
@@ -2714,7 +3401,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sabeti Natural Essentials Limited",
@@ -2725,7 +3414,22 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "Saffron Coffee Marketers Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "saffron-coffee-marketers-ltd"
  },
  {
   "name": "Sahara Beverage Limited",
@@ -2736,7 +3440,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sakami Ranches",
@@ -2747,7 +3453,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Saken",
@@ -2758,7 +3466,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sanaark investment ltd",
@@ -2769,7 +3479,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sangana Commodities Ltd",
@@ -2780,7 +3492,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sansato ltd",
@@ -2791,7 +3505,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sasini (K) Limited",
@@ -2802,7 +3518,9 @@
   "website": "http://sasini.co.ke/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sasini PLC",
@@ -2813,7 +3531,9 @@
   "website": "http://sasini.co.ke/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sasini PLC",
@@ -2824,7 +3544,9 @@
   "website": "http://sasini.co.ke/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Senzile Farm Fresh Limited",
@@ -2835,7 +3557,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Servicoff Limited",
@@ -2846,7 +3570,9 @@
   "website": "https://www.facebook.com/servicoff/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Servicoff Limited",
@@ -2857,7 +3583,9 @@
   "website": "https://www.facebook.com/servicoff/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Seven Stars Limited",
@@ -2868,7 +3596,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Shah Meghji Hirji Ltd",
@@ -2879,7 +3609,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Shashi Merchants Limited",
@@ -2890,7 +3622,9 @@
   "website": "",
   "status": "proposed",
   "notice": "16978",
-  "notice_date": "2025-11-21"
+  "notice_date": "2025-11-21",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Shirowell Limited",
@@ -2901,7 +3635,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sindiswa (K) Limited",
@@ -2912,7 +3648,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sixty Five Degrees Coffee Roastery Limited",
@@ -2923,7 +3661,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Skidmore International ltd",
@@ -2934,7 +3674,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sondhi Trading Limited",
@@ -2945,7 +3687,9 @@
   "website": "http://www.mbaraki.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sondhi Trading Limited",
@@ -2956,7 +3700,9 @@
   "website": "http://www.mbaraki.com/",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Star coffee (K) Ltd",
@@ -2967,7 +3713,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Steans Beans Ltd",
@@ -2978,7 +3726,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Stream Coffee Ltd",
@@ -2989,7 +3739,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sucastainability Kenya Ltd",
@@ -3000,7 +3752,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Super Gibs Ltd",
@@ -3011,7 +3765,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sustainable management services",
@@ -3022,7 +3778,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Sustainable management services",
@@ -3033,7 +3791,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Taste of Kenya Coffee Limited",
@@ -3044,7 +3804,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Tasweeq Commodities Limited",
@@ -3055,7 +3817,9 @@
   "website": "",
   "status": "proposed",
   "notice": "2718",
-  "notice_date": "2026-02-27"
+  "notice_date": "2026-02-27",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Taylor Winch(Coffee) Ltd",
@@ -3066,7 +3830,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Tea & Coffee Connections Ltd",
@@ -3077,7 +3843,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "The Great rift Coffee ltd",
@@ -3088,7 +3856,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "The Majors Family Enterprice Limited",
@@ -3099,7 +3869,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Thika coffee marketing ltd",
@@ -3110,7 +3882,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Thika coffee marketing ltd",
@@ -3121,7 +3895,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Thika Coffee Mills Ltd",
@@ -3132,7 +3908,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Thika coffee mills ltd",
@@ -3143,7 +3921,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Tigoy International Connect Limited",
@@ -3154,7 +3934,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Top Pot Trading Limited",
@@ -3165,7 +3947,9 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Trade Wind Merchants International",
@@ -3176,7 +3960,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Triple M. Enterprises",
@@ -3187,7 +3973,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Tropical Farm Management Kenya PLC.",
@@ -3198,7 +3986,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Tropical farm management plc",
@@ -3209,7 +3999,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Ubuntu Brews Ltd",
@@ -3220,7 +4012,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Underwood Quest Limited",
@@ -3231,7 +4025,22 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
+ },
+ {
+  "name": "United Eastern Kenya Coffee Marketing Co. Ltd",
+  "category": "Coffee Brokers",
+  "group": "coffee-brokers",
+  "label": "Coffee brokers",
+  "license": "",
+  "website": "",
+  "status": "",
+  "notice": "",
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": "united-eastern-kenya-coffee-marketing-co-ltd"
  },
  {
   "name": "Utake coffee ltd",
@@ -3242,7 +4051,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Vava coffee Ltd",
@@ -3253,7 +4064,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Vicmar Merchants Limited",
@@ -3264,7 +4077,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Vivid Commodities East Africa Limited",
@@ -3275,7 +4090,9 @@
   "website": "",
   "status": "proposed",
   "notice": "12000",
-  "notice_date": "2025-08-22"
+  "notice_date": "2025-08-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "VJ Pure Beans Limited",
@@ -3286,7 +4103,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Volq Coffee Limited",
@@ -3297,7 +4116,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Vortex Hive Limited",
@@ -3308,7 +4129,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Wadia Agri Limited",
@@ -3319,7 +4142,9 @@
   "website": "",
   "status": "proposed",
   "notice": "15912",
-  "notice_date": "2026-10-02"
+  "notice_date": "2026-10-02",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Waylite Enterprises Ltd",
@@ -3330,7 +4155,9 @@
   "website": "",
   "status": "",
   "notice": "",
-  "notice_date": ""
+  "notice_date": "",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Wilstel Limited",
@@ -3341,7 +4168,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Winwood Trading Limited",
@@ -3352,7 +4181,9 @@
   "website": "",
   "status": "proposed",
   "notice": "7605",
-  "notice_date": "2026-05-22"
+  "notice_date": "2026-05-22",
+  "cma_licence": "",
+  "slug": ""
  },
  {
   "name": "Zonken Food and Agriculture Limited",
@@ -3363,6 +4194,8 @@
   "website": "",
   "status": "proposed",
   "notice": "11431",
-  "notice_date": "2026-07-24"
+  "notice_date": "2026-07-24",
+  "cma_licence": "",
+  "slug": ""
  }
 ]

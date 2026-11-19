@@ -150,7 +150,7 @@
    "count": 1
   }
  ],
- "dealers_total": 306,
+ "dealers_total": 323,
  "dealers_proposed": 103,
  "dealer_groups": [
   {
@@ -171,7 +171,7 @@
    "slug": "marketing-agents",
    "title": "Commercial coffee marketing agents in Kenya",
    "label": "Commercial marketing agents",
-   "count": 11,
+   "count": 9,
    "proposed": 0
   },
   {
@@ -201,6 +201,13 @@
    "label": "Direct sales facilitators",
    "count": 11,
    "proposed": 11
+  },
+  {
+   "slug": "coffee-brokers",
+   "title": "Coffee brokers in Kenya",
+   "label": "Coffee brokers",
+   "count": 19,
+   "proposed": 0
   }
  ],
  "grades": [
