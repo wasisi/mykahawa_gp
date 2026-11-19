@@ -1,0 +1,38 @@
+{%- comment -%}
+Appeal for missing Nairobi Coffee Exchange results. The list comes from _data/gaps.json, built by
+scripts/build_data.py, so it shrinks by itself as missing sales are imported.
+Usage: {% include data-gaps.html %}   or   {% include data-gaps.html short=true %}
+{%- endcomment -%}
+{% assign G = site.data.gaps %}
+{% if G.ranges.size > 0 or G.sales.size > 0 %}
+{% capture mail %}mailto:info@mykahawa.org?subject={{ "NCE sale results for MyKahawa" | uri_escape }}{% endcapture %}
+{% if include.short %}
+<p class="mk-note">Missing: all sales{% for r in G.ranges %} between {{ r.after | date: "%-d %B %Y" }} and {{ r.before | date: "%-d %B %Y" }}{% endfor %}{% for s in G.sales %}{% if forloop.first %}, and Sale{% if G.sales.size > 1 %}s{% endif %}{% elsif forloop.last %} and{% else %},{% endif %} {{ s.sale }} ({{ s.week | date: "%B %Y" }}){% endfor %}. Have the NCE results for these sales? <a href="/#help-fill-the-gaps">Send them to us</a>.</p>
+{% else %}
+<div class="mk-gaps">
+  <p class="mk-eyebrow mb-1">Help fill the gaps</p>
+  <h2 id="help-fill-the-gaps">Do you have old Nairobi Coffee Exchange results?</h2>
+  <div class="row">
+    <div class="col-lg-7">
+      <p>After every auction the NCE sends the sale results to brokers, buyers and cooperatives. MyKahawa is missing some of them. With them, every cooperative, factory and estate gets a complete, free price history on its page, and farmers can see how their coffee has done over the years.</p>
+      <p><strong>What to send:</strong> the <em>Transaction Listing</em> of a sale, as PDF or Excel (named like “Sale 14 Provisional Transaction Listing of Tuesday, January 20, 2026”). Forwarding the NCE email with its attachments is fine. Market totals and grade summaries are not needed.</p>
+      <p><a class="btn mk-btn-accent" href="{{ mail }}">Email the files to info@mykahawa.org</a></p>
+      <p class="mk-note mb-0">We use only the sale results, which the NCE publishes. Please remove anything personal before forwarding an email. Thank you: asante sana!</p>
+    </div>
+    <div class="col-lg-5 mt-4 mt-lg-0">
+      <div class="mk-chart-card mb-0">
+        <h3 class="h5">Sales we are missing</h3>
+        <ul class="mb-0">
+          {% for r in G.ranges %}
+          <li class="mb-2"><strong>All sales between {{ r.after | date: "%-d %B %Y" }} and {{ r.before | date: "%-d %B %Y" }}</strong> <span class="text-muted small">(seasons {{ r.seasons }})</span></li>
+          {% endfor %}
+          {% for s in G.sales %}
+          <li class="mb-1">Sale {{ s.sale }}, week of {{ s.week | date: "%-d %B %Y" }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}

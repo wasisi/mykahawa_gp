@@ -22,7 +22,8 @@ extra_js:
 <section class="mk-section mk-section-alt">
   <div class="container">
     <h2 id="history">Prices over time</h2>
-    <p>All sales in MyKahawa's records: {% include data-period.html %}. Results for October 2020 to June 2025 are not yet included, so charts show a gap there.</p>
+    <p>All sales in MyKahawa's records: {% include data-period.html %}. Charts show a gap where results are missing.</p>
+    {% include data-gaps.html short=true %}
     <div class="mk-stats mb-4">
       <div class="mk-stat"><span class="mk-stat-value">US${{ m.price | round }}</span><span class="mk-stat-label">average price per 50 kg bag</span></div>
       <div class="mk-stat"><span class="mk-stat-value">{% include num.html n=m.tonnes %} t</span><span class="mk-stat-label">coffee sold</span></div>
