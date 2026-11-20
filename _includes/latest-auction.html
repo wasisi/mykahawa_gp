@@ -11,7 +11,7 @@ Usage: {% include latest-auction.html %}  or  {% include latest-auction.html ful
   <h2 id="latest-auction">Sale {{ L.sale }} of {{ L.season }}, {{ L.date | date: "%-d %B %Y" }}</h2>
 
   <div class="mk-stats mb-4">
-    <div class="mk-stat"><span class="mk-stat-value">US${{ L.price | round }}</span><span class="mk-stat-label">average per 50 kg bag{% if L.vs_prev %}, {% if L.vs_prev > 0 %}+{% endif %}{{ L.vs_prev }}% on Sale {{ L.prev.sale }}{% endif %}</span></div>
+    <div class="mk-stat"><span class="mk-stat-value">US${{ L.price | round }}</span><span class="mk-stat-label">average per 50 kg bag (US${{ L.price | divided_by: 50.0 | round: 2 }} per kg){% if L.vs_prev %}, {% if L.vs_prev > 0 %}+{% endif %}{{ L.vs_prev }}% on Sale {{ L.prev.sale }}{% endif %}</span></div>
     {% if L.year_ago %}<div class="mk-stat"><span class="mk-stat-value">{% if L.vs_year > 0 %}+{% endif %}{{ L.vs_year | round }}%</span><span class="mk-stat-label">vs Sale {{ L.year_ago.sale }} a year ago (US${{ L.year_ago.price | round }})</span></div>{% endif %}
     <div class="mk-stat"><span class="mk-stat-value">{% include num.html n=L.bags %}</span><span class="mk-stat-label">bags sold in {% include num.html n=L.lots %} lots{% if L.no_bid > 0 %} ({{ L.no_bid }} lots had no bid){% endif %}</span></div>
     {% assign sd = L.season_to_date %}
@@ -22,13 +22,14 @@ Usage: {% include latest-auction.html %}  or  {% include latest-auction.html ful
     <div class="col-lg-6">
       <div class="mk-table-wrap mb-4">
         <table class="mk-table">
-          <caption>Average price by grade at Sale {{ L.sale }}, US$ per 50 kg bag, with the change on the previous sale and on the same sale a year earlier</caption>
-          <thead><tr><th scope="col">Grade</th><th scope="col" class="num">Average</th><th scope="col" class="num">Range</th><th scope="col" class="num">vs Sale {{ L.prev.sale }}</th>{% if L.year_ago %}<th scope="col" class="num">vs a year ago</th>{% endif %}</tr></thead>
+          <caption>Average price by grade at Sale {{ L.sale }}, US$ per 50 kg bag and per kg, with the change on the previous sale and on the same sale a year earlier</caption>
+          <thead><tr><th scope="col">Grade</th><th scope="col" class="num">US$/bag</th><th scope="col" class="num">US$/kg</th><th scope="col" class="num">Range, US$/bag</th><th scope="col" class="num">vs Sale {{ L.prev.sale }}</th>{% if L.year_ago %}<th scope="col" class="num">vs a year ago</th>{% endif %}</tr></thead>
           <tbody>
             {% for g in L.grades %}
             <tr>
               <th scope="row"><a href="/projects/kenya-coffee-grades.html">{{ g.grade }}</a></th>
               <td class="num"><strong>{{ g.price | round }}</strong></td>
+              <td class="num">{{ g.price | divided_by: 50.0 | round: 2 }}</td>
               <td class="num">{{ g.low | round }}–{{ g.high | round }}</td>
               <td class="num">{% if g.vs_prev %}{% if g.vs_prev > 0 %}+{% endif %}{{ g.vs_prev | round }}%{% else %}–{% endif %}</td>
               {% if L.year_ago %}<td class="num">{% if g.vs_year %}{% if g.vs_year > 0 %}+{% endif %}{{ g.vs_year | round }}%{% else %}–{% endif %}</td>{% endif %}
@@ -89,6 +90,6 @@ Usage: {% include latest-auction.html %}  or  {% include latest-auction.html ful
   {% endif %}
 
   <p class="mk-note">Source: Nairobi Coffee Exchange transaction listing for Sale {{ L.sale }}; comparisons and grower links by MyKahawa. {{ L.grower_share }}% of the coffee sold could be linked to a named grower; the rest is bulk lots pooled from several growers, or marks we have not yet matched. Prices are volume-weighted.</p>
-  <p class="mb-0"><a class="btn mk-btn-accent" href="/growers.html">Find your factory or estate</a>{% unless include.full %} <a class="btn mk-btn-outline ml-2" href="/transactions.html#latest-auction">Counties and buyers at this sale</a>{% endunless %}</p>
+  <p class="mb-0"><a class="btn mk-btn-accent" href="/growers.html">Find your factory or estate</a> <a class="btn mk-btn-outline ml-2" href="/coffee-prices-per-kg.html">Prices per kg</a>{% unless include.full %} <a class="btn mk-btn-outline ml-2" href="/transactions.html#latest-auction">Counties and buyers at this sale</a>{% endunless %}</p>
 </div>
 {% endif %}

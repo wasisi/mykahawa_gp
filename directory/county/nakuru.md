@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Nakuru County"
 heading: "Coffee cooperatives, factories and estates in Nakuru County"
-description: "67 coffee growers in Nakuru County, Kenya: 26 small estates, 22 estates, 11 cooperative societies, 6 factories. Names and growers (CBK) codes."
-lead: "MyKahawa lists 67 coffee growers in Nakuru County: 26 small estates, 22 estates, 11 cooperative societies, 6 factories."
+description: "68 coffee growers in Nakuru County, Kenya: 26 small estates, 22 estates, 11 cooperative societies, 6 factories. Names and growers (CBK) codes."
+lead: "MyKahawa lists 68 coffee growers in Nakuru County: 26 small estates, 22 estates, 11 cooperative societies, 6 factories."
 county: "Nakuru"
 breadcrumbs:
   - title: Directory

@@ -1,5 +1,5 @@
 {
- "growers_total": 3858,
+ "growers_total": 3856,
  "growers_mapped": 947,
  "grower_types": [
   {
@@ -15,17 +15,17 @@
   {
    "type": "Cooperative society",
    "plural": "Cooperative societies",
-   "count": 628
+   "count": 627
   },
   {
    "type": "Estate",
    "plural": "Estates",
-   "count": 516
+   "count": 518
   },
   {
    "type": "Other",
    "plural": "Other",
-   "count": 212
+   "count": 209
   }
  ],
  "grower_counties": [
@@ -92,7 +92,7 @@
   {
    "county": "Nakuru",
    "slug": "nakuru",
-   "count": 67
+   "count": 68
   },
   {
    "county": "Baringo",

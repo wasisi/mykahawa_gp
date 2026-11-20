@@ -21,11 +21,12 @@ extra_js:
 
 <section class="mk-section mk-section-alt">
   <div class="container">
+    <p class="mb-4"><a class="btn mk-btn-accent" href="/coffee-prices-per-kg.html">Coffee prices per kg: by grade, county and cooperative</a></p>
     <h2 id="history">Prices over time</h2>
     <p>All sales in MyKahawa's records: {% include data-period.html %}. Charts show a gap where results are missing.</p>
     {% include data-gaps.html short=true %}
     <div class="mk-stats mb-4">
-      <div class="mk-stat"><span class="mk-stat-value">US${{ m.price | round }}</span><span class="mk-stat-label">average price per 50 kg bag</span></div>
+      <div class="mk-stat"><span class="mk-stat-value">US${{ m.price | round }}</span><span class="mk-stat-label">average price per 50 kg bag (US${{ m.price | divided_by: 50.0 | round: 2 }} per kg)</span></div>
       <div class="mk-stat"><span class="mk-stat-value">{% include num.html n=m.tonnes %} t</span><span class="mk-stat-label">coffee sold</span></div>
       <div class="mk-stat"><span class="mk-stat-value">US${{ m.usd | divided_by: 1000000 }}m</span><span class="mk-stat-label">total value</span></div>
       <div class="mk-stat"><span class="mk-stat-value">{{ m.sales }}</span><span class="mk-stat-label">weekly auctions</span></div>

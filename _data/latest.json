@@ -394,20 +394,20 @@
    "ab": 355.61
   },
   {
-   "county": "Trans Nzoia",
-   "slug": "trans-nzoia",
-   "growers": 8,
-   "tonnes": 19.1,
-   "aa": 329.89,
-   "ab": 326.24
-  },
-  {
    "county": "Nyeri",
    "slug": "nyeri",
    "growers": 8,
    "tonnes": 18.1,
    "aa": 377.79,
    "ab": 324.0
+  },
+  {
+   "county": "Trans Nzoia",
+   "slug": "trans-nzoia",
+   "growers": 7,
+   "tonnes": 17.4,
+   "aa": 329.11,
+   "ab": 325.85
   },
   {
    "county": "Machakos",
