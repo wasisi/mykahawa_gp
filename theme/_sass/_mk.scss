@@ -214,6 +214,9 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
 .mk-header .navbar-nav > .nav-item { margin-left: 0; }
 .mk-header .navbar-nav > .nav-item > .nav-link { font-family: inherit; text-transform: none; letter-spacing: 0; font-size: 1rem; white-space: nowrap; padding-left: .7rem !important; padding-right: .7rem !important; }
 .btn { font-family: $mk-font; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; border-radius: 4px; }
+// The old theme (_styles.scss) forces 18px on every .btn; small buttons (table rows, nav,
+// footer) must stay smaller than the body text.
+.btn-sm { font-size: .875rem !important; padding: .25rem .6rem; line-height: 1.4; }
 .mk-table tbody th { background: transparent; color: $mk-ink; position: static; }
 .text-muted { color: $mk-muted !important; }  // Bootstrap's grey fails WCAG AA contrast
 .btn-outline-secondary { color: $mk-coffee-2; border-color: $mk-coffee-2; background: #fff; }
