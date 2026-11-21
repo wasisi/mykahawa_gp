@@ -109,14 +109,14 @@
    "usd": 73744319,
    "price": 331.82,
    "vs_market": -0.7,
-   "growers": 584,
+   "growers": 583,
    "bulk_share": 32,
    "season_share": 22.0,
    "counties": [
     "Machakos",
     "Meru",
     "Kiambu",
-    "Embu"
+    "Nyeri"
    ],
    "first_sale": "2025-07-08",
    "last_sale": "2026-11-17",
@@ -470,7 +470,7 @@
      "price": 364.49
     },
     {
-     "name": "Kapchepoi FCS",
+     "name": "Kapchepoi F.C.S.",
      "url": "/producer/12170/kapchepoi_fcs/",
      "county": "Kericho",
      "tonnes": 90.9,
@@ -489,7 +489,7 @@
    "usd": 23142676,
    "price": 326.89,
    "vs_market": -1.5,
-   "growers": 279,
+   "growers": 278,
    "bulk_share": 12,
    "season_share": 8.8,
    "counties": [
@@ -849,7 +849,7 @@
      "price": 360.5
     },
     {
-     "name": "Mariara F.C.S Ltd",
+     "name": "Mariara F.C.S. Ltd",
      "url": "/producer/9106/mariara_fcs_ltd/",
      "county": "Makueni",
      "tonnes": 39.5,
@@ -868,7 +868,7 @@
    "usd": 12954995,
    "price": 329.21,
    "vs_market": -3.3,
-   "growers": 102,
+   "growers": 100,
    "bulk_share": 11,
    "season_share": 2.4,
    "counties": [
@@ -895,15 +895,15 @@
      "price": 363.04
     },
     {
-     "name": "Chebarus FCS",
+     "name": "Chebarus F.C.S.",
      "url": "/producer/12167/chebarusfcs/",
      "county": "Kericho",
      "tonnes": 97.1,
      "price": 333.04
     },
     {
-     "name": "Newcheskaki FCS",
-     "url": "/producer/13242/newcheskaki_fcs/",
+     "name": "Newcheskaki F.C.S.",
+     "url": "/producer/13242/newcheskaki_f_c_s/",
      "county": "Bungoma",
      "tonnes": 85.3,
      "price": 346.45
@@ -944,11 +944,11 @@
      "price": 341.68
     },
     {
-     "name": "Muthunzuuni Factory",
-     "url": "/producer/9459/muthunzuuni_factory/",
-     "county": "Machakos",
-     "tonnes": 29.1,
-     "price": 337.39
+     "name": "Elimo Farm",
+     "url": "/producer/12210/elimofarm/",
+     "county": "",
+     "tonnes": 29.4,
+     "price": 301.74
     }
    ]
   },
@@ -1029,7 +1029,7 @@
      "price": 357.99
     },
     {
-     "name": "Chesiro FCS",
+     "name": "Chesiro F.C.S.",
      "url": "/producer/12213/chesiro_fcs/",
      "county": "Bungoma",
      "tonnes": 26.8,
@@ -1167,7 +1167,7 @@
      "price": 335.87
     },
     {
-     "name": "Chepkinoiyo FCS",
+     "name": "Chepkinoiyo F.C.S.",
      "url": "/producer/12183/chepkinoiyofcs/",
      "county": "Kericho",
      "tonnes": 19.8,
@@ -1181,7 +1181,7 @@
      "price": 343.49
     },
     {
-     "name": "Chebarus FCS Factory",
+     "name": "Chebarus F.C.S. Factory",
      "url": "/producer/12190/chebarusfcs/",
      "county": "Kericho",
      "tonnes": 10.1,
@@ -1195,21 +1195,21 @@
      "price": 284.96
     },
     {
-     "name": "Chbarus FCS",
+     "name": "Chbarus F.C.S.",
      "url": "/producer/12350/chbarusfcs/",
      "county": "",
      "tonnes": 7.6,
      "price": 340.1
     },
     {
-     "name": "Kibirirgut FCS",
+     "name": "Kibirirgut F.C.S.",
      "url": "/producer/12205/kibirirgut_fcs/",
      "county": "Kericho",
      "tonnes": 6.0,
      "price": 326.65
     },
     {
-     "name": "Kapchokaa FCS",
+     "name": "Kapchokaa F.C.S.",
      "url": "/producer/12227/kapchokaa_fcs/",
      "county": "Kericho",
      "tonnes": 4.6,
@@ -1223,7 +1223,7 @@
      "price": 292.1
     },
     {
-     "name": "Chelaloi FCS",
+     "name": "Chelaloi F.C.S.",
      "url": "/producer/12684/chelaloifcs/",
      "county": "Kericho",
      "tonnes": 1.8,
@@ -1280,14 +1280,14 @@
      "price": 341.98
     },
     {
-     "name": "Meiteitei FCS",
+     "name": "Meiteitei F.C.S.",
      "url": "/producer/12448/meiteitei_fcs/",
      "county": "",
      "tonnes": 8.1,
      "price": 206.63
     },
     {
-     "name": "Mombwo FCS",
+     "name": "Mombwo F.C.S.",
      "url": "/producer/12222/mombwo_fcs/",
      "county": "",
      "tonnes": 7.1,
@@ -1308,14 +1308,14 @@
      "price": 327.82
     },
     {
-     "name": "Chepisas FCS",
+     "name": "Chepisas F.C.S.",
      "url": "/producer/12332/chepisas_fcs/",
      "county": "",
      "tonnes": 6.1,
      "price": 331.75
     },
     {
-     "name": "Kibsoen FCS",
+     "name": "Kibsoen F.C.S.",
      "url": "/producer/12349/kibsoen_fcs/",
      "county": "",
      "tonnes": 5.8,
@@ -1344,14 +1344,14 @@
    "last_sale": "2026-11-17",
    "top_growers": [
     {
-     "name": "Muhara F.C.S Ltd",
+     "name": "Muhara F.C.S. Ltd",
      "url": "/producer/8549/muhara_fcs_ltd/",
      "county": "Kiambu",
      "tonnes": 16.9,
      "price": 322.79
     },
     {
-     "name": "Buchana FCS",
+     "name": "Buchana F.C.S.",
      "url": "/producer/12272/buchana_fcs/",
      "county": "Kiambu",
      "tonnes": 14.4,
@@ -1379,7 +1379,7 @@
      "price": 330.67
     },
     {
-     "name": "Withare FCS Kanyoni",
+     "name": "Withare F.C.S. Kanyoni",
      "url": "/producer/12328/withare_fcs_kanyoni/",
      "county": "Kiambu",
      "tonnes": 9.0,
@@ -1400,7 +1400,7 @@
      "price": 264.36
     },
     {
-     "name": "Gathage F.C.S Ltd",
+     "name": "Gathage F.C.S. Ltd",
      "url": "/producer/8544/gathage_fcs_ltd/",
      "county": "Kiambu",
      "tonnes": 7.3,
@@ -1539,7 +1539,7 @@
      "price": 353.55
     },
     {
-     "name": "Mikhuyu FCS",
+     "name": "Mikhuyu F.C.S.",
      "url": "/producer/12321/mikhuyu_fcs/",
      "county": "Bungoma",
      "tonnes": 9.5,

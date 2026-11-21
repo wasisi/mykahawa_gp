@@ -119,17 +119,17 @@
    "growers": 151
   },
   {
-   "tonnes": 8918,
-   "usd": 44387668,
-   "lots": 5464,
-   "price": 248.87,
-   "aa": 328.56,
-   "ab": 278.21,
-   "c": 224.52,
+   "tonnes": 8711,
+   "usd": 42937104,
+   "lots": 5301,
+   "price": 246.44,
+   "aa": 326.67,
+   "ab": 275.84,
+   "c": 221.58,
    "top_share": 66,
    "county": "Embu",
    "slug": "embu",
-   "growers": 113
+   "growers": 114
   },
   {
    "tonnes": 4682,
@@ -264,17 +264,17 @@
  ],
  "types": [
   {
-   "tonnes": 125161,
-   "usd": 607425151,
-   "lots": 71266,
-   "price": 242.66,
-   "aa": 318.52,
-   "ab": 262.99,
-   "c": 217.65,
+   "tonnes": 125174,
+   "usd": 607531251,
+   "lots": 71281,
+   "price": 242.67,
+   "aa": 318.53,
+   "ab": 263.0,
+   "c": 217.66,
    "top_share": 68,
    "type": "Factory",
    "plural": "Factories",
-   "growers": 1014
+   "growers": 1022
   },
   {
    "tonnes": 39948,
@@ -290,17 +290,17 @@
    "growers": 379
   },
   {
-   "tonnes": 24909,
-   "usd": 108565758,
-   "lots": 14664,
-   "price": 217.92,
-   "aa": 299.67,
-   "ab": 240.08,
+   "tonnes": 24907,
+   "usd": 108542063,
+   "lots": 14662,
+   "price": 217.9,
+   "aa": 299.63,
+   "ab": 240.06,
    "c": 198.59,
    "top_share": 63,
    "type": "Cooperative society",
    "plural": "Cooperative societies",
-   "growers": 483
+   "growers": 481
   },
   {
    "tonnes": 13641,
@@ -313,7 +313,7 @@
    "top_share": 63,
    "type": "Small estate",
    "plural": "Small estates",
-   "growers": 1075
+   "growers": 1073
   }
  ],
  "concentration": [
@@ -670,7 +670,7 @@
    "price": 402.69
   },
   {
-   "name": "Kapchepoi FCS",
+   "name": "Kapchepoi F.C.S.",
    "url": "/producer/12170/kapchepoi_fcs/",
    "county": "Kericho",
    "tonnes": 28,

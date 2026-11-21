@@ -172,18 +172,6 @@
    "ab": 7.37
   },
   {
-   "county": "Embu",
-   "slug": "embu",
-   "growers": 64,
-   "tonnes": 1742,
-   "bag": 346.43,
-   "kg": 6.93,
-   "aa_bag": 384.04,
-   "aa": 7.68,
-   "ab_bag": 363.8,
-   "ab": 7.28
-  },
-  {
    "county": "Kisii",
    "slug": "kisii",
    "growers": 117,
@@ -194,6 +182,18 @@
    "aa": 6.95,
    "ab_bag": 339.79,
    "ab": 6.8
+  },
+  {
+   "county": "Embu",
+   "slug": "embu",
+   "growers": 58,
+   "tonnes": 1554,
+   "bag": 346.44,
+   "kg": 6.93,
+   "aa_bag": 383.41,
+   "aa": 7.67,
+   "ab_bag": 362.93,
+   "ab": 7.26
   },
   {
    "county": "Bungoma",
@@ -362,7 +362,7 @@
    "last": "2026-07-28"
   },
   {
-   "name": "Ab Chepsangor FCS",
+   "name": "Ab Chepsangor F.C.S.",
    "url": "/producer/12472/ab_chepsangor_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -394,7 +394,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Aberdare Coffeeassociation",
+   "name": "Aberdare Coffee Association",
    "url": "/producer/12565/aberdare_coffeeassociation/",
    "type": "Other",
    "county": "Kiambu",
@@ -490,7 +490,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Aiyebo FCS",
+   "name": "Aiyebo F.C.S.",
    "url": "/producer/12387/aiyebo_fcs/",
    "type": "Factory",
    "county": "Baringo",
@@ -650,7 +650,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Anin FCS",
+   "name": "Anin F.C.S.",
    "url": "/producer/12428/anin_fcs/",
    "type": "Factory",
    "county": "",
@@ -922,8 +922,8 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Baraka FCS",
-   "url": "/producer/13243/baraka_fcs/",
+   "name": "Baraka F.C.S.",
+   "url": "/producer/13245/baraka_f_c_s/",
    "type": "Factory",
    "county": "",
    "lots": 14,
@@ -986,7 +986,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Barsiele FCS",
+   "name": "Barsiele F.C.S.",
    "url": "/producer/12654/barsiele_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -1034,7 +1034,7 @@
    "last": "2026-04-28"
   },
   {
-   "name": "Bendi-Tai FCS",
+   "name": "Bendi-Tai F.C.S.",
    "url": "/producer/12249/bendi_tai_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -1274,7 +1274,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Block Four FCS",
+   "name": "Block Four F.C.S.",
    "url": "/producer/12398/block_four_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -1418,7 +1418,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Buchana FCS",
+   "name": "Buchana F.C.S.",
    "url": "/producer/12272/buchana_fcs/",
    "type": "Cooperative society",
    "county": "Kiambu",
@@ -1562,7 +1562,7 @@
    "last": "2026-03-31"
   },
   {
-   "name": "Chamchamo FCS",
+   "name": "Chamchamo F.C.S.",
    "url": "/producer/12459/chamchamo_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -1610,7 +1610,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Chbarus FCS",
+   "name": "Chbarus F.C.S.",
    "url": "/producer/12350/chbarusfcs/",
    "type": "Other",
    "county": "",
@@ -1626,7 +1626,7 @@
    "last": "2026-09-22"
   },
   {
-   "name": "Chebarus FCS",
+   "name": "Chebarus F.C.S.",
    "url": "/producer/12167/chebarusfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -1642,7 +1642,7 @@
    "last": "2026-04-14"
   },
   {
-   "name": "Chebarus FCS Factory",
+   "name": "Chebarus F.C.S. Factory",
    "url": "/producer/12190/chebarusfcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -1706,7 +1706,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Chebirir FCS",
+   "name": "Chebirir F.C.S.",
    "url": "/producer/12554/chebirir_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -1754,7 +1754,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Chelaloi FCS",
+   "name": "Chelaloi F.C.S.",
    "url": "/producer/12684/chelaloifcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -1770,7 +1770,7 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Chemeker FCS",
+   "name": "Chemeker F.C.S.",
    "url": "/producer/12264/chemeker_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -1786,7 +1786,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Chemett FCS",
+   "name": "Chemett F.C.S.",
    "url": "/producer/12212/chemett_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -1802,7 +1802,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Chemosogon FCS",
+   "name": "Chemosogon F.C.S.",
    "url": "/producer/12306/chemosogon_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -1818,7 +1818,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Chemui FCS",
+   "name": "Chemui F.C.S.",
    "url": "/producer/12188/chemui_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -1834,7 +1834,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Chepisas FCS",
+   "name": "Chepisas F.C.S.",
    "url": "/producer/12332/chepisas_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -1850,7 +1850,7 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Chepkarnet FCS",
+   "name": "Chepkarnet F.C.S.",
    "url": "/producer/12445/chepkarnet_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -1882,7 +1882,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Chepkinoiyo FCS",
+   "name": "Chepkinoiyo F.C.S.",
    "url": "/producer/12183/chepkinoiyofcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -1912,6 +1912,22 @@
    "ab": 6.3,
    "vs_market": -15.2,
    "last": "2026-10-06"
+  },
+  {
+   "name": "Chepkitar F.C.S.",
+   "url": "/producer/12698/chepkitar_fcs/",
+   "type": "Factory",
+   "county": "Baringo",
+   "lots": 2,
+   "tonnes": 1.7,
+   "bag": 339.34,
+   "kg": 6.79,
+   "aa_bag": 343.0,
+   "aa": 6.86,
+   "ab_bag": 338.0,
+   "ab": 6.76,
+   "vs_market": 2.6,
+   "last": "2026-11-17"
   },
   {
    "name": "Chepkitar F.C.S. Ltd",
@@ -1946,23 +1962,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Chepkitar FCS",
-   "url": "/producer/12698/chepkitar_fcs/",
-   "type": "Factory",
-   "county": "Baringo",
-   "lots": 2,
-   "tonnes": 1.7,
-   "bag": 339.34,
-   "kg": 6.79,
-   "aa_bag": 343.0,
-   "aa": 6.86,
-   "ab_bag": 338.0,
-   "ab": 6.76,
-   "vs_market": 2.6,
-   "last": "2026-11-17"
-  },
-  {
-   "name": "Chepkitilei FCS",
+   "name": "Chepkitilei F.C.S.",
    "url": "/producer/12858/chepkitilei_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -2028,7 +2028,7 @@
   {
    "name": "Chepkutbei",
    "url": "/producer/12309/chepkutbei/",
-   "type": "Other",
+   "type": "Factory",
    "county": "",
    "lots": 9,
    "tonnes": 7.9,
@@ -2058,7 +2058,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Chepngich FCS",
+   "name": "Chepngich F.C.S.",
    "url": "/producer/12547/chepngich_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -2106,7 +2106,7 @@
    "last": "2026-09-15"
   },
   {
-   "name": "Chepsait FCS",
+   "name": "Chepsait F.C.S.",
    "url": "/producer/12390/chepsait_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -2250,7 +2250,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Cherondo FCS",
+   "name": "Cherondo F.C.S.",
    "url": "/producer/12675/cherondo_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -2346,7 +2346,7 @@
    "last": "2026-09-15"
   },
   {
-   "name": "Chesiro FCS",
+   "name": "Chesiro F.C.S.",
    "url": "/producer/12213/chesiro_fcs/",
    "type": "Factory",
    "county": "Bungoma",
@@ -2442,7 +2442,7 @@
    "last": "2026-09-08"
   },
   {
-   "name": "Chomisian FCS",
+   "name": "Chomisian F.C.S.",
    "url": "/producer/12297/chomisian_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -3022,48 +3022,16 @@
    "url": "/producer/12210/elimofarm/",
    "type": "Small estate",
    "county": "",
-   "lots": 26,
-   "tonnes": 24.4,
-   "bag": 310.83,
-   "kg": 6.22,
+   "lots": 29,
+   "tonnes": 29.4,
+   "bag": 301.74,
+   "kg": 6.03,
    "aa_bag": 360.26,
    "aa": 7.21,
    "ab_bag": 336.69,
    "ab": 6.73,
-   "vs_market": -0.5,
+   "vs_market": -0.6,
    "last": "2026-11-17"
-  },
-  {
-   "name": "Elimo Farm",
-   "url": "/producer/12578/elimofarm/",
-   "type": "Small estate",
-   "county": "",
-   "lots": 2,
-   "tonnes": 2.6,
-   "bag": 306.62,
-   "kg": 6.13,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": null,
-   "ab": null,
-   "vs_market": -1.2,
-   "last": "2026-03-10"
-  },
-  {
-   "name": "Elimo Farm",
-   "url": "/producer/12599/elimofarm/",
-   "type": "Small estate",
-   "county": "",
-   "lots": 1,
-   "tonnes": 2.4,
-   "bag": 205.0,
-   "kg": 4.1,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": null,
-   "ab": null,
-   "vs_market": -0.3,
-   "last": "2026-04-21"
   },
   {
    "name": "Elixir",
@@ -3530,10 +3498,10 @@
    "last": "2026-09-22"
   },
   {
-   "name": "Gakundu FCS Gakui",
-   "url": "/producer/9302/gakui_factory_gakundu/",
+   "name": "Gakundu F.C.S. Gakui",
+   "url": "/producer/12310/gakundu_fcs/",
    "type": "Factory",
-   "county": "Embu",
+   "county": "",
    "lots": 17,
    "tonnes": 13.5,
    "bag": 353.89,
@@ -3546,10 +3514,10 @@
    "last": "2026-08-18"
   },
   {
-   "name": "Gakundu FCS Gakundu",
-   "url": "/producer/9299/gakundu_factory/",
+   "name": "Gakundu F.C.S. Gakundu",
+   "url": "/producer/12206/gakundu_fcs/",
    "type": "Factory",
-   "county": "Embu",
+   "county": "",
    "lots": 34,
    "tonnes": 58.8,
    "bag": 347.11,
@@ -3562,10 +3530,10 @@
    "last": "2026-08-18"
   },
   {
-   "name": "Gakundu FCS Gichugu",
-   "url": "/producer/9301/gichugu_factory/",
+   "name": "Gakundu F.C.S. Gichugu",
+   "url": "/producer/12252/gakundu_fcs/",
    "type": "Factory",
-   "county": "Embu",
+   "county": "",
    "lots": 24,
    "tonnes": 23.5,
    "bag": 351.55,
@@ -3578,10 +3546,10 @@
    "last": "2026-07-28"
   },
   {
-   "name": "Gakundu FCS Kamviu",
-   "url": "/producer/9300/kamviu_factory/",
+   "name": "Gakundu F.C.S. Kamviu",
+   "url": "/producer/12253/gakundu_fcs/",
    "type": "Factory",
-   "county": "Embu",
+   "county": "",
    "lots": 30,
    "tonnes": 39.1,
    "bag": 360.57,
@@ -3770,7 +3738,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Gathage F.C.S Ltd",
+   "name": "Gathage F.C.S. Ltd",
    "url": "/producer/8544/gathage_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Kiambu",
@@ -5018,7 +4986,7 @@
    "last": "2026-09-22"
   },
   {
-   "name": "Gitwe F.C.S Ltd",
+   "name": "Gitwe F.C.S. Ltd",
    "url": "/producer/8555/gitwe_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Kiambu",
@@ -5338,7 +5306,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Igento FCS Kangeta",
+   "name": "Igento F.C.S. Kangeta",
    "url": "/producer/12220/igento_fcs_kangeta/",
    "type": "Factory",
    "county": "Meru",
@@ -5370,7 +5338,7 @@
    "last": "2026-03-17"
   },
   {
-   "name": "Ikonyanya FCS",
+   "name": "Ikonyanya F.C.S.",
    "url": "/producer/12295/ikonyanya_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -5418,7 +5386,7 @@
    "last": "2026-04-14"
   },
   {
-   "name": "Imbaragai FCS",
+   "name": "Imbaragai F.C.S.",
    "url": "/producer/12500/imbaragai_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -5578,7 +5546,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Isukha FCS",
+   "name": "Isukha F.C.S.",
    "url": "/producer/12470/isukhafcs/",
    "type": "Cooperative society",
    "county": "Bungoma",
@@ -6186,7 +6154,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Jumatatu FCS Gachombe",
+   "name": "Jumatatu F.C.S. Gachombe",
    "url": "/producer/12363/jumatatu_fcs_gachombe/",
    "type": "Factory",
    "county": "Nyeri",
@@ -6410,7 +6378,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Kabosenwo FCS",
+   "name": "Kabosenwo F.C.S.",
    "url": "/producer/12354/kabosenwo_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -6458,8 +6426,8 @@
    "last": "2026-02-10"
   },
   {
-   "name": "Kagaari N.FCS Kanja",
-   "url": "/producer/9329/kanja_factory/",
+   "name": "Kagaari N. F.C.S. Kanja",
+   "url": "/producer/12476/kagaari_n_fcs/",
    "type": "Factory",
    "county": "Embu",
    "lots": 31,
@@ -6474,10 +6442,10 @@
    "last": "2026-09-08"
   },
   {
-   "name": "Kagaari N.FCS Kathande",
-   "url": "/producer/9330/kathande_factory/",
+   "name": "Kagaari N. F.C.S. Kathande",
+   "url": "/producer/12483/kagaari_n_fcs/",
    "type": "Factory",
-   "county": "Embu",
+   "county": "",
    "lots": 10,
    "tonnes": 9.0,
    "bag": 359.47,
@@ -6490,10 +6458,10 @@
    "last": "2026-07-08"
   },
   {
-   "name": "Kagaari N.FCS Mbuinjeru",
-   "url": "/producer/9331/mbuinjeru_factory/",
+   "name": "Kagaari N. F.C.S. Mbuinjeru",
+   "url": "/producer/12409/kagaari_n_fcs/",
    "type": "Factory",
-   "county": "Embu",
+   "county": "",
    "lots": 20,
    "tonnes": 44.5,
    "bag": 325.13,
@@ -7210,7 +7178,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kamsa FCS",
+   "name": "Kamsa F.C.S.",
    "url": "/producer/12643/kamsa_fcs/",
    "type": "Factory",
    "county": "",
@@ -7290,7 +7258,7 @@
    "last": "2026-03-10"
   },
   {
-   "name": "Kamungei FCS",
+   "name": "Kamungei F.C.S.",
    "url": "/producer/12308/kamungei_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -7434,7 +7402,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kamweisok FCS",
+   "name": "Kamweisok F.C.S.",
    "url": "/producer/12255/kamweisokfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -7450,7 +7418,7 @@
    "last": "2025-12-16"
   },
   {
-   "name": "Kamweisok FCS Factory",
+   "name": "Kamweisok F.C.S. Factory",
    "url": "/producer/12201/kamweisokfcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -7482,7 +7450,7 @@
    "last": "2026-03-17"
   },
   {
-   "name": "Kandigi Factory (Mikumbune F.C.S Ltd)",
+   "name": "Kandigi Factory (Mikumbune F.C.S. Ltd)",
    "url": "/producer/9166/kandigi_factory_mikumbune_fcs_ltd/",
    "type": "Factory",
    "county": "Meru",
@@ -7690,7 +7658,7 @@
    "last": "2026-10-13"
   },
   {
-   "name": "Kapchagai FCS",
+   "name": "Kapchagai F.C.S.",
    "url": "/producer/12765/kapchagai_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -7722,7 +7690,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kapchepoi FCS",
+   "name": "Kapchepoi F.C.S.",
    "url": "/producer/12170/kapchepoi_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -7738,7 +7706,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Kapchokaa FCS",
+   "name": "Kapchokaa F.C.S.",
    "url": "/producer/12227/kapchokaa_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -7786,7 +7754,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Kapinderem FCS Ltd",
+   "name": "Kapinderem F.C.S. Ltd",
    "url": "/producer/12608/kapinderem_fcs_ltd/",
    "type": "Cooperative society",
    "county": "",
@@ -7850,7 +7818,7 @@
    "last": "2026-03-24"
   },
   {
-   "name": "Kapkener FCS",
+   "name": "Kapkener F.C.S.",
    "url": "/producer/9601/kapkener_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -7898,7 +7866,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kapkoin FCS",
+   "name": "Kapkoin F.C.S.",
    "url": "/producer/12410/kapkoin_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -7930,7 +7898,7 @@
    "last": "2026-10-13"
   },
   {
-   "name": "Kapkosoobey FCS",
+   "name": "Kapkosoobey F.C.S.",
    "url": "/producer/12779/kapkosoobey_fcs/",
    "type": "Factory",
    "county": "Bungoma",
@@ -7946,7 +7914,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Kapkota FCS",
+   "name": "Kapkota F.C.S.",
    "url": "/producer/12369/kapkota_fcs/",
    "type": "Cooperative society",
    "county": "Bungoma",
@@ -8010,7 +7978,7 @@
    "last": "2025-11-25"
   },
   {
-   "name": "Kapkwen FCS",
+   "name": "Kapkwen F.C.S.",
    "url": "/producer/12196/kapkwen_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -8074,7 +8042,7 @@
    "last": "2025-11-25"
   },
   {
-   "name": "Kapram FCS Factory",
+   "name": "Kapram F.C.S. Factory",
    "url": "/producer/12709/kapram_fcs/",
    "type": "Factory",
    "county": "",
@@ -8090,7 +8058,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kaprekeret FCS",
+   "name": "Kaprekeret F.C.S.",
    "url": "/producer/12523/kaprekeret_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -8106,7 +8074,7 @@
    "last": "2025-11-25"
   },
   {
-   "name": "Kaprekeret FCS",
+   "name": "Kaprekeret F.C.S.",
    "url": "/producer/12530/kaprekeret_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -8154,7 +8122,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Kapruret FCS",
+   "name": "Kapruret F.C.S.",
    "url": "/producer/12337/kapruret_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -8234,7 +8202,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kapsara FCS",
+   "name": "Kapsara F.C.S.",
    "url": "/producer/12613/kapsara_fcs/",
    "type": "Factory",
    "county": "Trans Nzoia",
@@ -8266,7 +8234,7 @@
    "last": "2026-01-06"
   },
   {
-   "name": "Kapseret FCS",
+   "name": "Kapseret F.C.S.",
    "url": "/producer/12275/kapseret_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -8282,7 +8250,7 @@
    "last": "2026-03-31"
   },
   {
-   "name": "Kapsikot FCS",
+   "name": "Kapsikot F.C.S.",
    "url": "/producer/12283/kapsikot_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -8314,7 +8282,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Kaptagat FCS",
+   "name": "Kaptagat F.C.S.",
    "url": "/producer/12406/kaptagat_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -8378,23 +8346,23 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kaptongoi FCS",
-   "url": "/producer/12329/kaptongoi_fcs/",
+   "name": "Kaptongoi F.C.S.",
+   "url": "/producer/13168/kaptongoi_fcs/",
    "type": "Cooperative society",
    "county": "",
-   "lots": 5,
-   "tonnes": 9.0,
-   "bag": 397.1,
-   "kg": 7.94,
+   "lots": 6,
+   "tonnes": 9.2,
+   "bag": 395.62,
+   "kg": 7.91,
    "aa_bag": 408.0,
    "aa": 8.16,
    "ab_bag": 401.0,
    "ab": 8.02,
-   "vs_market": -2.1,
-   "last": "2025-12-09"
+   "vs_market": -2.0,
+   "last": "2025-12-16"
   },
   {
-   "name": "Kaptuma FCS",
+   "name": "Kaptuma F.C.S.",
    "url": "/producer/12460/kaptuma_fcs/",
    "type": "Factory",
    "county": "",
@@ -8410,7 +8378,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Kaptumoiyot FCS",
+   "name": "Kaptumoiyot F.C.S.",
    "url": "/producer/12473/kaptumoiyot_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -8634,7 +8602,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Karinga Factory (Gitwe F.C.S Ltd)",
+   "name": "Karinga Factory (Gitwe F.C.S. Ltd)",
    "url": "/producer/8557/karinga_factory_gitwe_fcs_ltd/",
    "type": "Factory",
    "county": "Kiambu",
@@ -8938,6 +8906,22 @@
    "last": "2025-12-16"
   },
   {
+   "name": "Kasach F.C.S.",
+   "url": "/producer/12274/kasach/",
+   "type": "Cooperative society",
+   "county": "",
+   "lots": 18,
+   "tonnes": 14.0,
+   "bag": 335.29,
+   "kg": 6.71,
+   "aa_bag": 352.94,
+   "aa": 7.06,
+   "ab_bag": 344.41,
+   "ab": 6.89,
+   "vs_market": 2.7,
+   "last": "2026-11-03"
+  },
+  {
    "name": "Kasach Factory",
    "url": "/producer/12211/kasach/",
    "type": "Factory",
@@ -8952,22 +8936,6 @@
    "ab": 7.5,
    "vs_market": -3.1,
    "last": "2026-03-24"
-  },
-  {
-   "name": "Kasach FCS",
-   "url": "/producer/12274/kasach/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 18,
-   "tonnes": 14.0,
-   "bag": 335.29,
-   "kg": 6.71,
-   "aa_bag": 352.94,
-   "aa": 7.06,
-   "ab_bag": 344.41,
-   "ab": 6.89,
-   "vs_market": 2.7,
-   "last": "2026-11-03"
   },
   {
    "name": "Kasheen",
@@ -9450,7 +9418,7 @@
    "last": "2026-01-13"
   },
   {
-   "name": "Kelunet FCS",
+   "name": "Kelunet F.C.S.",
    "url": "/producer/12293/kelunet_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -9610,7 +9578,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Kesgo FCS",
+   "name": "Kesgo F.C.S.",
    "url": "/producer/12934/kesgo_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -9626,7 +9594,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Kesses FCS",
+   "name": "Kesses F.C.S.",
    "url": "/producer/12568/kesses_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -9656,6 +9624,22 @@
    "ab": 6.93,
    "vs_market": -0.6,
    "last": "2026-10-27"
+  },
+  {
+   "name": "Khachonge F.C.S.",
+   "url": "/producer/12361/khachongefcs/",
+   "type": "Cooperative society",
+   "county": "Bungoma",
+   "lots": 7,
+   "tonnes": 7.3,
+   "bag": 341.13,
+   "kg": 6.82,
+   "aa_bag": 408.0,
+   "aa": 8.16,
+   "ab_bag": 394.0,
+   "ab": 7.88,
+   "vs_market": -0.3,
+   "last": "2026-02-03"
   },
   {
    "name": "Khachonge F.C.S. Ltd",
@@ -9688,22 +9672,6 @@
    "ab": 6.83,
    "vs_market": -1.7,
    "last": "2026-11-17"
-  },
-  {
-   "name": "Khachonge FCS",
-   "url": "/producer/12361/khachongefcs/",
-   "type": "Cooperative society",
-   "county": "Bungoma",
-   "lots": 7,
-   "tonnes": 7.3,
-   "bag": 341.13,
-   "kg": 6.82,
-   "aa_bag": 408.0,
-   "aa": 8.16,
-   "ab_bag": 394.0,
-   "ab": 7.88,
-   "vs_market": -0.3,
-   "last": "2026-02-03"
   },
   {
    "name": "Khalaba Factory",
@@ -10442,7 +10410,7 @@
    "last": "2025-11-25"
   },
   {
-   "name": "Kibirirgut FCS",
+   "name": "Kibirirgut F.C.S.",
    "url": "/producer/12205/kibirirgut_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -10458,7 +10426,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Kibirirgut FCS",
+   "name": "Kibirirgut F.C.S.",
    "url": "/producer/12430/kibirirgut_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -10538,7 +10506,7 @@
    "last": "2026-08-18"
   },
   {
-   "name": "Kibsoen FCS",
+   "name": "Kibsoen F.C.S.",
    "url": "/producer/12349/kibsoen_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -10666,7 +10634,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Kichawir FCS",
+   "name": "Kichawir F.C.S.",
    "url": "/producer/9564/kichawir_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -10778,7 +10746,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kigirgei FCS",
+   "name": "Kigirgei F.C.S.",
    "url": "/producer/12289/kigirgei_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -10794,7 +10762,7 @@
    "last": "2026-09-15"
   },
   {
-   "name": "Kiguskong FCS",
+   "name": "Kiguskong F.C.S.",
    "url": "/producer/12239/kiguskong_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -11082,7 +11050,7 @@
    "last": "2026-09-15"
   },
   {
-   "name": "Kimalany FCS",
+   "name": "Kimalany F.C.S.",
    "url": "/producer/12336/kimalany_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -11146,7 +11114,7 @@
    "last": "2025-12-02"
   },
   {
-   "name": "Kimaratia F.C.S Ltd",
+   "name": "Kimaratia F.C.S. Ltd",
    "url": "/producer/8575/kimaratia_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Kiambu",
@@ -11176,6 +11144,22 @@
    "ab": 7.97,
    "vs_market": 3.3,
    "last": "2026-08-25"
+  },
+  {
+   "name": "Kimologit F.C.S.",
+   "url": "/producer/12640/kimologit_fcs/",
+   "type": "Cooperative society",
+   "county": "",
+   "lots": 2,
+   "tonnes": 2.1,
+   "bag": 327.15,
+   "kg": 6.54,
+   "aa_bag": 334.0,
+   "aa": 6.68,
+   "ab_bag": 324.0,
+   "ab": 6.48,
+   "vs_market": -0.5,
+   "last": "2026-02-17"
   },
   {
    "name": "Kimologit F.C.S. Ltd",
@@ -11210,22 +11194,6 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Kimologit FCS",
-   "url": "/producer/12640/kimologit_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 2,
-   "tonnes": 2.1,
-   "bag": 327.15,
-   "kg": 6.54,
-   "aa_bag": 334.0,
-   "aa": 6.68,
-   "ab_bag": 324.0,
-   "ab": 6.48,
-   "vs_market": -0.5,
-   "last": "2026-02-17"
-  },
-  {
    "name": "Kimolwet C0. Ltd",
    "url": "/producer/12538/kimolwet_c0_ltd/",
    "type": "Other",
@@ -11258,7 +11226,7 @@
    "last": "2026-01-13"
   },
   {
-   "name": "Kimolwuet FCS",
+   "name": "Kimolwuet F.C.S.",
    "url": "/producer/12632/kimolwuetfcs/",
    "type": "Other",
    "county": "",
@@ -11290,7 +11258,7 @@
    "last": "2026-02-24"
   },
   {
-   "name": "Kimukungi FCS",
+   "name": "Kimukungi F.C.S.",
    "url": "/producer/12355/kimukungi_fcs/",
    "type": "Factory",
    "county": "Bungoma",
@@ -11498,7 +11466,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kipkamit FCS",
+   "name": "Kipkamit F.C.S.",
    "url": "/producer/12552/kipkamit_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -11562,7 +11530,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kipkigei FCS",
+   "name": "Kipkigei F.C.S.",
    "url": "/producer/12263/kipkigei_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -11578,7 +11546,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Kipkok FCS",
+   "name": "Kipkok F.C.S.",
    "url": "/producer/12646/kipkok_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -11642,6 +11610,22 @@
    "last": "2026-10-27"
   },
   {
+   "name": "Kipsinende F.C.S. Factory",
+   "url": "/producer/12338/kipsinende_fcs/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 5,
+   "tonnes": 8.4,
+   "bag": 321.32,
+   "kg": 6.43,
+   "aa_bag": 331.0,
+   "aa": 6.62,
+   "ab_bag": 327.4,
+   "ab": 6.55,
+   "vs_market": 3.4,
+   "last": "2026-03-10"
+  },
+  {
    "name": "Kipsinende Factory",
    "url": "/producer/9583/kipsinende_factory/",
    "type": "Factory",
@@ -11656,22 +11640,6 @@
    "ab": 7.26,
    "vs_market": -0.3,
    "last": "2026-11-17"
-  },
-  {
-   "name": "Kipsinende FCS Factory",
-   "url": "/producer/12338/kipsinende_fcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 5,
-   "tonnes": 8.4,
-   "bag": 321.32,
-   "kg": 6.43,
-   "aa_bag": 331.0,
-   "aa": 6.62,
-   "ab_bag": 327.4,
-   "ab": 6.55,
-   "vs_market": 3.4,
-   "last": "2026-03-10"
   },
   {
    "name": "Kiptebes",
@@ -11706,7 +11674,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kiptegat Iboi FCS",
+   "name": "Kiptegat Iboi F.C.S.",
    "url": "/producer/12735/kiptegat_iboi_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -11722,7 +11690,7 @@
    "last": "2026-05-12"
   },
   {
-   "name": "Kiptere .Ch FCS",
+   "name": "Kiptere .Ch F.C.S.",
    "url": "/producer/12408/kiptere_ch_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -11834,6 +11802,22 @@
    "last": "2026-11-03"
   },
   {
+   "name": "Kiriani F.C.S. Mwema",
+   "url": "/producer/12277/kiriani_fcs_mwema/",
+   "type": "Factory",
+   "county": "Tharaka Nithi",
+   "lots": 3,
+   "tonnes": 1.3,
+   "bag": 385.94,
+   "kg": 7.72,
+   "aa_bag": 323.0,
+   "aa": 6.46,
+   "ab_bag": 399.0,
+   "ab": 7.98,
+   "vs_market": 0.2,
+   "last": "2026-02-10"
+  },
+  {
    "name": "Kiriani Factory (Thikagiki F.C.S. Ltd)",
    "url": "/producer/8704/kiriani_factory_thikagiki_fcs_ltd/",
    "type": "Factory",
@@ -11848,22 +11832,6 @@
    "ab": 7.74,
    "vs_market": 4.7,
    "last": "2026-10-27"
-  },
-  {
-   "name": "Kiriani FCS Mwema",
-   "url": "/producer/12277/kiriani_fcs_mwema/",
-   "type": "Factory",
-   "county": "Tharaka Nithi",
-   "lots": 3,
-   "tonnes": 1.3,
-   "bag": 385.94,
-   "kg": 7.72,
-   "aa_bag": 323.0,
-   "aa": 6.46,
-   "ab_bag": 399.0,
-   "ab": 7.98,
-   "vs_market": 0.2,
-   "last": "2026-02-10"
   },
   {
    "name": "Kiriga Coffee Estate",
@@ -12058,7 +12026,7 @@
    "last": "2026-08-11"
   },
   {
-   "name": "Kirubia F.C.S Ltd",
+   "name": "Kirubia F.C.S. Ltd",
    "url": "/producer/9245/kirubia_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Tharaka Nithi",
@@ -12314,6 +12282,22 @@
    "last": "2026-08-11"
   },
   {
+   "name": "Kithima F.C.S.-Kamaindi",
+   "url": "/producer/12828/kithima_fcs_kamaindi/",
+   "type": "Factory",
+   "county": "Makueni",
+   "lots": 2,
+   "tonnes": 1.1,
+   "bag": 265.99,
+   "kg": 5.32,
+   "aa_bag": null,
+   "aa": null,
+   "ab_bag": null,
+   "ab": null,
+   "vs_market": 13.3,
+   "last": "2026-09-22"
+  },
+  {
    "name": "Kithima Factory",
    "url": "/producer/9394/kithima_factory/",
    "type": "Factory",
@@ -12328,22 +12312,6 @@
    "ab": 6.8,
    "vs_market": -1.5,
    "last": "2026-09-01"
-  },
-  {
-   "name": "Kithima FCS-Kamaindi",
-   "url": "/producer/12828/kithima_fcs_kamaindi/",
-   "type": "Factory",
-   "county": "Makueni",
-   "lots": 2,
-   "tonnes": 1.1,
-   "bag": 265.99,
-   "kg": 5.32,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": null,
-   "ab": null,
-   "vs_market": 13.3,
-   "last": "2026-09-22"
   },
   {
    "name": "Kithino F.C.S. Ltd",
@@ -12618,6 +12586,22 @@
    "last": "2026-11-17"
   },
   {
+   "name": "Koisagat F.C.S.",
+   "url": "/producer/12302/koisagat_fcs/",
+   "type": "Factory",
+   "county": "Baringo",
+   "lots": 4,
+   "tonnes": 11.0,
+   "bag": 395.37,
+   "kg": 7.91,
+   "aa_bag": 399.0,
+   "aa": 7.98,
+   "ab_bag": 396.0,
+   "ab": 7.92,
+   "vs_market": -3.4,
+   "last": "2025-12-02"
+  },
+  {
    "name": "Koisagat Factory",
    "url": "/producer/9553/koisagat_factory/",
    "type": "Factory",
@@ -12634,23 +12618,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Koisagat FCS",
-   "url": "/producer/12302/koisagat_fcs/",
-   "type": "Factory",
-   "county": "Baringo",
-   "lots": 4,
-   "tonnes": 11.0,
-   "bag": 395.37,
-   "kg": 7.91,
-   "aa_bag": 399.0,
-   "aa": 7.98,
-   "ab_bag": 396.0,
-   "ab": 7.92,
-   "vs_market": -3.4,
-   "last": "2025-12-02"
-  },
-  {
-   "name": "Koisamoi FCS",
+   "name": "Koisamoi F.C.S.",
    "url": "/producer/12467/koisamoi_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -12746,7 +12714,7 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Kondamaket FCS",
+   "name": "Kondamaket F.C.S.",
    "url": "/producer/12261/kondamaketfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -12810,7 +12778,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Kormut FCS",
+   "name": "Kormut F.C.S.",
    "url": "/producer/9907/kormut_fcs/",
    "type": "Small estate",
    "county": "Kakamega",
@@ -13258,7 +13226,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Lamaiyat FCS",
+   "name": "Lamaiyat F.C.S.",
    "url": "/producer/12305/lamaiyat_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -13274,7 +13242,7 @@
    "last": "2026-01-06"
   },
   {
-   "name": "Lamaiyat FCS Factory",
+   "name": "Lamaiyat F.C.S. Factory",
    "url": "/producer/12184/lamaiyat_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -13434,7 +13402,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Lesko FCS",
+   "name": "Lesko F.C.S.",
    "url": "/producer/12393/lesko_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -14266,7 +14234,7 @@
    "last": "2026-03-03"
   },
   {
-   "name": "Mariara F.C.S Ltd",
+   "name": "Mariara F.C.S. Ltd",
    "url": "/producer/9106/mariara_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Makueni",
@@ -14474,7 +14442,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Masindet FCS",
+   "name": "Masindet F.C.S.",
    "url": "/producer/12571/masindetfcs/",
    "type": "Small estate",
    "county": "",
@@ -14490,7 +14458,7 @@
    "last": "2026-02-03"
   },
   {
-   "name": "Masokani FCS",
+   "name": "Masokani F.C.S.",
    "url": "/producer/13218/masokanifcs/",
    "type": "Factory",
    "county": "Machakos",
@@ -14922,7 +14890,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Meiteitei FCS",
+   "name": "Meiteitei F.C.S.",
    "url": "/producer/12448/meiteitei_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -15034,7 +15002,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Metibelion FCS",
+   "name": "Metibelion F.C.S.",
    "url": "/producer/12296/metibelion_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -15130,7 +15098,7 @@
    "last": "2026-09-08"
   },
   {
-   "name": "Miitine F.C.S Ltd",
+   "name": "Miitine F.C.S. Ltd",
    "url": "/producer/9148/miitine_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Makueni",
@@ -15194,7 +15162,7 @@
    "last": "2026-07-08"
   },
   {
-   "name": "Mikhuyu FCS",
+   "name": "Mikhuyu F.C.S.",
    "url": "/producer/12321/mikhuyu_fcs/",
    "type": "Cooperative society",
    "county": "Bungoma",
@@ -15210,7 +15178,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Mikumbune F.C.S Ltd",
+   "name": "Mikumbune F.C.S. Ltd",
    "url": "/producer/9164/mikumbune_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Makueni",
@@ -15402,7 +15370,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Misadhi FCS",
+   "name": "Misadhi F.C.S.",
    "url": "/producer/12246/misadhi_fcs/",
    "type": "Factory",
    "county": "",
@@ -15418,7 +15386,7 @@
    "last": "2026-08-04"
   },
   {
-   "name": "Mitheru F.C.S Ltd",
+   "name": "Mitheru F.C.S. Ltd",
    "url": "/producer/9227/mitheru_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Tharaka Nithi",
@@ -15514,7 +15482,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Moiben FCS",
+   "name": "Moiben F.C.S.",
    "url": "/producer/12482/moiben_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -15562,7 +15530,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Moinget FCS",
+   "name": "Moinget F.C.S.",
    "url": "/producer/12622/moinget_fcs/",
    "type": "Factory",
    "county": "Baringo",
@@ -15578,7 +15546,7 @@
    "last": "2026-04-14"
   },
   {
-   "name": "Mombwo FCS",
+   "name": "Mombwo F.C.S.",
    "url": "/producer/12222/mombwo_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -15658,7 +15626,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Mosonya FCS",
+   "name": "Mosonya F.C.S.",
    "url": "/producer/12497/mosonya_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -15866,7 +15834,7 @@
    "last": "2026-09-01"
   },
   {
-   "name": "Mugen FCS",
+   "name": "Mugen F.C.S.",
    "url": "/producer/12322/mugen_fcs/",
    "type": "Factory",
    "county": "",
@@ -15946,7 +15914,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Muhara F.C.S Ltd",
+   "name": "Muhara F.C.S. Ltd",
    "url": "/producer/8549/muhara_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Kiambu",
@@ -15962,7 +15930,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Muhara FCS Muthiga",
+   "name": "Muhara F.C.S. Muthiga",
    "url": "/producer/12833/muhara_fcs_muthiga/",
    "type": "Cooperative society",
    "county": "Kiambu",
@@ -16042,7 +16010,7 @@
    "last": "2026-09-22"
   },
   {
-   "name": "Muiru F.C.S Ltd",
+   "name": "Muiru F.C.S. Ltd",
    "url": "/producer/9249/muiru_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Tharaka Nithi",
@@ -16522,7 +16490,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Muroki FCS",
+   "name": "Muroki F.C.S.",
    "url": "/producer/12543/muroki_fcs/",
    "type": "Factory",
    "county": "Trans Nzoia",
@@ -16538,7 +16506,7 @@
    "last": "2026-04-14"
   },
   {
-   "name": "Murtokwes FCS",
+   "name": "Murtokwes F.C.S.",
    "url": "/producer/12788/murtokwes_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -16682,7 +16650,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Mutethia FCS Mucuune",
+   "name": "Mutethia F.C.S. Mucuune",
    "url": "/producer/12291/mutethia_fcs_mucuune/",
    "type": "Factory",
    "county": "Meru",
@@ -17130,7 +17098,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Mwaimwai FCS",
+   "name": "Mwaimwai F.C.S.",
    "url": "/producer/12229/mwaimwai_fcs/",
    "type": "Factory",
    "county": "Bungoma",
@@ -17178,7 +17146,7 @@
    "last": "2026-09-01"
   },
   {
-   "name": "Mwanga F.C.S Ltd",
+   "name": "Mwanga F.C.S. Ltd",
    "url": "/producer/9270/mwanga_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Tharaka Nithi",
@@ -17370,7 +17338,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Nabisembe FCS",
+   "name": "Nabisembe F.C.S.",
    "url": "/producer/12449/nabisembefcs/",
    "type": "Other",
    "county": "",
@@ -17562,7 +17530,7 @@
    "last": "2026-08-25"
   },
   {
-   "name": "Ndagani F.C.S Ltd",
+   "name": "Ndagani F.C.S. Ltd",
    "url": "/producer/9235/ndagani_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Tharaka Nithi",
@@ -17626,7 +17594,7 @@
    "last": "2026-04-28"
   },
   {
-   "name": "Ndemu FCS",
+   "name": "Ndemu F.C.S.",
    "url": "/producer/9472/ndemu_fcs/",
    "type": "Cooperative society",
    "county": "Nakuru",
@@ -17914,7 +17882,7 @@
    "last": "2026-02-10"
   },
   {
-   "name": "New Gatanga F.C.S Ltd",
+   "name": "New Gatanga F.C.S. Ltd",
    "url": "/producer/8712/new_gatanga_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Kiambu",
@@ -17930,7 +17898,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "New Gatukuyu F.C.S Ltd",
+   "name": "New Gatukuyu F.C.S. Ltd",
    "url": "/producer/8587/new_gatukuyu_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Kiambu",
@@ -17962,7 +17930,7 @@
    "last": "2026-03-31"
   },
   {
-   "name": "New Gikaru FCS Kahuro Flo",
+   "name": "New Gikaru F.C.S. Kahuro Flo",
    "url": "/producer/12674/new_gikaru_fcs_kahuro_flo/",
    "type": "Cooperative society",
    "county": "",
@@ -18138,7 +18106,7 @@
    "last": "2026-09-01"
   },
   {
-   "name": "New Mwema FCS Ltd",
+   "name": "New Mwema F.C.S. Ltd",
    "url": "/producer/12224/new_mwema_fcs_ltd/",
    "type": "Cooperative society",
    "county": "Tharaka Nithi",
@@ -18154,8 +18122,8 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Newcheskaki FCS",
-   "url": "/producer/13242/newcheskaki_fcs/",
+   "name": "Newcheskaki F.C.S.",
+   "url": "/producer/13242/newcheskaki_f_c_s/",
    "type": "Factory",
    "county": "Bungoma",
    "lots": 68,
@@ -18266,7 +18234,7 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Ngebepo FCS",
+   "name": "Ngebepo F.C.S.",
    "url": "/producer/12313/ngebepo_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -18330,7 +18298,7 @@
    "last": "2025-12-02"
   },
   {
-   "name": "Ngepepo FCS Xce75",
+   "name": "Ngepepo F.C.S. Xce75",
    "url": "/producer/12442/ngepepo_fcs_xce75/",
    "type": "Cooperative society",
    "county": "",
@@ -18378,7 +18346,7 @@
    "last": "2026-03-31"
   },
   {
-   "name": "Ngetmoi FCS",
+   "name": "Ngetmoi F.C.S.",
    "url": "/producer/12693/ngetmoi_fcs/",
    "type": "Factory",
    "county": "Baringo",
@@ -18506,23 +18474,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Ngoino Factory",
-   "url": "/producer/12179/ngoinofcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 41,
-   "tonnes": 62.2,
-   "bag": 327.29,
-   "kg": 6.55,
-   "aa_bag": 371.48,
-   "aa": 7.43,
-   "ab_bag": 366.65,
-   "ab": 7.33,
-   "vs_market": -0.5,
-   "last": "2026-11-17"
-  },
-  {
-   "name": "Ngoino FCS",
+   "name": "Ngoino F.C.S.",
    "url": "/producer/12733/ngoino_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -18538,7 +18490,7 @@
    "last": "2026-08-25"
   },
   {
-   "name": "Ngoino FCS",
+   "name": "Ngoino F.C.S.",
    "url": "/producer/12856/ngoino_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -18552,6 +18504,22 @@
    "ab": 6.84,
    "vs_market": -1.8,
    "last": "2026-09-01"
+  },
+  {
+   "name": "Ngoino Factory",
+   "url": "/producer/12179/ngoinofcs/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 41,
+   "tonnes": 62.2,
+   "bag": 327.29,
+   "kg": 6.55,
+   "aa_bag": 371.48,
+   "aa": 7.43,
+   "ab_bag": 366.65,
+   "ab": 7.33,
+   "vs_market": -0.5,
+   "last": "2026-11-17"
   },
   {
    "name": "Ngomano F.C.S. Ltd",
@@ -19130,7 +19098,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Nukiat FCS",
+   "name": "Nukiat F.C.S.",
    "url": "/producer/12790/nukiat_fcs/",
    "type": "Factory",
    "county": "",
@@ -19786,6 +19754,22 @@
    "last": "2026-11-17"
   },
   {
+   "name": "Nyosia F.C.S.",
+   "url": "/producer/12835/nyosia_fcs/",
+   "type": "Factory",
+   "county": "",
+   "lots": 1,
+   "tonnes": 1.1,
+   "bag": 285.0,
+   "kg": 5.7,
+   "aa_bag": null,
+   "aa": null,
+   "ab_bag": null,
+   "ab": null,
+   "vs_market": 1.7,
+   "last": "2026-01-13"
+  },
+  {
    "name": "Nyosia Factory",
    "url": "/producer/9774/nyosia_factory/",
    "type": "Factory",
@@ -19800,22 +19784,6 @@
    "ab": 6.76,
    "vs_market": 1.5,
    "last": "2026-11-10"
-  },
-  {
-   "name": "Nyosia FCS",
-   "url": "/producer/12835/nyosia_fcs/",
-   "type": "Factory",
-   "county": "",
-   "lots": 1,
-   "tonnes": 1.1,
-   "bag": 285.0,
-   "kg": 5.7,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": null,
-   "ab": null,
-   "vs_market": 1.7,
-   "last": "2026-01-13"
   },
   {
    "name": "Oaklands and Kofinaf Co Ltd",
@@ -20266,7 +20234,7 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Poi FCS",
+   "name": "Poi F.C.S.",
    "url": "/producer/12481/poi_fcs/",
    "type": "Factory",
    "county": "Baringo",
@@ -20970,7 +20938,7 @@
    "last": "2026-04-14"
   },
   {
-   "name": "Ruiyobei FCS",
+   "name": "Ruiyobei F.C.S.",
    "url": "/producer/12458/ruiyobeifcs/",
    "type": "Small estate",
    "county": "",
@@ -21562,7 +21530,7 @@
    "last": "2026-04-21"
   },
   {
-   "name": "Saoset FCS",
+   "name": "Saoset F.C.S.",
    "url": "/producer/12214/saoset_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -21594,7 +21562,7 @@
    "last": "2026-07-28"
   },
   {
-   "name": "Sasur FCS",
+   "name": "Sasur F.C.S.",
    "url": "/producer/12715/sasur_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -21738,7 +21706,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Sereng FCS FCS",
+   "name": "Sereng F.C.S. F.C.S.",
    "url": "/producer/12344/sereng_fcs_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -21754,7 +21722,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Siabai FCS",
+   "name": "Siabai F.C.S.",
    "url": "/producer/12209/siabai_fcs/",
    "type": "Factory",
    "county": "",
@@ -21850,7 +21818,7 @@
    "last": "2026-03-03"
   },
   {
-   "name": "Sikhendu FCS",
+   "name": "Sikhendu F.C.S.",
    "url": "/producer/12751/sikhendu_fcs_cs/",
    "type": "Cooperative society",
    "county": "",
@@ -21882,7 +21850,7 @@
    "last": "2026-04-21"
   },
   {
-   "name": "Simit FCS",
+   "name": "Simit F.C.S.",
    "url": "/producer/12276/simit_fcs/",
    "type": "Factory",
    "county": "Nandi",
@@ -21946,6 +21914,22 @@
    "last": "2026-10-27"
   },
   {
+   "name": "Sirikwa F.C.S.",
+   "url": "/producer/12603/sirikwa_fcs/",
+   "type": "Factory",
+   "county": "Nandi",
+   "lots": 2,
+   "tonnes": 2.4,
+   "bag": 234.99,
+   "kg": 4.7,
+   "aa_bag": null,
+   "aa": null,
+   "ab_bag": null,
+   "ab": null,
+   "vs_market": 6.7,
+   "last": "2026-04-21"
+  },
+  {
    "name": "Sirikwa Farmers",
    "url": "/producer/12501/sirikwa_farmers/",
    "type": "Small estate",
@@ -21960,22 +21944,6 @@
    "ab": 6.88,
    "vs_market": 2.5,
    "last": "2026-03-10"
-  },
-  {
-   "name": "Sirikwa FCS",
-   "url": "/producer/12603/sirikwa_fcs/",
-   "type": "Factory",
-   "county": "Nandi",
-   "lots": 2,
-   "tonnes": 2.4,
-   "bag": 234.99,
-   "kg": 4.7,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": null,
-   "ab": null,
-   "vs_market": 6.7,
-   "last": "2026-04-21"
   },
   {
    "name": "Sirisia",
@@ -22010,7 +21978,7 @@
    "last": "2026-02-03"
   },
   {
-   "name": "Sise FCS",
+   "name": "Sise F.C.S.",
    "url": "/producer/12194/sise_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -22074,7 +22042,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Smith FCS",
+   "name": "Smith F.C.S.",
    "url": "/producer/12237/smith_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -22106,7 +22074,7 @@
    "last": "2026-02-17"
   },
   {
-   "name": "Sogon FCS",
+   "name": "Sogon F.C.S.",
    "url": "/producer/12352/sogon_fcs/",
    "type": "Cooperative society",
    "county": "Baringo",
@@ -22122,7 +22090,7 @@
    "last": "2026-03-10"
   },
   {
-   "name": "Sogon FCS",
+   "name": "Sogon F.C.S.",
    "url": "/producer/12771/sogon_fcs/",
    "type": "Factory",
    "county": "Baringo",
@@ -22138,7 +22106,7 @@
    "last": "2026-05-12"
   },
   {
-   "name": "Soimoi FCS",
+   "name": "Soimoi F.C.S.",
    "url": "/producer/12372/soimoi_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -22154,7 +22122,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Soimoi FCS Factory",
+   "name": "Soimoi F.C.S. Factory",
    "url": "/producer/12172/soimoi_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -22170,7 +22138,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Soiyet FCS",
+   "name": "Soiyet F.C.S.",
    "url": "/producer/12244/soiyet_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -22282,7 +22250,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Sosiot Three Ways FCS",
+   "name": "Sosiot Three Ways F.C.S.",
    "url": "/producer/12265/sosiot_three_ways_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -22458,7 +22426,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Sugut FCS",
+   "name": "Sugut F.C.S.",
    "url": "/producer/12549/sugut_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -22666,7 +22634,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Taunet FCS",
+   "name": "Taunet F.C.S.",
    "url": "/producer/12284/taunetfcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -22682,7 +22650,7 @@
    "last": "2026-03-10"
   },
   {
-   "name": "Taunet FCS",
+   "name": "Taunet F.C.S.",
    "url": "/producer/12435/taunetfcs/",
    "type": "Other",
    "county": "",
@@ -22730,7 +22698,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Tebesonik FCS",
+   "name": "Tebesonik F.C.S.",
    "url": "/producer/12245/tebesonikfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -22938,7 +22906,7 @@
    "last": "2026-04-21"
   },
   {
-   "name": "Thamuti FCS",
+   "name": "Thamuti F.C.S.",
    "url": "/producer/12341/thamuti_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -23242,7 +23210,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Tigania North FCS Mbaranga",
+   "name": "Tigania North F.C.S. Mbaranga",
    "url": "/producer/12176/tigania_north_fcs_mbaranga/",
    "type": "Factory",
    "county": "Meru",
@@ -23370,7 +23338,7 @@
    "last": "2026-02-10"
   },
   {
-   "name": "Torocmwai FCS",
+   "name": "Torocmwai F.C.S.",
    "url": "/producer/12720/torocmwai_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -23466,7 +23434,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Tuiyobeek FCS",
+   "name": "Tuiyobeek F.C.S.",
    "url": "/producer/12225/tuiyobeekfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -23482,7 +23450,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Tuiyobeek FCS Factory",
+   "name": "Tuiyobeek F.C.S. Factory",
    "url": "/producer/12290/tuiyobeekfcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -23706,6 +23674,22 @@
    "last": "2026-07-28"
   },
   {
+   "name": "Umoja F.C.S.",
+   "url": "/producer/12388/umoja_fcs/",
+   "type": "Cooperative society",
+   "county": "Kericho",
+   "lots": 4,
+   "tonnes": 4.7,
+   "bag": 331.74,
+   "kg": 6.63,
+   "aa_bag": 333.82,
+   "aa": 6.68,
+   "ab_bag": 330.31,
+   "ab": 6.61,
+   "vs_market": -6.5,
+   "last": "2026-02-17"
+  },
+  {
    "name": "Umoja Factory",
    "url": "/producer/10031/umojafactory3/",
    "type": "Factory",
@@ -23720,22 +23704,6 @@
    "ab": 6.45,
    "vs_market": -0.4,
    "last": "2026-11-17"
-  },
-  {
-   "name": "Umoja FCS",
-   "url": "/producer/12388/umoja_fcs/",
-   "type": "Cooperative society",
-   "county": "Kericho",
-   "lots": 4,
-   "tonnes": 4.7,
-   "bag": 331.74,
-   "kg": 6.63,
-   "aa_bag": 333.82,
-   "aa": 6.68,
-   "ab_bag": 330.31,
-   "ab": 6.61,
-   "vs_market": -6.5,
-   "last": "2026-02-17"
   },
   {
    "name": "Unja Factory",
@@ -23818,7 +23786,7 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Ushirika FCS",
+   "name": "Ushirika F.C.S.",
    "url": "/producer/12424/ushirika_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -23866,7 +23834,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Uzone FCS",
+   "name": "Uzone F.C.S.",
    "url": "/producer/12403/uzone_fcs_cs/",
    "type": "Cooperative society",
    "county": "",
@@ -23882,7 +23850,7 @@
    "last": "2026-01-06"
   },
   {
-   "name": "Uzone FCS",
+   "name": "Uzone F.C.S.",
    "url": "/producer/12312/uzone_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -24346,7 +24314,7 @@
    "last": "2026-04-28"
   },
   {
-   "name": "Winchit FCS",
+   "name": "Winchit F.C.S.",
    "url": "/producer/12353/winchit_fcs/",
    "type": "Cooperative society",
    "county": "",
@@ -24410,7 +24378,7 @@
    "last": "2026-01-13"
   },
   {
-   "name": "Withare FCS Kaibere",
+   "name": "Withare F.C.S. Kaibere",
    "url": "/producer/12468/withare_fcs_kaibere/",
    "type": "Factory",
    "county": "Kiambu",
@@ -24426,7 +24394,7 @@
    "last": "2026-03-10"
   },
   {
-   "name": "Withare FCS Kanyoni",
+   "name": "Withare F.C.S. Kanyoni",
    "url": "/producer/12328/withare_fcs_kanyoni/",
    "type": "Factory",
    "county": "Kiambu",

@@ -1,21 +1,21 @@
 {
- "growers_total": 3825,
+ "growers_total": 3827,
  "growers_mapped": 946,
  "grower_types": [
   {
    "type": "Small estate",
    "plural": "Small estates",
-   "count": 1374
+   "count": 1372
   },
   {
    "type": "Factory",
    "plural": "Factories",
-   "count": 1117
+   "count": 1125
   },
   {
    "type": "Cooperative society",
    "plural": "Cooperative societies",
-   "count": 612
+   "count": 609
   },
   {
    "type": "Estate",
@@ -25,7 +25,7 @@
   {
    "type": "Other",
    "plural": "Other",
-   "count": 204
+   "count": 203
   }
  ],
  "grower_counties": [
@@ -72,7 +72,7 @@
   {
    "county": "Embu",
    "slug": "embu",
-   "count": 133
+   "count": 134
   },
   {
    "county": "Trans Nzoia",
