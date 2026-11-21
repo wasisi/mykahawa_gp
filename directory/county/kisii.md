@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Kisii County"
 heading: "Coffee cooperatives, factories and estates in Kisii County"
-description: "174 coffee growers in Kisii County, Kenya: 87 factories, 51 small estates, 19 cooperative societies, 16 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 174 coffee growers in Kisii County: 87 factories, 51 small estates, 19 cooperative societies, 16 estates."
+description: "173 coffee growers in Kisii County, Kenya: 86 factories, 51 small estates, 19 cooperative societies, 16 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 173 coffee growers in Kisii County: 86 factories, 51 small estates, 19 cooperative societies, 16 estates."
 county: "Kisii"
 breadcrumbs:
   - title: Directory

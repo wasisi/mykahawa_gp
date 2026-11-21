@@ -1,21 +1,21 @@
 {
- "growers_total": 3856,
- "growers_mapped": 947,
+ "growers_total": 3825,
+ "growers_mapped": 946,
  "grower_types": [
   {
    "type": "Small estate",
    "plural": "Small estates",
-   "count": 1381
+   "count": 1374
   },
   {
    "type": "Factory",
    "plural": "Factories",
-   "count": 1121
+   "count": 1117
   },
   {
    "type": "Cooperative society",
    "plural": "Cooperative societies",
-   "count": 627
+   "count": 612
   },
   {
    "type": "Estate",
@@ -25,24 +25,24 @@
   {
    "type": "Other",
    "plural": "Other",
-   "count": 209
+   "count": 204
   }
  ],
  "grower_counties": [
   {
    "county": "Kiambu",
    "slug": "kiambu",
-   "count": 832
+   "count": 828
   },
   {
    "county": "Kericho",
    "slug": "kericho",
-   "count": 297
+   "count": 293
   },
   {
    "county": "Murang'a",
    "slug": "murang-a",
-   "count": 222
+   "count": 221
   },
   {
    "county": "Nyeri",
@@ -57,12 +57,12 @@
   {
    "county": "Kirinyaga",
    "slug": "kirinyaga",
-   "count": 208
+   "count": 207
   },
   {
    "county": "Kisii",
    "slug": "kisii",
-   "count": 174
+   "count": 173
   },
   {
    "county": "Machakos",
@@ -72,7 +72,7 @@
   {
    "county": "Embu",
    "slug": "embu",
-   "count": 135
+   "count": 133
   },
   {
    "county": "Trans Nzoia",

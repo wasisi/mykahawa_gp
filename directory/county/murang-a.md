@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Murang'a County"
 heading: "Coffee cooperatives, factories and estates in Murang'a County"
-description: "222 coffee growers in Murang'a County, Kenya: 125 factories, 42 small estates, 38 cooperative societies, 17 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 222 coffee growers in Murang'a County: 125 factories, 42 small estates, 38 cooperative societies, 17 estates."
+description: "221 coffee growers in Murang'a County, Kenya: 124 factories, 42 small estates, 38 cooperative societies, 17 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 221 coffee growers in Murang'a County: 124 factories, 42 small estates, 38 cooperative societies, 17 estates."
 county: "Murang'a"
 breadcrumbs:
   - title: Directory

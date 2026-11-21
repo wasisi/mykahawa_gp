@@ -354,6 +354,14 @@
    "ab": 336.58
   },
   {
+   "county": "Bungoma",
+   "slug": "bungoma",
+   "growers": 14,
+   "tonnes": 70.3,
+   "aa": 336.98,
+   "ab": 326.36
+  },
+  {
    "county": "Kiambu",
    "slug": "kiambu",
    "growers": 22,
@@ -368,14 +376,6 @@
    "tonnes": 62.2,
    "aa": 374.35,
    "ab": 354.72
-  },
-  {
-   "county": "Bungoma",
-   "slug": "bungoma",
-   "growers": 13,
-   "tonnes": 59.0,
-   "aa": 338.53,
-   "ab": 328.89
   },
   {
    "county": "Kisii",
@@ -506,7 +506,7 @@
    "price": 339.06
   }
  ],
- "grower_share": 60,
+ "grower_share": 61,
  "sales_covered": 58,
  "first_recent": "2025-07-08"
 }

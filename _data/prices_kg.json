@@ -102,25 +102,25 @@
   {
    "county": "Kericho",
    "slug": "kericho",
-   "growers": 182,
-   "tonnes": 5855,
-   "bag": 332.16,
-   "kg": 6.64,
-   "aa_bag": 360.44,
+   "growers": 179,
+   "tonnes": 5902,
+   "bag": 332.34,
+   "kg": 6.65,
+   "aa_bag": 360.59,
    "aa": 7.21,
-   "ab_bag": 342.6,
+   "ab_bag": 342.73,
    "ab": 6.85
   },
   {
    "county": "Kiambu",
    "slug": "kiambu",
-   "growers": 262,
-   "tonnes": 4790,
-   "bag": 327.24,
+   "growers": 258,
+   "tonnes": 4770,
+   "bag": 327.25,
    "kg": 6.54,
-   "aa_bag": 383.12,
+   "aa_bag": 383.2,
    "aa": 7.66,
-   "ab_bag": 360.32,
+   "ab_bag": 360.4,
    "ab": 7.21
   },
   {
@@ -172,6 +172,18 @@
    "ab": 7.37
   },
   {
+   "county": "Embu",
+   "slug": "embu",
+   "growers": 64,
+   "tonnes": 1742,
+   "bag": 346.43,
+   "kg": 6.93,
+   "aa_bag": 384.04,
+   "aa": 7.68,
+   "ab_bag": 363.8,
+   "ab": 7.28
+  },
+  {
    "county": "Kisii",
    "slug": "kisii",
    "growers": 117,
@@ -184,28 +196,16 @@
    "ab": 6.8
   },
   {
-   "county": "Embu",
-   "slug": "embu",
-   "growers": 66,
-   "tonnes": 1585,
-   "bag": 346.38,
-   "kg": 6.93,
-   "aa_bag": 382.14,
-   "aa": 7.64,
-   "ab_bag": 363.03,
-   "ab": 7.26
-  },
-  {
    "county": "Bungoma",
    "slug": "bungoma",
-   "growers": 52,
-   "tonnes": 1414,
-   "bag": 349.07,
-   "kg": 6.98,
-   "aa_bag": 372.56,
-   "aa": 7.45,
-   "ab_bag": 356.84,
-   "ab": 7.14
+   "growers": 53,
+   "tonnes": 1505,
+   "bag": 347.83,
+   "kg": 6.96,
+   "aa_bag": 370.95,
+   "aa": 7.42,
+   "ab_bag": 354.99,
+   "ab": 7.1
   },
   {
    "county": "Machakos",
@@ -602,7 +602,7 @@
    "last": "2026-09-01"
   },
   {
-   "name": "Alpine Estate 44Cgm Gm",
+   "name": "Alpine Estate",
    "url": "/producer/12226/alpine_estate_44cgm_gm/",
    "type": "Estate",
    "county": "",
@@ -907,19 +907,35 @@
   },
   {
    "name": "Baraka Estate",
-   "url": "/producer/7678/baraka_estate/",
-   "type": "Small estate",
-   "county": "Kiambu",
-   "lots": 21,
-   "tonnes": 19.5,
-   "bag": 325.28,
-   "kg": 6.51,
-   "aa_bag": 373.73,
-   "aa": 7.47,
-   "ab_bag": 344.58,
-   "ab": 6.89,
-   "vs_market": -0.7,
+   "url": "/producer/13244/baraka_estate/",
+   "type": "Estate",
+   "county": "",
+   "lots": 7,
+   "tonnes": 3.8,
+   "bag": 365.74,
+   "kg": 7.31,
+   "aa_bag": 388.85,
+   "aa": 7.78,
+   "ab_bag": 359.14,
+   "ab": 7.18,
+   "vs_market": 1.6,
    "last": "2026-11-03"
+  },
+  {
+   "name": "Baraka FCS",
+   "url": "/producer/13243/baraka_fcs/",
+   "type": "Factory",
+   "county": "",
+   "lots": 14,
+   "tonnes": 15.7,
+   "bag": 315.39,
+   "kg": 6.31,
+   "aa_bag": 371.1,
+   "aa": 7.42,
+   "ab_bag": 337.65,
+   "ab": 6.75,
+   "vs_market": -1.4,
+   "last": "2026-10-21"
   },
   {
    "name": "Barichu F.C.S. Ltd",
@@ -974,47 +990,15 @@
    "url": "/producer/12654/barsiele_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
-   "lots": 2,
-   "tonnes": 2.0,
-   "bag": 402.27,
-   "kg": 8.05,
-   "aa_bag": 420.0,
-   "aa": 8.4,
-   "ab_bag": 389.0,
-   "ab": 7.78,
-   "vs_market": -3.4,
-   "last": "2026-01-13"
-  },
-  {
-   "name": "Barsiele FCS",
-   "url": "/producer/12441/barsiele_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 3,
-   "tonnes": 4.6,
-   "bag": 327.55,
-   "kg": 6.55,
-   "aa_bag": 340.0,
-   "aa": 6.8,
-   "ab_bag": 328.0,
-   "ab": 6.56,
-   "vs_market": 0.0,
-   "last": "2026-02-10"
-  },
-  {
-   "name": "Barsiele FCS",
-   "url": "/producer/12533/barsiele_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 5,
-   "tonnes": 3.3,
-   "bag": 248.79,
-   "kg": 4.98,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": 331.0,
-   "ab": 6.62,
-   "vs_market": 8.6,
+   "lots": 10,
+   "tonnes": 9.9,
+   "bag": 316.37,
+   "kg": 6.33,
+   "aa_bag": 379.22,
+   "aa": 7.58,
+   "ab_bag": 343.08,
+   "ab": 6.86,
+   "vs_market": 1.2,
    "last": "2026-04-21"
   },
   {
@@ -1082,7 +1066,7 @@
    "last": "2026-09-15"
   },
   {
-   "name": "Benedithestate",
+   "name": "Benedith Estate",
    "url": "/producer/12368/benedithestate/",
    "type": "Estate",
    "county": "",
@@ -1144,6 +1128,22 @@
    "ab": 6.4,
    "vs_market": 3.3,
    "last": "2026-04-28"
+  },
+  {
+   "name": "Beto Farm",
+   "url": "/producer/12991/beto_farm/",
+   "type": "Small estate",
+   "county": "Kiambu",
+   "lots": 2,
+   "tonnes": 1.2,
+   "bag": 320.44,
+   "kg": 6.41,
+   "aa_bag": null,
+   "aa": null,
+   "ab_bag": 320.44,
+   "ab": 6.41,
+   "vs_market": -0.4,
+   "last": "2026-03-17"
   },
   {
    "name": "Bidii",
@@ -1514,35 +1514,35 @@
    "last": "2026-11-03"
   },
   {
-   "name": "C. Ngandori",
-   "url": "/producer/12825/c_ngandori/",
-   "type": "Other",
-   "county": "",
-   "lots": 10,
-   "tonnes": 22.5,
-   "bag": 381.61,
-   "kg": 7.63,
-   "aa_bag": 409.29,
-   "aa": 8.19,
-   "ab_bag": 408.08,
-   "ab": 8.16,
-   "vs_market": 6.9,
+   "name": "C. Ngandori Kiini",
+   "url": "/producer/9296/kiini_factory_central_ngandori_fcs_ltd/",
+   "type": "Factory",
+   "county": "Embu",
+   "lots": 13,
+   "tonnes": 19.2,
+   "bag": 317.73,
+   "kg": 6.35,
+   "aa_bag": 335.06,
+   "aa": 6.7,
+   "ab_bag": 326.52,
+   "ab": 6.53,
+   "vs_market": 0.5,
    "last": "2026-04-21"
   },
   {
-   "name": "C. Ngandori",
-   "url": "/producer/12892/c_ngandori/",
-   "type": "Other",
-   "county": "",
-   "lots": 7,
-   "tonnes": 14.1,
-   "bag": 316.8,
-   "kg": 6.34,
-   "aa_bag": 346.53,
-   "aa": 6.93,
-   "ab_bag": 328.0,
-   "ab": 6.56,
-   "vs_market": 1.6,
+   "name": "C. Ngandori Mwiria",
+   "url": "/producer/9294/mwiria_factory/",
+   "type": "Factory",
+   "county": "Embu",
+   "lots": 19,
+   "tonnes": 34.7,
+   "bag": 365.35,
+   "kg": 7.31,
+   "aa_bag": 395.93,
+   "aa": 7.92,
+   "ab_bag": 372.83,
+   "ab": 7.46,
+   "vs_market": 6.2,
    "last": "2026-04-21"
   },
   {
@@ -1563,34 +1563,18 @@
   },
   {
    "name": "Chamchamo FCS",
-   "url": "/producer/12642/chamchamo_fcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 2,
-   "tonnes": 2.1,
-   "bag": 403.46,
-   "kg": 8.07,
-   "aa_bag": 409.0,
-   "aa": 8.18,
-   "ab_bag": 396.0,
-   "ab": 7.92,
-   "vs_market": -2.0,
-   "last": "2025-11-25"
-  },
-  {
-   "name": "Chamchamo FCS",
    "url": "/producer/12459/chamchamo_fcs/",
    "type": "Factory",
    "county": "Kericho",
-   "lots": 5,
-   "tonnes": 4.0,
-   "bag": 323.7,
-   "kg": 6.47,
-   "aa_bag": 318.37,
-   "aa": 6.37,
-   "ab_bag": 320.63,
-   "ab": 6.41,
-   "vs_market": -5.1,
+   "lots": 8,
+   "tonnes": 6.6,
+   "bag": 347.25,
+   "kg": 6.95,
+   "aa_bag": 358.47,
+   "aa": 7.17,
+   "ab_bag": 336.84,
+   "ab": 6.74,
+   "vs_market": -3.9,
    "last": "2026-10-27"
   },
   {
@@ -1626,7 +1610,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Chbarusfcs",
+   "name": "Chbarus FCS",
    "url": "/producer/12350/chbarusfcs/",
    "type": "Other",
    "county": "",
@@ -1642,23 +1626,7 @@
    "last": "2026-09-22"
   },
   {
-   "name": "Chebarusfcs",
-   "url": "/producer/12190/chebarusfcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 21,
-   "tonnes": 44.0,
-   "bag": 324.95,
-   "kg": 6.5,
-   "aa_bag": 402.34,
-   "aa": 8.05,
-   "ab_bag": 391.32,
-   "ab": 7.83,
-   "vs_market": -3.8,
-   "last": "2026-11-17"
-  },
-  {
-   "name": "Chebarusfcs",
+   "name": "Chebarus FCS",
    "url": "/producer/12167/chebarusfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -1672,6 +1640,22 @@
    "ab": 7.94,
    "vs_market": -2.5,
    "last": "2026-04-14"
+  },
+  {
+   "name": "Chebarus FCS Factory",
+   "url": "/producer/12190/chebarusfcs/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 21,
+   "tonnes": 44.0,
+   "bag": 324.95,
+   "kg": 6.5,
+   "aa_bag": 402.34,
+   "aa": 8.05,
+   "ab_bag": 391.32,
+   "ab": 7.83,
+   "vs_market": -3.8,
+   "last": "2026-11-17"
   },
   {
    "name": "Chebich F.C.S. Ltd",
@@ -1770,7 +1754,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Chelaloifcs",
+   "name": "Chelaloi FCS",
    "url": "/producer/12684/chelaloifcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -1898,19 +1882,19 @@
    "last": "2026-10-27"
   },
   {
-   "name": "Chepkinoiyofcs",
+   "name": "Chepkinoiyo FCS",
    "url": "/producer/12183/chepkinoiyofcs/",
    "type": "Factory",
    "county": "Kericho",
-   "lots": 8,
-   "tonnes": 19.8,
-   "bag": 374.6,
-   "kg": 7.49,
-   "aa_bag": 389.39,
-   "aa": 7.79,
-   "ab_bag": 376.65,
-   "ab": 7.53,
-   "vs_market": -1.7,
+   "lots": 14,
+   "tonnes": 37.0,
+   "bag": 378.38,
+   "kg": 7.57,
+   "aa_bag": 386.95,
+   "aa": 7.74,
+   "ab_bag": 380.8,
+   "ab": 7.62,
+   "vs_market": -3.2,
    "last": "2026-08-25"
   },
   {
@@ -2026,7 +2010,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Chepkukestate",
+   "name": "Chepkuk Estate",
    "url": "/producer/12236/chepkukestate/",
    "type": "Estate",
    "county": "",
@@ -2058,7 +2042,7 @@
    "last": "2025-12-16"
   },
   {
-   "name": "Chepkutbei Za020Cs",
+   "name": "Chepkutbei",
    "url": "/producer/12278/chepkutbei_za020cs/",
    "type": "Other",
    "county": "",
@@ -2218,7 +2202,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Cheribo factory",
+   "name": "Cheribo Factory",
    "url": "/producer/12095/cheribofactory/",
    "type": "Small estate",
    "county": "",
@@ -3034,7 +3018,7 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Elimofarm",
+   "name": "Elimo Farm",
    "url": "/producer/12210/elimofarm/",
    "type": "Small estate",
    "county": "",
@@ -3050,7 +3034,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Elimofarm",
+   "name": "Elimo Farm",
    "url": "/producer/12578/elimofarm/",
    "type": "Small estate",
    "county": "",
@@ -3066,7 +3050,7 @@
    "last": "2026-03-10"
   },
   {
-   "name": "Elimofarm",
+   "name": "Elimo Farm",
    "url": "/producer/12599/elimofarm/",
    "type": "Small estate",
    "county": "",
@@ -3530,22 +3514,6 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Gakui Factory (Gakundu)",
-   "url": "/producer/9302/gakui_factory_gakundu/",
-   "type": "Factory",
-   "county": "Embu",
-   "lots": 6,
-   "tonnes": 2.9,
-   "bag": 376.91,
-   "kg": 7.54,
-   "aa_bag": 409.0,
-   "aa": 8.18,
-   "ab_bag": 406.0,
-   "ab": 8.12,
-   "vs_market": 6.8,
-   "last": "2026-08-18"
-  },
-  {
    "name": "Gakui Factory?",
    "url": "/producer/8788/gakui_factory/",
    "type": "Factory",
@@ -3562,84 +3530,68 @@
    "last": "2026-09-22"
   },
   {
-   "name": "Gakundu Factory",
-   "url": "/producer/9299/gakundu_factory/",
+   "name": "Gakundu FCS Gakui",
+   "url": "/producer/9302/gakui_factory_gakundu/",
    "type": "Factory",
    "county": "Embu",
-   "lots": 20,
-   "tonnes": 29.8,
-   "bag": 312.24,
-   "kg": 6.24,
-   "aa_bag": 347.71,
-   "aa": 6.95,
-   "ab_bag": 363.71,
-   "ab": 7.27,
-   "vs_market": 4.8,
+   "lots": 17,
+   "tonnes": 13.5,
+   "bag": 353.89,
+   "kg": 7.08,
+   "aa_bag": 427.32,
+   "aa": 8.55,
+   "ab_bag": 401.1,
+   "ab": 8.02,
+   "vs_market": 5.9,
    "last": "2026-08-18"
   },
   {
-   "name": "Gakundu FCS",
-   "url": "/producer/12253/gakundu_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 12,
-   "tonnes": 17.8,
-   "bag": 329.41,
-   "kg": 6.59,
-   "aa_bag": 438.65,
-   "aa": 8.77,
-   "ab_bag": 404.68,
-   "ab": 8.09,
-   "vs_market": 2.3,
-   "last": "2026-04-21"
+   "name": "Gakundu FCS Gakundu",
+   "url": "/producer/9299/gakundu_factory/",
+   "type": "Factory",
+   "county": "Embu",
+   "lots": 34,
+   "tonnes": 58.8,
+   "bag": 347.11,
+   "kg": 6.94,
+   "aa_bag": 393.18,
+   "aa": 7.86,
+   "ab_bag": 369.39,
+   "ab": 7.39,
+   "vs_market": 4.3,
+   "last": "2026-08-18"
   },
   {
-   "name": "Gakundu FCS",
-   "url": "/producer/12252/gakundu_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 16,
-   "tonnes": 17.9,
-   "bag": 353.34,
-   "kg": 7.07,
-   "aa_bag": 416.69,
-   "aa": 8.33,
-   "ab_bag": 392.89,
-   "ab": 7.86,
-   "vs_market": 3.6,
-   "last": "2026-05-12"
+   "name": "Gakundu FCS Gichugu",
+   "url": "/producer/9301/gichugu_factory/",
+   "type": "Factory",
+   "county": "Embu",
+   "lots": 24,
+   "tonnes": 23.5,
+   "bag": 351.55,
+   "kg": 7.03,
+   "aa_bag": 399.98,
+   "aa": 8.0,
+   "ab_bag": 380.72,
+   "ab": 7.61,
+   "vs_market": 3.5,
+   "last": "2026-07-28"
   },
   {
-   "name": "Gakundu FCS",
-   "url": "/producer/12206/gakundu_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 14,
-   "tonnes": 29.1,
-   "bag": 382.82,
-   "kg": 7.66,
-   "aa_bag": 424.73,
-   "aa": 8.49,
-   "ab_bag": 372.84,
-   "ab": 7.46,
-   "vs_market": 3.9,
-   "last": "2026-03-31"
-  },
-  {
-   "name": "Gakundu FCS",
-   "url": "/producer/12310/gakundu_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 11,
-   "tonnes": 10.6,
-   "bag": 347.61,
-   "kg": 6.95,
-   "aa_bag": 429.26,
-   "aa": 8.59,
-   "ab_bag": 399.67,
-   "ab": 7.99,
-   "vs_market": 5.7,
-   "last": "2026-04-21"
+   "name": "Gakundu FCS Kamviu",
+   "url": "/producer/9300/kamviu_factory/",
+   "type": "Factory",
+   "county": "Embu",
+   "lots": 30,
+   "tonnes": 39.1,
+   "bag": 360.57,
+   "kg": 7.21,
+   "aa_bag": 438.76,
+   "aa": 8.78,
+   "ab_bag": 387.24,
+   "ab": 7.74,
+   "vs_market": 3.4,
+   "last": "2026-08-25"
   },
   {
    "name": "Gakungugugu Factory",
@@ -4488,22 +4440,6 @@
    "ab": 7.04,
    "vs_market": 4.7,
    "last": "2026-11-03"
-  },
-  {
-   "name": "Gichugu Factory",
-   "url": "/producer/9301/gichugu_factory/",
-   "type": "Factory",
-   "county": "Embu",
-   "lots": 8,
-   "tonnes": 5.6,
-   "bag": 345.76,
-   "kg": 6.92,
-   "aa_bag": 352.62,
-   "aa": 7.05,
-   "ab_bag": 348.8,
-   "ab": 6.98,
-   "vs_market": 3.0,
-   "last": "2026-07-28"
   },
   {
    "name": "Gichuka Factory",
@@ -5642,7 +5578,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Isukhafcs",
+   "name": "Isukha FCS",
    "url": "/producer/12470/isukhafcs/",
    "type": "Cooperative society",
    "county": "Bungoma",
@@ -5882,7 +5818,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Jasan farm",
+   "name": "Jasan Farm",
    "url": "/producer/10268/jasanfarm/",
    "type": "Small estate",
    "county": "",
@@ -6522,68 +6458,52 @@
    "last": "2026-02-10"
   },
   {
-   "name": "Kagaari N.FCS",
-   "url": "/producer/12409/kagaari_n_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 7,
-   "tonnes": 15.8,
-   "bag": 336.29,
-   "kg": 6.73,
-   "aa_bag": 333.0,
-   "aa": 6.66,
-   "ab_bag": 350.29,
-   "ab": 7.01,
-   "vs_market": 5.0,
-   "last": "2026-04-14"
-  },
-  {
-   "name": "Kagaari N.FCS",
-   "url": "/producer/12476/kagaari_n_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 11,
-   "tonnes": 22.9,
-   "bag": 294.41,
-   "kg": 5.89,
-   "aa_bag": 357.14,
-   "aa": 7.14,
-   "ab_bag": 336.97,
-   "ab": 6.74,
-   "vs_market": 0.3,
-   "last": "2026-04-14"
-  },
-  {
-   "name": "Kagaari N.FCS",
-   "url": "/producer/12483/kagaari_n_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 5,
-   "tonnes": 6.8,
-   "bag": 370.95,
-   "kg": 7.42,
-   "aa_bag": 408.0,
-   "aa": 8.16,
-   "ab_bag": 368.4,
-   "ab": 7.37,
-   "vs_market": 8.2,
-   "last": "2026-05-12"
-  },
-  {
-   "name": "Kagaari North FCS Kanja",
-   "url": "/producer/13221/kagaari_north_fcs_kanja/",
-   "type": "Cooperative society",
+   "name": "Kagaari N.FCS Kanja",
+   "url": "/producer/9329/kanja_factory/",
+   "type": "Factory",
    "county": "Embu",
-   "lots": 2,
-   "tonnes": 1.8,
-   "bag": 358.57,
-   "kg": 7.17,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": 368.0,
-   "ab": 7.36,
-   "vs_market": 5.7,
+   "lots": 31,
+   "tonnes": 55.9,
+   "bag": 317.12,
+   "kg": 6.34,
+   "aa_bag": 348.57,
+   "aa": 6.97,
+   "ab_bag": 333.9,
+   "ab": 6.68,
+   "vs_market": 1.0,
    "last": "2026-09-08"
+  },
+  {
+   "name": "Kagaari N.FCS Kathande",
+   "url": "/producer/9330/kathande_factory/",
+   "type": "Factory",
+   "county": "Embu",
+   "lots": 10,
+   "tonnes": 9.0,
+   "bag": 359.47,
+   "kg": 7.19,
+   "aa_bag": 396.73,
+   "aa": 7.93,
+   "ab_bag": 365.98,
+   "ab": 7.32,
+   "vs_market": 6.1,
+   "last": "2026-07-08"
+  },
+  {
+   "name": "Kagaari N.FCS Mbuinjeru",
+   "url": "/producer/9331/mbuinjeru_factory/",
+   "type": "Factory",
+   "county": "Embu",
+   "lots": 20,
+   "tonnes": 44.5,
+   "bag": 325.13,
+   "kg": 6.5,
+   "aa_bag": 339.98,
+   "aa": 6.8,
+   "ab_bag": 345.03,
+   "ab": 6.9,
+   "vs_market": 2.7,
+   "last": "2026-04-14"
   },
   {
    "name": "Kaganda Factory",
@@ -7482,22 +7402,6 @@
    "last": "2026-09-01"
   },
   {
-   "name": "Kamviu Factory",
-   "url": "/producer/9300/kamviu_factory/",
-   "type": "Factory",
-   "county": "Embu",
-   "lots": 18,
-   "tonnes": 21.3,
-   "bag": 386.56,
-   "kg": 7.73,
-   "aa_bag": 438.83,
-   "aa": 8.78,
-   "ab_bag": 376.64,
-   "ab": 7.53,
-   "vs_market": 4.3,
-   "last": "2026-08-25"
-  },
-  {
    "name": "Kamwaki",
    "url": "/producer/7481/kamwaki/",
    "type": "Small estate",
@@ -7530,23 +7434,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kamweisokfcs",
-   "url": "/producer/12201/kamweisokfcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 12,
-   "tonnes": 26.9,
-   "bag": 277.96,
-   "kg": 5.56,
-   "aa_bag": 420.0,
-   "aa": 8.4,
-   "ab_bag": 386.89,
-   "ab": 7.74,
-   "vs_market": -8.3,
-   "last": "2026-08-04"
-  },
-  {
-   "name": "Kamweisokfcs",
+   "name": "Kamweisok FCS",
    "url": "/producer/12255/kamweisokfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -7560,6 +7448,22 @@
    "ab": 7.63,
    "vs_market": -4.0,
    "last": "2025-12-16"
+  },
+  {
+   "name": "Kamweisok FCS Factory",
+   "url": "/producer/12201/kamweisokfcs/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 12,
+   "tonnes": 26.9,
+   "bag": 277.96,
+   "kg": 5.56,
+   "aa_bag": 420.0,
+   "aa": 8.4,
+   "ab_bag": 386.89,
+   "ab": 7.74,
+   "vs_market": -8.3,
+   "last": "2026-08-04"
   },
   {
    "name": "Kanake Factory",
@@ -7672,22 +7576,6 @@
    "ab": 7.79,
    "vs_market": 1.6,
    "last": "2026-08-04"
-  },
-  {
-   "name": "Kanja Factory",
-   "url": "/producer/9329/kanja_factory/",
-   "type": "Factory",
-   "county": "Embu",
-   "lots": 17,
-   "tonnes": 30.8,
-   "bag": 330.82,
-   "kg": 6.62,
-   "aa_bag": 345.28,
-   "aa": 6.91,
-   "ab_bag": 328.46,
-   "ab": 6.57,
-   "vs_market": 1.2,
-   "last": "2026-04-14"
   },
   {
    "name": "Kanjahi Factory",
@@ -7851,34 +7739,18 @@
   },
   {
    "name": "Kapchokaa FCS",
-   "url": "/producer/12800/kapchokaa_fcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 2,
-   "tonnes": 1.2,
-   "bag": 400.85,
-   "kg": 8.02,
-   "aa_bag": 406.0,
-   "aa": 8.12,
-   "ab_bag": 396.0,
-   "ab": 7.92,
-   "vs_market": -2.3,
-   "last": "2025-11-25"
-  },
-  {
-   "name": "Kapchokaa FCS",
    "url": "/producer/12227/kapchokaa_fcs/",
    "type": "Factory",
    "county": "Kericho",
-   "lots": 19,
-   "tonnes": 16.6,
-   "bag": 349.91,
-   "kg": 7.0,
-   "aa_bag": 386.45,
-   "aa": 7.73,
-   "ab_bag": 349.78,
-   "ab": 7.0,
-   "vs_market": -1.0,
+   "lots": 25,
+   "tonnes": 23.6,
+   "bag": 347.5,
+   "kg": 6.95,
+   "aa_bag": 375.57,
+   "aa": 7.51,
+   "ab_bag": 348.16,
+   "ab": 6.96,
+   "vs_market": -0.4,
    "last": "2026-10-27"
   },
   {
@@ -7978,7 +7850,7 @@
    "last": "2026-03-24"
   },
   {
-   "name": "Kapkener Fcs",
+   "name": "Kapkener FCS",
    "url": "/producer/9601/kapkener_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -8202,7 +8074,7 @@
    "last": "2025-11-25"
   },
   {
-   "name": "Kapram FCS",
+   "name": "Kapram FCS Factory",
    "url": "/producer/12709/kapram_fcs/",
    "type": "Factory",
    "county": "",
@@ -8971,7 +8843,7 @@
   },
   {
    "name": "Karurumo",
-   "url": "/producer/12572/karurumo/",
+   "url": "/producer/12772/karurumo/",
    "type": "Factory",
    "county": "Murang'a",
    "lots": 1,
@@ -9051,22 +8923,6 @@
   },
   {
    "name": "Kasach",
-   "url": "/producer/12211/kasach/",
-   "type": "Factory",
-   "county": "",
-   "lots": 20,
-   "tonnes": 19.9,
-   "bag": 359.06,
-   "kg": 7.18,
-   "aa_bag": 389.96,
-   "aa": 7.8,
-   "ab_bag": 375.06,
-   "ab": 7.5,
-   "vs_market": -3.1,
-   "last": "2026-03-24"
-  },
-  {
-   "name": "Kasach",
    "url": "/producer/12627/kasach/",
    "type": "Other",
    "county": "",
@@ -9082,7 +8938,23 @@
    "last": "2025-12-16"
   },
   {
-   "name": "Kasach",
+   "name": "Kasach Factory",
+   "url": "/producer/12211/kasach/",
+   "type": "Factory",
+   "county": "",
+   "lots": 20,
+   "tonnes": 19.9,
+   "bag": 359.06,
+   "kg": 7.18,
+   "aa_bag": 389.96,
+   "aa": 7.8,
+   "ab_bag": 375.06,
+   "ab": 7.5,
+   "vs_market": -3.1,
+   "last": "2026-03-24"
+  },
+  {
+   "name": "Kasach FCS",
    "url": "/producer/12274/kasach/",
    "type": "Cooperative society",
    "county": "",
@@ -9176,22 +9048,6 @@
    "ab": 7.76,
    "vs_market": 5.3,
    "last": "2026-09-15"
-  },
-  {
-   "name": "Kathande Factory",
-   "url": "/producer/9330/kathande_factory/",
-   "type": "Factory",
-   "county": "Embu",
-   "lots": 5,
-   "tonnes": 2.2,
-   "bag": 324.04,
-   "kg": 6.48,
-   "aa_bag": 369.0,
-   "aa": 7.38,
-   "ab_bag": 344.0,
-   "ab": 6.88,
-   "vs_market": -0.9,
-   "last": "2026-07-08"
   },
   {
    "name": "Kathangariri Factory",
@@ -9755,18 +9611,18 @@
   },
   {
    "name": "Kesgo FCS",
-   "url": "/producer/12524/kesgo_fcs/",
+   "url": "/producer/12934/kesgo_fcs/",
    "type": "Cooperative society",
    "county": "",
-   "lots": 5,
-   "tonnes": 3.4,
-   "bag": 331.66,
-   "kg": 6.63,
-   "aa_bag": 335.0,
-   "aa": 6.7,
-   "ab_bag": 336.85,
-   "ab": 6.74,
-   "vs_market": 3.0,
+   "lots": 9,
+   "tonnes": 4.9,
+   "bag": 353.86,
+   "kg": 7.08,
+   "aa_bag": 378.63,
+   "aa": 7.57,
+   "ab_bag": 351.51,
+   "ab": 7.03,
+   "vs_market": 1.2,
    "last": "2026-11-03"
   },
   {
@@ -9834,7 +9690,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Khachongefcs",
+   "name": "Khachonge FCS",
    "url": "/producer/12361/khachongefcs/",
    "type": "Cooperative society",
    "county": "Bungoma",
@@ -10814,31 +10670,15 @@
    "url": "/producer/9564/kichawir_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
-   "lots": 2,
-   "tonnes": 2.0,
-   "bag": 316.52,
-   "kg": 6.33,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": null,
-   "ab": null,
-   "vs_market": 2.8,
-   "last": "2026-10-06"
-  },
-  {
-   "name": "Kichawir FCS",
-   "url": "/producer/12700/kichawir_fcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 1,
-   "tonnes": 1.7,
-   "bag": 350.0,
-   "kg": 7.0,
+   "lots": 3,
+   "tonnes": 3.7,
+   "bag": 331.71,
+   "kg": 6.63,
    "aa_bag": 350.0,
    "aa": 7.0,
    "ab_bag": null,
    "ab": null,
-   "vs_market": 1.9,
+   "vs_market": 2.4,
    "last": "2026-10-06"
   },
   {
@@ -11066,22 +10906,6 @@
    "last": "2026-11-03"
   },
   {
-   "name": "Kiini Factory (Central Ngandori F.C.S. Ltd)",
-   "url": "/producer/9296/kiini_factory_central_ngandori_fcs_ltd/",
-   "type": "Factory",
-   "county": "Embu",
-   "lots": 6,
-   "tonnes": 5.1,
-   "bag": 320.29,
-   "kg": 6.41,
-   "aa_bag": 320.37,
-   "aa": 6.41,
-   "ab_bag": 314.0,
-   "ab": 6.28,
-   "vs_market": -2.5,
-   "last": "2026-03-31"
-  },
-  {
    "name": "Kiini Factory (Kiini F.C.S. Ltd)",
    "url": "/producer/9284/kiini_factory_kiini_fcs_ltd/",
    "type": "Factory",
@@ -11210,7 +11034,7 @@
    "last": "2026-01-06"
   },
   {
-   "name": "Kimabole",
+   "name": "Kimabole Factory",
    "url": "/producer/9746/kimabole/",
    "type": "Factory",
    "county": "Bungoma",
@@ -11434,8 +11258,8 @@
    "last": "2026-01-13"
   },
   {
-   "name": "Kimolwuetfcs",
-   "url": "/producer/12491/kimolwuetfcs/",
+   "name": "Kimolwuet FCS",
+   "url": "/producer/12632/kimolwuetfcs/",
    "type": "Other",
    "county": "",
    "lots": 4,
@@ -11787,22 +11611,6 @@
   },
   {
    "name": "Kipsielei",
-   "url": "/producer/12197/kipsielei/",
-   "type": "Factory",
-   "county": "",
-   "lots": 20,
-   "tonnes": 38.4,
-   "bag": 375.27,
-   "kg": 7.51,
-   "aa_bag": 390.63,
-   "aa": 7.81,
-   "ab_bag": 370.51,
-   "ab": 7.41,
-   "vs_market": 1.0,
-   "last": "2026-10-27"
-  },
-  {
-   "name": "Kipsielei",
    "url": "/producer/12243/kipsielei/",
    "type": "Cooperative society",
    "county": "",
@@ -11816,6 +11624,22 @@
    "ab": 7.78,
    "vs_market": 3.5,
    "last": "2026-11-10"
+  },
+  {
+   "name": "Kipsielei Factory",
+   "url": "/producer/12197/kipsielei/",
+   "type": "Factory",
+   "county": "",
+   "lots": 20,
+   "tonnes": 38.4,
+   "bag": 375.27,
+   "kg": 7.51,
+   "aa_bag": 390.63,
+   "aa": 7.81,
+   "ab_bag": 370.51,
+   "ab": 7.41,
+   "vs_market": 1.0,
+   "last": "2026-10-27"
   },
   {
    "name": "Kipsinende Factory",
@@ -11834,7 +11658,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Kipsinende FCS",
+   "name": "Kipsinende FCS Factory",
    "url": "/producer/12338/kipsinende_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -12298,7 +12122,7 @@
    "last": "2026-05-12"
   },
   {
-   "name": "Kirwirwofarm",
+   "name": "Kirwirwo Farm",
    "url": "/producer/8212/kirwirwofarm/",
    "type": "Small estate",
    "county": "Meru",
@@ -12666,7 +12490,7 @@
    "last": "2026-03-24"
   },
   {
-   "name": "Kivingafarm",
+   "name": "Kivinga Farm",
    "url": "/producer/12340/kivingafarm/",
    "type": "Small estate",
    "county": "Machakos",
@@ -12714,7 +12538,7 @@
    "last": "2026-07-08"
   },
   {
-   "name": "Kobosfarm",
+   "name": "Kobos Farm",
    "url": "/producer/8363/kobosfarm/",
    "type": "Small estate",
    "county": "Trans Nzoia",
@@ -12922,19 +12746,19 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Kondamaketfcs",
+   "name": "Kondamaket FCS",
    "url": "/producer/12261/kondamaketfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
-   "lots": 3,
-   "tonnes": 11.2,
-   "bag": 245.92,
-   "kg": 4.92,
-   "aa_bag": 292.0,
-   "aa": 5.84,
-   "ab_bag": null,
-   "ab": null,
-   "vs_market": -21.0,
+   "lots": 7,
+   "tonnes": 24.7,
+   "bag": 314.89,
+   "kg": 6.3,
+   "aa_bag": 325.98,
+   "aa": 6.52,
+   "ab_bag": 375.0,
+   "ab": 7.5,
+   "vs_market": -11.8,
    "last": "2026-03-03"
   },
   {
@@ -13322,7 +13146,7 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Kyetafarm",
+   "name": "Kyeta Farm",
    "url": "/producer/12843/kyetafarm/",
    "type": "Small estate",
    "county": "Machakos",
@@ -13354,52 +13178,36 @@
    "last": "2026-02-17"
   },
   {
-   "name": "Labataiestate",
+   "name": "Labatai Estate",
    "url": "/producer/12173/labataiestate/",
    "type": "Estate",
    "county": "",
-   "lots": 17,
-   "tonnes": 50.6,
-   "bag": 253.94,
-   "kg": 5.08,
+   "lots": 15,
+   "tonnes": 51.1,
+   "bag": 265.29,
+   "kg": 5.31,
    "aa_bag": 377.0,
    "aa": 7.54,
    "ab_bag": 366.25,
    "ab": 7.33,
-   "vs_market": -2.8,
+   "vs_market": -0.3,
    "last": "2026-10-21"
   },
   {
-   "name": "Labataiestate",
+   "name": "Labatai Estate",
    "url": "/producer/12168/labataiestate/",
    "type": "Estate",
    "county": "",
-   "lots": 11,
-   "tonnes": 46.7,
-   "bag": 268.44,
-   "kg": 5.37,
+   "lots": 6,
+   "tonnes": 30.5,
+   "bag": 264.5,
+   "kg": 5.29,
    "aa_bag": 301.0,
    "aa": 6.02,
    "ab_bag": 287.0,
    "ab": 5.74,
-   "vs_market": -5.1,
+   "vs_market": -8.2,
    "last": "2026-02-10"
-  },
-  {
-   "name": "Labataiestate",
-   "url": "/producer/12389/labataiestate/",
-   "type": "Estate",
-   "county": "",
-   "lots": 1,
-   "tonnes": 6.0,
-   "bag": 295.0,
-   "kg": 5.9,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": null,
-   "ab": null,
-   "vs_market": 5.2,
-   "last": "2026-01-13"
   },
   {
    "name": "Laboso Estate",
@@ -13466,7 +13274,7 @@
    "last": "2026-01-06"
   },
   {
-   "name": "Lamaiyat FCS",
+   "name": "Lamaiyat FCS Factory",
    "url": "/producer/12184/lamaiyat_fcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -13546,23 +13354,7 @@
    "last": "2026-04-21"
   },
   {
-   "name": "Leldet",
-   "url": "/producer/12425/leldet/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 3,
-   "tonnes": 4.3,
-   "bag": 395.21,
-   "kg": 7.9,
-   "aa_bag": 409.0,
-   "aa": 8.18,
-   "ab_bag": 386.0,
-   "ab": 7.72,
-   "vs_market": -1.9,
-   "last": "2025-12-16"
-  },
-  {
-   "name": "Leldet",
+   "name": "Leldet 1",
    "url": "/producer/12251/leldet/",
    "type": "Factory",
    "county": "Kericho",
@@ -13576,6 +13368,22 @@
    "ab": 7.24,
    "vs_market": -2.8,
    "last": "2026-03-03"
+  },
+  {
+   "name": "Leldet 2",
+   "url": "/producer/12425/leldet/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 3,
+   "tonnes": 4.3,
+   "bag": 395.21,
+   "kg": 7.9,
+   "aa_bag": 409.0,
+   "aa": 8.18,
+   "ab_bag": 386.0,
+   "ab": 7.72,
+   "vs_market": -1.9,
+   "last": "2025-12-16"
   },
   {
    "name": "Lelgaa",
@@ -14250,7 +14058,7 @@
    "last": "2026-09-22"
   },
   {
-   "name": "Malakwenestate",
+   "name": "Malakwen Estate",
    "url": "/producer/12557/malakwenestate/",
    "type": "Estate",
    "county": "",
@@ -14266,7 +14074,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Malkaroqafarm",
+   "name": "Malkaroqa Farm",
    "url": "/producer/12258/malkaroqafarm/",
    "type": "Small estate",
    "county": "Trans Nzoia",
@@ -14282,7 +14090,7 @@
    "last": "2026-04-14"
   },
   {
-   "name": "Malkaroqafarm",
+   "name": "Malkaroqa Farm",
    "url": "/producer/12574/malkaroqafarm/",
    "type": "Small estate",
    "county": "Trans Nzoia",
@@ -14666,7 +14474,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Masindetfcs",
+   "name": "Masindet FCS",
    "url": "/producer/12571/masindetfcs/",
    "type": "Small estate",
    "county": "",
@@ -14682,7 +14490,7 @@
    "last": "2026-02-03"
   },
   {
-   "name": "Masokanifcs",
+   "name": "Masokani FCS",
    "url": "/producer/13218/masokanifcs/",
    "type": "Factory",
    "county": "Machakos",
@@ -15048,22 +14856,6 @@
    "ab": 6.68,
    "vs_market": 12.4,
    "last": "2026-07-08"
-  },
-  {
-   "name": "Mbuinjeru Factory",
-   "url": "/producer/9331/mbuinjeru_factory/",
-   "type": "Factory",
-   "county": "Embu",
-   "lots": 13,
-   "tonnes": 28.8,
-   "bag": 319.01,
-   "kg": 6.38,
-   "aa_bag": 341.01,
-   "aa": 6.82,
-   "ab_bag": 339.14,
-   "ab": 6.78,
-   "vs_market": 1.4,
-   "last": "2026-04-14"
   },
   {
    "name": "Mbululu",
@@ -16010,7 +15802,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Mugaaestate",
+   "name": "Mugaa Estate",
    "url": "/producer/12645/mugaaestate/",
    "type": "Estate",
    "county": "",
@@ -16122,7 +15914,7 @@
    "last": "2026-10-21"
   },
   {
-   "name": "Mugumonexestate",
+   "name": "Mugumonex Estate",
    "url": "/producer/12541/mugumonexestate/",
    "type": "Estate",
    "county": "Kisii",
@@ -16475,18 +16267,18 @@
   },
   {
    "name": "Mulwet Estate",
-   "url": "/producer/8415/mulwet_estate/",
-   "type": "Small estate",
+   "url": "/producer/13226/mulwet_estate/",
+   "type": "Estate",
    "county": "Kericho",
-   "lots": 31,
-   "tonnes": 18.7,
-   "bag": 287.88,
-   "kg": 5.76,
-   "aa_bag": 338.4,
-   "aa": 6.77,
-   "ab_bag": 280.79,
-   "ab": 5.62,
-   "vs_market": -17.8,
+   "lots": 33,
+   "tonnes": 19.6,
+   "bag": 290.79,
+   "kg": 5.82,
+   "aa_bag": 339.77,
+   "aa": 6.8,
+   "ab_bag": 284.4,
+   "ab": 5.69,
+   "vs_market": -17.1,
    "last": "2026-11-17"
   },
   {
@@ -16602,7 +16394,7 @@
    "last": "2026-10-06"
   },
   {
-   "name": "Murage estate",
+   "name": "Murage Estate",
    "url": "/producer/8136/murage_estate/",
    "type": "Small estate",
    "county": "Kirinyaga",
@@ -16635,22 +16427,6 @@
   },
   {
    "name": "Muratit",
-   "url": "/producer/12169/muratit/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 42,
-   "tonnes": 83.0,
-   "bag": 339.34,
-   "kg": 6.79,
-   "aa_bag": 383.95,
-   "aa": 7.68,
-   "ab_bag": 350.58,
-   "ab": 7.01,
-   "vs_market": 0.3,
-   "last": "2026-11-17"
-  },
-  {
-   "name": "Muratit",
    "url": "/producer/12564/muratit/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -16664,6 +16440,22 @@
    "ab": null,
    "vs_market": 5.0,
    "last": "2026-10-21"
+  },
+  {
+   "name": "Muratit Factory",
+   "url": "/producer/12169/muratit/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 42,
+   "tonnes": 83.0,
+   "bag": 339.34,
+   "kg": 6.79,
+   "aa_bag": 383.95,
+   "aa": 7.68,
+   "ab_bag": 350.58,
+   "ab": 7.01,
+   "vs_market": 0.3,
+   "last": "2026-11-17"
   },
   {
    "name": "Murichia Factory",
@@ -17194,7 +16986,7 @@
    "last": "2026-09-22"
   },
   {
-   "name": "Mutua& Sonsfarm",
+   "name": "Mutua& Sons Farm",
    "url": "/producer/12477/mutua_sonsfarm/",
    "type": "Small estate",
    "county": "Machakos",
@@ -17290,7 +17082,7 @@
    "last": "2026-04-14"
   },
   {
-   "name": "Muu farm",
+   "name": "Muu Farm",
    "url": "/producer/7781/muu_farm/",
    "type": "Small estate",
    "county": "Kiambu",
@@ -17466,7 +17258,7 @@
    "last": "2026-08-18"
   },
   {
-   "name": "Mwiboini farm",
+   "name": "Mwiboini Farm",
    "url": "/producer/12087/mwiboinifarm/",
    "type": "Small estate",
    "county": "",
@@ -17480,22 +17272,6 @@
    "ab": 7.1,
    "vs_market": 6.6,
    "last": "2026-05-12"
-  },
-  {
-   "name": "Mwiria Factory",
-   "url": "/producer/9294/mwiria_factory/",
-   "type": "Factory",
-   "county": "Embu",
-   "lots": 9,
-   "tonnes": 12.2,
-   "bag": 335.49,
-   "kg": 6.71,
-   "aa_bag": 350.61,
-   "aa": 7.01,
-   "ab_bag": 333.28,
-   "ab": 6.67,
-   "vs_market": 4.9,
-   "last": "2026-04-14"
   },
   {
    "name": "Mwirithe Factory",
@@ -17594,7 +17370,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Nabisembefcs",
+   "name": "Nabisembe FCS",
    "url": "/producer/12449/nabisembefcs/",
    "type": "Other",
    "county": "",
@@ -18378,6 +18154,22 @@
    "last": "2026-10-06"
   },
   {
+   "name": "Newcheskaki FCS",
+   "url": "/producer/13242/newcheskaki_fcs/",
+   "type": "Factory",
+   "county": "Bungoma",
+   "lots": 68,
+   "tonnes": 90.4,
+   "bag": 328.47,
+   "kg": 6.57,
+   "aa_bag": 346.42,
+   "aa": 6.93,
+   "ab_bag": 328.79,
+   "ab": 6.58,
+   "vs_market": -3.0,
+   "last": "2026-11-17"
+  },
+  {
    "name": "Ng'Arua Farm",
    "url": "/producer/12273/ng_arua_farm/",
    "type": "Small estate",
@@ -18714,6 +18506,22 @@
    "last": "2026-11-10"
   },
   {
+   "name": "Ngoino Factory",
+   "url": "/producer/12179/ngoinofcs/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 41,
+   "tonnes": 62.2,
+   "bag": 327.29,
+   "kg": 6.55,
+   "aa_bag": 371.48,
+   "aa": 7.43,
+   "ab_bag": 366.65,
+   "ab": 7.33,
+   "vs_market": -0.5,
+   "last": "2026-11-17"
+  },
+  {
    "name": "Ngoino FCS",
    "url": "/producer/12733/ngoino_fcs/",
    "type": "Factory",
@@ -18744,22 +18552,6 @@
    "ab": 6.84,
    "vs_market": -1.8,
    "last": "2026-09-01"
-  },
-  {
-   "name": "Ngoinofcs",
-   "url": "/producer/12179/ngoinofcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 40,
-   "tonnes": 61.8,
-   "bag": 328.47,
-   "kg": 6.57,
-   "aa_bag": 371.48,
-   "aa": 7.43,
-   "ab_bag": 366.65,
-   "ab": 7.33,
-   "vs_market": -0.5,
-   "last": "2026-11-17"
   },
   {
    "name": "Ngomano F.C.S. Ltd",
@@ -19210,7 +19002,7 @@
    "last": "2026-05-12"
   },
   {
-   "name": "Ntamichio estate",
+   "name": "Ntamichio Estate",
    "url": "/producer/8185/ntamichio_estate/",
    "type": "Small estate",
    "county": "Meru",
@@ -19342,16 +19134,16 @@
    "url": "/producer/12790/nukiat_fcs/",
    "type": "Factory",
    "county": "",
-   "lots": 2,
-   "tonnes": 1.3,
-   "bag": 313.52,
-   "kg": 6.27,
-   "aa_bag": null,
-   "aa": null,
+   "lots": 3,
+   "tonnes": 1.7,
+   "bag": 311.49,
+   "kg": 6.23,
+   "aa_bag": 304.0,
+   "aa": 6.08,
    "ab_bag": 313.52,
    "ab": 6.27,
-   "vs_market": -3.1,
-   "last": "2026-03-03"
+   "vs_market": -4.2,
+   "last": "2026-03-17"
   },
   {
    "name": "Nyabikondo F.C.S. Ltd",
@@ -20443,35 +20235,19 @@
   },
   {
    "name": "Pilipili Foxes",
-   "url": "/producer/12182/pilipili_foxes/",
-   "type": "Other",
-   "county": "",
-   "lots": 53,
-   "tonnes": 61.8,
-   "bag": 336.68,
-   "kg": 6.73,
-   "aa_bag": 358.94,
-   "aa": 7.18,
-   "ab_bag": 343.64,
-   "ab": 6.87,
-   "vs_market": 0.2,
-   "last": "2026-11-17"
-  },
-  {
-   "name": "Pilipili Foxes",
    "url": "/producer/12463/pilipili_foxes/",
    "type": "Other",
    "county": "",
-   "lots": 2,
-   "tonnes": 4.2,
-   "bag": 338.92,
-   "kg": 6.78,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": 346.0,
-   "ab": 6.92,
-   "vs_market": 4.2,
-   "last": "2026-09-22"
+   "lots": 55,
+   "tonnes": 66.1,
+   "bag": 336.83,
+   "kg": 6.74,
+   "aa_bag": 358.94,
+   "aa": 7.18,
+   "ab_bag": 343.87,
+   "ab": 6.88,
+   "vs_market": 0.5,
+   "last": "2026-11-17"
   },
   {
    "name": "Pk Farm",
@@ -21194,7 +20970,7 @@
    "last": "2026-04-14"
   },
   {
-   "name": "Ruiyobeifcs",
+   "name": "Ruiyobei FCS",
    "url": "/producer/12458/ruiyobeifcs/",
    "type": "Small estate",
    "county": "",
@@ -21562,7 +21338,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Sach Angwan Coffeeestate",
+   "name": "Sach Angwan Coffee Estate",
    "url": "/producer/12404/sach_angwan_coffeeestate/",
    "type": "Estate",
    "county": "",
@@ -22074,7 +21850,7 @@
    "last": "2026-03-03"
   },
   {
-   "name": "Sikhendu FCS Cs",
+   "name": "Sikhendu FCS",
    "url": "/producer/12751/sikhendu_fcs_cs/",
    "type": "Cooperative society",
    "county": "",
@@ -22138,7 +21914,7 @@
    "last": "2026-02-03"
   },
   {
-   "name": "Sinaiestate",
+   "name": "Sinai Estate",
    "url": "/producer/12286/sinaiestate/",
    "type": "Estate",
    "county": "Machakos",
@@ -22363,22 +22139,6 @@
   },
   {
    "name": "Soimoi FCS",
-   "url": "/producer/12172/soimoi_fcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 61,
-   "tonnes": 66.6,
-   "bag": 345.12,
-   "kg": 6.9,
-   "aa_bag": 362.14,
-   "aa": 7.24,
-   "ab_bag": 359.87,
-   "ab": 7.2,
-   "vs_market": -0.3,
-   "last": "2026-11-17"
-  },
-  {
-   "name": "Soimoi FCS",
    "url": "/producer/12372/soimoi_fcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -22392,6 +22152,22 @@
    "ab": 6.88,
    "vs_market": 2.1,
    "last": "2026-10-21"
+  },
+  {
+   "name": "Soimoi FCS Factory",
+   "url": "/producer/12172/soimoi_fcs/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 61,
+   "tonnes": 66.6,
+   "bag": 345.12,
+   "kg": 6.9,
+   "aa_bag": 362.14,
+   "aa": 7.24,
+   "ab_bag": 359.87,
+   "ab": 7.2,
+   "vs_market": -0.3,
+   "last": "2026-11-17"
   },
   {
    "name": "Soiyet FCS",
@@ -22542,31 +22318,15 @@
    "url": "/producer/12269/speciality/",
    "type": "Small estate",
    "county": "Kiambu",
-   "lots": 8,
-   "tonnes": 4.7,
-   "bag": 339.53,
-   "kg": 6.79,
+   "lots": 12,
+   "tonnes": 6.6,
+   "bag": 320.82,
+   "kg": 6.42,
    "aa_bag": 368.93,
    "aa": 7.38,
-   "ab_bag": 346.95,
-   "ab": 6.94,
-   "vs_market": -9.5,
-   "last": "2025-12-16"
-  },
-  {
-   "name": "Speciality",
-   "url": "/producer/12668/speciality/",
-   "type": "Small estate",
-   "county": "Kiambu",
-   "lots": 4,
-   "tonnes": 1.9,
-   "bag": 275.39,
-   "kg": 5.51,
-   "aa_bag": null,
-   "aa": null,
-   "ab_bag": 309.0,
-   "ab": 6.18,
-   "vs_market": -1.2,
+   "ab_bag": 337.48,
+   "ab": 6.75,
+   "vs_market": -7.6,
    "last": "2026-02-24"
   },
   {
@@ -22766,31 +22526,15 @@
    "url": "/producer/12218/sylvanus_sang/",
    "type": "Small estate",
    "county": "",
-   "lots": 35,
-   "tonnes": 21.3,
-   "bag": 360.36,
-   "kg": 7.21,
-   "aa_bag": 381.86,
-   "aa": 7.64,
-   "ab_bag": 359.4,
-   "ab": 7.19,
-   "vs_market": -0.2,
-   "last": "2026-10-21"
-  },
-  {
-   "name": "Sylvanus Sang",
-   "url": "/producer/12611/sylvanus_sang/",
-   "type": "Small estate",
-   "county": "",
-   "lots": 3,
-   "tonnes": 2.3,
-   "bag": 335.91,
-   "kg": 6.72,
-   "aa_bag": 347.0,
-   "aa": 6.94,
-   "ab_bag": 339.0,
-   "ab": 6.78,
-   "vs_market": 4.1,
+   "lots": 39,
+   "tonnes": 24.4,
+   "bag": 359.77,
+   "kg": 7.2,
+   "aa_bag": 383.62,
+   "aa": 7.67,
+   "ab_bag": 357.3,
+   "ab": 7.15,
+   "vs_market": 0.1,
    "last": "2026-11-03"
   },
   {
@@ -22922,7 +22666,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Taunetfcs",
+   "name": "Taunet FCS",
    "url": "/producer/12284/taunetfcs/",
    "type": "Factory",
    "county": "Kericho",
@@ -22938,7 +22682,7 @@
    "last": "2026-03-10"
   },
   {
-   "name": "Taunetfcs",
+   "name": "Taunet FCS",
    "url": "/producer/12435/taunetfcs/",
    "type": "Other",
    "county": "",
@@ -22986,7 +22730,7 @@
    "last": "2026-11-17"
   },
   {
-   "name": "Tebesonikfcs",
+   "name": "Tebesonik FCS",
    "url": "/producer/12245/tebesonikfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -23690,7 +23434,7 @@
    "last": "2026-07-21"
   },
   {
-   "name": "Trinto coffee estate",
+   "name": "Trinto coffee Estate",
    "url": "/producer/8189/trinto_coffee_estate/",
    "type": "Small estate",
    "county": "Meru",
@@ -23722,23 +23466,7 @@
    "last": "2026-11-10"
   },
   {
-   "name": "Tuiyobeekfcs",
-   "url": "/producer/12290/tuiyobeekfcs/",
-   "type": "Factory",
-   "county": "Kericho",
-   "lots": 7,
-   "tonnes": 6.2,
-   "bag": 320.47,
-   "kg": 6.41,
-   "aa_bag": 399.0,
-   "aa": 7.98,
-   "ab_bag": 266.68,
-   "ab": 5.33,
-   "vs_market": -19.2,
-   "last": "2025-12-16"
-  },
-  {
-   "name": "Tuiyobeekfcs",
+   "name": "Tuiyobeek FCS",
    "url": "/producer/12225/tuiyobeekfcs/",
    "type": "Cooperative society",
    "county": "Kericho",
@@ -23752,6 +23480,22 @@
    "ab": 7.03,
    "vs_market": -2.4,
    "last": "2026-11-17"
+  },
+  {
+   "name": "Tuiyobeek FCS Factory",
+   "url": "/producer/12290/tuiyobeekfcs/",
+   "type": "Factory",
+   "county": "Kericho",
+   "lots": 7,
+   "tonnes": 6.2,
+   "bag": 320.47,
+   "kg": 6.41,
+   "aa_bag": 399.0,
+   "aa": 7.98,
+   "ab_bag": 266.68,
+   "ab": 5.33,
+   "vs_market": -19.2,
+   "last": "2025-12-16"
   },
   {
    "name": "Tuiyogaa",
@@ -24123,22 +23867,6 @@
   },
   {
    "name": "Uzone FCS",
-   "url": "/producer/12312/uzone_fcs/",
-   "type": "Cooperative society",
-   "county": "",
-   "lots": 9,
-   "tonnes": 10.4,
-   "bag": 303.9,
-   "kg": 6.08,
-   "aa_bag": 331.66,
-   "aa": 6.63,
-   "ab_bag": 321.37,
-   "ab": 6.43,
-   "vs_market": -3.2,
-   "last": "2026-07-08"
-  },
-  {
-   "name": "Uzone FCS Cs",
    "url": "/producer/12403/uzone_fcs_cs/",
    "type": "Cooperative society",
    "county": "",
@@ -24152,6 +23880,22 @@
    "ab": 7.92,
    "vs_market": -1.7,
    "last": "2026-01-06"
+  },
+  {
+   "name": "Uzone FCS",
+   "url": "/producer/12312/uzone_fcs/",
+   "type": "Cooperative society",
+   "county": "",
+   "lots": 9,
+   "tonnes": 10.4,
+   "bag": 303.9,
+   "kg": 6.08,
+   "aa_bag": 331.66,
+   "aa": 6.63,
+   "ab_bag": 321.37,
+   "ab": 6.43,
+   "vs_market": -3.2,
+   "last": "2026-07-08"
   },
   {
    "name": "Vacini Estate",
@@ -24634,7 +24378,7 @@
    "last": "2026-10-13"
   },
   {
-   "name": "Wintoneestate",
+   "name": "Wintone Estate",
    "url": "/producer/12730/wintoneestate/",
    "type": "Estate",
    "county": "",
