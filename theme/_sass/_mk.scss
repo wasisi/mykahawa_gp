@@ -233,6 +233,14 @@ a.mk-card:hover, a.mk-card:focus { color: $mk-ink; box-shadow: 0 6px 20px rgba(5
 .mk-bar { display: flex; align-items: center; gap: .5rem; min-width: 9rem; }
 .mk-bar span.mk-bar-fill { display: inline-block; height: .7rem; background: $mk-green; border-radius: 0 3px 3px 0; }
 
+// Feature band (homepage shop invitation): brand brown, white text, green button.
+.mk-feature {
+  background: $mk-coffee; color: #fff; padding: 3rem 0;
+  h2 { color: #fff; margin-bottom: .75rem; }
+  .lead { color: rgba(255,255,255,.9); max-width: 34rem; }
+  .mk-eyebrow { color: #a6d18a; }   // light green: readable on brown (7:1)
+}
+
 // Latest auction (homepage and prices page)
 .mk-eyebrow { font-family: $mk-display; font-size: 1.25rem; letter-spacing: .06em; color: $mk-green-dark; }
 .mk-ranked {
