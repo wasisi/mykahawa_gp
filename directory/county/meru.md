@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Meru County"
 heading: "Coffee cooperatives, factories and estates in Meru County"
-description: "220 coffee growers in Meru County, Kenya: 133 factories, 49 small estates, 24 cooperative societies, 13 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 220 coffee growers in Meru County: 133 factories, 49 small estates, 24 cooperative societies, 13 estates."
+description: "221 coffee growers in Meru County, Kenya: 133 factories, 49 small estates, 24 cooperative societies, 13 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 221 coffee growers in Meru County: 133 factories, 49 small estates, 24 cooperative societies, 13 estates."
 county: "Meru"
 breadcrumbs:
   - title: Directory

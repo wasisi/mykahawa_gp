@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Embu County"
 heading: "Coffee cooperatives, factories and estates in Embu County"
-description: "134 coffee growers in Embu County, Kenya: 63 factories, 34 small estates, 26 cooperative societies, 9 estates. Names and growers (CBK) codes."
-lead: "MyKahawa lists 134 coffee growers in Embu County: 63 factories, 34 small estates, 26 cooperative societies, 9 estates."
+description: "135 coffee growers in Embu County, Kenya: 63 factories, 35 small estates, 26 cooperative societies, 9 estates. Names and growers (CBK) codes."
+lead: "MyKahawa lists 135 coffee growers in Embu County: 63 factories, 35 small estates, 26 cooperative societies, 9 estates."
 county: "Embu"
 breadcrumbs:
   - title: Directory

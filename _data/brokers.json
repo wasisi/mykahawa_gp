@@ -1,7 +1,7 @@
 {
  "season": "2026/27",
  "first_sale": "2025-07-08",
- "last_sale": "2026-11-17",
+ "last_sale": "2026-11-24",
  "brokers": [
   {
    "name": "Alliance Berries Limited",
@@ -9,14 +9,14 @@
    "nce_name": "Alliance Berries Limited",
    "cma_licence": "182",
    "website": "",
-   "lots": 11868,
-   "tonnes": 16835,
-   "usd": 117017149,
-   "price": 347.53,
+   "lots": 12182,
+   "tonnes": 17157,
+   "usd": 119067173,
+   "price": 347.0,
    "vs_market": 1.3,
-   "growers": 381,
+   "growers": 385,
    "bulk_share": 12,
-   "season_share": 16.3,
+   "season_share": 18.2,
    "counties": [
     "Nyeri",
     "Kiambu",
@@ -24,7 +24,7 @@
     "Murang'a"
    ],
    "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Kapsaos Factory",
@@ -37,15 +37,15 @@
      "name": "Mara Coffee",
      "url": "/producer/12164/mara_coffee/",
      "county": "",
-     "tonnes": 355.9,
-     "price": 230.24
+     "tonnes": 363.4,
+     "price": 229.21
     },
     {
      "name": "Ndundu Factory",
      "url": "/producer/8570/ndundu_factory/",
      "county": "Kiambu",
-     "tonnes": 337.8,
-     "price": 354.15
+     "tonnes": 341.1,
+     "price": 354.14
     },
     {
      "name": "Kangocho Factory",
@@ -65,8 +65,15 @@
      "name": "Kiamabara Factory",
      "url": "/producer/8920/kiamabara_factory/",
      "county": "Nyeri",
+     "tonnes": 232.9,
+     "price": 363.19
+    },
+    {
+     "name": "Kieni Factory",
+     "url": "/producer/8921/kieni_factory/",
+     "county": "Nyeri",
      "tonnes": 225.7,
-     "price": 362.94
+     "price": 365.71
     },
     {
      "name": "Gichatha-Ini Factory",
@@ -79,22 +86,15 @@
      "name": "Chepnorio Factory",
      "url": "/producer/9522/chepnorio_factory/",
      "county": "Kericho",
-     "tonnes": 216.2,
-     "price": 343.06
-    },
-    {
-     "name": "Kieni Factory",
-     "url": "/producer/8921/kieni_factory/",
-     "county": "Nyeri",
-     "tonnes": 214.6,
-     "price": 367.27
+     "tonnes": 218.5,
+     "price": 342.75
     },
     {
      "name": "Sorwot Factory",
      "url": "/producer/9547/sorwot_factory/",
      "county": "Kericho",
-     "tonnes": 184.2,
-     "price": 307.09
+     "tonnes": 201.1,
+     "price": 302.55
     }
    ]
   },
@@ -104,14 +104,14 @@
    "nce_name": "New Kenya Planters Co-operative Union PLC.",
    "cma_licence": "",
    "website": "",
-   "lots": 10039,
-   "tonnes": 11112,
-   "usd": 73744319,
-   "price": 331.82,
+   "lots": 10218,
+   "tonnes": 11277,
+   "usd": 74630560,
+   "price": 330.9,
    "vs_market": -0.7,
-   "growers": 583,
-   "bulk_share": 32,
-   "season_share": 22.0,
+   "growers": 587,
+   "bulk_share": 33,
+   "season_share": 21.2,
    "counties": [
     "Machakos",
     "Meru",
@@ -119,14 +119,14 @@
     "Nyeri"
    ],
    "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Yara and Gatatha Farmers Company Ltd",
      "url": "/producer/8093/yara_and_gatatha_farmers_company_ltd/",
      "county": "Kiambu",
-     "tonnes": 182.4,
-     "price": 317.9
+     "tonnes": 182.9,
+     "price": 317.93
     },
     {
      "name": "Koimet",
@@ -157,18 +157,18 @@
      "price": 325.16
     },
     {
+     "name": "Kutere",
+     "url": "/producer/9724/kutere/",
+     "county": "Bungoma",
+     "tonnes": 104.8,
+     "price": 383.53
+    },
+    {
      "name": "Kasinga",
      "url": "/producer/9443/kasinga/",
      "county": "Machakos",
      "tonnes": 101.2,
      "price": 363.74
-    },
-    {
-     "name": "Kutere",
-     "url": "/producer/9724/kutere/",
-     "county": "Bungoma",
-     "tonnes": 97.3,
-     "price": 386.64
     },
     {
      "name": "Kunyak Factory",
@@ -199,14 +199,14 @@
    "nce_name": "Kirinyaga Slopes Coffee Brokerage Company Ltd",
    "cma_licence": "202",
    "website": "",
-   "lots": 5265,
-   "tonnes": 7382,
-   "usd": 50434803,
-   "price": 341.6,
-   "vs_market": 3.1,
+   "lots": 5285,
+   "tonnes": 7400,
+   "usd": 50527251,
+   "price": 341.41,
+   "vs_market": 3.2,
    "growers": 200,
-   "bulk_share": 28,
-   "season_share": 5.5,
+   "bulk_share": 27,
+   "season_share": 5.0,
    "counties": [
     "Kirinyaga",
     "Kericho",
@@ -214,7 +214,7 @@
     "Murang'a"
    ],
    "first_sale": "2025-07-29",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Songonyet Factory",
@@ -227,7 +227,7 @@
      "name": "Kagumo Factory (Mutira F.C.S. Ltd)",
      "url": "/producer/8964/kagumo_factory_mutira_fcs_ltd/",
      "county": "Kirinyaga",
-     "tonnes": 217.5,
+     "tonnes": 218.2,
      "price": 352.45
     },
     {
@@ -241,8 +241,8 @@
      "name": "Mugaya Factory",
      "url": "/producer/8967/mugaya_factory/",
      "county": "Kirinyaga",
-     "tonnes": 166.7,
-     "price": 366.57
+     "tonnes": 167.0,
+     "price": 366.58
     },
     {
      "name": "Kiamara and Mathara Holdings Ltd",
@@ -255,8 +255,8 @@
      "name": "Mutitu Factory (Mutira F.C.S. Ltd)",
      "url": "/producer/8965/mutitu_factory_mutira_fcs_ltd/",
      "county": "Kirinyaga",
-     "tonnes": 152.5,
-     "price": 367.47
+     "tonnes": 152.8,
+     "price": 367.45
     },
     {
      "name": "Kiunyu Factory (Karithathi F.C.S. Ltd)",
@@ -283,8 +283,103 @@
      "name": "Gakuyu-Ini Factory",
      "url": "/producer/9009/gakuyuini_factory/",
      "county": "Kirinyaga",
-     "tonnes": 120.0,
-     "price": 394.2
+     "tonnes": 124.7,
+     "price": 388.33
+    }
+   ]
+  },
+  {
+   "name": "Kipkelion Brokerage Company Limited",
+   "slug": "kipkelion-brokerage-company-limited",
+   "nce_name": "Kipkelion Broker Company Ltd",
+   "cma_licence": "152",
+   "website": "",
+   "lots": 4479,
+   "tonnes": 4768,
+   "usd": 31891249,
+   "price": 334.43,
+   "vs_market": -1.4,
+   "growers": 264,
+   "bulk_share": 19,
+   "season_share": 12.9,
+   "counties": [
+    "Kericho",
+    "Trans Nzoia",
+    "Baringo",
+    "Kisii"
+   ],
+   "first_sale": "2025-07-08",
+   "last_sale": "2026-11-24",
+   "top_growers": [
+    {
+     "name": "Toroton",
+     "url": "/producer/9627/toroton/",
+     "county": "Kericho",
+     "tonnes": 305.3,
+     "price": 328.61
+    },
+    {
+     "name": "Cherara Factory",
+     "url": "/producer/9567/cherara_factory/",
+     "county": "Kericho",
+     "tonnes": 172.1,
+     "price": 358.71
+    },
+    {
+     "name": "Sorwot Factory",
+     "url": "/producer/9547/sorwot_factory/",
+     "county": "Kericho",
+     "tonnes": 160.0,
+     "price": 307.82
+    },
+    {
+     "name": "Koisagat Factory",
+     "url": "/producer/9553/koisagat_factory/",
+     "county": "Kericho",
+     "tonnes": 152.4,
+     "price": 337.51
+    },
+    {
+     "name": "Sombo Factory",
+     "url": "/producer/9534/sombo_factory/",
+     "county": "Kericho",
+     "tonnes": 130.9,
+     "price": 353.93
+    },
+    {
+     "name": "Chepnorio Factory",
+     "url": "/producer/9522/chepnorio_factory/",
+     "county": "Kericho",
+     "tonnes": 125.8,
+     "price": 353.16
+    },
+    {
+     "name": "Laliat Factory",
+     "url": "/producer/9524/laliat_factory/",
+     "county": "Kericho",
+     "tonnes": 115.9,
+     "price": 342.89
+    },
+    {
+     "name": "Kipsinende Factory",
+     "url": "/producer/9583/kipsinende_factory/",
+     "county": "Kericho",
+     "tonnes": 109.9,
+     "price": 360.05
+    },
+    {
+     "name": "Sereng",
+     "url": "/producer/9563/sereng/",
+     "county": "Kericho",
+     "tonnes": 105.4,
+     "price": 362.63
+    },
+    {
+     "name": "Kapchepoi F.C.S.",
+     "url": "/producer/12170/kapchepoi_fcs/",
+     "county": "Kericho",
+     "tonnes": 99.3,
+     "price": 366.42
     }
    ]
   },
@@ -294,14 +389,14 @@
    "nce_name": "KCCE Marketing Agency Limited",
    "cma_licence": "189",
    "website": "",
-   "lots": 4680,
-   "tonnes": 4717,
-   "usd": 31621783,
-   "price": 335.2,
+   "lots": 4723,
+   "tonnes": 4766,
+   "usd": 31927114,
+   "price": 334.96,
    "vs_market": 0.2,
    "growers": 162,
    "bulk_share": 13,
-   "season_share": 6.1,
+   "season_share": 5.9,
    "counties": [
     "Embu",
     "Nyeri",
@@ -309,13 +404,13 @@
     "Kiambu"
    ],
    "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Lelu F.C.S. Ltd",
      "url": "/producer/9575/lelu_fcs_ltd/",
      "county": "Kericho",
-     "tonnes": 237.1,
+     "tonnes": 248.9,
      "price": 317.94
     },
     {
@@ -354,18 +449,18 @@
      "price": 346.13
     },
     {
+     "name": "Kibisi F.C.S. Ltd",
+     "url": "/producer/9688/kibisi_fcs_ltd/",
+     "county": "Bungoma",
+     "tonnes": 116.5,
+     "price": 358.06
+    },
+    {
      "name": "Ngurueri Factory",
      "url": "/producer/9310/ngurueri_factory/",
      "county": "Embu",
      "tonnes": 114.6,
      "price": 364.52
-    },
-    {
-     "name": "Kibisi F.C.S. Ltd",
-     "url": "/producer/9688/kibisi_fcs_ltd/",
-     "county": "Bungoma",
-     "tonnes": 111.7,
-     "price": 359.36
     },
     {
      "name": "Githaka",
@@ -384,113 +479,18 @@
    ]
   },
   {
-   "name": "Kipkelion Brokerage Company Limited",
-   "slug": "kipkelion-brokerage-company-limited",
-   "nce_name": "Kipkelion Broker Company Ltd",
-   "cma_licence": "152",
-   "website": "",
-   "lots": 4365,
-   "tonnes": 4639,
-   "usd": 31092056,
-   "price": 335.09,
-   "vs_market": -1.4,
-   "growers": 258,
-   "bulk_share": 19,
-   "season_share": 13.0,
-   "counties": [
-    "Kericho",
-    "Trans Nzoia",
-    "Baringo",
-    "Kisii"
-   ],
-   "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
-   "top_growers": [
-    {
-     "name": "Toroton",
-     "url": "/producer/9627/toroton/",
-     "county": "Kericho",
-     "tonnes": 305.3,
-     "price": 328.61
-    },
-    {
-     "name": "Cherara Factory",
-     "url": "/producer/9567/cherara_factory/",
-     "county": "Kericho",
-     "tonnes": 171.8,
-     "price": 358.91
-    },
-    {
-     "name": "Sorwot Factory",
-     "url": "/producer/9547/sorwot_factory/",
-     "county": "Kericho",
-     "tonnes": 160.0,
-     "price": 307.82
-    },
-    {
-     "name": "Koisagat Factory",
-     "url": "/producer/9553/koisagat_factory/",
-     "county": "Kericho",
-     "tonnes": 144.2,
-     "price": 339.76
-    },
-    {
-     "name": "Sombo Factory",
-     "url": "/producer/9534/sombo_factory/",
-     "county": "Kericho",
-     "tonnes": 126.4,
-     "price": 355.12
-    },
-    {
-     "name": "Chepnorio Factory",
-     "url": "/producer/9522/chepnorio_factory/",
-     "county": "Kericho",
-     "tonnes": 125.8,
-     "price": 353.16
-    },
-    {
-     "name": "Sereng",
-     "url": "/producer/9563/sereng/",
-     "county": "Kericho",
-     "tonnes": 105.4,
-     "price": 362.63
-    },
-    {
-     "name": "Laliat Factory",
-     "url": "/producer/9524/laliat_factory/",
-     "county": "Kericho",
-     "tonnes": 104.2,
-     "price": 345.54
-    },
-    {
-     "name": "Kipsinende Factory",
-     "url": "/producer/9583/kipsinende_factory/",
-     "county": "Kericho",
-     "tonnes": 98.1,
-     "price": 364.49
-    },
-    {
-     "name": "Kapchepoi F.C.S.",
-     "url": "/producer/12170/kapchepoi_fcs/",
-     "county": "Kericho",
-     "tonnes": 90.9,
-     "price": 370.48
-    }
-   ]
-  },
-  {
    "name": "Coffee Estates Bourgeoisie Brokers Agency Limited",
    "slug": "coffee-estates-bourgeoisie-brokers-agency-limited",
    "nce_name": "Coffee Estates Bourgeoisie Brokers Limited",
    "cma_licence": "210",
    "website": "",
-   "lots": 3803,
-   "tonnes": 3540,
-   "usd": 23142676,
-   "price": 326.89,
+   "lots": 3871,
+   "tonnes": 3630,
+   "usd": 23724160,
+   "price": 326.78,
    "vs_market": -1.5,
-   "growers": 278,
-   "bulk_share": 12,
+   "growers": 285,
+   "bulk_share": 11,
    "season_share": 8.8,
    "counties": [
     "Kiambu",
@@ -499,7 +499,7 @@
     "Bungoma"
    ],
    "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Maakiou and Mawara Invest. Ltd",
@@ -579,14 +579,14 @@
    "nce_name": "Minnesota Coffee Marketers Limited",
    "cma_licence": "209",
    "website": "",
-   "lots": 3208,
-   "tonnes": 2520,
-   "usd": 16454204,
-   "price": 326.42,
-   "vs_market": -2.7,
-   "growers": 243,
+   "lots": 3258,
+   "tonnes": 2545,
+   "usd": 16586372,
+   "price": 325.84,
+   "vs_market": -2.8,
+   "growers": 250,
    "bulk_share": 26,
-   "season_share": 3.8,
+   "season_share": 3.6,
    "counties": [
     "Kiambu",
     "Murang'a",
@@ -594,7 +594,7 @@
     "Kisii"
    ],
    "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Lisura and Kin-Est Company Ltd",
@@ -614,8 +614,8 @@
      "name": "Kianjibi and Rioki Estate Company Ltd",
      "url": "/producer/7467/kianjibi_and_rioki_estate_company_ltd/",
      "county": "Kiambu",
-     "tonnes": 47.3,
-     "price": 277.33
+     "tonnes": 51.0,
+     "price": 272.73
     },
     {
      "name": "Ruona Factory",
@@ -653,18 +653,18 @@
      "price": 322.17
     },
     {
+     "name": "Mehotoro and Mehotoro Farm Ltd",
+     "url": "/producer/7936/mehotoro_and_mehotoro_farm_ltd/",
+     "county": "Kiambu",
+     "tonnes": 37.8,
+     "price": 312.84
+    },
+    {
      "name": "Riasakami",
      "url": "/producer/11037/riasakami/",
      "county": "",
      "tonnes": 37.6,
      "price": 343.52
-    },
-    {
-     "name": "Karuhiu Utheri Factory",
-     "url": "/producer/8757/karuhiu_utheri_factory/",
-     "county": "Murang'a",
-     "tonnes": 37.5,
-     "price": 348.24
     }
    ]
   },
@@ -674,14 +674,14 @@
    "nce_name": "Kinya Coffee Marketing Agency Ltd",
    "cma_licence": "181",
    "website": "",
-   "lots": 1482,
-   "tonnes": 2403,
-   "usd": 14688191,
-   "price": 305.66,
-   "vs_market": -3.7,
-   "growers": 93,
+   "lots": 1529,
+   "tonnes": 2479,
+   "usd": 15128154,
+   "price": 305.06,
+   "vs_market": -3.6,
+   "growers": 95,
    "bulk_share": 35,
-   "season_share": 6.7,
+   "season_share": 6.8,
    "counties": [
     "Kisii",
     "Kiambu",
@@ -689,28 +689,35 @@
     "Trans Nzoia"
    ],
    "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Moromba",
      "url": "/producer/9793/moromba/",
      "county": "Kisii",
-     "tonnes": 85.4,
-     "price": 282.16
+     "tonnes": 88.8,
+     "price": 279.79
     },
     {
      "name": "Kionyo Factory",
      "url": "/producer/9853/kionyo_factory/",
      "county": "Kisii",
-     "tonnes": 78.6,
-     "price": 319.03
+     "tonnes": 87.2,
+     "price": 318.06
     },
     {
      "name": "Mogonga Factory",
      "url": "/producer/9766/mogonga_factory/",
      "county": "Kisii",
-     "tonnes": 65.6,
-     "price": 330.95
+     "tonnes": 67.7,
+     "price": 327.56
+    },
+    {
+     "name": "Keera",
+     "url": "/producer/9794/keera1/",
+     "county": "Kisii",
+     "tonnes": 56.9,
+     "price": 320.67
     },
     {
      "name": "Nyamache Factory",
@@ -725,13 +732,6 @@
      "county": "Kisii",
      "tonnes": 54.9,
      "price": 266.12
-    },
-    {
-     "name": "Keera",
-     "url": "/producer/9794/keera1/",
-     "county": "Kisii",
-     "tonnes": 51.0,
-     "price": 319.63
     },
     {
      "name": "Girango Factory",
@@ -776,7 +776,7 @@
    "vs_market": -1.9,
    "growers": 69,
    "bulk_share": 30,
-   "season_share": 2.2,
+   "season_share": 1.9,
    "counties": [
     "Meru",
     "Makueni",
@@ -863,12 +863,12 @@
    "nce_name": "United Eastern Kenya Coffee Marketing Co. Ltd",
    "cma_licence": "158",
    "website": "",
-   "lots": 1980,
-   "tonnes": 1968,
-   "usd": 12954995,
-   "price": 329.21,
+   "lots": 2007,
+   "tonnes": 1987,
+   "usd": 13055406,
+   "price": 328.55,
    "vs_market": -3.3,
-   "growers": 100,
+   "growers": 103,
    "bulk_share": 11,
    "season_share": 2.4,
    "counties": [
@@ -878,7 +878,7 @@
     "Kisii"
    ],
    "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Kibochis",
@@ -919,8 +919,8 @@
      "name": "Kaliluni Factory",
      "url": "/producer/9439/kaliluni_factory/",
      "county": "Machakos",
-     "tonnes": 77.1,
-     "price": 332.75
+     "tonnes": 79.8,
+     "price": 328.35
     },
     {
      "name": "Labatai Estate",
@@ -958,26 +958,26 @@
    "nce_name": "Mt. Elgon Coffee Marketing Agency",
    "cma_licence": "157",
    "website": "",
-   "lots": 1024,
-   "tonnes": 1281,
-   "usd": 8742740,
-   "price": 341.29,
-   "vs_market": -0.4,
+   "lots": 1054,
+   "tonnes": 1341,
+   "usd": 9063550,
+   "price": 337.93,
+   "vs_market": -0.6,
    "growers": 29,
-   "bulk_share": 37,
+   "bulk_share": 38,
    "season_share": 5.5,
    "counties": [
     "Bungoma"
    ],
    "first_sale": "2025-07-08",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Kapkurungo",
      "url": "/producer/9714/kapkurungo/",
      "county": "Bungoma",
-     "tonnes": 195.0,
-     "price": 367.24
+     "tonnes": 200.8,
+     "price": 366.23
     },
     {
      "name": "Kutere",
@@ -987,6 +987,13 @@
      "price": 348.6
     },
     {
+     "name": "Kapsakisio Factory",
+     "url": "/producer/9712/kapsakisio_factory/",
+     "county": "Bungoma",
+     "tonnes": 58.2,
+     "price": 326.82
+    },
+    {
      "name": "Chebwek",
      "url": "/producer/11049/chebwek2/",
      "county": "",
@@ -994,18 +1001,11 @@
      "price": 363.01
     },
     {
-     "name": "Kapsakisio Factory",
-     "url": "/producer/9712/kapsakisio_factory/",
-     "county": "Bungoma",
-     "tonnes": 50.5,
-     "price": 327.79
-    },
-    {
      "name": "Chesiro",
      "url": "/producer/9742/chesiro/",
      "county": "Bungoma",
-     "tonnes": 50.1,
-     "price": 387.24
+     "tonnes": 57.6,
+     "price": 379.65
     },
     {
      "name": "Kitaban",
@@ -1025,8 +1025,8 @@
      "name": "Chepkube Factory",
      "url": "/producer/9691/chepkube_factory/",
      "county": "Bungoma",
-     "tonnes": 33.4,
-     "price": 357.99
+     "tonnes": 34.3,
+     "price": 357.4
     },
     {
      "name": "Chesiro F.C.S.",
@@ -1050,35 +1050,35 @@
    "nce_name": "Murang’a County Coffee Dealers Co. Ltd.",
    "cma_licence": "153",
    "website": "",
-   "lots": 904,
-   "tonnes": 801,
-   "usd": 5310343,
-   "price": 331.52,
+   "lots": 940,
+   "tonnes": 828,
+   "usd": 5472684,
+   "price": 330.57,
    "vs_market": -0.1,
-   "growers": 39,
+   "growers": 40,
    "bulk_share": 22,
-   "season_share": 0.2,
+   "season_share": 0.5,
    "counties": [
     "Murang'a",
     "Kiambu",
     "Kirinyaga"
    ],
    "first_sale": "2025-08-12",
-   "last_sale": "2026-11-10",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Murarandia Factory",
      "url": "/producer/8727/murarandia_factory/",
      "county": "Murang'a",
-     "tonnes": 132.3,
-     "price": 337.02
+     "tonnes": 136.7,
+     "price": 337.11
     },
     {
      "name": "Gatuya Factory (New Murarandia F.C.S. Ltd)",
      "url": "/producer/8726/gatuya_factory_new_murarandia_fcs_ltd/",
      "county": "Murang'a",
-     "tonnes": 121.4,
-     "price": 338.0
+     "tonnes": 125.4,
+     "price": 337.93
     },
     {
      "name": "Theri",
@@ -1102,6 +1102,13 @@
      "price": 339.66
     },
     {
+     "name": "Kiawanduma Factory (Kiawanduma F.C.S. Ltd)",
+     "url": "/producer/8745/kiawanduma_factory_kiawanduma_fcs_ltd/",
+     "county": "Murang'a",
+     "tonnes": 25.3,
+     "price": 336.55
+    },
+    {
      "name": "Gakurari Factory",
      "url": "/producer/8699/gakurari_factory/",
      "county": "Kiambu",
@@ -1112,8 +1119,8 @@
      "name": "Karurumo Factory",
      "url": "/producer/8734/karurumo_factory/",
      "county": "Murang'a",
-     "tonnes": 22.8,
-     "price": 339.25
+     "tonnes": 24.0,
+     "price": 338.96
     },
     {
      "name": "Guthera",
@@ -1128,13 +1135,6 @@
      "county": "Kiambu",
      "tonnes": 15.2,
      "price": 325.66
-    },
-    {
-     "name": "Kiawanduma Factory (Kiawanduma F.C.S. Ltd)",
-     "url": "/producer/8745/kiawanduma_factory_kiawanduma_fcs_ltd/",
-     "county": "Murang'a",
-     "tonnes": 14.8,
-     "price": 347.79
     }
    ]
   },
@@ -1144,27 +1144,27 @@
    "nce_name": "Caffora Coffee Company Ltd",
    "cma_licence": "267",
    "website": "https://caffora.co.ke/",
-   "lots": 264,
-   "tonnes": 344,
-   "usd": 2289603,
-   "price": 332.74,
-   "vs_market": 1.3,
-   "growers": 20,
-   "bulk_share": 8,
+   "lots": 292,
+   "tonnes": 370,
+   "usd": 2425653,
+   "price": 327.68,
+   "vs_market": 1.1,
+   "growers": 23,
+   "bulk_share": 9,
    "season_share": 2.5,
    "counties": [
     "Kericho",
     "Machakos"
    ],
    "first_sale": "2026-07-28",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Kibochis",
      "url": "/producer/11050/kibochis/",
      "county": "",
-     "tonnes": 102.0,
-     "price": 335.87
+     "tonnes": 109.5,
+     "price": 325.8
     },
     {
      "name": "Chepkinoiyo F.C.S.",
@@ -1184,8 +1184,8 @@
      "name": "Chebarus F.C.S. Factory",
      "url": "/producer/12190/chebarusfcs/",
      "county": "Kericho",
-     "tonnes": 10.1,
-     "price": 300.99
+     "tonnes": 11.6,
+     "price": 291.44
     },
     {
      "name": "Labatai Estate",
@@ -1223,11 +1223,11 @@
      "price": 292.1
     },
     {
-     "name": "Chelaloi F.C.S.",
-     "url": "/producer/12684/chelaloifcs/",
+     "name": "Buchenge Factory",
+     "url": "/producer/9551/buchenge_factory/",
      "county": "Kericho",
-     "tonnes": 1.8,
-     "price": 360.0
+     "tonnes": 3.6,
+     "price": 320.29
     }
    ]
   },
@@ -1237,19 +1237,20 @@
    "nce_name": "Nandi Coffee Co-operative Union Coffee Brokers Ltd",
    "cma_licence": "205",
    "website": "",
-   "lots": 349,
-   "tonnes": 264,
-   "usd": 1661380,
-   "price": 314.11,
-   "vs_market": 2.3,
-   "growers": 42,
+   "lots": 394,
+   "tonnes": 294,
+   "usd": 1847301,
+   "price": 314.65,
+   "vs_market": 2.1,
+   "growers": 47,
    "bulk_share": 6,
    "season_share": 2.8,
    "counties": [
-    "Kericho"
+    "Kericho",
+    "Bungoma"
    ],
    "first_sale": "2026-04-14",
-   "last_sale": "2026-11-17",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Toroton",
@@ -1262,8 +1263,8 @@
      "name": "Kapkiyai Factory",
      "url": "/producer/9632/kapkiyai_factory/",
      "county": "Kericho",
-     "tonnes": 31.7,
-     "price": 308.32
+     "tonnes": 38.4,
+     "price": 309.79
     },
     {
      "name": "Meteitei",
@@ -1280,6 +1281,13 @@
      "price": 341.98
     },
     {
+     "name": "Ab Njoro Estate",
+     "url": "/producer/12661/ab_njoro_estate/",
+     "county": "",
+     "tonnes": 9.2,
+     "price": 332.23
+    },
+    {
      "name": "Meiteitei F.C.S.",
      "url": "/producer/12448/meiteitei_fcs/",
      "county": "",
@@ -1292,13 +1300,6 @@
      "county": "",
      "tonnes": 7.1,
      "price": 310.17
-    },
-    {
-     "name": "Ab Njoro Estate",
-     "url": "/producer/12661/ab_njoro_estate/",
-     "county": "",
-     "tonnes": 6.7,
-     "price": 337.51
     },
     {
      "name": "Kiptegat Iboi",
@@ -1428,7 +1429,7 @@
    "vs_market": -2.8,
    "growers": 35,
    "bulk_share": 21,
-   "season_share": 1.4,
+   "season_share": 1.2,
    "counties": [
     "Murang'a",
     "Embu",
@@ -1516,20 +1517,20 @@
    "nce_name": "Bungoma Union Marketing Agency",
    "cma_licence": "184",
    "website": "",
-   "lots": 153,
-   "tonnes": 101,
-   "usd": 681361,
-   "price": 335.9,
-   "vs_market": 0.9,
-   "growers": 14,
-   "bulk_share": 49,
+   "lots": 171,
+   "tonnes": 111,
+   "usd": 728015,
+   "price": 329.2,
+   "vs_market": 0.4,
+   "growers": 17,
+   "bulk_share": 51,
    "season_share": 0.4,
    "counties": [
     "Bungoma",
     "Trans Nzoia"
    ],
    "first_sale": "2025-08-12",
-   "last_sale": "2026-11-10",
+   "last_sale": "2026-11-24",
    "top_growers": [
     {
      "name": "Kamusinde Factory",
@@ -1574,6 +1575,13 @@
      "price": 386.08
     },
     {
+     "name": "Khachonge Factory",
+     "url": "/producer/9704/khachonge_factory/",
+     "county": "Bungoma",
+     "tonnes": 1.3,
+     "price": 226.15
+    },
+    {
      "name": "Sibumba",
      "url": "/producer/9718/sibumba/",
      "county": "Bungoma",
@@ -1593,13 +1601,6 @@
      "county": "",
      "tonnes": 0.6,
      "price": 358.0
-    },
-    {
-     "name": "Baraka Estate",
-     "url": "/producer/13008/baraka_est/",
-     "county": "Trans Nzoia",
-     "tonnes": 0.5,
-     "price": 387.11
     }
    ]
   },

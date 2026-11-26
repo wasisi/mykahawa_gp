@@ -7,19 +7,19 @@
   },
   {
    "first": "2025-07-08",
-   "last": "2026-11-17",
-   "sales": 58
+   "last": "2026-11-24",
+   "sales": 59
   }
  ],
  "first_sale": "2015-01-27",
- "last_sale": "2026-11-17",
- "sales": 262,
- "lots": 183012,
- "tonnes": 283473,
- "usd": 1253520872,
- "price": 221.1,
+ "last_sale": "2026-11-24",
+ "sales": 263,
+ "lots": 184031,
+ "tonnes": 284516,
+ "usd": 1259759908,
+ "price": 221.39,
  "buyer_count": 115,
- "mark_count": 3905,
+ "mark_count": 3946,
  "seasons": [
   {
    "season": "2014/15",
@@ -87,19 +87,19 @@
   },
   {
    "season": "2026/27",
-   "sales": 7,
-   "lots": 6454,
-   "tonnes": 6764,
-   "usd": 40492091,
-   "price": 299.3
+   "sales": 8,
+   "lots": 7473,
+   "tonnes": 7808,
+   "usd": 46731128,
+   "price": 299.25
   }
  ],
  "grades": [
   {
    "grade": "AB",
-   "lots": 45335,
-   "tonnes": 107117,
-   "price": 249.65,
+   "lots": 45557,
+   "tonnes": 107535,
+   "price": 249.94,
    "by_season": {
     "2014/15": 222.71,
     "2015/16": 226.0,
@@ -109,14 +109,14 @@
     "2019/20": 212.98,
     "2024/25": 389.85,
     "2025/26": 362.4,
-    "2026/27": 327.42
+    "2026/27": 327.09
    }
   },
   {
    "grade": "AA",
-   "lots": 32932,
-   "tonnes": 49118,
-   "price": 302.52,
+   "lots": 33116,
+   "tonnes": 49353,
+   "price": 302.73,
    "by_season": {
     "2014/15": 269.85,
     "2015/16": 254.55,
@@ -126,14 +126,14 @@
     "2019/20": 303.96,
     "2024/25": 411.85,
     "2025/26": 384.05,
-    "2026/27": 342.08
+    "2026/27": 342.85
    }
   },
   {
    "grade": "C",
-   "lots": 35072,
-   "tonnes": 47373,
-   "price": 201.87,
+   "lots": 35234,
+   "tonnes": 47466,
+   "price": 202.04,
    "by_season": {
     "2014/15": 179.78,
     "2015/16": 178.92,
@@ -143,14 +143,14 @@
     "2019/20": 152.16,
     "2024/25": 372.95,
     "2025/26": 330.77,
-    "2026/27": 298.53
+    "2026/27": 297.66
    }
   },
   {
    "grade": "MH",
-   "lots": 9756,
-   "tonnes": 22578,
-   "price": 116.81,
+   "lots": 9791,
+   "tonnes": 22628,
+   "price": 117.0,
    "by_season": {
     "2014/15": 99.92,
     "2015/16": 76.43,
@@ -160,14 +160,14 @@
     "2019/20": 85.62,
     "2024/25": 307.3,
     "2025/26": 242.96,
-    "2026/27": 214.4
+    "2026/27": 213.39
    }
   },
   {
    "grade": "PB",
-   "lots": 16325,
-   "tonnes": 12633,
-   "price": 238.54,
+   "lots": 16455,
+   "tonnes": 12688,
+   "price": 238.86,
    "by_season": {
     "2014/15": 216.42,
     "2015/16": 222.61,
@@ -177,14 +177,14 @@
     "2019/20": 203.6,
     "2024/25": 381.64,
     "2025/26": 351.92,
-    "2026/27": 318.64
+    "2026/27": 317.82
    }
   },
   {
    "grade": "T",
-   "lots": 10965,
-   "tonnes": 9802,
-   "price": 126.78,
+   "lots": 11024,
+   "tonnes": 9828,
+   "price": 126.91,
    "by_season": {
     "2014/15": 110.27,
     "2015/16": 93.77,
@@ -194,14 +194,14 @@
     "2019/20": 88.84,
     "2024/25": 326.68,
     "2025/26": 239.85,
-    "2026/27": 199.59
+    "2026/27": 196.69
    }
   },
   {
    "grade": "UG1",
-   "lots": 6738,
-   "tonnes": 9677,
-   "price": 153.3,
+   "lots": 6793,
+   "tonnes": 9751,
+   "price": 153.99,
    "by_season": {
     "2014/15": 143.19,
     "2015/16": 113.06,
@@ -211,14 +211,14 @@
     "2019/20": 105.83,
     "2024/25": 347.8,
     "2025/26": 278.44,
-    "2026/27": 252.07
+    "2026/27": 249.56
    }
   },
   {
    "grade": "ML",
-   "lots": 6443,
-   "tonnes": 7082,
-   "price": 72.47,
+   "lots": 6467,
+   "tonnes": 7096,
+   "price": 72.55,
    "by_season": {
     "2014/15": 73.91,
     "2015/16": 51.79,
@@ -228,14 +228,14 @@
     "2019/20": 53.82,
     "2024/25": 215.39,
     "2025/26": 149.45,
-    "2026/27": 91.39
+    "2026/27": 93.59
    }
   },
   {
    "grade": "TT",
-   "lots": 7847,
-   "tonnes": 6745,
-   "price": 185.63,
+   "lots": 7902,
+   "tonnes": 6771,
+   "price": 185.96,
    "by_season": {
     "2014/15": 174.09,
     "2015/16": 171.01,
@@ -245,14 +245,14 @@
     "2019/20": 145.67,
     "2024/25": 352.9,
     "2025/26": 308.52,
-    "2026/27": 269.88
+    "2026/27": 270.15
    }
   },
   {
    "grade": "UG2",
-   "lots": 5557,
-   "tonnes": 5731,
-   "price": 106.62,
+   "lots": 5611,
+   "tonnes": 5763,
+   "price": 106.79,
    "by_season": {
     "2014/15": 103.09,
     "2015/16": 76.67,
@@ -262,14 +262,14 @@
     "2019/20": 72.96,
     "2024/25": 296.44,
     "2025/26": 194.27,
-    "2026/27": 116.65
+    "2026/27": 121.98
    }
   },
   {
    "grade": "HE",
-   "lots": 2529,
-   "tonnes": 2304,
-   "price": 125.34,
+   "lots": 2542,
+   "tonnes": 2312,
+   "price": 125.61,
    "by_season": {
     "2014/15": 134.77,
     "2015/16": 118.14,
@@ -279,14 +279,14 @@
     "2019/20": 102.81,
     "2024/25": 298.66,
     "2025/26": 254.3,
-    "2026/27": 210.23
+    "2026/27": 209.56
    }
   },
   {
    "grade": "UG",
-   "lots": 842,
-   "tonnes": 1193,
-   "price": 95.82,
+   "lots": 844,
+   "tonnes": 1194,
+   "price": 95.91,
    "by_season": {
     "2014/15": 152.43,
     "2015/16": 83.25,
@@ -296,14 +296,14 @@
     "2019/20": 90.31,
     "2024/25": 299.11,
     "2025/26": 240.89,
-    "2026/27": 201.83
+    "2026/27": 205.66
    }
   },
   {
    "grade": "E",
-   "lots": 1031,
-   "tonnes": 770,
-   "price": 277.94,
+   "lots": 1042,
+   "tonnes": 775,
+   "price": 278.45,
    "by_season": {
     "2014/15": 263.58,
     "2015/16": 258.33,
@@ -313,14 +313,14 @@
     "2019/20": 185.76,
     "2024/25": 310.98,
     "2025/26": 331.36,
-    "2026/27": 325.6
+    "2026/27": 333.19
    }
   },
   {
    "grade": "SB",
-   "lots": 908,
-   "tonnes": 701,
-   "price": 65.17,
+   "lots": 913,
+   "tonnes": 704,
+   "price": 65.4,
    "by_season": {
     "2014/15": 56.26,
     "2015/16": 37.38,
@@ -330,43 +330,43 @@
     "2019/20": 37.98,
     "2024/25": 221.38,
     "2025/26": 127.26,
-    "2026/27": 77.68
+    "2026/27": 81.27
    }
   },
   {
    "grade": "NH",
-   "lots": 199,
-   "tonnes": 179,
-   "price": 296.18,
+   "lots": 202,
+   "tonnes": 180,
+   "price": 295.89,
    "by_season": {
     "2024/25": 341.1,
     "2025/26": 299.29,
-    "2026/27": 219.55
+    "2026/27": 220.81
    }
   },
   {
    "grade": "UG3",
-   "lots": 191,
-   "tonnes": 151,
-   "price": 68.65,
+   "lots": 193,
+   "tonnes": 153,
+   "price": 68.87,
    "by_season": {
     "2017/18": 49.27,
     "2018/19": 33.02,
     "2019/20": 46.61,
     "2024/25": 231.53,
     "2025/26": 143.15,
-    "2026/27": 83.41
+    "2026/27": 84.26
    }
   },
   {
    "grade": "NL",
-   "lots": 152,
-   "tonnes": 90,
-   "price": 177.44,
+   "lots": 155,
+   "tonnes": 91,
+   "price": 177.55,
    "by_season": {
     "2024/25": 296.77,
     "2025/26": 170.56,
-    "2026/27": 142.29
+    "2026/27": 143.69
    }
   },
   {
@@ -400,47 +400,47 @@
  "top_buyers": [
   {
    "name": "Ibero Kenya Ltd",
-   "lots": 39765,
-   "tonnes": 60303,
-   "usd": 274951744,
+   "lots": 39965,
+   "tonnes": 60473,
+   "usd": 275916348,
    "share": 21.3,
-   "price": 227.98,
+   "price": 228.13,
    "seasons": 9
   },
   {
    "name": "Taylor Winch(Coffee) Ltd",
-   "lots": 27326,
-   "tonnes": 43484,
-   "usd": 182385349,
+   "lots": 27422,
+   "tonnes": 43578,
+   "usd": 182950893,
    "share": 15.3,
-   "price": 209.72,
+   "price": 209.91,
    "seasons": 9
   },
   {
    "name": "Dorman Limited",
-   "lots": 19516,
-   "tonnes": 36986,
-   "usd": 193633304,
-   "share": 13.0,
-   "price": 261.77,
+   "lots": 19629,
+   "tonnes": 37152,
+   "usd": 194720370,
+   "share": 13.1,
+   "price": 262.06,
    "seasons": 9
   },
   {
    "name": "Kenyacof Ltd",
-   "lots": 19389,
-   "tonnes": 29879,
-   "usd": 147353324,
-   "share": 10.5,
-   "price": 246.59,
+   "lots": 19578,
+   "tonnes": 30103,
+   "usd": 148782234,
+   "share": 10.6,
+   "price": 247.12,
    "seasons": 9
   },
   {
    "name": "Louis Dreyfus Company Kenya Ltd",
-   "lots": 15111,
-   "tonnes": 20290,
-   "usd": 88387362,
+   "lots": 15199,
+   "tonnes": 20374,
+   "usd": 88893876,
    "share": 7.2,
-   "price": 217.81,
+   "price": 218.16,
    "seasons": 9
   },
   {
@@ -448,7 +448,7 @@
    "lots": 6018,
    "tonnes": 11490,
    "usd": 44158411,
-   "share": 4.1,
+   "share": 4.0,
    "price": 192.17,
    "seasons": 9
   },
@@ -463,29 +463,29 @@
   },
   {
    "name": "Sondhi Trading Limited",
-   "lots": 7129,
-   "tonnes": 8816,
-   "usd": 37218708,
+   "lots": 7166,
+   "tonnes": 8862,
+   "usd": 37528779,
    "share": 3.1,
-   "price": 211.09,
+   "price": 211.75,
    "seasons": 9
   },
   {
    "name": "Sasini (K) Limited",
-   "lots": 4146,
-   "tonnes": 7152,
-   "usd": 43322515,
+   "lots": 4190,
+   "tonnes": 7182,
+   "usd": 43465228,
    "share": 2.5,
-   "price": 302.88,
+   "price": 302.62,
    "seasons": 7
   },
   {
    "name": "Mumbi coffee Merchants ltd",
-   "lots": 3713,
-   "tonnes": 6043,
-   "usd": 28012334,
+   "lots": 3762,
+   "tonnes": 6075,
+   "usd": 28211668,
    "share": 2.1,
-   "price": 231.76,
+   "price": 232.2,
    "seasons": 9
   },
   {
@@ -535,29 +535,29 @@
   },
   {
    "name": "Africoff trading Company Ltd",
-   "lots": 2014,
-   "tonnes": 2564,
-   "usd": 7923119,
+   "lots": 2047,
+   "tonnes": 2607,
+   "usd": 8124125,
    "share": 0.9,
-   "price": 154.5,
+   "price": 155.84,
    "seasons": 9
   },
   {
    "name": "Star coffee (K) Ltd",
-   "lots": 1643,
-   "tonnes": 2466,
-   "usd": 14803147,
+   "lots": 1673,
+   "tonnes": 2499,
+   "usd": 15024394,
    "share": 0.9,
-   "price": 300.09,
+   "price": 300.58,
    "seasons": 9
   },
   {
    "name": "Jowam Coffee Traders Ltd",
-   "lots": 1611,
-   "tonnes": 2442,
-   "usd": 11312747,
+   "lots": 1630,
+   "tonnes": 2458,
+   "usd": 11392635,
    "share": 0.9,
-   "price": 231.67,
+   "price": 231.76,
    "seasons": 8
   },
   {
@@ -571,11 +571,11 @@
   },
   {
    "name": "Global Mark Foods Ltd",
-   "lots": 2438,
-   "tonnes": 1976,
-   "usd": 7138220,
+   "lots": 2496,
+   "tonnes": 2013,
+   "usd": 7235663,
    "share": 0.7,
-   "price": 180.61,
+   "price": 179.69,
    "seasons": 3
   },
   {
@@ -598,11 +598,11 @@
   },
   {
    "name": "Rosie Van Dyke Co. Ltd",
-   "lots": 1612,
-   "tonnes": 1675,
-   "usd": 5927360,
+   "lots": 1615,
+   "tonnes": 1679,
+   "usd": 5946416,
    "share": 0.6,
-   "price": 176.89,
+   "price": 177.11,
    "seasons": 9
   },
   {
@@ -696,15 +696,15 @@
   },
   {
    "name": "Yara and Gatatha Farmers Company Ltd",
-   "lots": 562,
-   "tonnes": 1285,
-   "price": 238.93
+   "lots": 563,
+   "tonnes": 1286,
+   "price": 238.96
   },
   {
    "name": "Gakuyu-Ini Factory",
-   "lots": 495,
-   "tonnes": 1204,
-   "price": 268.34
+   "lots": 497,
+   "tonnes": 1209,
+   "price": 268.22
   },
   {
    "name": "Ruera and Kofinaf Company Ltd",
@@ -732,9 +732,15 @@
   },
   {
    "name": "Ndundu Factory",
-   "lots": 313,
-   "tonnes": 980,
-   "price": 275.0
+   "lots": 316,
+   "tonnes": 983,
+   "price": 275.27
+  },
+  {
+   "name": "Windrush and Gatatha Farmers Company Ltd",
+   "lots": 413,
+   "tonnes": 981,
+   "price": 242.99
   },
   {
    "name": "Mtaro and Socfinaf Company Ltd",
@@ -743,16 +749,10 @@
    "price": 176.5
   },
   {
-   "name": "Windrush and Gatatha Farmers Company Ltd",
-   "lots": 408,
-   "tonnes": 970,
-   "price": 241.97
-  },
-  {
    "name": "Kaganda Factory",
-   "lots": 401,
+   "lots": 403,
    "tonnes": 957,
-   "price": 223.1
+   "price": 223.05
   },
   {
    "name": "Kangocho Factory",
@@ -768,15 +768,15 @@
   },
   {
    "name": "Kiri Factory",
-   "lots": 356,
-   "tonnes": 876,
-   "price": 253.26
+   "lots": 358,
+   "tonnes": 878,
+   "price": 253.12
   },
   {
    "name": "Chepnorio Factory",
-   "lots": 397,
-   "tonnes": 874,
-   "price": 267.29
+   "lots": 402,
+   "tonnes": 877,
+   "price": 267.41
   },
   {
    "name": "Guama Factory",
@@ -786,9 +786,9 @@
   },
   {
    "name": "Wahundura Factory",
-   "lots": 311,
-   "tonnes": 860,
-   "price": 279.7
+   "lots": 314,
+   "tonnes": 864,
+   "price": 280.05
   },
   {
    "name": "Tatu and Kofinaf Company Ltd",
@@ -804,9 +804,9 @@
   },
   {
    "name": "Toroton",
-   "lots": 216,
+   "lots": 217,
    "tonnes": 809,
-   "price": 266.71
+   "price": 266.69
   },
   {
    "name": "Kiamara and Mathara Holdings Ltd",
@@ -833,16 +833,16 @@
    "price": 273.51
   },
   {
+   "name": "Machure",
+   "lots": 306,
+   "tonnes": 735,
+   "price": 224.89
+  },
+  {
    "name": "Bisembe Factory",
    "lots": 416,
    "tonnes": 735,
    "price": 140.32
-  },
-  {
-   "name": "Machure",
-   "lots": 305,
-   "tonnes": 734,
-   "price": 224.86
   },
   {
    "name": "Thimu Factory",
@@ -857,6 +857,18 @@
    "price": 221.88
   },
   {
+   "name": "Ndima-Ini Factory",
+   "lots": 293,
+   "tonnes": 696,
+   "price": 266.2
+  },
+  {
+   "name": "Sorwot Factory",
+   "lots": 437,
+   "tonnes": 694,
+   "price": 241.78
+  },
+  {
    "name": "Kamundu",
    "lots": 336,
    "tonnes": 692,
@@ -869,22 +881,10 @@
    "price": 311.1
   },
   {
-   "name": "Ndima-Ini Factory",
-   "lots": 288,
-   "tonnes": 692,
-   "price": 265.5
-  },
-  {
    "name": "Nguguini Factory",
    "lots": 313,
    "tonnes": 685,
    "price": 242.82
-  },
-  {
-   "name": "Sorwot Factory",
-   "lots": 423,
-   "tonnes": 677,
-   "price": 241.5
   },
   {
    "name": "Karatina Factory",
@@ -930,15 +930,15 @@
   },
   {
    "name": "Boma Factory",
-   "lots": 282,
-   "tonnes": 638,
-   "price": 214.16
+   "lots": 285,
+   "tonnes": 644,
+   "price": 215.37
   },
   {
    "name": "Kikai Factory",
-   "lots": 285,
-   "tonnes": 631,
-   "price": 259.29
+   "lots": 293,
+   "tonnes": 639,
+   "price": 260.22
   },
   {
    "name": "Chesikaki F.C.S. Ltd",

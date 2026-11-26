@@ -3,8 +3,8 @@
 layout: directory
 title: "Coffee growers in Trans Nzoia County"
 heading: "Coffee cooperatives, factories and estates in Trans Nzoia County"
-description: "118 coffee growers in Trans Nzoia County, Kenya: 45 small estates, 29 cooperative societies, 18 estates, 11 factories. Names and growers (CBK) codes."
-lead: "MyKahawa lists 118 coffee growers in Trans Nzoia County: 45 small estates, 29 cooperative societies, 18 estates, 11 factories."
+description: "119 coffee growers in Trans Nzoia County, Kenya: 45 small estates, 29 cooperative societies, 19 estates, 11 factories. Names and growers (CBK) codes."
+lead: "MyKahawa lists 119 coffee growers in Trans Nzoia County: 45 small estates, 29 cooperative societies, 19 estates, 11 factories."
 county: "Trans Nzoia"
 breadcrumbs:
   - title: Directory
